@@ -1,0 +1,2483 @@
+{
+ "ok": [
+  [
+   "A-PLS: Pulse Rifle",
+   "A-PLS Pulse Rifle"
+  ],
+  [
+   "Abyssal Treasure",
+   "Abyssal Treasure"
+  ],
+  [
+   "Aldebaran Alewife",
+   "Aldebaran Alewife"
+  ],
+  [
+   "Amidias' Trident",
+   "Amidias' Trident"
+  ],
+  [
+   "Ancient Bone Dust",
+   "Ancient Bone Dust"
+  ],
+  [
+   "Aquatic Scourge Trophy",
+   "Aquatic Scourge Trophy"
+  ],
+  [
+   "Ares Trophy",
+   "Ares Trophy"
+  ],
+  [
+   "Armored Shell",
+   "Armored Shell"
+  ],
+  [
+   "Ashes of Annihilation",
+   "Ashes of Annihilation"
+  ],
+  [
+   "Ashes of Calamity",
+   "Ashes of Calamity"
+  ],
+  [
+   "Astral Clay",
+   "Astral Clay"
+  ],
+  [
+   "Astral Crate",
+   "Astral Crate"
+  ],
+  [
+   "Astral Grass Seeds",
+   "Astral Grass Seeds"
+  ],
+  [
+   "Astral Ore",
+   "Astral Ore"
+  ],
+  [
+   "Astrum Aureus Trophy",
+   "Astrum Aureus Trophy"
+  ],
+  [
+   "Astrum Deus Trophy",
+   "Astrum Deus Trophy"
+  ],
+  [
+   "Atlantis",
+   "Atlantis"
+  ],
+  [
+   "Aureus Cell",
+   "Aureus Cell"
+  ],
+  [
+   "Avalanche",
+   "Avalanche"
+  ],
+  [
+   "B-GSS: Nidhogg",
+   "B-GSS Nidhogg"
+  ],
+  [
+   "B-LSR: Countermeasure Mitt",
+   "B-LSR Countermeasure Mitt"
+  ],
+  [
+   "Baby Cannonball Jellyfish",
+   "Baby Cannonball Jellyfish"
+  ],
+  [
+   "Baby Flak Crab",
+   "Baby Flak Crab"
+  ],
+  [
+   "Baby Ghost Bell",
+   "Baby Ghost Bell"
+  ],
+  [
+   "Ball O' Fugu",
+   "Ball O' Fugu"
+  ],
+  [
+   "Bear's Eye",
+   "Bear's Eye"
+  ],
+  [
+   "Black Anurian",
+   "Black Anurian"
+  ],
+  [
+   "Blighted Gel",
+   "Blighted Gel"
+  ],
+  [
+   "Blood Orb",
+   "Blood Orb"
+  ],
+  [
+   "Bloodflare Wyvern Helm",
+   "Bloodflare Wyvern Helm"
+  ],
+  [
+   "Bloodstone",
+   "Bloodstone"
+  ],
+  [
+   "Brimstone Crate",
+   "Brimstone Crate"
+  ],
+  [
+   "Brimstone Elemental Trophy",
+   "Brimstone Elemental Trophy"
+  ],
+  [
+   "Burning Revelation",
+   "Burning Revelation"
+  ],
+  [
+   "Burrower Beacon",
+   "Burrower Beacon"
+  ],
+  [
+   "Calamari's Lament",
+   "Calamari's Lament"
+  ],
+  [
+   "Calamitas Clone Trophy",
+   "Calamitas Clone Trophy"
+  ],
+  [
+   "Calamitas Trophy",
+   "Calamitas Trophy"
+  ],
+  [
+   "Ceaseless Void Trophy",
+   "Ceaseless Void Trophy"
+  ],
+  [
+   "Charging Station",
+   "Charging Station"
+  ],
+  [
+   "Cinquedea",
+   "Cinquedea"
+  ],
+  [
+   "Coastal Demonfish",
+   "Coastal Demonfish"
+  ],
+  [
+   "Coralskin Foolfish",
+   "Coralskin Foolfish"
+  ],
+  [
+   "Corroded Fossil",
+   "Corroded Fossil"
+  ],
+  [
+   "Cosmilamp",
+   "Cosmilamp"
+  ],
+  [
+   "Cosmilite Bar",
+   "Cosmilite Bar"
+  ],
+  [
+   "Crabulon Trophy",
+   "Crabulon Trophy"
+  ],
+  [
+   "Crag Bullhead",
+   "Crag Bullhead"
+  ],
+  [
+   "Cryogen Trophy",
+   "Cryogen Trophy"
+  ],
+  [
+   "Cryonic Ore",
+   "Cryonic Ore"
+  ],
+  [
+   "Dark Plasma",
+   "Dark Plasma"
+  ],
+  [
+   "Darksun Fragment",
+   "Darksun Fragment"
+  ],
+  [
+   "Depth Cells",
+   "Depth Cells"
+  ],
+  [
+   "Depth Crusher",
+   "Depth Crusher"
+  ],
+  [
+   "Desert Scourge Trophy",
+   "Desert Scourge Trophy"
+  ],
+  [
+   "Devourer of Gods Trophy",
+   "Devourer of Gods Trophy"
+  ],
+  [
+   "Divine Geode",
+   "Divine Geode"
+  ],
+  [
+   "Draedon Power Cell",
+   "Draedon Power Cell"
+  ],
+  [
+   "Dragonfolly Trophy",
+   "Dragonfolly Trophy"
+  ],
+  [
+   "Dubious Plating",
+   "Dubious Plating"
+  ],
+  [
+   "Effulgent Feather",
+   "Effulgent Feather"
+  ],
+  [
+   "Enchanted Starfish",
+   "Enchanted Starfish"
+  ],
+  [
+   "Endothermic Energy",
+   "Endothermic Energy"
+  ],
+  [
+   "Energy Core",
+   "Energy Core"
+  ],
+  [
+   "Essence of Eleum",
+   "Essence of Eleum"
+  ],
+  [
+   "Essence of Havoc",
+   "Essence of Havoc"
+  ],
+  [
+   "Essence of Sunlight",
+   "Essence of Sunlight"
+  ],
+  [
+   "Exo Prism",
+   "Exo Prism"
+  ],
+  [
+   "Frostbite Blaster",
+   "Frostbite Blaster"
+  ],
+  [
+   "Gamma Slime Banner",
+   "Gamma Slime Banner"
+  ],
+  [
+   "Ghoulish Gouger",
+   "Ghoulish Gouger"
+  ],
+  [
+   "Gleaming Cucumber",
+   "Gleaming Cucumber"
+  ],
+  [
+   "Gold Piggy",
+   "Gold Piggy"
+  ],
+  [
+   "Grand Scale",
+   "Grand Scale"
+  ],
+  [
+   "Heresy",
+   "Heresy"
+  ],
+  [
+   "Hive Mind Trophy",
+   "Hive Mind Trophy"
+  ],
+  [
+   "Hoarfrost Bow",
+   "Hoarfrost Bow"
+  ],
+  [
+   "Hydrothermal Crate",
+   "Hydrothermal Crate"
+  ],
+  [
+   "Hydrothermic armor",
+   "Hydrothermic armor"
+  ],
+  [
+   "Icebreaker",
+   "Icebreaker"
+  ],
+  [
+   "Infected Armor Plating",
+   "Infected Armor Plating"
+  ],
+  [
+   "Infernal Suevite",
+   "Infernal Suevite"
+  ],
+  [
+   "Ink Bomb",
+   "Ink Bomb"
+  ],
+  [
+   "Kylie",
+   "Kylie"
+  ],
+  [
+   "Living Shard",
+   "Living Shard"
+  ],
+  [
+   "Lumenyl",
+   "Lumenyl"
+  ],
+  [
+   "Maw of Infinity",
+   "Maw of Infinity"
+  ],
+  [
+   "Meld Blob",
+   "Meld Blob"
+  ],
+  [
+   "Meowthrower",
+   "Meowthrower"
+  ],
+  [
+   "Mollusk Husk",
+   "Mollusk Husk"
+  ],
+  [
+   "Molten Fishron",
+   "Molten Fishron"
+  ],
+  [
+   "Music Box (Abyss - Layer 1)",
+   "Music Box (Abyss - Layer 1)"
+  ],
+  [
+   "Music Box (Abyss - Layer 2)",
+   "Music Box (Abyss - Layer 2)"
+  ],
+  [
+   "Music Box (Abyss - Layer 3 Alt)",
+   "Music Box (Abyss - Layer 3 Alt)"
+  ],
+  [
+   "Music Box (Abyss - Layer 3)",
+   "Music Box (Abyss - Layer 3)"
+  ],
+  [
+   "Music Box (Abyss - Layer 4)",
+   "Music Box (Abyss - Layer 4)"
+  ],
+  [
+   "Music Box (Acid Rain - Tier 3)",
+   "Music Box (Acid Rain - Tier 3)"
+  ],
+  [
+   "Music Box (Aether) (VCMM)",
+   "Music Box (Aether) (VCMM)"
+  ],
+  [
+   "Music Box (Anahita's Lure)",
+   "Music Box (Anahita's Lure)"
+  ],
+  [
+   "Music Box (Anahita)",
+   "Music Box (Anahita)"
+  ],
+  [
+   "Music Box (Aquatic Scourge)",
+   "Music Box (Aquatic Scourge)"
+  ],
+  [
+   "Music Box (Astral Infection)",
+   "Music Box (Astral Infection)"
+  ],
+  [
+   "Music Box (Astrum Aureus)",
+   "Music Box (Astrum Aureus)"
+  ],
+  [
+   "Music Box (Astrum Deus)",
+   "Music Box (Astrum Deus)"
+  ],
+  [
+   "Music Box (Bio Lab)",
+   "Music Box (Bio Lab)"
+  ],
+  [
+   "Music Box (Blood Moon - Death)",
+   "Music Box (Blood Moon - Death)"
+  ],
+  [
+   "Music Box (Blood Moon)",
+   "Music Box (Blood Moon)"
+  ],
+  [
+   "Music Box (Boss Rush - Tier 1)",
+   "Music Box (Boss Rush - Tier 1)"
+  ],
+  [
+   "Music Box (Boss Rush - Tier 2)",
+   "Music Box (Boss Rush - Tier 2)"
+  ],
+  [
+   "Music Box (Boss Rush - Tier 3)",
+   "Music Box (Boss Rush - Tier 3)"
+  ],
+  [
+   "Music Box (Boss Rush - Tier 4)",
+   "Music Box (Boss Rush - Tier 4)"
+  ],
+  [
+   "Music Box (Boss Rush - Tier 5)",
+   "Music Box (Boss Rush - Tier 5)"
+  ],
+  [
+   "Music Box (Brain of Cthulhu)",
+   "Music Box (Brain of Cthulhu)"
+  ],
+  [
+   "Music Box (Brimstone Crags)",
+   "Music Box (Brimstone Crags)"
+  ],
+  [
+   "Music Box (Brimstone Elemental)",
+   "Music Box (Brimstone Elemental)"
+  ],
+  [
+   "Music Box (Calamitas - Phase 1)",
+   "Music Box (Calamitas - Phase 1)"
+  ],
+  [
+   "Music Box (Calamitas - Phase 2)",
+   "Music Box (Calamitas - Phase 2)"
+  ],
+  [
+   "Music Box (Calamitas - Phase 3)",
+   "Music Box (Calamitas - Phase 3)"
+  ],
+  [
+   "Music Box (Calamitas Clone)",
+   "Music Box (Calamitas Clone)"
+  ],
+  [
+   "Music Box (Caverns)",
+   "Music Box (Caverns)"
+  ],
+  [
+   "Music Box (Ceaseless Void)",
+   "Music Box (Ceaseless Void)"
+  ],
+  [
+   "Music Box (Codebreaker)",
+   "Music Box (Codebreaker)"
+  ],
+  [
+   "Music Box (Corruption) (VCMM)",
+   "Music Box (Corruption) (VCMM)"
+  ],
+  [
+   "Music Box (Crabulon)",
+   "Music Box (Crabulon)"
+  ],
+  [
+   "Music Box (Crimson) (VCMM)",
+   "Music Box (Crimson) (VCMM)"
+  ],
+  [
+   "Music Box (Cryogen)",
+   "Music Box (Cryogen)"
+  ],
+  [
+   "Music Box (Desert Scourge)",
+   "Music Box (Desert Scourge)"
+  ],
+  [
+   "Music Box (Desert) (VCMM)",
+   "Music Box (Desert) (VCMM)"
+  ],
+  [
+   "Music Box (Devourer of Gods - Eulogy)",
+   "Music Box (Devourer of Gods - Eulogy)"
+  ],
+  [
+   "Music Box (Devourer of Gods - Phase 1)",
+   "Music Box (Devourer of Gods - Phase 1)"
+  ],
+  [
+   "Music Box (Devourer of Gods - Phase 2)",
+   "Music Box (Devourer of Gods - Phase 2)"
+  ],
+  [
+   "Music Box (Dragonfolly)",
+   "Music Box (Dragonfolly)"
+  ],
+  [
+   "Music Box (Duke Fishron) (VCMM)",
+   "Music Box (Duke Fishron) (VCMM)"
+  ],
+  [
+   "Music Box (Dungeon) (VCMM)",
+   "Music Box (Dungeon) (VCMM)"
+  ],
+  [
+   "Music Box (Eater of Worlds)",
+   "Music Box (Eater of Worlds)"
+  ],
+  [
+   "Music Box (Exo Mech Selection)",
+   "Music Box (Exo Mech Selection)"
+  ],
+  [
+   "Music Box (Exo Mechs)",
+   "Music Box (Exo Mechs)"
+  ],
+  [
+   "Music Box (Eye of Cthulhu)",
+   "Music Box (Eye of Cthulhu)"
+  ],
+  [
+   "Music Box (False Epilogue)",
+   "Music Box (False Epilogue)"
+  ],
+  [
+   "Music Box (Forest Day - Afternoon)",
+   "Music Box (Forest Day - Afternoon)"
+  ],
+  [
+   "Music Box (Forest Day - Dawn)",
+   "Music Box (Forest Day - Dawn)"
+  ],
+  [
+   "Music Box (Forest Day - Evening)",
+   "Music Box (Forest Day - Evening)"
+  ],
+  [
+   "Music Box (Forest Day - Morning)",
+   "Music Box (Forest Day - Morning)"
+  ],
+  [
+   "Music Box (Geodes)",
+   "Music Box (Geodes)"
+  ],
+  [
+   "Music Box (Glowing Mushroom Fields)",
+   "Music Box (Glowing Mushroom Fields)"
+  ],
+  [
+   "Music Box (Hardmode Interlude)",
+   "Music Box (Hardmode Interlude)"
+  ],
+  [
+   "Music Box (Hive Mind)",
+   "Music Box (Hive Mind)"
+  ],
+  [
+   "Music Box (Interlude 1)",
+   "Music Box (Interlude 1)"
+  ],
+  [
+   "Music Box (Interlude 2)",
+   "Music Box (Interlude 2)"
+  ],
+  [
+   "Music Box (Interlude 3)",
+   "Music Box (Interlude 3)"
+  ],
+  [
+   "Music Box (King Slime)",
+   "Music Box (King Slime)"
+  ],
+  [
+   "Music Box (Lantern Festival)",
+   "Music Box (Lantern Festival)"
+  ],
+  [
+   "Music Box (Leviathan)",
+   "Music Box (Leviathan)"
+  ],
+  [
+   "Music Box (Meteorite)",
+   "Music Box (Meteorite)"
+  ],
+  [
+   "Music Box (Moon Lord)",
+   "Music Box (Moon Lord)"
+  ],
+  [
+   "Music Box (Ocean Day) (VCMM)",
+   "Music Box (Ocean Day) (VCMM)"
+  ],
+  [
+   "Music Box (Ocean Night) (VCMM)",
+   "Music Box (Ocean Night) (VCMM)"
+  ],
+  [
+   "Music Box (Ocean Rain)",
+   "Music Box (Ocean Rain)"
+  ],
+  [
+   "Music Box (Old Duke)",
+   "Music Box (Old Duke)"
+  ],
+  [
+   "Music Box (Perforators)",
+   "Music Box (Perforators)"
+  ],
+  [
+   "Music Box (Plaguebringer Goliath)",
+   "Music Box (Plaguebringer Goliath)"
+  ],
+  [
+   "Music Box (Polterghast)",
+   "Music Box (Polterghast)"
+  ],
+  [
+   "Music Box (Primordial Wyrm)",
+   "Music Box (Primordial Wyrm)"
+  ],
+  [
+   "Music Box (Profaned Guardians)",
+   "Music Box (Profaned Guardians)"
+  ],
+  [
+   "Music Box (Providence)",
+   "Music Box (Providence)"
+  ],
+  [
+   "Music Box (Pumpkin Moon) (VCMM)",
+   "Music Box (Pumpkin Moon) (VCMM)"
+  ],
+  [
+   "Music Box (Rain Day)",
+   "Music Box (Rain Day)"
+  ],
+  [
+   "Music Box (Rain Night)",
+   "Music Box (Rain Night)"
+  ],
+  [
+   "Music Box (Ravager)",
+   "Music Box (Ravager)"
+  ],
+  [
+   "Music Box (Signus)",
+   "Music Box (Signus)"
+  ],
+  [
+   "Music Box (Skeletron)",
+   "Music Box (Skeletron)"
+  ],
+  [
+   "Music Box (Slime God)",
+   "Music Box (Slime God)"
+  ],
+  [
+   "Music Box (Slime Rain) (VCMM)",
+   "Music Box (Slime Rain) (VCMM)"
+  ],
+  [
+   "Music Box (Space) (VCMM)",
+   "Music Box (Space) (VCMM)"
+  ],
+  [
+   "Music Box (Storm Weaver)",
+   "Music Box (Storm Weaver)"
+  ],
+  [
+   "Music Box (Sulphurous Sea Day)",
+   "Music Box (Sulphurous Sea Day)"
+  ],
+  [
+   "Music Box (Sulphurous Sea Night)",
+   "Music Box (Sulphurous Sea Night)"
+  ],
+  [
+   "Music Box (Sunken Sea)",
+   "Music Box (Sunken Sea)"
+  ],
+  [
+   "Music Box (Torch God - Revengeance)",
+   "Music Box (Torch God - Revengeance)"
+  ],
+  [
+   "Music Box (Torch God)",
+   "Music Box (Torch God)"
+  ],
+  [
+   "Music Box (Town Day) (VCMM)",
+   "Music Box (Town Day) (VCMM)"
+  ],
+  [
+   "Music Box (Town Night) (VCMM)",
+   "Music Box (Town Night) (VCMM)"
+  ],
+  [
+   "Music Box (Town Party)",
+   "Music Box (Town Party)"
+  ],
+  [
+   "Music Box (Town Rain)",
+   "Music Box (Town Rain)"
+  ],
+  [
+   "Music Box (Tundra)",
+   "Music Box (Tundra)"
+  ],
+  [
+   "Music Box (Underground Astral Infection)",
+   "Music Box (Underground Astral Infection)"
+  ],
+  [
+   "Music Box (Underground Corruption) (VCMM)",
+   "Music Box (Underground Corruption) (VCMM)"
+  ],
+  [
+   "Music Box (Underground Crimson) (VCMM)",
+   "Music Box (Underground Crimson) (VCMM)"
+  ],
+  [
+   "Music Box (Underground Tundra)",
+   "Music Box (Underground Tundra)"
+  ],
+  [
+   "Music Box (Underground) (VCMM)",
+   "Music Box (Underground) (VCMM)"
+  ],
+  [
+   "Music Box (Underworld)",
+   "Music Box (Underworld)"
+  ],
+  [
+   "Music Box (Wall of Flesh)",
+   "Music Box (Wall of Flesh)"
+  ],
+  [
+   "Music Box (Workshop - Tier 1)",
+   "Music Box (Workshop - Tier 1)"
+  ],
+  [
+   "Music Box (Workshop - Tier 2)",
+   "Music Box (Workshop - Tier 2)"
+  ],
+  [
+   "Music Box (Workshop - Tier 5)",
+   "Music Box (Workshop - Tier 5)"
+  ],
+  [
+   "Music Box (Workshop - Tier 6)",
+   "Music Box (Workshop - Tier 6)"
+  ],
+  [
+   "Music Box (Yharon - Phase 1)",
+   "Music Box (Yharon - Phase 1)"
+  ],
+  [
+   "Music Box (Yharon - Phase 2)",
+   "Music Box (Yharon - Phase 2)"
+  ],
+  [
+   "Mysterious Circuitry",
+   "Mysterious Circuitry"
+  ],
+  [
+   "Necromantic Geode",
+   "Necromantic Geode"
+  ],
+  [
+   "Necroplasm",
+   "Necroplasm"
+  ],
+  [
+   "Nightmare Fuel",
+   "Nightmare Fuel"
+  ],
+  [
+   "Old Duke Trophy",
+   "Old Duke Trophy"
+  ],
+  [
+   "P-GSS: Auger",
+   "P-GSS Auger"
+  ],
+  [
+   "P-LSR: Aerial Tracker",
+   "P-LSR Aerial Tracker"
+  ],
+  [
+   "P-PLS: Pulse Pistol",
+   "P-PLS Pulse Pistol"
+  ],
+  [
+   "P-TSL: Short Circuit",
+   "P-TSL Short Circuit"
+  ],
+  [
+   "Pearl of Enthrallment",
+   "Pearl of Enthrallment"
+  ],
+  [
+   "Piggy",
+   "Piggy"
+  ],
+  [
+   "Plague Cell Canister",
+   "Plague Cell Canister"
+  ],
+  [
+   "Polterghast Trophy",
+   "Polterghast Trophy"
+  ],
+  [
+   "Prism Shard",
+   "Prism Shard"
+  ],
+  [
+   "Purified Gel",
+   "Purified Gel"
+  ],
+  [
+   "R-PMA: Holofibre Immolator",
+   "R-PMA Holofibre Immolator"
+  ],
+  [
+   "Ravager Trophy",
+   "Ravager Trophy"
+  ],
+  [
+   "Realm Ravager",
+   "Realm Ravager"
+  ],
+  [
+   "Reaper Tooth",
+   "Reaper Tooth"
+  ],
+  [
+   "Repair Unit",
+   "Repair Unit"
+  ],
+  [
+   "Rock",
+   "Rock"
+  ],
+  [
+   "Romajeda Orchid",
+   "Romajeda Orchid"
+  ],
+  [
+   "Rose Stone",
+   "Rose Stone"
+  ],
+  [
+   "Rotten Dogtooth",
+   "Rotten Dogtooth"
+  ],
+  [
+   "Ruinous Soul",
+   "Ruinous Soul"
+  ],
+  [
+   "Sea Minnow",
+   "Sea Minnow"
+  ],
+  [
+   "Sea Spirit Amulet",
+   "Sea Spirit Amulet"
+  ],
+  [
+   "Shadowfish",
+   "Shadowfish"
+  ],
+  [
+   "Shell Trim Brick",
+   "Shell Trim Brick"
+  ],
+  [
+   "Shellshooter",
+   "Shellshooter"
+  ],
+  [
+   "Shroomble",
+   "Shroomble"
+  ],
+  [
+   "Signus Trophy",
+   "Signus Trophy"
+  ],
+  [
+   "Silva armor",
+   "Silva armor"
+  ],
+  [
+   "Sky Glaze",
+   "Sky Glaze"
+  ],
+  [
+   "Slag Magnum",
+   "Slag Magnum"
+  ],
+  [
+   "Slime God Trophy",
+   "Slime God Trophy"
+  ],
+  [
+   "Solar Veil",
+   "Solar Veil"
+  ],
+  [
+   "Specular Sturgeon",
+   "Specular Sturgeon"
+  ],
+  [
+   "Squidoom",
+   "Squidoom"
+  ],
+  [
+   "Starblight Soot",
+   "Starblight Soot"
+  ],
+  [
+   "Statigel armor",
+   "Statigel armor"
+  ],
+  [
+   "Stellar Cannon",
+   "Stellar Cannon"
+  ],
+  [
+   "Stohne",
+   "Stohne"
+  ],
+  [
+   "Storm Weaver Trophy",
+   "Storm Weaver Trophy"
+  ],
+  [
+   "Stormlion Mandible",
+   "Stormlion Mandible"
+  ],
+  [
+   "Sulphuric Scale",
+   "Sulphuric Scale"
+  ],
+  [
+   "Sunken Sailfish",
+   "Sunken Sailfish"
+  ],
+  [
+   "Suspicious Scrap",
+   "Suspicious Scrap"
+  ],
+  [
+   "Thanatos Trophy",
+   "Thanatos Trophy"
+  ],
+  [
+   "The Storm",
+   "The Storm"
+  ],
+  [
+   "Titan Heart",
+   "Titan Heart"
+  ],
+  [
+   "Twinkler",
+   "Twinkler"
+  ],
+  [
+   "Twinkling Pollox",
+   "Twinkling Pollox"
+  ],
+  [
+   "Twisting Nether",
+   "Twisting Nether"
+  ],
+  [
+   "Unholy Essence",
+   "Unholy Essence"
+  ],
+  [
+   "W-LSR: Phalanx Surge",
+   "W-LSR Phalanx Surge"
+  ],
+  [
+   "Yharon Soul Fragment",
+   "Yharon Soul Fragment"
+  ],
+  [
+   "Yharon Trophy",
+   "Yharon Trophy"
+  ],
+  [
+   "'E' Statue",
+   "'E' Statue"
+  ],
+  [
+   "Acorn",
+   "Acorn"
+  ],
+  [
+   "Adamantite Bar",
+   "Adamantite Bar"
+  ],
+  [
+   "Aetherium Block",
+   "Aetherium Block"
+  ],
+  [
+   "Amber",
+   "Amber"
+  ],
+  [
+   "Amethyst",
+   "Amethyst"
+  ],
+  [
+   "Ancient Chisel",
+   "Ancient Chisel"
+  ],
+  [
+   "Ancient Cloth",
+   "Ancient Cloth"
+  ],
+  [
+   "Ancient Manipulator",
+   "Ancient Manipulator"
+  ],
+  [
+   "Antlion Mandible",
+   "Antlion Mandible"
+  ],
+  [
+   "Arctic Diving Gear",
+   "Arctic Diving Gear"
+  ],
+  [
+   "Argon Moss",
+   "Argon Moss"
+  ],
+  [
+   "Armor Statue",
+   "Armor Statue"
+  ],
+  [
+   "Ash Block",
+   "Ash Block"
+  ],
+  [
+   "Ash Wood",
+   "Ash Wood"
+  ],
+  [
+   "Banana",
+   "Banana"
+  ],
+  [
+   "Beam Sword",
+   "Beam Sword"
+  ],
+  [
+   "Bee Breastplate",
+   "Bee Breastplate"
+  ],
+  [
+   "Bee Cloak",
+   "Bee Cloak"
+  ],
+  [
+   "Bee Greaves",
+   "Bee Greaves"
+  ],
+  [
+   "Bee Gun",
+   "Bee Gun"
+  ],
+  [
+   "Bee Headgear",
+   "Bee Headgear"
+  ],
+  [
+   "Bee Keeper",
+   "Bee Keeper"
+  ],
+  [
+   "Bee Wax",
+   "Bee Wax"
+  ],
+  [
+   "Bell",
+   "Bell"
+  ],
+  [
+   "Bewitching Table",
+   "Bewitching Table"
+  ],
+  [
+   "Bird",
+   "Bird"
+  ],
+  [
+   "Black Belt",
+   "Black Belt"
+  ],
+  [
+   "Black Ink",
+   "Black Ink"
+  ],
+  [
+   "Black Lens",
+   "Black Lens"
+  ],
+  [
+   "Black Paint",
+   "Black Paint"
+  ],
+  [
+   "Black Pearl",
+   "Black Pearl"
+  ],
+  [
+   "Blade Staff",
+   "Blade Staff"
+  ],
+  [
+   "Blade of Grass",
+   "Blade of Grass"
+  ],
+  [
+   "Blinkroot",
+   "Blinkroot"
+  ],
+  [
+   "Blizzard Staff",
+   "Blizzard Staff"
+  ],
+  [
+   "Blue Dye",
+   "Blue Dye"
+  ],
+  [
+   "Blue Moon",
+   "Blue Moon"
+  ],
+  [
+   "Bomb",
+   "Bomb"
+  ],
+  [
+   "Bone",
+   "Bone"
+  ],
+  [
+   "Bone Javelin",
+   "Bone Javelin"
+  ],
+  [
+   "Book",
+   "Book"
+  ],
+  [
+   "Boreal Wood",
+   "Boreal Wood"
+  ],
+  [
+   "Bottle",
+   "Bottle"
+  ],
+  [
+   "Bottled Honey",
+   "Bottled Honey"
+  ],
+  [
+   "Bottled Water",
+   "Bottled Water"
+  ],
+  [
+   "Bouncy Grenade",
+   "Bouncy Grenade"
+  ],
+  [
+   "Brain of Cthulhu Trophy",
+   "Brain of Cthulhu Trophy"
+  ],
+  [
+   "Breaker Blade",
+   "Breaker Blade"
+  ],
+  [
+   "Broken Bat Wing",
+   "Broken Bat Wing"
+  ],
+  [
+   "Broken Hero Sword",
+   "Broken Hero Sword"
+  ],
+  [
+   "Butcher's Chainsaw",
+   "Butcher's Chainsaw"
+  ],
+  [
+   "Butterfly Dust",
+   "Butterfly Dust"
+  ],
+  [
+   "Cactus",
+   "Cactus"
+  ],
+  [
+   "Campfire",
+   "Campfire"
+  ],
+  [
+   "Celebration Mk2",
+   "Celebration Mk2"
+  ],
+  [
+   "Chain",
+   "Chain"
+  ],
+  [
+   "Chain Gun",
+   "Chain Gun"
+  ],
+  [
+   "Chaos Fish",
+   "Chaos Fish"
+  ],
+  [
+   "Cloud",
+   "Cloud"
+  ],
+  [
+   "Cobalt Bar",
+   "Cobalt Bar"
+  ],
+  [
+   "Cobalt Ore",
+   "Cobalt Ore"
+  ],
+  [
+   "Cobweb",
+   "Cobweb"
+  ],
+  [
+   "Cog",
+   "Cog"
+  ],
+  [
+   "Coin Gun",
+   "Coin Gun"
+  ],
+  [
+   "Confetti",
+   "Confetti"
+  ],
+  [
+   "Confetti Cannon",
+   "Confetti Cannon"
+  ],
+  [
+   "Copper Coin",
+   "Copper Coin"
+  ],
+  [
+   "Copper Shortsword",
+   "Copper Shortsword"
+  ],
+  [
+   "Coral",
+   "Coral"
+  ],
+  [
+   "Crimtane Bar",
+   "Crimtane Bar"
+  ],
+  [
+   "Cross Necklace",
+   "Cross Necklace"
+  ],
+  [
+   "Crystal Ball",
+   "Crystal Ball"
+  ],
+  [
+   "Crystal Bullet",
+   "Crystal Bullet"
+  ],
+  [
+   "Crystal Shard",
+   "Crystal Shard"
+  ],
+  [
+   "Crystal Storm",
+   "Crystal Storm"
+  ],
+  [
+   "Cursed Flame",
+   "Cursed Flame"
+  ],
+  [
+   "Dark Shard",
+   "Dark Shard"
+  ],
+  [
+   "Daybloom",
+   "Daybloom"
+  ],
+  [
+   "Death Sickle",
+   "Death Sickle"
+  ],
+  [
+   "Deathweed",
+   "Deathweed"
+  ],
+  [
+   "Demonite Bar",
+   "Demonite Bar"
+  ],
+  [
+   "Desert Spirit Lamp",
+   "Desert Spirit Lamp"
+  ],
+  [
+   "Destroyer Trophy",
+   "Destroyer Trophy"
+  ],
+  [
+   "Diamond",
+   "Diamond"
+  ],
+  [
+   "Dragon Egg",
+   "Dragon Egg"
+  ],
+  [
+   "Duke Fishron Trophy",
+   "Duke Fishron Trophy"
+  ],
+  [
+   "Dynamite",
+   "Dynamite"
+  ],
+  [
+   "Eater of Worlds Trophy",
+   "Eater of Worlds Trophy"
+  ],
+  [
+   "Ebonwood",
+   "Ebonwood"
+  ],
+  [
+   "Elf Melter",
+   "Elf Melter"
+  ],
+  [
+   "Empress of Light Trophy",
+   "Empress of Light Trophy"
+  ],
+  [
+   "Empty Bullet",
+   "Empty Bullet"
+  ],
+  [
+   "Excalibur",
+   "Excalibur"
+  ],
+  [
+   "Exploding Bullet",
+   "Exploding Bullet"
+  ],
+  [
+   "Explosive Powder",
+   "Explosive Powder"
+  ],
+  [
+   "Eye of Cthulhu Trophy",
+   "Eye of Cthulhu Trophy"
+  ],
+  [
+   "Fast Clock",
+   "Fast Clock"
+  ],
+  [
+   "Feather",
+   "Feather"
+  ],
+  [
+   "Fire Feather",
+   "Fire Feather"
+  ],
+  [
+   "Fireblossom",
+   "Fireblossom"
+  ],
+  [
+   "Firefly",
+   "Firefly"
+  ],
+  [
+   "Flairon",
+   "Flairon"
+  ],
+  [
+   "Flamethrower",
+   "Flamethrower"
+  ],
+  [
+   "Flare Gun",
+   "Flare Gun"
+  ],
+  [
+   "Flinx Fur",
+   "Flinx Fur"
+  ],
+  [
+   "Flower Pow",
+   "Flower Pow"
+  ],
+  [
+   "Forbidden Fragment",
+   "Forbidden Fragment"
+  ],
+  [
+   "Frog",
+   "Frog"
+  ],
+  [
+   "Frog Flipper",
+   "Frog Flipper"
+  ],
+  [
+   "Frog Gear",
+   "Frog Gear"
+  ],
+  [
+   "Frost Core",
+   "Frost Core"
+  ],
+  [
+   "Gel",
+   "Gel"
+  ],
+  [
+   "Giant Harpy Feather",
+   "Giant Harpy Feather"
+  ],
+  [
+   "Gladius",
+   "Gladius"
+  ],
+  [
+   "Glowing Mushroom",
+   "Glowing Mushroom"
+  ],
+  [
+   "Gold Bar",
+   "Gold Bar"
+  ],
+  [
+   "Gold Butterfly",
+   "Gold Butterfly"
+  ],
+  [
+   "Gold Coin",
+   "Gold Coin"
+  ],
+  [
+   "Gold Dust",
+   "Gold Dust"
+  ],
+  [
+   "Gold Watch",
+   "Gold Watch"
+  ],
+  [
+   "Golden Bullet",
+   "Golden Bullet"
+  ],
+  [
+   "Golem Fist",
+   "Golem Fist"
+  ],
+  [
+   "Golem Trophy",
+   "Golem Trophy"
+  ],
+  [
+   "Granite Block",
+   "Granite Block"
+  ],
+  [
+   "Grapefruit",
+   "Grapefruit"
+  ],
+  [
+   "Grapes",
+   "Grapes"
+  ],
+  [
+   "Grenade",
+   "Grenade"
+  ],
+  [
+   "Gungnir",
+   "Gungnir"
+  ],
+  [
+   "Hallowed Repeater",
+   "Hallowed Repeater"
+  ],
+  [
+   "Hay",
+   "Hay"
+  ],
+  [
+   "Healing Potion",
+   "Healing Potion"
+  ],
+  [
+   "Heart Lantern",
+   "Heart Lantern"
+  ],
+  [
+   "Hel-Fire",
+   "Hel-Fire"
+  ],
+  [
+   "Helium Moss",
+   "Helium Moss"
+  ],
+  [
+   "Hell Butterfly",
+   "Hell Butterfly"
+  ],
+  [
+   "Hellfire Arrow",
+   "Hellfire Arrow"
+  ],
+  [
+   "Hellstone Bar",
+   "Hellstone Bar"
+  ],
+  [
+   "Hellwing Bow",
+   "Hellwing Bow"
+  ],
+  [
+   "Hive-Five",
+   "Hive-Five"
+  ],
+  [
+   "Holy Arrow",
+   "Holy Arrow"
+  ],
+  [
+   "Holy Water",
+   "Holy Water"
+  ],
+  [
+   "Honey Bucket",
+   "Honey Bucket"
+  ],
+  [
+   "Honey Comb",
+   "Honey Comb"
+  ],
+  [
+   "Hotline Fishing Hook",
+   "Hotline Fishing Hook"
+  ],
+  [
+   "Ice Boomerang",
+   "Ice Boomerang"
+  ],
+  [
+   "Ice Feather",
+   "Ice Feather"
+  ],
+  [
+   "Ice Rod",
+   "Ice Rod"
+  ],
+  [
+   "Ice Sickle",
+   "Ice Sickle"
+  ],
+  [
+   "Ichor",
+   "Ichor"
+  ],
+  [
+   "Illegal Gun Parts",
+   "Illegal Gun Parts"
+  ],
+  [
+   "Inferno Fork",
+   "Inferno Fork"
+  ],
+  [
+   "Influx Waver",
+   "Influx Waver"
+  ],
+  [
+   "Iron Bar",
+   "Iron Bar"
+  ],
+  [
+   "Jetpack",
+   "Jetpack"
+  ],
+  [
+   "Julia Butterfly",
+   "Julia Butterfly"
+  ],
+  [
+   "Jungle Grass Seeds",
+   "Jungle Grass Seeds"
+  ],
+  [
+   "Jungle Rose",
+   "Jungle Rose"
+  ],
+  [
+   "Jungle Spores",
+   "Jungle Spores"
+  ],
+  [
+   "Katana",
+   "Katana"
+  ],
+  [
+   "King Slime Trophy",
+   "King Slime Trophy"
+  ],
+  [
+   "Krypton Moss",
+   "Krypton Moss"
+  ],
+  [
+   "Land Mine",
+   "Land Mine"
+  ],
+  [
+   "Large Ruby",
+   "Large Ruby"
+  ],
+  [
+   "Laser Machinegun",
+   "Laser Machinegun"
+  ],
+  [
+   "Laser Rifle",
+   "Laser Rifle"
+  ],
+  [
+   "Last Prism",
+   "Last Prism"
+  ],
+  [
+   "Lava Bucket",
+   "Lava Bucket"
+  ],
+  [
+   "Lava Moss",
+   "Lava Moss"
+  ],
+  [
+   "Lavaproof Tackle Bag",
+   "Lavaproof Tackle Bag"
+  ],
+  [
+   "Lead Bar",
+   "Lead Bar"
+  ],
+  [
+   "Leaf Blower",
+   "Leaf Blower"
+  ],
+  [
+   "Lemon",
+   "Lemon"
+  ],
+  [
+   "Lens",
+   "Lens"
+  ],
+  [
+   "Lesser Healing Potion",
+   "Lesser Healing Potion"
+  ],
+  [
+   "Light Shard",
+   "Light Shard"
+  ],
+  [
+   "Light's Bane",
+   "Light's Bane"
+  ],
+  [
+   "Living Fire Block",
+   "Living Fire Block"
+  ],
+  [
+   "Luminite Bar",
+   "Luminite Bar"
+  ],
+  [
+   "Luminite Bullet",
+   "Luminite Bullet"
+  ],
+  [
+   "Lunar Flare",
+   "Lunar Flare"
+  ],
+  [
+   "Lunatic Cultist Trophy",
+   "Lunatic Cultist Trophy"
+  ],
+  [
+   "Magic Missile",
+   "Magic Missile"
+  ],
+  [
+   "Magnet Sphere",
+   "Magnet Sphere"
+  ],
+  [
+   "Mana Crystal",
+   "Mana Crystal"
+  ],
+  [
+   "Mandible Blade",
+   "Mandible Blade"
+  ],
+  [
+   "Marble Block",
+   "Marble Block"
+  ],
+  [
+   "Marrow",
+   "Marrow"
+  ],
+  [
+   "Master Bait",
+   "Master Bait"
+  ],
+  [
+   "Monarch Butterfly",
+   "Monarch Butterfly"
+  ],
+  [
+   "Moon Lord Trophy",
+   "Moon Lord Trophy"
+  ],
+  [
+   "Moonglow",
+   "Moonglow"
+  ],
+  [
+   "Mud Block",
+   "Mud Block"
+  ],
+  [
+   "Mushroom",
+   "Mushroom"
+  ],
+  [
+   "Music Box (Boss 3)",
+   "Music Box (Boss 3)"
+  ],
+  [
+   "Music Box (Plantera)",
+   "Music Box (Plantera)"
+  ],
+  [
+   "Music Box (Storm)",
+   "Music Box (Storm)"
+  ],
+  [
+   "Mythril Bar",
+   "Mythril Bar"
+  ],
+  [
+   "Nanites",
+   "Nanites"
+  ],
+  [
+   "Nebula Dye",
+   "Nebula Dye"
+  ],
+  [
+   "Nebula Fragment",
+   "Nebula Fragment"
+  ],
+  [
+   "Necro Breastplate",
+   "Necro Breastplate"
+  ],
+  [
+   "Necro Greaves",
+   "Necro Greaves"
+  ],
+  [
+   "Neon Moss",
+   "Neon Moss"
+  ],
+  [
+   "Night Vision Helmet",
+   "Night Vision Helmet"
+  ],
+  [
+   "Obsidian",
+   "Obsidian"
+  ],
+  [
+   "Onyx Blaster",
+   "Onyx Blaster"
+  ],
+  [
+   "Orange Zapinator",
+   "Orange Zapinator"
+  ],
+  [
+   "Orichalcum Bar",
+   "Orichalcum Bar"
+  ],
+  [
+   "Paladin's Hammer",
+   "Paladin's Hammer"
+  ],
+  [
+   "Paladin's Shield",
+   "Paladin's Shield"
+  ],
+  [
+   "Palladium Bar",
+   "Palladium Bar"
+  ],
+  [
+   "Palm Wood",
+   "Palm Wood"
+  ],
+  [
+   "Panic Necklace",
+   "Panic Necklace"
+  ],
+  [
+   "Peace Candle",
+   "Peace Candle"
+  ],
+  [
+   "Phantasm",
+   "Phantasm"
+  ],
+  [
+   "Phoenix Blaster",
+   "Phoenix Blaster"
+  ],
+  [
+   "Piggy Bank",
+   "Piggy Bank"
+  ],
+  [
+   "Pink Gel",
+   "Pink Gel"
+  ],
+  [
+   "Pink Pearl",
+   "Pink Pearl"
+  ],
+  [
+   "Piranha Gun",
+   "Piranha Gun"
+  ],
+  [
+   "Pixie Dust",
+   "Pixie Dust"
+  ],
+  [
+   "Plantera Trophy",
+   "Plantera Trophy"
+  ],
+  [
+   "Platinum Bar",
+   "Platinum Bar"
+  ],
+  [
+   "Platinum Coin",
+   "Platinum Coin"
+  ],
+  [
+   "Plum",
+   "Plum"
+  ],
+  [
+   "Poo",
+   "Poo"
+  ],
+  [
+   "Possessed Hatchet",
+   "Possessed Hatchet"
+  ],
+  [
+   "Pumpkin",
+   "Pumpkin"
+  ],
+  [
+   "Pumpkin Seed",
+   "Pumpkin Seed"
+  ],
+  [
+   "Purple Emperor Butterfly",
+   "Purple Emperor Butterfly"
+  ],
+  [
+   "Pwnhammer",
+   "Pwnhammer"
+  ],
+  [
+   "Quad-Barrel Shotgun",
+   "Quad-Barrel Shotgun"
+  ],
+  [
+   "Queen Bee Trophy",
+   "Queen Bee Trophy"
+  ],
+  [
+   "Queen Slime Trophy",
+   "Queen Slime Trophy"
+  ],
+  [
+   "Rainbow Rod",
+   "Rainbow Rod"
+  ],
+  [
+   "Razorblade Typhoon",
+   "Razorblade Typhoon"
+  ],
+  [
+   "Red Admiral Butterfly",
+   "Red Admiral Butterfly"
+  ],
+  [
+   "Red Brick",
+   "Red Brick"
+  ],
+  [
+   "Revolver",
+   "Revolver"
+  ],
+  [
+   "Rich Mahogany",
+   "Rich Mahogany"
+  ],
+  [
+   "Rifle Scope",
+   "Rifle Scope"
+  ],
+  [
+   "Robe",
+   "Robe"
+  ],
+  [
+   "Rocket IV",
+   "Rocket IV"
+  ],
+  [
+   "Rocket Launcher",
+   "Rocket Launcher"
+  ],
+  [
+   "Rotten Chunk",
+   "Rotten Chunk"
+  ],
+  [
+   "Ruby",
+   "Ruby"
+  ],
+  [
+   "S.D.M.G.",
+   "S.D.M.G."
+  ],
+  [
+   "Sandgun",
+   "Sandgun"
+  ],
+  [
+   "Sapphire",
+   "Sapphire"
+  ],
+  [
+   "Sapphire Staff",
+   "Sapphire Staff"
+  ],
+  [
+   "Scourge of the Corruptor",
+   "Scourge of the Corruptor"
+  ],
+  [
+   "Seashell",
+   "Seashell"
+  ],
+  [
+   "Seedler",
+   "Seedler"
+  ],
+  [
+   "Shadewood",
+   "Shadewood"
+  ],
+  [
+   "Shadow Dye",
+   "Shadow Dye"
+  ],
+  [
+   "Shadow Scale",
+   "Shadow Scale"
+  ],
+  [
+   "Shadowbeam Staff",
+   "Shadowbeam Staff"
+  ],
+  [
+   "Shadowflame Bow",
+   "Shadowflame Bow"
+  ],
+  [
+   "Shark Fin",
+   "Shark Fin"
+  ],
+  [
+   "Sharpening Station",
+   "Sharpening Station"
+  ],
+  [
+   "Shell Pile",
+   "Shell Pile"
+  ],
+  [
+   "Shiny Stone",
+   "Shiny Stone"
+  ],
+  [
+   "Shiverthorn",
+   "Shiverthorn"
+  ],
+  [
+   "Shroomerang",
+   "Shroomerang"
+  ],
+  [
+   "Sickle",
+   "Sickle"
+  ],
+  [
+   "Silk",
+   "Silk"
+  ],
+  [
+   "Skeletron Prime Trophy",
+   "Skeletron Prime Trophy"
+  ],
+  [
+   "Skeletron Trophy",
+   "Skeletron Trophy"
+  ],
+  [
+   "Sky Fracture",
+   "Sky Fracture"
+  ],
+  [
+   "Smooth Marble Block",
+   "Smooth Marble Block"
+  ],
+  [
+   "Sniper Rifle",
+   "Sniper Rifle"
+  ],
+  [
+   "Snowball Cannon",
+   "Snowball Cannon"
+  ],
+  [
+   "Solar Dye",
+   "Solar Dye"
+  ],
+  [
+   "Solar Eruption",
+   "Solar Eruption"
+  ],
+  [
+   "Solar Fragment",
+   "Solar Fragment"
+  ],
+  [
+   "Solar Tablet Fragment",
+   "Solar Tablet Fragment"
+  ],
+  [
+   "Soul of Flight",
+   "Soul of Flight"
+  ],
+  [
+   "Soul of Fright",
+   "Soul of Fright"
+  ],
+  [
+   "Soul of Light",
+   "Soul of Light"
+  ],
+  [
+   "Soul of Might",
+   "Soul of Might"
+  ],
+  [
+   "Soul of Night",
+   "Soul of Night"
+  ],
+  [
+   "Soul of Sight",
+   "Soul of Sight"
+  ],
+  [
+   "Spectre Bar",
+   "Spectre Bar"
+  ],
+  [
+   "Spectre Boots",
+   "Spectre Boots"
+  ],
+  [
+   "Spectre Staff",
+   "Spectre Staff"
+  ],
+  [
+   "Spell Tome",
+   "Spell Tome"
+  ],
+  [
+   "Spicy Pepper",
+   "Spicy Pepper"
+  ],
+  [
+   "Spider Fang",
+   "Spider Fang"
+  ],
+  [
+   "Spike",
+   "Spike"
+  ],
+  [
+   "Spiky Ball",
+   "Spiky Ball"
+  ],
+  [
+   "Spooky Breastplate",
+   "Spooky Breastplate"
+  ],
+  [
+   "Spooky Helmet",
+   "Spooky Helmet"
+  ],
+  [
+   "Spooky Leggings",
+   "Spooky Leggings"
+  ],
+  [
+   "Star Cloak",
+   "Star Cloak"
+  ],
+  [
+   "Star Fruit",
+   "Star Fruit"
+  ],
+  [
+   "Star Wrath",
+   "Star Wrath"
+  ],
+  [
+   "Stardust Dragon Staff",
+   "Stardust Dragon Staff"
+  ],
+  [
+   "Stardust Dye",
+   "Stardust Dye"
+  ],
+  [
+   "Stardust Fragment",
+   "Stardust Fragment"
+  ],
+  [
+   "Starfish",
+   "Starfish"
+  ],
+  [
+   "Starlight",
+   "Starlight"
+  ],
+  [
+   "Stinger",
+   "Stinger"
+  ],
+  [
+   "Sturdy Fossil",
+   "Sturdy Fossil"
+  ],
+  [
+   "Sulphur Butterfly",
+   "Sulphur Butterfly"
+  ],
+  [
+   "Summoner Emblem",
+   "Summoner Emblem"
+  ],
+  [
+   "Sunfury",
+   "Sunfury"
+  ],
+  [
+   "Sunplate Block",
+   "Sunplate Block"
+  ],
+  [
+   "Super Healing Potion",
+   "Super Healing Potion"
+  ],
+  [
+   "Super Mana Potion",
+   "Super Mana Potion"
+  ],
+  [
+   "Super Star Shooter",
+   "Super Star Shooter"
+  ],
+  [
+   "Sweetheart Necklace",
+   "Sweetheart Necklace"
+  ],
+  [
+   "Tabi",
+   "Tabi"
+  ],
+  [
+   "Tactical Shotgun",
+   "Tactical Shotgun"
+  ],
+  [
+   "Tattered Cloth",
+   "Tattered Cloth"
+  ],
+  [
+   "Terrarian",
+   "Terrarian"
+  ],
+  [
+   "Terrarium",
+   "Terrarium"
+  ],
+  [
+   "The Axe",
+   "The Axe"
+  ],
+  [
+   "The Bee's Knees",
+   "The Bee's Knees"
+  ],
+  [
+   "The Horseman's Blade",
+   "The Horseman's Blade"
+  ],
+  [
+   "Throwing Knife",
+   "Throwing Knife"
+  ],
+  [
+   "Tinkerer's Workshop",
+   "Tinkerer's Workshop"
+  ],
+  [
+   "Tissue Sample",
+   "Tissue Sample"
+  ],
+  [
+   "Titanium Bar",
+   "Titanium Bar"
+  ],
+  [
+   "Top Hat",
+   "Top Hat"
+  ],
+  [
+   "Torch",
+   "Torch"
+  ],
+  [
+   "Toxic Flask",
+   "Toxic Flask"
+  ],
+  [
+   "Tree Nymph Butterfly",
+   "Tree Nymph Butterfly"
+  ],
+  [
+   "Tsunami",
+   "Tsunami"
+  ],
+  [
+   "Turtle Shell",
+   "Turtle Shell"
+  ],
+  [
+   "Ulysses Butterfly",
+   "Ulysses Butterfly"
+  ],
+  [
+   "Unicorn Horn",
+   "Unicorn Horn"
+  ],
+  [
+   "Valor",
+   "Valor"
+  ],
+  [
+   "Venus Magnum",
+   "Venus Magnum"
+  ],
+  [
+   "Vertebra",
+   "Vertebra"
+  ],
+  [
+   "Vial of Venom",
+   "Vial of Venom"
+  ],
+  [
+   "Vicious Powder",
+   "Vicious Powder"
+  ],
+  [
+   "Vile Powder",
+   "Vile Powder"
+  ],
+  [
+   "Vine",
+   "Vine"
+  ],
+  [
+   "Void Dye",
+   "Void Dye"
+  ],
+  [
+   "Volcano",
+   "Volcano"
+  ],
+  [
+   "Vortex Beater",
+   "Vortex Beater"
+  ],
+  [
+   "Vortex Dye",
+   "Vortex Dye"
+  ],
+  [
+   "Vortex Fragment",
+   "Vortex Fragment"
+  ],
+  [
+   "Wall of Flesh Trophy",
+   "Wall of Flesh Trophy"
+  ],
+  [
+   "Wand of Frosting",
+   "Wand of Frosting"
+  ],
+  [
+   "Water Bucket",
+   "Water Bucket"
+  ],
+  [
+   "Water Candle",
+   "Water Candle"
+  ],
+  [
+   "Waterleaf",
+   "Waterleaf"
+  ],
+  [
+   "White Pearl",
+   "White Pearl"
+  ],
+  [
+   "White String",
+   "White String"
+  ],
+  [
+   "Wire",
+   "Wire"
+  ],
+  [
+   "Wooden Arrow",
+   "Wooden Arrow"
+  ],
+  [
+   "Wooden Yoyo",
+   "Wooden Yoyo"
+  ],
+  [
+   "Xenon Moss",
+   "Xenon Moss"
+  ],
+  [
+   "Yellow Paint",
+   "Yellow Paint"
+  ],
+  [
+   "Zebra Swallowtail Butterfly",
+   "Zebra Swallowtail Butterfly"
+  ]
+ ],
+ "fail": [
+  "P-PMA: Aqueous Hunter Drone",
+  "P90",
+  "Pearl Shard",
+  "Perforator Trophy",
+  "Plaguebringer Goliath Trophy",
+  "Plagued Fuel Pack",
+  "Planty Mush",
+  "Plasma Rod",
+  "Prism Crate",
+  "Prismatic Guppy",
+  "Procyonid Prawn",
+  "Profaned Guardian Trophy",
+  "Prototype Plasma Drive",
+  "Providence Trophy",
+  "R-GSS: Vulcan",
+  "R-PLS: Pulse Grenade",
+  "Purification Powder"
+ ],
+ "unresolved": [
+  "Buff Candles",
+  "Counterweight",
+  "Crimson Heart (item)¦Crimson Heart",
+  "Gilded",
+  "Shadow Orb (item)¦Shadow Orb",
+  "Souls of Sight"
+ ]
+}

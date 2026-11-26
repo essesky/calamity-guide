@@ -1,0 +1,1668 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#12101c">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<title>灾厄助手 · Terraria Calamity</title>
+<style>
+:root{
+  --bg:#0f0e17;--bg2:#15131f;--card:#1d1a2b;--card2:#262238;--card3:#302a45;
+  --tx:#ece9f5;--tx2:#b8b2cc;--mut:#8d86a6;--line:#373150;
+  --acc:#e8792b;--acc2:#f3c34a;--accg:rgba(232,121,43,.14);
+  --cyan:#4ecdc4;--green:#7bd88f;--red:#ee6a6a;--violet:#a98cff;
+  --sh:0 6px 24px rgba(0,0,0,.35);--r:14px;
+}
+html[data-theme="light"]{
+  --bg:#f6f4fa;--bg2:#eeebf4;--card:#ffffff;--card2:#f4f1f9;--card3:#eae5f3;
+  --tx:#211d33;--tx2:#514a6b;--mut:#7c7594;--line:#ded8ea;
+  --acc:#c85f16;--acc2:#a87a00;--accg:rgba(200,95,22,.10);
+  --cyan:#14877f;--green:#26864b;--red:#c23b3b;--violet:#6b46c1;
+  --sh:0 6px 22px rgba(50,35,90,.10);
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;padding:0}
+body{
+  background:var(--bg);color:var(--tx);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
+  font-size:15px;line-height:1.6;min-height:100vh;
+  background-image:radial-gradient(circle at 12% -8%,rgba(232,121,43,.13),transparent 42%),radial-gradient(circle at 92% 4%,rgba(169,140,255,.10),transparent 38%);
+  background-attachment:fixed;
+}
+button{font-family:inherit;cursor:pointer;border:0;background:none;color:inherit}
+.topbar{
+  position:sticky;top:0;z-index:30;height:58px;padding:0 18px;
+  display:flex;align-items:center;justify-content:space-between;
+  background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(14px);
+  border-bottom:1px solid var(--line);
+}
+.brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:17px;letter-spacing:.3px}
+.brand-mark{
+  width:26px;height:26px;border-radius:7px;flex:none;
+  background:linear-gradient(135deg,var(--acc),var(--acc2));
+  display:grid;place-items:center;color:#fff;font-size:13px;font-weight:900;
+}
+.brand small{color:var(--mut);font-weight:500;font-size:11px;letter-spacing:0}
+.top-actions{display:flex;gap:8px}
+.icon-btn{
+  width:36px;height:36px;border-radius:10px;border:1px solid var(--line);
+  background:var(--card);display:grid;place-items:center;color:var(--tx2);
+  font-size:15px;transition:.16s;
+}
+.icon-btn:hover{color:var(--acc);border-color:var(--acc)}
+.tabs{
+  display:flex;gap:4px;padding:10px 16px 0;max-width:980px;margin:0 auto;
+  position:sticky;top:58px;z-index:29;
+  background:linear-gradient(to bottom,var(--bg) 76%,transparent);
+}
+.tabs button{
+  flex:1;padding:10px 4px;border-radius:11px 11px 0 0;color:var(--mut);
+  font-size:13px;font-weight:700;white-space:nowrap;
+  border-bottom:2px solid transparent;transition:.16s;
+}
+.tabs button.on{color:var(--acc);border-bottom-color:var(--acc);background:var(--accg)}
+main{max-width:980px;margin:0 auto;padding:18px 16px 60px;min-height:70vh}
+.panel{animation:fade .22s ease}
+@keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+.hint{color:var(--mut);font-size:12.5px;margin:2px 0 14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--sh)}
+.sec-title{font-size:13px;color:var(--mut);font-weight:800;letter-spacing:.6px;margin:22px 4px 10px;text-transform:uppercase}
+
+/* item icons + hide english */
+.en{display:none!important}
+.icon{width:26px;height:26px;object-fit:contain;image-rendering:pixelated;flex:none;background:transparent;vertical-align:middle}
+.icon.md{width:34px;height:34px}
+.icon.lg{width:46px;height:46px}
+.icon.sm{width:20px;height:20px}
+.icon.miss{border:1px dashed var(--line);border-radius:5px;background:var(--card3);opacity:.55}
+/* 二选一原料：两个小图标并排 */
+.icon.duo{width:17px;height:17px}
+.icon.duo+.icon.duo{margin-left:1px}
+.chip{display:inline-flex;align-items:center;gap:5px}
+
+/* class picker */
+.cls-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin-bottom:8px}
+.cls-btn{
+  padding:12px 4px 10px;border-radius:12px;background:var(--card);
+  border:1px solid var(--line);text-align:center;transition:.16s;
+}
+.cls-btn:hover{border-color:var(--acc2);transform:translateY(-2px)}
+.cls-btn.on{background:var(--accg);border-color:var(--acc);box-shadow:0 0 0 1px var(--acc) inset}
+.cls-dot{width:28px;height:28px;border-radius:9px;margin:0 auto 6px;display:grid;place-items:center;color:#fff;font-size:13px;font-weight:900}
+.cls-btn span{font-size:12.5px;font-weight:700;display:block}
+.cls-btn small{font-size:10px;color:var(--mut);display:block;line-height:1.2;margin-top:2px}
+
+/* stages */
+.era-label{display:flex;align-items:center;gap:9px;margin:24px 2px 10px;font-weight:800;font-size:14px}
+.era-label:after{content:"";flex:1;height:1px;background:var(--line)}
+.era-pill{background:var(--card3);color:var(--acc2);padding:3px 11px;border-radius:20px;font-size:12px}
+details.stage{background:var(--card);border:1px solid var(--line);border-radius:12px;margin-bottom:9px;overflow:hidden}
+details.stage[open]{border-color:var(--acc);box-shadow:var(--sh)}
+details.stage summary{
+  padding:13px 15px;cursor:pointer;list-style:none;display:flex;align-items:center;gap:10px;
+  font-weight:750;font-size:14px;
+}
+details.stage summary::-webkit-details-marker{display:none}
+details.stage summary:hover{background:var(--card2)}
+.stage-idx{
+  width:23px;height:23px;border-radius:7px;background:var(--card3);color:var(--acc2);
+  display:grid;place-items:center;font-size:11px;font-weight:800;flex:none;
+}
+.stage-name{flex:1;min-width:0}
+.stage-name .en{display:block;font-size:10.5px;color:var(--mut);font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.chev{color:var(--mut);font-size:11px;transition:.2s}
+details.stage[open] .chev{transform:rotate(90deg)}
+.stage-body{padding:0 15px 15px;border-top:1px solid var(--line)}
+.stage-desc{color:var(--tx2);font-size:12.5px;margin:12px 0 14px;line-height:1.65}
+.slot{margin-top:12px}
+.slot h4{font-size:12px;color:var(--acc2);margin:0 0 7px;display:flex;align-items:center;gap:7px;font-weight:800}
+.slot h4:before{content:"";width:3px;height:13px;border-radius:3px;background:var(--acc)}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{
+  padding:5px 9px;border-radius:8px;background:var(--card2);border:1px solid var(--line);
+  font-size:12px;color:var(--tx2);text-align:left;transition:.14s;line-height:1.35;
+}
+.chip:hover{border-color:var(--acc);color:var(--acc);background:var(--accg)}
+.chip .en{display:block;font-size:9.5px;color:var(--mut)}
+.chip.recipe-has:after{content:"◆";margin-left:5px;color:var(--cyan);font-size:9px;vertical-align:middle}
+.empty{color:var(--mut);font-size:12px;font-style:italic}
+
+/* search */
+.search-box{display:flex;gap:8px;margin-bottom:14px}
+.search-box input{
+  flex:1;min-width:0;padding:12px 14px;border-radius:11px;border:1px solid var(--line);
+  background:var(--card);color:var(--tx);font-size:14px;outline:none;
+}
+.search-box input:focus{border-color:var(--acc);box-shadow:0 0 0 3px var(--accg)}
+.search-box button{padding:0 15px;border-radius:11px;background:var(--acc);color:#fff;font-weight:800;font-size:13px}
+.res-list{display:flex;flex-direction:column;gap:7px}
+.res-row{
+  display:flex;align-items:center;gap:11px;padding:11px 13px;border-radius:11px;
+  background:var(--card);border:1px solid var(--line);text-align:left;transition:.14s;width:100%;
+}
+.res-row:hover{border-color:var(--acc);background:var(--card2)}
+.res-main{flex:1;min-width:0}
+.res-main b{display:block;font-size:13.5px}
+.res-main .en{font-size:10.5px;color:var(--mut);display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.res-tag{font-size:10px;padding:3px 8px;border-radius:20px;background:var(--card3);color:var(--tx2);white-space:nowrap}
+.res-tag.hot{background:var(--accg);color:var(--acc)}
+
+/* boss */
+.filter-row{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:14px}
+.filter-row button{padding:6px 12px;border-radius:20px;border:1px solid var(--line);background:var(--card);font-size:12px;color:var(--tx2)}
+.filter-row button.on{background:var(--acc);border-color:var(--acc);color:#fff;font-weight:700}
+.boss-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(268px,1fr));gap:10px}
+.boss-card{padding:14px;border-radius:12px;background:var(--card);border:1px solid var(--line);text-align:left;transition:.16s}
+.boss-card:hover{border-color:var(--acc);transform:translateY(-2px);box-shadow:var(--sh)}
+.boss-top{display:flex;align-items:flex-start;gap:10px}
+.boss-num{width:26px;height:26px;border-radius:8px;background:linear-gradient(135deg,var(--acc),var(--acc2));color:#fff;display:grid;place-items:center;font-size:11px;font-weight:900;flex:none}
+.boss-card b{font-size:14px;display:block;line-height:1.3}
+.boss-card .en{font-size:10.5px;color:var(--mut);display:block}
+.boss-meta{display:flex;flex-wrap:wrap;gap:5px;margin-top:10px}
+.tag{font-size:10px;padding:3px 8px;border-radius:20px;background:var(--card3);color:var(--tx2)}
+.tag.hp{background:rgba(238,106,106,.13);color:var(--red)}
+.tag.drop{background:rgba(78,205,196,.13);color:var(--cyan)}
+.boss-spawn{font-size:11.5px;color:var(--mut);margin-top:9px;line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+
+/* npc */
+.npc-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:10px}
+.npc-card{padding:15px;border-radius:12px;background:var(--card);border:1px solid var(--line)}
+.npc-head{display:flex;align-items:center;justify-content:space-between;gap:8px}
+.npc-head b{font-size:15px}
+.npc-head .en{font-size:10.5px;color:var(--mut);display:block}
+.src-tag{font-size:10px;padding:3px 9px;border-radius:20px;background:var(--accg);color:var(--acc);white-space:nowrap}
+.src-tag.base{background:var(--card3);color:var(--tx2)}
+.npc-desc{font-size:12px;color:var(--tx2);margin:10px 0;line-height:1.5}
+.npc-cond{list-style:none;padding:0;margin:0}
+.npc-cond li{position:relative;padding-left:17px;font-size:12.5px;color:var(--tx2);margin:5px 0;line-height:1.5}
+.npc-cond li:before{content:"";position:absolute;left:3px;top:9px;width:6px;height:6px;border-radius:50%;background:var(--cyan)}
+
+/* newbie guide */
+.nb-hero{background:linear-gradient(135deg,var(--accg),var(--card));border:1px solid var(--line);border-radius:14px;padding:16px 17px;margin-bottom:16px}
+.nb-hero h2{margin:0 0 7px;font-size:17px;line-height:1.35}
+.nb-hero p{margin:0;font-size:12.5px;color:var(--tx2);line-height:1.7}
+.nb-list{display:flex;flex-direction:column;gap:9px}
+.nb-step{display:flex;gap:12px;background:var(--card);border:1px solid var(--line);border-radius:13px;padding:14px 15px}
+.nb-num{width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,var(--acc),var(--acc2));color:#fff;display:grid;place-items:center;font-size:12px;font-weight:900;flex:none}
+.nb-body{flex:1;min-width:0}
+.nb-head{display:flex;align-items:baseline;gap:9px;flex-wrap:wrap}
+.nb-head h3{margin:0;font-size:14.5px;line-height:1.4}
+.nb-badge{font-size:10px;padding:2px 8px;border-radius:20px;background:var(--card3);color:var(--acc2);white-space:nowrap}
+.nb-desc{font-size:12.5px;color:var(--tx2);line-height:1.72;margin:8px 0 11px}
+.nb-note{font-size:11.5px;color:var(--mut);margin-top:10px;line-height:1.6}
+.nb-boss{display:flex;flex-direction:column;gap:6px}
+.nb-boss-row{display:flex;align-items:center;gap:10px;padding:9px 12px;border-radius:10px;background:var(--card);border:1px solid var(--line);width:100%;text-align:left;color:var(--tx);font-size:13px;transition:.14s}
+.nb-boss-row:hover{border-color:var(--acc);background:var(--card2)}
+.nb-boss-num{width:22px;height:22px;border-radius:7px;background:var(--card3);color:var(--acc2);display:grid;place-items:center;font-size:10.5px;font-weight:900;flex:none}
+.nb-boss-row b{flex:1;font-weight:700}
+.nb-boss-go{color:var(--mut);font-size:16px}
+.nb-tips{margin-top:22px;display:flex;flex-direction:column;gap:8px}
+.nb-tip{background:var(--card);border:1px solid var(--line);border-left:3px solid var(--acc2);border-radius:10px;padding:11px 13px}
+.nb-tip b{display:block;font-size:12.5px;margin-bottom:4px}
+.nb-tip span{font-size:12px;color:var(--tx2);line-height:1.7}
+/* hardmode: 出装顺序 */
+.hm-note{font-size:12px;color:var(--acc2);background:var(--accg);border-radius:9px;padding:9px 11px;line-height:1.65;margin:0 0 12px}
+.hm-step{display:flex;gap:9px;padding:9px 0;border-top:1px dashed var(--line)}
+.hm-step:first-of-type{border-top:0}
+.hm-no{width:20px;height:20px;border-radius:6px;background:var(--card3);color:var(--acc2);display:grid;place-items:center;font-size:11px;font-weight:900;flex:none;margin-top:1px}
+.hm-body{flex:1;min-width:0}
+.hm-lab{font-size:12px;font-weight:800;color:var(--tx);margin-bottom:7px;display:flex;align-items:center;gap:7px}
+.hm-cnt{font-size:10px;font-weight:600;color:var(--mut)}
+/* 射手专线 */
+.rg-tier{display:flex;gap:10px}
+.rg-rail{width:26px;flex:none;display:flex;flex-direction:column;align-items:center;position:relative}
+.rg-rail:after{content:"";position:absolute;top:26px;bottom:-8px;width:2px;background:var(--line)}
+.rg-tier:last-child .rg-rail:after{display:none}
+.rg-dot{width:24px;height:24px;border-radius:50%;background:linear-gradient(135deg,var(--green),var(--cyan));color:#08110d;display:grid;place-items:center;font-size:11px;font-weight:900;flex:none;z-index:1}
+.rg-card{flex:1;min-width:0;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 13px;margin-bottom:9px}
+.rg-head{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:8px}
+.rg-when{font-size:10.5px;font-weight:800;color:var(--green);background:rgba(123,216,143,.13);padding:3px 9px;border-radius:20px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.rg-dmg{font-size:10.5px;font-weight:700;color:var(--acc2);white-space:nowrap}
+.rg-weapon{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.rg-weapon b{font-size:14.5px}
+.rg-weapon .en{font-size:10.5px;color:var(--mut)}
+.rg-st{font-size:11.5px;color:var(--acc);font-weight:700;margin:7px 0 8px}
+.rg-mats{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:9px}
+.rg-mat{display:inline-flex;align-items:center;gap:5px;font-size:11.5px;padding:4px 9px 4px 6px;border-radius:20px;background:var(--card3);color:var(--tx2);border:1px solid transparent;transition:.14s}
+.rg-mat[data-item]{color:var(--tx);border-color:var(--line)}
+.rg-mat[data-item]:hover{border-color:var(--acc);color:var(--acc)}
+.rg-mat i{font-style:normal;font-size:10px;color:var(--acc2);font-weight:700}
+.rg-mat.plain{opacity:.85}
+.rg-why{font-size:12.5px;color:var(--tx2);line-height:1.7;border-left:2px solid var(--acc);padding-left:9px}
+.rg-how{font-size:11.5px;color:var(--mut);line-height:1.65;margin-top:8px}
+.rg-side{display:flex;gap:9px;align-items:flex-start;background:var(--card);border:1px solid var(--line);border-radius:11px;padding:11px 12px;margin-bottom:7px}
+.rg-side-main{flex:1;min-width:0}
+.rg-flow{display:flex;align-items:center;gap:6px;flex-wrap:wrap;font-size:13px;font-weight:700;margin-bottom:6px}
+.rg-flow .ar{color:var(--acc);font-size:12px}
+.rg-flow .dmg{font-size:10.5px;font-weight:700;color:var(--green);background:rgba(123,216,143,.12);padding:2px 7px;border-radius:20px}
+.rg-need{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:6px}
+.rg-note{font-size:11.5px;color:var(--mut);line-height:1.65}
+.rg-stn{font-size:10px;color:var(--acc2);border:1px solid var(--line);padding:2px 7px;border-radius:20px;flex:none;margin-top:2px}
+
+/* drawer */
+.backdrop{position:fixed;inset:0;background:rgba(5,4,12,.6);backdrop-filter:blur(3px);z-index:50;opacity:0;pointer-events:none;transition:.24s}
+.backdrop.on{opacity:1;pointer-events:auto}
+.drawer{
+  position:fixed;z-index:51;right:0;top:0;bottom:0;width:min(520px,100%);
+  background:var(--bg2);border-left:1px solid var(--line);box-shadow:-12px 0 40px rgba(0,0,0,.4);
+  transform:translateX(102%);transition:transform .27s cubic-bezier(.2,.8,.2,1);
+  display:flex;flex-direction:column;
+}
+.drawer.on{transform:none}
+.drawer-head{padding:18px 20px 14px;border-bottom:1px solid var(--line);display:flex;align-items:flex-start;gap:12px;flex:none}
+.drawer-head .t{flex:1;min-width:0}
+.drawer-head h2{margin:0;font-size:19px;line-height:1.3}
+.drawer-head .en{font-size:11.5px;color:var(--mut);display:block;margin-top:3px;word-break:break-word}
+.drawer-body{padding:16px 20px 40px;overflow-y:auto;flex:1;-webkit-overflow-scrolling:touch}
+/* 标题右侧的阶段 / 分类标签 */
+.hd-tags{display:flex;gap:5px;margin-top:5px;flex-wrap:wrap}
+.hd-chip{font-size:10.5px;font-weight:750;letter-spacing:.2px;padding:2px 7px;border-radius:20px;
+  border:1px solid var(--line);color:var(--tx2);background:var(--card);white-space:nowrap}
+.hd-chip.s1{color:#8aa0b8;border-color:#3a4658}
+.hd-chip.s2{color:#e8a33d;border-color:#6a4a1e;background:rgba(232,163,61,.10)}
+.hd-chip.s3{color:#c08bff;border-color:#54397a;background:rgba(192,139,255,.10)}
+/* 锭类里的「开采前提」小标题 */
+.pre-head{margin:12px 0 6px;padding-top:10px;border-top:1px dashed var(--line);
+  font-size:11px;font-weight:800;letter-spacing:.4px;color:var(--acc2)}
+.rt-arrow{color:var(--acc2);font-weight:900;margin:0 2px}
+/* 英文 wiki 摘要折叠 */
+.tip-en{margin-top:9px;font-size:11.5px;color:var(--mut)}
+.tip-en summary{cursor:pointer;color:var(--tx2);font-weight:700;list-style:none}
+.tip-en summary::-webkit-details-marker{display:none}
+.tip-en summary:before{content:"▸ ";color:var(--acc2)}
+.tip-en[open] summary:before{content:"▾ "}
+.tip-txt{margin-top:6px;line-height:1.65;padding:8px 10px;background:var(--card);border:1px solid var(--line);border-radius:9px;color:var(--mut)}
+.dblock{margin-bottom:22px}
+.dblock h3{font-size:12px;color:var(--acc2);letter-spacing:.5px;margin:0 0 10px;display:flex;align-items:center;gap:8px;font-weight:800}
+.dblock h3:after{content:"";flex:1;height:1px;background:var(--line)}
+.recipe{background:var(--card);border:1px solid var(--line);border-radius:11px;padding:12px 13px;margin-bottom:9px}
+.recipe .station{font-size:12.5px;color:var(--acc);font-weight:750;margin-bottom:8px}
+table.ing{width:100%;border-collapse:collapse;font-size:12.5px}
+table.ing td{padding:5px 4px;border-top:1px solid var(--line)}
+table.ing td:last-child{text-align:right;color:var(--acc2);font-weight:800;white-space:nowrap;width:48px}
+.link-item{color:var(--tx);border-bottom:1px dashed var(--line);cursor:pointer}
+.link-item:hover{color:var(--acc);border-color:var(--acc)}
+.alt-mark{color:var(--mut);font-size:10px;margin-left:5px}
+/* 配方二级展开 */
+.rt-sub{font-size:11px;color:var(--mut);line-height:1.6;margin-top:2px;padding-left:2px}
+.ing-name{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+/* 套装部件 */
+.part-group{margin-bottom:11px}
+.part-label{font-size:11.5px;color:var(--acc2);font-weight:800;letter-spacing:.5px;margin-bottom:6px}
+.part-row{background:var(--card);border:1px solid var(--line);border-radius:11px;padding:9px 11px;margin-bottom:7px}
+.part-btn{display:flex;align-items:center;gap:7px;background:none;border:0;padding:0;color:var(--tx);font-family:inherit;font-size:13px;font-weight:700;cursor:pointer}
+.part-btn:hover{color:var(--acc)}
+.part-btn .icon.sm{width:22px;height:22px}
+.part-recipe{display:flex;flex-wrap:wrap;align-items:center;gap:5px 10px;margin-top:7px;padding-top:7px;border-top:1px dashed var(--line)}
+.pr-st{font-size:11px;color:var(--acc);font-weight:750}
+.pr-mat{display:inline-flex;align-items:center;gap:4px;font-size:11.5px;color:var(--tx2);cursor:pointer}
+.pr-mat:hover{color:var(--acc)}
+.pr-mat i{font-style:normal;color:var(--acc2);font-weight:800}
+.pr-mat.plain{cursor:default}
+.pr-mat.plain:hover{color:var(--tx2)}
+.pr-none{font-size:11.5px;color:var(--mut)}
+.icon.xs{width:15px;height:15px}
+/* 完整原料清单 */
+.leaf-list{background:var(--card);border:1px solid var(--line);border-radius:11px;overflow:hidden}
+.leaf-row{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:8px;padding:8px 11px;border-top:1px solid var(--line);cursor:pointer;font-size:12.5px}
+.leaf-row:first-child{border-top:0}
+.leaf-row:hover{background:var(--card2)}
+.leaf-row .lf-name{color:var(--tx);font-weight:650;overflow-wrap:anywhere}
+.leaf-row .lf-qty{color:var(--acc2);font-weight:800;white-space:nowrap}
+.leaf-row .lf-hint{grid-column:2/-1;font-size:11px;color:var(--mut);line-height:1.45;margin-top:-2px}
+.lf-note{font-size:11px;color:var(--mut);line-height:1.55;margin-top:8px;padding:0 2px}
+.drop-row{display:flex;justify-content:space-between;gap:10px;padding:7px 0;border-top:1px solid var(--line);font-size:12.5px}
+.drop-row:first-of-type{border-top:0}
+.drop-row .rate{color:var(--green);font-weight:700;white-space:nowrap}
+.info-line{font-size:12.5px;color:var(--tx2);line-height:1.65;background:var(--card);padding:12px;border-radius:10px;border:1px solid var(--line)}
+.stat-line{font-size:12px;color:var(--mut);margin:3px 0}
+.drop-rate{color:var(--green);font-weight:700}
+.wiki-out{color:var(--acc);text-decoration:none;border-bottom:1px dashed currentColor;font-size:12px}
+.wiki-out:active{opacity:.6}
+.stat-line b{color:var(--tx2);font-weight:600}
+.stat-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:7px}
+.stat-item{background:var(--card);border:1px solid var(--line);border-radius:9px;padding:9px 11px;min-width:0}
+.stat-item .sk{display:block;font-size:10.5px;color:var(--mut);margin-bottom:3px}
+.stat-item .sv{display:block;font-size:14px;color:var(--acc2);font-weight:800;word-break:break-word;line-height:1.35}
+.stat-item:first-child{grid-column:1/-1}
+.crumb{font-size:11.5px;color:var(--mut);margin-bottom:10px;line-height:1.6}
+.crumb b{color:var(--acc2)}
+
+/* 材料大全 */
+.seg{display:flex;gap:4px;background:var(--card2);border:1px solid var(--line);border-radius:10px;padding:3px;margin-bottom:10px}
+.seg button{flex:1;padding:7px 8px;border-radius:8px;font-size:12px;font-weight:700;color:var(--mut)}
+.seg button.on{background:var(--card);color:var(--acc);box-shadow:0 1px 6px rgba(0,0,0,.18)}
+.scroll-chips{display:flex;gap:6px;overflow-x:auto;padding:2px 2px 8px;margin-bottom:4px;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+.scroll-chips::-webkit-scrollbar{display:none}
+.scroll-chips button{
+  flex:none;padding:6px 11px;border-radius:20px;border:1px solid var(--line);
+  background:var(--card);font-size:12px;color:var(--tx2);white-space:nowrap;
+}
+.scroll-chips button.on{background:var(--acc);border-color:var(--acc);color:#fff;font-weight:700}
+.scroll-chips button.loc.on{background:var(--cyan);border-color:var(--cyan);color:#08211f}
+.mat-row{
+  display:flex;align-items:center;gap:10px;width:100%;text-align:left;
+  padding:9px 11px;border-radius:11px;background:var(--card);border:1px solid var(--line);
+  margin-bottom:6px;transition:.14s;
+}
+.mat-row:hover{border-color:var(--acc);background:var(--card2)}
+.mat-row .icon{width:30px;height:30px}
+.mat-info{flex:1;min-width:0}
+.mat-name{font-size:13.5px;font-weight:700;display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.mat-sub{display:flex;align-items:center;gap:5px;flex-wrap:wrap;margin-top:4px}
+.lchip{font-size:10px;padding:2px 7px;border-radius:20px;background:rgba(78,205,196,.13);color:var(--cyan);white-space:nowrap}
+.lchip.dim{background:var(--card3);color:var(--mut)}
+/* 原版物品获取方式 */
+.vs-where{display:inline-flex;gap:4px;flex-wrap:wrap;vertical-align:middle;margin-left:2px}
+.vs-note{font-size:11.5px;color:var(--mut)}
+.vs-out{color:var(--acc2);font-weight:800;font-size:11.5px}
+.vs-mats{display:inline-flex;flex-wrap:wrap;align-items:center;gap:5px 12px;vertical-align:middle}
+.vs-mats .pr-st{font-weight:750}
+.part-btn-static{display:inline-block;font-size:13px;font-weight:700;color:var(--tx)}
+.mhow{font-size:11px;color:var(--mut);line-height:1.35}
+.mtag{font-size:9.5px;padding:1px 6px;border-radius:20px;font-weight:700;background:var(--card3);color:var(--mut)}
+.mtag.s1{background:rgba(123,216,143,.14);color:var(--green)}
+.mtag.s2{background:rgba(243,195,74,.15);color:var(--acc2)}
+.mtag.s3{background:rgba(169,140,255,.16);color:var(--violet)}
+.mat-arrow{color:var(--mut);font-size:15px;flex:none}
+/* 开采前提：镐力 / 层深 / 环境风险 */
+.mat-pre{margin-top:4px;font-size:11px;line-height:1.55}
+.mat-pre .mpk{display:inline-block;white-space:nowrap;color:#7fc8ff;font-weight:800;margin-right:9px}
+.mat-pre .mpk.soft{color:var(--mut);font-weight:600}
+.mat-pre .mdep{display:inline-block;white-space:nowrap;max-width:100%;overflow:hidden;
+  text-overflow:ellipsis;vertical-align:bottom;color:var(--tx2);opacity:.92}
+.mat-risk{margin-top:2px;font-size:10.5px;line-height:1.45;color:#e2a86b}
+.mgroup-note{display:flex;flex-direction:column;gap:3px;margin:-3px 2px 9px;font-size:11px;line-height:1.5}
+.mgroup-note .gdep{color:var(--tx2);font-weight:700}
+.mgroup-note .gwarn{color:#e2a86b}
+.pk-big{font-weight:900;color:#7fc8ff;font-size:13px}
+.dep-big{font-weight:700;color:var(--tx)}
+/* 地层剖面：上=太空 下=地狱，目标层高亮 */
+.lbar{display:flex;flex-direction:column;gap:2px;margin:8px 0 4px;border-radius:9px;overflow:hidden;
+  border:1px solid var(--line)}
+.lseg{display:flex;justify-content:space-between;align-items:center;gap:6px;
+  padding:4px 10px;font-size:11px;line-height:1.35;background:var(--card3);color:var(--mut);
+  border-left:3px solid transparent;min-height:20px}
+.lseg .lname{white-space:nowrap}
+.lseg .ly{opacity:.8;font-size:10px;white-space:nowrap}
+.lseg.on{background:rgba(127,200,255,.15);color:#cbe6ff;font-weight:800;border-left-color:#7fc8ff}
+.lseg.on .ly{opacity:.95;color:#9fd0ff}
+.warn-line{color:#e2a86b}
+.scroll-chips button.noise{opacity:.72;font-size:11.5px}
+.scroll-chips button.noise.on{opacity:1}
+.mgroup{display:flex;align-items:center;gap:8px;margin:16px 2px 8px;font-size:12px;font-weight:800;color:var(--tx2)}
+.mgroup:after{content:"";flex:1;height:1px;background:var(--line)}
+.mgroup span{color:var(--mut);font-weight:600;font-size:11px}
+.mempty{color:var(--mut);font-size:12.5px;text-align:center;padding:26px 0}
+.mmore{width:100%;padding:11px;border-radius:11px;border:1px dashed var(--line);color:var(--acc);font-size:12.5px;font-weight:700;background:var(--card)}
+
+/* global search overlay */
+.overlay{position:fixed;inset:0;z-index:60;background:var(--bg);display:none;flex-direction:column}
+.overlay.on{display:flex}
+.overlay-head{padding:14px 16px;border-bottom:1px solid var(--line);display:flex;gap:9px;align-items:center}
+.overlay-head input{flex:1;padding:11px 13px;border-radius:11px;border:1px solid var(--line);background:var(--card);color:var(--tx);outline:none;font-size:14px}
+.overlay-head input:focus{border-color:var(--acc)}
+.overlay-head button{padding:9px 13px;color:var(--tx2);font-weight:700}
+.overlay-body{overflow-y:auto;padding:14px 16px 40px}
+.group-h{font-size:12px;color:var(--mut);font-weight:800;margin:16px 2px 8px}
+
+footer{max-width:980px;margin:0 auto;padding:0 16px 36px;color:var(--mut);font-size:11px;line-height:1.7;text-align:center}
+footer a{color:var(--acc);text-decoration:none}
+
+.toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(20px);background:var(--card3);border:1px solid var(--line);color:var(--tx);padding:9px 16px;border-radius:22px;font-size:12.5px;z-index:90;opacity:0;transition:.22s;pointer-events:none;box-shadow:var(--sh)}
+.toast.on{opacity:1;transform:translateX(-50%)}
+
+@media (max-width:640px){
+  .topbar{height:52px;padding:0 14px}
+  .brand{font-size:15px}
+  .brand small{display:none}
+  .tabs{position:fixed;top:auto;bottom:0;left:0;right:0;padding:6px 6px calc(6px + env(safe-area-inset-bottom));background:var(--bg2);border-top:1px solid var(--line);z-index:40;gap:2px}
+  .tabs button{padding:8px 2px;border-radius:9px;font-size:11.5px;border-bottom:0}
+  .tabs button.on{background:var(--accg);color:var(--acc)}
+  main{padding:14px 12px 84px}
+  .cls-grid{grid-template-columns:repeat(5,1fr);gap:5px}
+  .cls-btn{padding:9px 2px 7px}
+  .cls-dot{width:24px;height:24px;font-size:11px;margin-bottom:4px}
+  .cls-btn span{font-size:11px}
+  .cls-btn small{display:none}
+  .boss-grid,.npc-grid{grid-template-columns:1fr}
+  .drawer{top:auto;bottom:0;width:100%;height:92vh;height:calc(100dvh - 8px);border-left:0;border-top:1px solid var(--line);border-radius:18px 18px 0 0;transform:translateY(102%);box-shadow:0 -10px 40px rgba(0,0,0,.45)}
+  .drawer:before{content:"";display:block;flex:none;width:40px;height:4px;border-radius:2px;background:var(--line);margin:7px auto 0}
+  .drawer-head{padding:10px 17px 12px}
+  .drawer.on{transform:none}
+  .drawer-body{padding:14px 17px 40px}
+  .drawer-head h2{font-size:17px}
+}
+@media (min-width:641px){.backdrop{z-index:50}}
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="brand"><div class="brand-mark">C</div><div>灾厄助手 <small>CALAMITY GUIDE</small></div></div>
+  <div class="top-actions">
+    <button class="icon-btn" id="themeBtn" title="切换主题">◐</button>
+    <button class="icon-btn" id="searchBtn" title="搜索">⌕</button>
+  </div>
+</header>
+<nav class="tabs" id="tabs">
+  <button data-tab="newbie" class="on">新手推荐</button>
+  <button data-tab="hard">肉后流程</button>
+  <button data-tab="classes">职业流程</button>
+  <button data-tab="items">装备查询</button>
+  <button data-tab="mats">材料大全</button>
+  <button data-tab="bosses">Boss</button>
+  <button data-tab="npcs">NPC</button>
+</nav>
+<main id="main"></main>
+<footer>
+  数据来源 <a href="https://calamitymod.wiki.gg" target="_blank" rel="noopener">Official Calamity Mod Wiki</a> ·
+  支持版本 <span id="fver"></span> · 中文译名对照官方 / 社区译法，以英文原名为准<br>
+  点击任意装备查看制作配方、掉落来源与下游用途 · 数据内嵌，可离线使用
+</footer>
+
+<div class="backdrop" id="backdrop"></div>
+<aside class="drawer" id="drawer">
+  <div class="drawer-head">
+    <div id="dIcon" style="flex:none"></div>
+    <div class="t"><h2 id="dTitle">—</h2><span class="en" id="dEn"></span><span class="hd-tags" id="dTags"></span></div>
+    <button class="icon-btn" id="dClose" aria-label="关闭">✕</button>
+  </div>
+  <div class="drawer-body" id="dBody"></div>
+</aside>
+
+<div class="overlay" id="overlay">
+  <div class="overlay-head">
+    <input id="gSearch" placeholder="搜索装备 / 材料 / Boss / NPC（中英文均可）" autocomplete="off">
+    <button id="gClose">取消</button>
+  </div>
+  <div class="overlay-body" id="gBody"></div>
+</div>
+<div class="toast" id="toast"></div>
+
+<script>
+const IMG = /*__IMAGES__*/;
+const DATA = /*__DATA__*/;
+const MATS = /*__MATS__*/;
+const VANS = /*__VANS__*/;
+const NB = /*__NEWBIE__*/;
+const HM = /*__HARD__*/;
+const RG = /*__RANGER__*/;
+const CLSX = /*__CLSDATA__*/;
+const $ = (s)=>document.querySelector(s);
+const esc = (s)=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const CLS = {melee:['战','战士','#e05a5a'],ranged:['射','射手','#7bd88f'],magic:['魔','法师','#a98cff'],summon:['召','召唤师','#4ecdc4'],rogue:['盗','盗贼','#f3c34a']};
+const ERA = {pre:'肉前',hard:'肉后',post:'月后'};
+const SLOT = [['w','武器'],['a','护甲 / 机动'],['x','饰品'],['b','药水 / 弹药']];
+const state = {tab:'newbie',cls:'melee',bossFilter:'all',npcFilter:'all',
+  mq:'',mcat:'core',mloc:'all',mview:'cat'};
+let lastFocus = null;
+
+/* ---------- helpers ---------- */
+function zh(n){ return (DATA.names && DATA.names[n]) || ''; }
+function label(n){
+  const z = zh(n);
+  return z && z!==n ? esc(z)+'<span class="en">'+esc(n)+'</span>' : '<span>'+esc(n)+'</span>';
+}
+function itemExists(n){ return !!DATA.items[n]; }
+function imgUrl(n){
+  if(typeof IMG!=='undefined' && IMG[n]) return IMG[n];
+  if(DATA.images && DATA.images[n]) return DATA.images[n];
+  return 'https://calamitymod.wiki.gg/images/'+encodeURIComponent(String(n).replace(/ /g,'_'))+'.png';
+}
+function icon(n,cls){
+  // 二选一原料（"附魔剑/泰拉锋刃"）：两边都有图就并排显示
+  if(String(n).indexOf('/')>=0){
+    const ps=String(n).split('/').map(s=>s.trim());
+    const hit=ps.filter(x=>IMG[x]);
+    if(hit.length>=2){
+      return hit.slice(0,2).map(x=>'<img class="icon duo '+(cls||'')+'" loading="lazy" alt="" src="'
+        +esc(IMG[x])+'" onerror="this.classList.add(\'miss\');this.removeAttribute(\'src\')">').join('');
+    }
+  }
+  return '<img class="icon '+(cls||'')+'" loading="lazy" alt="" src="'+esc(imgUrl(n))
+    +'" onerror="this.classList.add(\'miss\');this.removeAttribute(\'src\')">';
+}
+/* ---------- 配方递归展开 ---------- */
+// 微光转化 / 叶绿提取器属于"转换"，不算主要制作途径
+const CONV_ST = {'微光转化':1,'微光':1,'叶绿提取器':1};
+function realRecipes(it){
+  const all=(it&&it.r)||[];
+  const real=all.filter(r=>!CONV_ST[r[0]]);
+  return real.length?real:[];
+}
+function convRecipes(it){
+  return ((it&&it.r)||[]).filter(r=>CONV_ST[r[0]]);
+}
+// 取首个配方（优先真实配方）的原材料列表 [[名称, 数量], ...]
+function firstIng(name){
+  const it=DATA.items[name];
+  const list=realRecipes(it||{});
+  if(list.length){
+    const r=list[0];
+    return {station:r[0]||'', ing:r[1]||[], out:Math.max(1, parseInt(r[2],10)||1)};
+  }
+  // 原版锭 / 加工品：材料表里的 rc（熔炼配方）也算可展开的制作途径
+  const mm=(typeof MATS!=='undefined')&&MATS[name];
+  const rc=(mm&&mm.rc)||[];
+  if(rc.length){
+    const r=rc[0];
+    return {station:r[0]||'', ing:r[1]||[], out:Math.max(1, parseInt(r[2],10)||1)};
+  }
+  return null;
+}
+// 是否有可继续展开的配方
+function canCraft(name){
+  return !!firstIng(name);
+}
+// 递归收集底层原料：out={名:数量}
+function collectLeaves(name, need, out, depth, path){
+  out=out||{}; depth=depth||0; path=path||[];
+  const r=firstIng(name);
+  if(!r || depth>7 || path.indexOf(name)>=0){
+    out[name]=(out[name]||0)+need;
+    return out;
+  }
+  const p2=path.concat([name]);
+  const times=Math.ceil(need/r.out);
+  for(const row of r.ing){
+    const nm=row[0];
+    const q=parseInt(row[1],10);
+    collectLeaves(nm, (isNaN(q)?1:q)*times, out, depth+1, p2);
+  }
+  return out;
+}
+// 叶子原料的获取提示（优先给"位置"）
+const hasZh=s=>/[\u4e00-\u9fa5]/.test(String(s));
+const PICK_ZH = {'Blossom Pickaxe':'繁花镐','Luminite Pickaxe':'四柱镐','Nightmare Pickaxe':'噩梦镐',
+ 'Deathbringer Pickaxe':'死亡使者镐','Pickaxe Axe':'镐斧','Adamantite Pickaxe':'精金镐','Titanium Pickaxe':'钛金镐',
+ 'Molten Pickaxe':'熔岩镐','Cobalt Pickaxe':'钴蓝镐','Palladium Pickaxe':'钯金镐','Mythril Pickaxe':'秘银镐',
+ 'Orichalcum Pickaxe':'山铜镐','Chlorophyte Pickaxe':'叶绿镐','Gold Pickaxe':'金镐','Platinum Pickaxe':'铂金镐',
+ 'Shardlight Pickaxe':'碎光镐','Crystyl Crusher':'水晶破碎者','Sulphuric Acid Cannon':'硫酸炮',
+ 'Copper Pickaxe':'铜镐','Tin Pickaxe':'锡镐','Iron Pickaxe':'铁镐','Lead Pickaxe':'铅镐',
+ 'Silver Pickaxe':'银镐','Tungsten Pickaxe':'钨镐','Picksaw':'锯刃镐','Astral Pickaxe':'星辉镐',
+ 'Lunar Pickaxe':'四柱镐','Cryonic Pickaxe':'冰晶镐','Reaver Pickaxe':'掠夺者镐'};
+const MHOW = {mine:'挖矿',smelt:'熔炼',drop:'掉落',plant:'采集',fish:'钓鱼',buy:'购买',bag:'开宝匣',craft:'合成',other:''};
+function howToGet(n){
+  const it=DATA.items[n]||{};
+  const mm=(typeof MATS!=='undefined')&&MATS[n];
+  const locTxt=(mm&&mm.l&&mm.l.length)?mm.l.join('·'):'';
+  const verb=mm?(MHOW[mm.h]||''):'';
+  const src=(DATA.sources&&DATA.sources[n])||{};
+  // 原版材料：优先给出具体掉落 / 开箱 / 购买来源
+  const vv=(typeof VANS!=='undefined')&&VANS[n];
+  if(vv && vv.s && vv.s.length){
+    const e=vv.s.find(x=>x.k==='drop')||vv.s[0];
+    const who=e.n.slice(0,3).join('、');
+    const lab=e.k==='drop'?'掉落自 ':e.k==='chest'?'开箱 ':e.k==='buy'?'购买自 ':'';
+    const wh=(!locTxt&&e.w&&e.w.length)?' · '+e.w.slice(0,2).join('·'):'';
+    return locTxt ? (locTxt+' · '+lab+who+wh) : (lab+who+wh);
+  }
+  const dropTxt=(mm&&mm.d&&mm.d.length)?('掉落自 '+mm.d.slice(0,2).join('、')):'';
+  if(locTxt&&verb) return locTxt+' · '+(dropTxt||verb);
+  if(locTxt&&!verb) return '位于 '+locTxt;
+  if(dropTxt) return dropTxt;
+  if(it.d && it.d.length){
+    const parts=it.d.slice(0,2).map(x=>{
+      const nm=hasZh(x[0])?x[0]:(zh(x[0])||x[0]);
+      return nm+(x[1]?'（'+x[1]+'）':'');
+    });
+    return '掉落自 '+parts.join('、');
+  }
+  if(it.r && it.r.length) return '可制作 · 见下方配方';
+  if(src.buy && src.buy.length) return '购买自 '+src.buy.slice(0,2).join('、');
+  if(src.fish && src.fish.length) return '钓鱼获得';
+  if(src.drop && src.drop.length) return '掉落自 '+src.drop.slice(0,2).join('、');
+  if(it.o) return '泰拉瑞亚原版物品';
+  if(/Ore$/.test(n)) return '地下挖矿';
+  if(/Bar$/.test(n)) return '熔炉冶炼';
+  if(/^(Any )/.test(n)) return '任意同类材料';
+  return it.ph||'';
+}
+// 材料行的二级展开（一代），用于配方下方缩进显示
+function subLine(nm, qty, times){
+  const r=firstIng(nm);
+  if(!r) return '';
+  const t=Math.ceil((parseInt(qty,10)||1)*times/r.out);
+  const parts=r.ing.map(x=>{
+    const q=parseInt(x[1],10)||1;
+    return (zh(x[0])||x[0])+'×'+(q*t);
+  });
+  return '<div class="rt-sub">↳ '+(r.station?esc(r.station)+'：':'')+parts.join('、')+'</div>';
+}
+
+function stageUsage(name){
+  const out=[];
+  for(const st of DATA.stages){
+    for(const [ck,cls] of Object.entries(CLS)){
+      const d=st.c[ck]; if(!d) continue;
+      for(const [sk,sl] of SLOT){ if((d[sk]||[]).includes(name)) out.push({era:st.era,stage:st.zh,cls:cls[1],slot:sl}); }
+    }
+  }
+  return out;
+}
+// 反查下游：谁用这个材料（灾厄物品自带 u 字段，原版物品现算）
+function usedInName(n){
+  const out=new Set();
+  for(const k in DATA.items){
+    if(k===n) continue;
+    const rs=DATA.items[k].r||[];
+    // 配方形状是 [站点, [[原料, 量]], 产量]，原料在 r[1]
+    if(rs.some(r=>Array.isArray(r[1])&&r[1].some(m=>Array.isArray(m)&&m[0]===n))) out.add(k);
+  }
+  const V=(typeof VANS!=='undefined')?VANS:{};
+  for(const k in V){
+    if(k===n) continue;
+    const rs=V[k].r||[];
+    if(rs.some(r=>(r.i||[]).some(m=>m[0]===n))) out.add(k);
+  }
+  return [...out].filter(k=>!(MATS[k]&&MCAT_NOISE.includes(MATS[k].c)))
+    .sort((a,b)=>label(a).localeCompare(label(b),'zh'));
+}
+function toast(msg){
+  const t=$('#toast'); t.textContent=msg; t.classList.add('on');
+  clearTimeout(t._t); t._t=setTimeout(()=>t.classList.remove('on'),1600);
+}
+
+/* ---------- tabs ---------- */
+$('#tabs').addEventListener('click',e=>{
+  const b=e.target.closest('button[data-tab]'); if(!b) return;
+  state.tab=b.dataset.tab;
+  document.querySelectorAll('#tabs button').forEach(x=>x.classList.toggle('on',x===b));
+  render();
+  window.scrollTo({top:0,behavior:'instant'});
+});
+
+/* ---------- newbie guide ---------- */
+function nbChip(n){
+  return `<button class="chip ${itemExists(n)?'recipe-has':''}" data-item="${esc(n)}">${icon(n,'sm')}${esc(zh(n)||n)}</button>`;
+}
+function renderNewbie(){
+  let h='<div class="panel">';
+  h+=`<div class="nb-hero"><h2>${esc(NB.hero.t)}</h2><p>${esc(NB.hero.d)}</p></div>`;
+  h+='<div class="nb-list">';
+  for(const s of NB.sec){
+    h+=`<section class="nb-step"><div class="nb-num">${esc(s.id)}</div><div class="nb-body">`
+      +`<div class="nb-head"><h3>${esc(s.t)}</h3><span class="nb-badge">${esc(s.badge)}</span></div>`
+      +`<p class="nb-desc">${esc(s.d)}</p><div class="chips">${s.items.map(nbChip).join('')}</div>`
+      +(s.note?`<div class="nb-note">※ ${esc(s.note)}</div>`:'')+`</div></section>`;
+  }
+  h+='</div>';
+  const pre=DATA.bosses.filter(b=>b.p==='pre').slice(0,6);
+  if(pre.length){
+    h+=`<div class="dblock" style="margin-top:26px"><h3>${esc(NB.bossHead.t)}</h3>`
+      +`<div class="hint" style="margin:-2px 0 10px">${esc(NB.bossHead.d)}</div><div class="nb-boss">`;
+    for(const b of pre){
+      h+=`<button class="nb-boss-row" data-boss="${b.o}"><span class="nb-boss-num">${b.o}</span>`
+        +`${icon(b.n,'sm')}<b>${esc(b.z)}</b><span class="nb-boss-go">›</span></button>`;
+    }
+    h+='</div></div>';
+  }
+  h+='<div class="nb-tips">';
+  for(const t of NB.tips) h+=`<div class="nb-tip"><b>${esc(t.t)}</b><span>${esc(t.d)}</span></div>`;
+  h+='</div></div>';
+  $('#main').innerHTML=h;
+}
+
+/* ---------- hardmode route ---------- */
+// wiki 的「武器」栏里混了工具/饰品，这里剔掉，免得误导
+const HM_BLOCK={'Rod of Discord':1,'Power Glove':1};
+const isArmorName=n=>/(armor|Armor|盔甲)/.test(n);
+const isMobility=n=>/(Wings|Boots|Balloon|Horseshoe|Frog Leg|Bundle)/.test(n);
+function hmStep(no,title,arr,cap){
+  if(!arr||!arr.length) return '';
+  const shown=Math.min(arr.length,cap);
+  const cnt=arr.length>cap?`前 ${shown} / 共 ${arr.length} 件`:`${arr.length} 件`;
+  return `<div class="hm-step"><span class="hm-no">${no}</span><div class="hm-body">`
+    +`<div class="hm-lab">${title}<span class="hm-cnt">${cnt}</span></div>`
+    +`<div class="chips">${arr.slice(0,cap).map(nbChip).join('')}</div></div></div>`;
+}
+/* 射手专线：一条线从肉后打造到毕业 */
+function rgChip(k,q,lbl){
+  const nm=lbl||zh(k)||k;
+  const num=q?`<i>×${esc(q)}</i>`:'';
+  if(!itemExists(k)) return `<span class="rg-mat plain">${esc(nm)}${num}</span>`;
+  return `<button class="rg-mat" data-item="${esc(k)}">${icon(k,'xs')}${esc(nm)}${num}</button>`;
+}
+function rgTiers(block){
+  let h=`<div class="sec-title" style="margin-top:20px">${esc(block.t)}</div>`;
+  h+=`<div class="hint" style="margin:-2px 0 12px">${esc(block.d)}</div>`;
+  for(const t of block.tiers){
+    const dmg=(t.dmg&&t.dmg!=='—')?`<span class="rg-dmg">伤害 ${esc(t.dmg)}</span>`:'';
+    h+=`<div class="rg-tier"><div class="rg-rail"><span class="rg-dot">${esc(t.no)}</span></div><div class="rg-card">`
+      +`<div class="rg-head"><span class="rg-when">${esc(t.when)}</span>${dmg}</div>`
+      +`<div class="rg-weapon">${icon(t.w,'sm')}<b>${esc(zh(t.w)||t.w)}</b><span class="en">${esc(t.w)}</span></div>`
+      +(t.st&&t.st!=='—'?`<div class="rg-st">⚒ ${esc(t.st)}</div>`:'')
+      +(t.mats&&t.mats.length?`<div class="rg-mats">${t.mats.map(m=>rgChip(m[0],m[1],m[2])).join('')}</div>`
+                             :`<div class="rg-st" style="opacity:.62">🎯 无配方 · 靠掉落获取</div>`)
+      +`<div class="rg-why">${esc(t.why)}</div>`
+      +`<div class="rg-how">材料来源：${esc(t.how)}</div>`
+      +`</div></div>`;
+  }
+  return h;
+}
+function renderLine(D0){
+  let h=rgTiers(D0.main);
+  if(D0.alt) h+=rgTiers(D0.alt);
+
+  h+=`<div class="sec-title" style="margin-top:24px">${esc(D0.side.t)}</div>`;
+  h+=`<div class="hint" style="margin:-2px 0 12px">${esc(D0.side.d)}</div>`;
+  for(const r of D0.side.rows){
+    const dmg=r.dmg?`<span class="dmg">${esc(r.dmg)}</span>`:'';
+    h+=`<div class="rg-side"><div class="rg-side-main">`
+      +`<div class="rg-flow">${esc(zh(r.from)||r.from)}<span class="ar">→</span>${esc(zh(r.to)||r.to)}${dmg}</div>`
+      +`<div class="rg-need">${r.need.map(m=>rgChip(m[0],m[1],m[2])).join('')}</div>`
+      +`<div class="rg-note">${esc(r.note)}</div>`
+      +`</div><span class="rg-stn">${esc(r.st)}</span></div>`;
+  }
+
+  h+=`<div class="sec-title" style="margin-top:24px">${esc(D0.fusion.t)}</div>`;
+  h+=`<div class="hint" style="margin:-2px 0 12px">${esc(D0.fusion.d||'')}</div>`;
+  for(const r of D0.fusion.rows){
+    h+=`<div class="rg-side"><div class="rg-side-main">`
+      +`<div class="rg-flow">${icon(r.out,'sm')}${esc(zh(r.out)||r.out)}<span class="ar">←</span>`
+      +`<span class="rg-note" style="font-size:11px">${r.need.length} 件零件</span></div>`
+      +`<div class="rg-need">${r.need.map(m=>rgChip(m[0],m[1],m[2])).join('')}</div>`
+      +`<div class="rg-note">${esc(r.note)}</div>`
+      +`</div><span class="rg-stn">${esc(r.st)}</span></div>`;
+  }
+
+  h+=`<div class="sec-title" style="margin-top:24px">${esc(D0.kit.t)}</div>`;
+  for(const g of D0.kit.groups){
+    h+=`<div class="rg-card" style="margin-top:9px"><div class="rg-weapon" style="margin-bottom:7px"><b style="font-size:13px">${esc(g.t)}</b></div>`
+      +(g.items&&g.items.length?`<div class="rg-mats" style="margin-bottom:8px">${g.items.map(k=>rgChip(k,0)).join('')}</div>`:'')
+      +`<div class="rg-note">${esc(g.d)}</div></div>`;
+  }
+
+  h+=`<div class="sec-title" style="margin-top:24px">${esc(D0.traps.t)}</div>`;
+  h+='<div class="nb-tips" style="margin-top:10px">';
+  for(const t of D0.traps.rows) h+=`<div class="nb-tip"><b>${esc(t.t)}</b><span>${esc(t.d)}</span></div>`;
+  h+='</div>';
+  return h;
+}
+function renderHard(){
+  let h='<div class="panel">';
+  h+=`<div class="nb-hero"><h2>${esc(HM.hero.t)}</h2><p>${esc(HM.hero.d)}</p></div>`;
+  h+='<div class="nb-list">';
+  for(const f of HM.flow){
+    h+=`<section class="nb-step"><div class="nb-num">${esc(f.id)}</div><div class="nb-body">`
+      +`<div class="nb-head"><h3>${esc(f.t)}</h3><span class="nb-badge">${esc(f.badge)}</span></div>`
+      +`<p class="nb-desc">${esc(f.d)}</p><div class="chips">${f.items.map(nbChip).join('')}</div></div></section>`;
+  }
+  h+='</div>';
+
+  h+='<div class="sec-title" style="margin-top:26px">分职业 · 逐阶段出装顺序</div>';
+  h+='<div class="cls-grid">';
+  for(const [k,v] of Object.entries(CLS)){
+    h+=`<button class="cls-btn ${state.cls===k?'on':''}" data-cls="${k}">`
+      +`<div class="cls-dot" style="background:${v[2]}">${v[0]}</div><span>${v[1]}</span></button>`;
+  }
+  const LINE_NAME={ranged:'射手 · 巨鲨四档',melee:'战士 · 锤系五档',magic:'法师 · 始源三档',summon:'召唤 · 葱茏 + 天狼双线',rogue:'盗贼 · 回旋镖四档'};
+  h+='</div><div class="hint" style="margin:8px 0 12px">选职业后，每个阶段按 ①→⑤ 的顺序换装；点任意一件看配方与来源。'
+    +(LINE_NAME[state.cls]?'当前职业下面还接了专用的打造专线（'+esc(LINE_NAME[state.cls])+'）。':'')+'</div>';
+
+  const LD = state.cls==='ranged' ? RG : (CLSX[state.cls]||null);
+  if(LD){
+    h+=`<div class="nb-hero" style="margin-top:20px"><h2>${esc(LD.hero.t)}</h2><p>${esc(LD.hero.d)}</p></div>`;
+    h+=renderLine(LD);
+  }
+
+  h+='<div class="sec-title" style="margin-top:24px">逐阶段出装清单</div>';
+
+  for(const st of DATA.stages.filter(s=>s.era==='hard')){
+    const d=st.c[state.cls]||{};
+    const w=(d.w||[]).filter(n=>!HM_BLOCK[n]);
+    const a=(d.a||[]);
+    const armor=a.filter(isArmorName), mob=a.filter(n=>!isArmorName(n));
+    const x=d.x||[], b=d.b||[];
+    const mobAll=[...new Set([...mob,...x.filter(isMobility)])];
+    const acc=x.filter(n=>!isMobility(n));
+    const cnt=w.length+armor.length+mobAll.length+acc.length+b.length;
+    const note=(HM.stageNote||{})[String(st.i)]||'';
+    h+=`<details class="stage"${st.i===6?' open':''}><summary>`
+      +`<span class="stage-idx">${st.i}</span>`
+      +`<span class="stage-name">${esc(st.zh)}<span class="en">${esc(st.en)} · ${cnt} 件</span></span>`
+      +`<span class="chev">▶</span></summary><div class="stage-body">`;
+    if(st.desc) h+=`<p class="stage-desc">${esc(st.desc)}</p>`;
+    if(note) h+=`<div class="hm-note">※ ${esc(note)}</div>`;
+    h+=hmStep('①','核心武器',w,5);
+    h+=hmStep('②','护甲 · 成套再换',armor,4);
+    h+=hmStep('③','机动 / 位移',mobAll,4);
+    h+=hmStep('④','饰品',acc,10);
+    h+=hmStep('⑤','药剂 / 弹药',b,10);
+    h+='</div></details>';
+  }
+
+  const hb=DATA.bosses.filter(b=>b.p==='hard').slice(0,10);
+  if(hb.length){
+    h+='<div class="dblock" style="margin-top:26px"><h3>肉后 Boss 顺序（前 10 个）</h3>'
+      +'<div class="hint" style="margin:-2px 0 10px">按图鉴顺序推进；点开可看召唤条件与专属掉落。</div><div class="nb-boss">';
+    for(const b of hb){
+      h+=`<button class="nb-boss-row" data-boss="${b.o}"><span class="nb-boss-num">${b.o}</span>`
+        +`${icon(b.n,'sm')}<b>${esc(b.z)}</b><span class="nb-boss-go">›</span></button>`;
+    }
+    h+='</div></div>';
+  }
+
+  h+='<div class="nb-tips">';
+  for(const t of HM.tips) h+=`<div class="nb-tip"><b>${esc(t.t)}</b><span>${esc(t.d)}</span></div>`;
+  h+='</div></div>';
+  $('#main').innerHTML=h;
+}
+
+/* ---------- class progression ---------- */
+function renderClasses(){
+  let h='<div class="panel">';
+  h+='<div class="hint">选择职业 → 按阶段查看推荐武器、护甲、饰品与药水；点击装备看完整制作流程。</div>';
+  h+='<div class="cls-grid">';
+  for(const [k,v] of Object.entries(CLS)){
+    h+=`<button class="cls-btn ${state.cls===k?'on':''}" data-cls="${k}">
+      <div class="cls-dot" style="background:${v[2]}">${v[0]}</div>
+      <span>${v[1]}</span><small>${({melee:'近战/高防',ranged:'远程/容错',magic:'法术/AOE',summon:'仆从/走位',rogue:'潜行/爆发'})[k]}</small>
+    </button>`;
+  }
+  h+='</div>';
+  let lastEra='';
+  for(const st of DATA.stages){
+    if(st.era!==lastEra){
+      lastEra=st.era;
+      h+=`<div class="era-label"><span class="era-pill">${ERA[st.era]||st.era}</span></div>`;
+    }
+    const d=st.c[state.cls]||{};
+    const cnt=SLOT.reduce((a,[sk])=>a+((d[sk]||[]).length),0);
+    h+=`<details class="stage"><summary>
+      <span class="stage-idx">${st.i}</span>
+      <span class="stage-name">${esc(st.zh)}<span class="en">${esc(st.en)} · ${cnt} 件</span></span>
+      <span class="chev">▶</span></summary><div class="stage-body">`;
+    if(st.desc) h+=`<p class="stage-desc">${esc(st.desc)}</p>`;
+    for(const [sk,sname] of SLOT){
+      const arr=d[sk]||[];
+      h+=`<div class="slot"><h4>${sname}</h4><div class="chips">`;
+      if(!arr.length) h+='<span class="empty">参考「所有职业」阶段</span>';
+      for(const n of arr){
+        h+=`<button class="chip ${itemExists(n)?'recipe-has':''}" data-item="${esc(n)}">${icon(n,'sm')}${label(n)}</button>`;
+      }
+      h+='</div></div>';
+    }
+    h+='</div></details>';
+  }
+  h+='</div>';
+  $('#main').innerHTML=h;
+}
+
+/* ---------- item search ---------- */
+function renderItems(q){
+  let h='<div class="panel"><div class="search-box"><input id="iSearch" placeholder="搜索装备 / 材料，如 圣金源、Auric、Wings" value="'+esc(q||'')+'"><button id="iGo">搜索</button></div>';
+  h+='<div class="hint">共 '+DATA.meta.items+' 件物品、'+DATA.meta.recipes+' 条配方。◆ 标记表示有合成配方。</div><div class="res-list" id="iRes"></div></div>';
+  $('#main').innerHTML=h;
+  const inp=$('#iSearch'), box=$('#iRes');
+  function draw(){
+    const v=inp.value.trim().toLowerCase();
+    let names=Object.keys(DATA.items);
+    if(v) names=names.filter(n=>n.toLowerCase().includes(v)||(zh(n)||'').includes(v));
+    names=names.slice(0,120);
+    box.innerHTML=names.length?names.map(n=>{
+      const it=DATA.items[n];
+      const tags=[];
+      if(it.r.length) tags.push(`<span class="res-tag hot">配方 ${it.r.length}</span>`);
+      if(it.d.length) tags.push('<span class="res-tag">掉落 '+it.d.length+'</span>');
+      if(it.u.length) tags.push('<span class="res-tag">用途 '+it.u.length+'</span>');
+      return `<button class="res-row" data-item="${esc(n)}">${icon(n)}<div class="res-main"><b>${zh(n)||n}</b><span class="en">${esc(n)}</span></div>${tags.join('')}</button>`;
+    }).join(''):'<div class="empty" style="padding:20px;text-align:center">没有找到匹配物品</div>';
+  }
+  inp.addEventListener('input',draw); $('#iGo').onclick=draw; draw();
+}
+
+/* ---------- bosses ---------- */
+function renderBosses(){
+  const filters=[['all','全部'],['pre','肉前'],['hard','肉后'],['post','月后'],['hidden','隐藏'],['mini','迷你']];
+  let h='<div class="panel"><div class="filter-row">';
+  for(const [k,v] of filters) h+=`<button data-bf="${k}" class="${state.bossFilter===k?'on':''}">${v}</button>`;
+  h+='</div><div class="hint">按官方流程顺序排列，含原版与灾厄 Boss。点击查看召唤条件与专属掉落。</div><div class="boss-grid">';
+  const list=DATA.bosses.filter(b=>state.bossFilter==='all'||b.p===state.bossFilter);
+  for(const b of list){
+    h+=`<button class="boss-card" data-boss="${b.o}"><div class="boss-top">
+      <div class="boss-num">${b.o}</div>${icon(b.n,'md')}<div style="flex:1;min-width:0"><b>${esc(b.z)}</b><span class="en">${esc(b.n)}</span></div>
+    </div><div class="boss-meta">
+      <span class="tag">${esc(b.g)}</span>
+      ${b.hp?`<span class="tag hp">HP ${esc(b.hp)}</span>`:''}
+      ${b.d.length?`<span class="tag drop">掉落 ${b.d.length}</span>`:''}
+    </div>${b.spawn?`<div class="boss-spawn">${esc(b.spawn)}</div>`:''}</button>`;
+  }
+  h+='</div></div>';
+  $('#main').innerHTML=h;
+}
+
+/* ---------- npcs ---------- */
+function renderNpcs(){
+  const filters=[['all','全部'],['pre','肉前'],['hard','肉后'],['post','月后'],['any','无固定阶段']];
+  let h='<div class="panel"><div class="filter-row">';
+  for(const [k,v] of filters) h+=`<button data-nf="${k}" class="${state.npcFilter===k?'on':''}">${v}</button>`;
+  h+='</div><div class="hint">满足全部条件后，空房屋即可入住（"任意阶段" NPC 无固定房屋要求）。</div><div class="npc-grid">';
+  const list=DATA.npcs.filter(n=>state.npcFilter==='all'||n.p===state.npcFilter);
+  for(const n of list){
+    h+=`<div class="npc-card"><div class="npc-head"><div style="display:flex;align-items:center;gap:9px;min-width:0">${icon(n.n,'md')}<div><b>${esc(n.z)}</b><span class="en">${esc(n.n)}</span></div></div>
+      <span class="src-tag ${n.src==='原版'?'base':''}">${esc(n.src)}</span></div>
+      <div class="npc-desc">${esc(n.desc||'')}</div>
+      <ul class="npc-cond">${n.c.map(c=>`<li>${esc(c)}</li>`).join('')}</ul></div>`;
+  }
+  h+='</div></div>';
+  $('#main').innerHTML=h;
+}
+
+/* ---------- materials compendium ---------- */
+const MCAT=[['core','常用材料'],['ore','矿石'],['bar','锭 / 合金'],['gem','宝石晶体'],
+  ['drop','怪物掉落'],['plant','植物'],['bag','宝匣渔获'],['mat','合成材料'],
+  ['sub','建材 / 方块'],['boss','召唤物'],['perk','永久增益'],['deco','装饰杂物']];
+const MCAT_NAME={ore:'矿石',bar:'锭 / 合金',gem:'宝石晶体',drop:'怪物掉落',plant:'植物',
+  bag:'宝匣渔获',mat:'合成材料',sub:'建材 / 方块',boss:'召唤物',perk:'永久增益',deco:'装饰杂物'};
+// 材料大全默认不展示的分类（装饰 / 家具 / 建材属于噪音，点分类才看）
+const MCAT_NOISE=['deco'];
+const MLOC_ORDER=['洞穴层','地下','地表','太空','浮空岛','小行星带','陨石区','地狱','海洋','沉没之海',
+  '深渊','硫磺海','硫磺火山口','星辉感染区','嘉登实验室','丛林','地下丛林','地下沙漠','沙漠','雪原','地牢','神庙',
+  '发光蘑菇地','花岗岩洞','大理石洞','神圣之地','腐化之地','猩红之地','酸雨事件','血月事件','日食事件',
+  '南瓜月事件','霜月事件','远古军团事件','沙尘暴','暴风雪','钓鱼'];
+// 地区 → 矿层深度 + 进入前提（"挖得到"之前得先"进得去、站得住"）
+const LOC_INFO={
+  '地表':{d:'y ≈ 0（海平面高度）'},
+  '地下':{d:'y −0 ~ −300 ft，往下就是洞穴层'},
+  '洞穴层':{d:'y −300 ft 以下 · 小世界约到 −1200 ft / 大世界更深',
+          w:'矿脉集中在石块中，越深越密；带火把或夜猫子药水'},
+  '地狱':{d:'世界最底部约 200 ft 高（y ≈ −3000 ft）',
+        w:'岩浆遍布：需黑曜石皮药水 / 抗火饰品，落地伤害高'},
+  '浮空岛':{d:'地表上方约 200 ~ 400 ft，需重力药水或高空平台',
+          w:'云层之上，落下去必死；天蓝矿在岛体下方'},
+  '太空':{d:'世界顶部 y ≈ +1000 ft 以上',w:'低重力，跳跃手感完全不同'},
+  '小行星带':{d:'太空层 · 世界顶部附近',w:'低重力 + 小行星撞击；需先能上太空'},
+  '沉没之海':{d:'地表西侧海底 · 洞穴层顶部',
+          w:'全程水下：需潜水装备 / 水肺药水，深海有敌怪'},
+  '深渊':{d:'沉没之海海底继续向下 4 层，越深压强越大',
+        w:'极高压强：需深渊潜水服等耐压装备 + 水下呼吸，无防护会持续掉血致死'},
+  '硫磺火山口':{d:'硫磺海东侧，接近地狱层',
+            w:'高温 + 硫火：接触岩浆与硫火会燃烧，需抗火'},
+  '硫磺海':{w:'海水强酸：无防护会持续掉血，需耐酸护甲 / 抗酸饰品'},
+  '星辉感染区':{d:'地表陨石坑及其正下方',
+            w:'星辉感染：接触星辉矿与敌怪会中「星辉感染」，需先击败星界巨兽才能采星辉矿'},
+  '雪原':{d:'世界左右两端地表，向下延伸至洞穴层',
+        w:'低温：需保暖装备（防寒服 / 篝火），否则持续掉血'},
+  '地下沙漠':{d:'沙漠正下方 · 地下到洞穴层',w:'流沙与蚁狮：注意塌方'},
+  '陨石区':{d:'地表陨石坑',w:'陨石接触会燃烧，需抗火或黑曜石皮'},
+  '丛林':{d:'地表丛林 → 地下丛林（洞穴层）',w:'丛林敌怪密度高，地下丛林有黄蜂与食人花'},
+  '地下丛林':{d:'丛林正下方（洞穴层）',w:'敌怪最强区域之一；叶绿矿 / 乌木花矿在此'},
+  '沙漠':{d:'地表沙漠'},
+  '海洋':{d:'世界左右两端海底',w:'水下呼吸 + 敌怪'},
+  '地牢':{d:'地表以下 · 天然砖石结构',w:'需先击败骷髅王，否则守卫者一击必杀'},
+  '神庙':{d:'丛林地下深处',w:'需神庙钥匙（世纪之花掉落）才能开门，机关密集'},
+  '发光蘑菇地':{d:'洞穴层 · 蘑菇生物群系'},
+  '花岗岩洞':{d:'洞穴层的花岗岩洞穴'},
+  '大理石洞':{d:'洞穴层的大理石洞穴'},
+  '神圣之地':{d:'肉后生成，地表 + 地下',w:'肉后世界改造产物'},
+  '腐化之地':{d:'地表 + 地下（世界初始生成）'},
+  '猩红之地':{d:'地表 + 地下（世界初始生成）'},
+  '嘉登实验室':{d:'分布在世界各处的废弃实验室（地表 / 洞穴 / 地狱都有）',
+           w:'由激光炮塔与机关守卫：需破解终端、躲避激光，硬闯会被打成筛子'},
+  '酸雨事件':{w:'硫磺海触发事件：酸雨会腐蚀护甲，需耐酸装备'},
+  '钓鱼':{w:'需钓竿 + 鱼饵；不同群系 / 高度出不同渔获'}
+};
+const MSTAGE={'肉前':0,'肉后':1,'月后':2,'':3};
+const MAT_N=Object.keys(MATS).length;
+const MAT_NOISE_N=Object.keys(MATS).filter(k=>MCAT_NOISE.includes(MATS[k].c)).length;
+const MAT_REAL_N=MAT_N-MAT_NOISE_N;
+function matName(n){ return zh(n)||(MATS[n]&&MATS[n].z)||n; }
+// 本地是否内嵌了该名字的图标（没有就不渲染占位块，免得满屏虚线）
+function hasImg(n){
+  const s=String(n);
+  if(s.indexOf('/')>=0) return s.split('/').some(p=>hasImg(p.trim()));
+  return !!((typeof IMG!=='undefined'&&IMG[s])||(DATA.images&&DATA.images[s]));
+}
+// 中文名 → 英文键（用于把仍是中文的原料名接到可点击的数据上）
+let Z2EN=null;
+function keyOf(nm){
+  if(!hasZh(nm)) return nm;
+  if(!Z2EN){
+    Z2EN={};
+    for(const en in (DATA.names||{})){ const z=DATA.names[en]; if(z && !(z in Z2EN)) Z2EN[z]=en; }
+  }
+  return Z2EN[nm]||nm;
+}
+function knownItem(n){
+  return !!((DATA.items&&DATA.items[n])||((typeof MATS!=='undefined')&&MATS[n])
+    ||((typeof VANS!=='undefined')&&VANS[n]));
+}
+// 原版配方里的原料胶囊：能查到数据就可点（看来源 / 制作方式），否则只展示
+function vsMat(nm,qty){
+  const zhName=hasZh(nm)?nm:(zh(nm)||nm);
+  const key=keyOf(nm);
+  const click=knownItem(key);
+  return '<span class="pr-mat vs-mat'+(click?'':' plain')+'"'+(click?' data-item="'+esc(key)+'"':'')+'>'
+    +(hasImg(key)?icon(key,'xs'):'')+esc(zhName)+'<i>×'+esc(qty)+'</i></span>';
+}
+function matHow(n){
+  const m=MATS[n]||{};
+  // 召唤物 / 永久增益先给"用途"，比"合成获得"有用
+  if(m.c==='boss') return '召唤 Boss / 触发事件';
+  if(m.c==='perk') return '永久增益 · 使用后生效';
+  const v=(typeof VANS!=='undefined')&&VANS[n];
+  if(v && v.s && v.s.length){
+    const e=v.s.find(x=>x.k==='drop')||v.s[0];
+    const who=e.n.slice(0,3).join('、')+(e.n.length>3?' 等':'');
+    if(e.k==='drop') return '掉落自 '+who;
+    if(e.k==='chest') return '开箱 '+who;
+    if(e.k==='buy') return '购买自 '+who;
+    return who;
+  }
+  if(m.d&&m.d.length) return '掉落自 '+m.d.slice(0,3).join('、')+(m.d.length>3?' 等':'');
+  if(m.h==='drop') return '怪物掉落';
+  if(m.h==='smelt'){
+    const own=((DATA.items[n]&&DATA.items[n].r)||[]).filter(r=>!CONV_ST[r[0]])[0];
+    const st=(m.rc&&m.rc.length&&m.rc[0][0])||(own&&own[0])||'';
+    // 锭：直接把「哪种矿 ×几个 + 要多少镐力」写进列表，比只写"熔炉"有用
+    if(m.ore && MATS[m.ore]){
+      const q=(m.rc&&m.rc[0]&&m.rc[0][1]&&m.rc[0][1][0]&&m.rc[0][1][0][1])||'';
+      const op=MATS[m.ore];
+      const pk=op.pkv?(' · 需 '+op.pkv+'% 镐'):'';
+      return '熔炼 · '+(zh(m.ore)||m.ore)+(q?'×'+q:'')+pk;
+    }
+    return st?'熔炼 · '+st:'熔炼 / 浇筑';
+  }
+  if(m.h==='mine') return '挖矿采集';
+  if(m.h==='craft') return '合成'+(m.rc&&m.rc.length?' · '+m.rc[0][0]:'获得');
+  if(m.h==='fish') return '钓鱼获得';
+  if(m.h==='plant') return '采集 / 生长';
+  if(m.h==='buy') return '商店购买';
+  if(m.h==='bag') return '开启宝匣';
+  return '';
+}
+// 开采前提：镐力 / 矿层层深 / 环境风险（没有数据就不占位）
+function matPre(n){
+  const m=MATS[n]||{};
+  const bits=[];
+  if(m.pkv) bits.push('<span class="mpk">⛏ '+m.pkv+'%'+(m.pkn&&PICK_ZH[m.pkn]?'（'+PICK_ZH[m.pkn]+'）':'')+'</span>');
+  else if(m.h==='mine') bits.push('<span class="mpk soft">⛏ 任意镐</span>');
+  if(m.dep) bits.push('<span class="mdep">📐 '+esc(m.dep)+'</span>');
+  let h=bits.length?'<div class="mat-pre">'+bits.join('')+'</div>':'';
+  if(m.risk) h+='<div class="mat-risk">⚠ '+esc(m.risk)+'</div>';
+  return h;
+}
+// 地层剖面条：把"矿层位置"画成从上到下的地层，目标层高亮
+const LAYER_NAMES=['太空','地表','地下层','洞穴层','地狱'];
+const LAYER_Y=['y ≈ +1000 ft','y ≈ 0','y −0 ~ −300 ft','y −300 ft 以下','y ≈ −3000 ft'];
+const LAYER_H=[10,12,14,30,14];
+function layerIdx(txt){
+  // 只认以层名开头的描述，特殊地貌（深渊 / 浮空岛 / 星辉感染区）不硬套五层图
+  const t=String(txt||'');
+  if(/^(太空|小行星)/.test(t)) return 0;
+  if(/^地狱/.test(t)) return 4;
+  if(/^洞穴/.test(t)) return 3;
+  if(/^地下/.test(t)) return 2;
+  if(/^地表/.test(t)) return 1;
+  return -1;
+}
+function layerBar(txt){
+  // 深渊 / 海洋底这类特殊地貌不在这五层里，硬套会指错层
+  if(/深渊|沉没之海|海底/.test(String(txt||''))) return '';
+  const idx=layerIdx(txt);
+  if(idx<0) return '';
+  let h='<div class="lbar">';
+  for(let i=0;i<5;i++){
+    h+='<div class="lseg'+(i===idx?' on':'')+'" style="flex:'+LAYER_H[i]+'">'
+      +'<span class="lname">'+(i===idx?'▸ ':'')+LAYER_NAMES[i]+'</span>'
+      +'<span class="ly">'+LAYER_Y[i]+'</span></div>';
+  }
+  return h+'</div>';
+}
+function matRow(n){
+  const m=MATS[n]; if(!m) return '';
+  const loc=(m.l||[]);
+  const craftable=!!((m.rc&&m.rc.length)||(((DATA.items[n]||{}).r||[]).filter(r=>!CONV_ST[r[0]]).length));
+  const tags=loc.slice(0,3).map(x=>'<span class="lchip">'+esc(x)+'</span>').join('')
+    + (m.li?'<span class="lchip dim">随原料</span>':'')
+    + ((!loc.length&&!m.li&&!((m.d||[]).length)&&!craftable)?'<span class="lchip dim">位置见配方</span>':'');
+  const st=m.s?'<span class="mtag s'+({肉前:1,肉后:2,月后:3}[m.s]||'')+'">'+esc(m.s)+'</span>':'';
+  const how=matHow(n);
+  return '<button class="mat-row" data-item="'+esc(n)+'">'+icon(n)
+    +'<div class="mat-info"><div class="mat-name">'+esc(matName(n))+st+'</div>'
+    +'<div class="mat-sub">'+tags+(how?'<span class="mhow">'+esc(how)+'</span>':'')+'</div>'
+    +matPre(n)+'</div>'
+    +'<span class="mat-arrow">›</span></button>';
+}
+function matLocCount(){
+  const c={};
+  for(const n in MATS){
+    if(MCAT_NOISE.includes(MATS[n].c)) continue;
+    for(const L of (MATS[n].l||[])) c[L]=(c[L]||0)+1;
+  }
+  return c;
+}
+function renderMats(){
+  const lc=matLocCount();
+  let locs=MLOC_ORDER.filter(x=>lc[x]);
+  for(const L in lc) if(!locs.includes(L)) locs.push(L);   // 漏网位置不吞掉
+  if(state.mloc!=='all'&&locs.includes(state.mloc)) locs=[state.mloc].concat(locs.filter(x=>x!==state.mloc));
+  let h='<div class="panel">';
+  h+='<div class="search-box"><input id="mSearch" placeholder="搜索材料：中文 / 英文，如 圣金源、龙蒿、Auric" value="'+esc(state.mq)+'"><button id="mGo">搜索</button></div>';
+  h+='<div class="hint">'+MAT_REAL_N+' 种可用材料 · 标出<b>所需镐力</b>、<b>矿层层深</b>与<b>环境前提</b>；另有 '+MAT_NOISE_N
+    +' 条装饰 / 家具已折叠到「装饰杂物」。</div>';
+  h+='<div class="seg" id="mView"><button data-mv="cat" class="'+(state.mview==='cat'?'on':'')+'">按分类</button><button data-mv="loc" class="'+(state.mview==='loc'?'on':'')+'">按地区</button></div>';
+  h+='<div class="scroll-chips" id="mCat">';
+  for(const [k,t] of MCAT) h+='<button data-mc="'+k+'" class="'+(state.mcat===k?'on':'')+(MCAT_NOISE.includes(k)?' noise':'')+'">'+t+'</button>';
+  h+='</div><div class="scroll-chips" id="mLoc"><button data-ml="all" class="loc '+(state.mloc==='all'?'on':'')+'">全部位置</button>';
+  for(const L of locs) h+='<button data-ml="'+esc(L)+'" class="loc '+(state.mloc===L?'on':'')+'">'+esc(L)+' <span style="opacity:.6">'+lc[L]+'</span></button>';
+  h+='</div><div id="mList"></div></div>';
+  $('#main').innerHTML=h;
+  const inp=$('#mSearch');
+  inp.addEventListener('input',()=>{ state.mq=inp.value.trim(); drawMats(); });
+  inp.addEventListener('keydown',e=>{ if(e.key==='Enter') drawMats(); });
+  $('#mGo').onclick=()=>drawMats();
+  drawMats();
+}
+function locHead(L,n){
+  const info=LOC_INFO[L]||{};
+  let s='<div class="mgroup">'+esc(L)+' <span>'+n+' 种</span></div>';
+  if(info.d||info.w){
+    s+='<div class="mgroup-note">'
+      +(info.d?'<span class="gdep">📐 '+esc(info.d)+'</span>':'')
+      +(info.w?'<span class="gwarn">⚠ '+esc(info.w)+'</span>':'')
+      +'</div>';
+  }
+  return s;
+}
+function drawMats(){
+  const box=$('#mList'); if(!box) return;
+  const q=state.mq.toLowerCase();
+  const noise=MCAT_NOISE.includes(state.mcat);
+  let names=Object.keys(MATS);
+  if(q){
+    names=names.filter(n=>n.toLowerCase().includes(q)||matName(n).includes(state.mq)
+      ||(MATS[n].l||[]).some(x=>x.includes(state.mq))
+      ||(MATS[n].d||[]).some(x=>x.includes(state.mq)));
+  }else if(state.mloc==='all'){
+    if(state.mcat==='core') names=names.filter(n=>!['mat','sub','boss','perk','deco'].includes(MATS[n].c));
+    else if(state.mcat!=='all') names=names.filter(n=>MATS[n].c===state.mcat);
+  }
+  // 搜索是全局的：不吃地区筛选，免得"搜了却什么都没有"
+  if(!q && state.mloc!=='all'){
+    names=names.filter(n=>(MATS[n].l||[]).includes(state.mloc));
+    if(!noise) names=names.filter(n=>!MCAT_NOISE.includes(MATS[n].c));
+  }
+  names.sort((a,b)=>(MSTAGE[MATS[a].s]-MSTAGE[MATS[b].s])
+    ||((MATS[b].u||0)-(MATS[a].u||0))
+    ||matName(a).localeCompare(matName(b),'zh'));
+  if(!names.length){ box.innerHTML='<div class="mempty">没有匹配的材料，换个关键词试试。</div>'; return; }
+  let h='';
+  const CAP=90;
+  // 搜索结果一律按分类平铺：按地区分组会把"没标位置"的命中项吞掉
+  if(state.mview==='loc' && !state.mq){
+    const groups={};
+    for(const n of names) for(const L of (MATS[n].l||[])) (groups[L]=groups[L]||[]).push(n);
+    const noLoc=names.filter(n=>!(MATS[n].l||[]).length);
+    // 已经选中某个地区 → 只列这一组，不再把"同时也标了地下"的物品重复列一遍
+    // 但搜索结果不受地区限制，必须能把命中的东西显示出来
+    const order = (state.mloc!=='all' && !state.mq) ? [state.mloc]
+      : MLOC_ORDER.concat(Object.keys(groups).filter(L=>!MLOC_ORDER.includes(L)));
+    const seen=new Set();
+    for(const L of order) if(groups[L]&&!seen.has(L)){
+      seen.add(L);
+      h+=locHead(L,groups[L].length);
+      h+=groups[L].slice(0,CAP).map(matRow).join('');
+    }
+    if(noLoc.length && state.mloc==='all'){ h+='<div class="mgroup">位置未标注 <span>'+noLoc.length+' 种</span></div>'+noLoc.slice(0,CAP).map(matRow).join(''); }
+  }else{
+    const byCat={};
+    for(const n of names) (byCat[MATS[n].c]=byCat[MATS[n].c]||[]).push(n);
+    for(const [k,t] of MCAT){
+      if(k==='core') continue;
+      if(!byCat[k]) continue;
+      h+='<div class="mgroup">'+t+' <span>'+byCat[k].length+' 种</span></div>';
+      h+=byCat[k].slice(0,CAP).map(matRow).join('');
+    }
+  }
+  box.innerHTML=h;
+  if(names.length>CAP*3) box.insertAdjacentHTML('beforeend','<div class="hint" style="text-align:center">共 '+names.length+' 条，可用上方搜索 / 筛选缩小范围</div>');
+}
+
+function render(q){ ({newbie:renderNewbie,hard:renderHard,classes:renderClasses,items:renderItems,mats:renderMats,bosses:renderBosses,npcs:renderNpcs})[state.tab](q); }
+
+/* ---------- drawer ---------- */
+function openDrawer(title,en,html,iconName,meta){
+  lastFocus=document.activeElement;
+  $('#dIcon').innerHTML=iconName?icon(iconName,'lg'):'';
+  $('#dTitle').textContent=title;
+  $('#dEn').textContent=en||'';
+  $('#dTags').innerHTML=meta||'';
+  $('#dBody').innerHTML=html; $('#dBody').scrollTop=0;
+  $('#drawer').classList.add('on'); $('#backdrop').classList.add('on');
+  document.body.style.overflow='hidden';
+  $('#dClose').focus();
+}
+function closeDrawer(){
+  $('#drawer').classList.remove('on'); $('#backdrop').classList.remove('on');
+  document.body.style.overflow=''; if(lastFocus) lastFocus.focus();
+}
+$('#dClose').onclick=closeDrawer; $('#backdrop').onclick=closeDrawer;
+document.addEventListener('keydown',e=>{ if(e.key==='Escape'){ closeDrawer(); closeSearch(); }});
+
+function showItem(name){
+  const it=DATA.items[name]||{z:'',r:[],d:[],u:[]};
+  const usage=stageUsage(name);
+  const src=(DATA.sources&&DATA.sources[name])||{drop:[],buy:[],fish:[],other:[]};
+  let h='';
+
+  // 获取方式（用户最关心）置顶
+  const mm=(typeof MATS!=='undefined'&&MATS[name])||null;
+  const vs=(typeof VANS!=='undefined'&&VANS[name])||null;
+  const realR=realRecipes(it), convR=convRecipes(it);
+  const matR=(mm&&mm.rc&&mm.rc.length)?mm.rc:[];
+  let ways=[];
+  if(it.parts && it.parts.length) ways.push('套装');
+  if(vs && vs.s) for(const e of vs.s){
+    if(e.k==='drop') ways.push('掉落');
+    else if(e.k==='chest') ways.push('开箱');
+    else if(e.k==='buy') ways.push('商店购买');
+    else if(e.k==='other') ways.push('特殊获取');
+  }
+  if(vs && vs.r){
+    const onlyShimmer=vs.r.every(r=>/微光|Shimmer/i.test(r.s||''));
+    ways.push(onlyShimmer?'微光转化':'可制作');
+  }
+  if(vs && vs.parts) ways.push('套装 · 逐件合成');
+  if(mm && mm.h==='mine') ways.push('挖矿采集');
+  if(mm && mm.h==='drop') ways.push('怪物 / Boss 掉落');
+  if(mm && mm.h==='plant') ways.push('采集 / 生长');
+  if(mm && mm.h==='fish') ways.push('钓鱼');
+  if(mm && mm.h==='bag') ways.push('开启宝匣');
+  if(realR.length) ways.push('可制作');
+  if(matR.length) ways.push(mm.h==='smelt'?'熔炼':'制作');
+  if(it.d.length) ways.push('掉落');
+  if(convR.length) ways.push('微光转化');
+  if(src.buy.length) ways.push('商店购买');
+  if(src.fish.length) ways.push('钓鱼');
+  if(src.drop.length) ways.push('怪物掉落');
+  if(src.other.length) ways.push(...src.other);
+  const stationList=[...new Set(realR.concat(matR).map(r=>r[0]).filter(Boolean))];
+  // 锭类：熔炼换算 + 矿石的开采前提一次讲清（否则只写"位置：洞穴层"等于没说）
+  const om=(mm&&mm.ore&&(typeof MATS!=='undefined')&&MATS[mm.ore])||null;
+  h+=`<div class="dblock"><h3>如何获得</h3><div class="info-line">`;
+  if(om){
+    // 锭类：一条熔炼换算 + 矿石的开采前提，别的都别重复
+    const srcR=matR.length?matR:realR;
+    const ings=(srcR[0]&&srcR[0][1])||[];
+    const ingTxt=ings.length?ings.map(([k,v])=>`<span class="link-item" data-item="${esc(k)}">${esc(zh(k)||k)}</span> ×${esc(v)}`).join(' + '):esc(zh(mm.ore)||mm.ore);
+    const st=stationList.join(' / ');
+    const vb=/熔炉|冶炼|浇筑/.test(st)?'熔炼':'合成';
+    h+=`<div class="stat-line"><b>${vb}：</b>${ingTxt}`
+      + ` <span class="rt-arrow">→</span> ${esc(matName(name))} ×1${st?`（${esc(st)}）`:''}</div>`;
+    h+=`<div class="pre-head">开采前提 · ${esc(zh(mm.ore)||mm.ore)}</div>`;
+    // 有 dep 时层名已在"矿层位置"里，不再重复列一遍产地
+    if(om.l&&om.l.length&&!om.dep) h+=`<div class="stat-line"><b>矿源产地：</b>${om.l.map(x=>'<span class="lchip">'+esc(x)+'</span>').join(' ')}</div>`;
+    if(om.pkv) h+=`<div class="stat-line"><b>所需镐力：</b><span class="pk-big">${om.pkv}%</span>`
+      + (om.pkn&&PICK_ZH[om.pkn]?`（${esc(PICK_ZH[om.pkn])} 起，更高的镐也行）`:'')+`</div>`;
+    if(om.dep){
+      h+=`<div class="stat-line"><b>矿层位置：</b><span class="dep-big">${esc(om.dep)}</span></div>`;
+      h+=layerBar(om.dep);
+    }
+    if(om.risk) h+=`<div class="stat-line warn-line"><b>前提 / 风险：</b>${esc(om.risk)}</div>`;
+  }else{
+    // dep 里已经写了层名，位置行就不必再重复一遍
+    if(mm && mm.l && mm.l.length && !mm.dep){
+      const lab=mm.li?'原料产地：':'位置：';
+      h+=`<div class="stat-line"><b>${lab}</b>${mm.l.map(x=>'<span class="lchip">'+esc(x)+'</span>').join(' ')}</div>`;
+    }else if(mm && mm.c==='mat' && it.r.length){
+      h+=`<div class="stat-line"><b>位置：</b>由配方合成，原料产地见下方「完整原料清单」</div>`;
+    }
+    if(ways.length){
+      h+=`<div class="stat-line"><b>获取方式：</b>${esc([...new Set(ways)].join(' / '))}</div>`;
+    }
+    if(stationList.length) h+=`<div class="stat-line"><b>制作站：</b>${esc(stationList.join(' / '))}</div>`;
+    // 开采前提（矿 / 宝石）：镐力门槛 → 层深 → 环境风险
+    if(mm && mm.pkv){
+      h+=`<div class="stat-line"><b>所需镐力：</b><span class="pk-big">${mm.pkv}%</span>`
+        + (mm.pkn&&PICK_ZH[mm.pkn]?`（${esc(PICK_ZH[mm.pkn])} 起，更高的镐也行）`:'')+`</div>`;
+    }else if(mm && mm.h==='mine'){
+      h+=`<div class="stat-line"><b>所需镐力：</b>任意镐都能挖（宝石 / 晶体类）</div>`;
+    }
+    if(mm && mm.dep){
+      h+=`<div class="stat-line"><b>矿层位置：</b><span class="dep-big">${esc(mm.dep)}</span></div>`;
+      h+=layerBar(mm.dep);
+    }
+    if(mm && mm.risk) h+=`<div class="stat-line warn-line"><b>前提 / 风险：</b>${esc(mm.risk)}</div>`;
+  }
+  if(it.parts && it.parts.length){
+    const cnt=it.parts.reduce((a,x)=>a+x.n.length,0);
+    h+=`<div class="stat-line"><b>套装构成：</b>共 ${cnt} 件 · ${it.parts.map(x=>x.label+' '+x.n.length+' 种').join('、')}</div>`;
+  }
+  if(it.d.length){
+    const dtxt=it.d.slice(0,4).map(x=>{
+      const nm=hasZh(x[0])?x[0]:(zh(x[0])||x[0]);
+      return esc(nm)+(x[1]?`<span class="drop-rate">（${esc(x[1])}）</span>`:'');
+    }).join('、');
+    h+=`<div class="stat-line"><b>掉落自：</b>${dtxt}</div>`;
+  }
+  if(src.drop.length) h+=`<div class="stat-line"><b>掉落来源：</b>${src.drop.map(esc).join('、')}</div>`;
+  if(src.buy.length) h+=`<div class="stat-line"><b>出售 NPC：</b>${src.buy.map(esc).join('、')}</div>`;
+  if(src.fish.length) h+=`<div class="stat-line"><b>钓鱼：</b>${src.fish.map(esc).join('、')}</div>`;
+  // 原版物品：掉落 / 开箱 / 购买 / 合成（来自原版 Wiki）
+  if(vs){
+    const rateOf=(e,i)=>{
+      const c=e.c||[];
+      return (c.length===e.n.length)?c[i]:'';
+    };
+    const whereOf=e=>(e.w&&e.w.length)
+      ?` <span class="vs-where">${e.w.map(x=>'<span class="lchip">'+esc(x)+'</span>').join(' ')}</span>`:'';
+    for(const e of (vs.s||[])){
+      const who=e.n.map((nm,i)=>{
+        const r=rateOf(e,i);
+        return esc(nm)+(r?`<span class="drop-rate">（${esc(r)}）</span>`:'');
+      }).join('、');
+      const note=e.note?` <span class="vs-note">${esc(e.note)}</span>`:'';
+      if(e.k==='drop')   h+=`<div class="stat-line"><b>掉落自：</b>${who}${note}${whereOf(e)}</div>`;
+      if(e.k==='chest')  h+=`<div class="stat-line"><b>开箱获得：</b>${who}${note}${whereOf(e)}</div>`;
+      if(e.k==='buy')    h+=`<div class="stat-line"><b>出售 NPC：</b>${who}${note}${whereOf(e)}</div>`;
+      if(e.k==='other')  h+=`<div class="stat-line"><b>获得途径：</b>${who}${note}${whereOf(e)}</div>`;
+    }
+    for(const r of (vs.r||[])){
+      const mat=r.i.map(x=>vsMat(x[0],x[1])).join('');
+      h+=`<div class="stat-line"><b>合成：</b><span class="vs-mats"><span class="pr-st">⚒ ${esc(r.s)}</span>${mat}`
+        + `<span class="vs-out">→ ×${esc(r.a)}</span></span></div>`;
+    }
+    if(vs.parts && vs.parts.length){
+      h+=`<div class="stat-line"><b>套装构成：</b>共 ${vs.parts.length} 件，逐件配方见下方</div>`;
+    }
+  }
+  if(!ways.length && it.o && !vs){
+    h+=`<div class="stat-line">泰拉瑞亚原版物品：掉落 / 购买途径见原版 Wiki。</div>`;
+    h+=`<div class="stat-line"><a class="wiki-out" target="_blank" rel="noopener" href="https://terraria.wiki.gg/wiki/${encodeURIComponent((it.ow||name).replace(/ /g,'_'))}">在原版 Wiki 查看 ↗</a></div>`;
+  }
+  if(!ways.length && it.ph) h+=`<div class="stat-line">${esc(it.ph)}</div>`;
+  if(!ways.length && !it.ph && !it.o) h+=`<div class="stat-line">该物品为探索 / 事件 / 特殊途径获得，无合成配方。</div>`;
+  h+='</div></div>';
+
+  // 原版套装：各部件配方
+  if(vs && vs.parts && vs.parts.length){
+    h+=`<div class="dblock"><h3>套装部件 · 逐件配方</h3>`;
+    for(const p of vs.parts){
+      h+=`<div class="part-row"><span class="part-btn-static">${esc(p.n)}</span>`;
+      for(const r of (p.r||[])){
+        const mat=r.i.map(x=>vsMat(x[0],x[1])).join('');
+        const conv=CONV_ST[r.s];
+        h+=`<div class="part-recipe"><span class="pr-st">${conv?'✦ 微光互转':'⚒ '+esc(r.s)}</span>${mat}`
+          + (parseInt(r.a,10)>1?`<span class="vs-out">→ ×${esc(r.a)}</span>`:'')+`</div>`;
+      }
+      h+='</div>';
+    }
+    h+='</div>';
+  }
+
+  // 原版套装：整套材料汇总（头 / 胸 / 腿 各取 1 件）
+  // 纯微光互转的部件（角斗士套装靠掉落 + 微光互换）不汇总
+  const vsAllConv=vs && vs.parts && vs.parts.length
+    && vs.parts.every(p=>(p.r||[]).every(r=>CONV_ST[r.s]));
+  if(vsAllConv){
+    h+=`<div class="dblock"><h3>获取方式</h3><div class="info-line">`
+      +`<div class="stat-line">该套装由敌怪掉落获得；三件之间可以用<b>微光</b>互相转换（不需要额外材料）。</div>`
+      +`<div class="stat-line"><a class="wiki-out" target="_blank" rel="noopener" href="https://terraria.wiki.gg/wiki/${encodeURIComponent((it.ow||name).replace(/ /g,'_'))}">查掉落怪物与原版 Wiki ↗</a></div>`
+      +`</div></div>`;
+  }
+  if(vs && vs.parts && vs.parts.length && !vsAllConv){
+    const slotOf=n=>{
+      if(/护腿|护胫|腿甲|裤|裙|胫甲/.test(n)) return 'legs';
+      if(/胸甲|板甲|铠甲|鳞甲|链甲|护甲|长袍|上衣|胸铠|衣/.test(n)) return 'body';
+      if(/头盔|头饰|面具|面罩|兜帽|头冠|头巾|帽|假面/.test(n)) return 'head';
+      return 'other:'+n;
+    };
+    const seen={}, acc={}, order=[];
+    for(const p of vs.parts){
+      const slot=slotOf(p.n||'');
+      if(seen[slot]) continue;      // 同一部位多种风格（头盔 5 种）只算 1 件
+      seen[slot]=1;
+      const r=(p.r||[])[0]; if(!r) continue;
+      const out=Math.max(1, parseInt(r.a,10)||1);
+      for(const [nm,q] of (r.i||[])){
+        const need=Math.ceil((parseInt(q,10)||1)/out);
+        if(!(nm in acc)){ acc[nm]=0; order.push(nm); }
+        acc[nm]+=need;
+      }
+    }
+    const arr=order.map(nm=>[nm,acc[nm]]).sort((a,b)=>b[1]-a[1]);
+    if(arr.length){
+      h+=`<div class="dblock"><h3>整套材料 · ${arr.length} 种</h3><div class="leaf-list">`;
+      for(const [nm,q] of arr){
+        const hint=howToGet(nm);
+        h+=`<div class="leaf-row" data-item="${esc(nm)}">${hasImg(nm)?icon(nm,'sm'):''}<span class="lf-name">${esc(hasZh(nm)?nm:(zh(nm)||nm))}</span><span class="lf-qty">×${q}</span>${hint?`<span class="lf-hint">${esc(hint)}</span>`:''}</div>`;
+      }
+      h+='</div><div class="lf-note">按「1 头 + 1 胸 + 1 腿」各一件计算，头盔多风格时取第一种；点任意一行（锭 / 材料）可看它自己的来源与制作方式。</div></div>';
+    }
+  }
+
+  // 套装部件（各件的真实配方）
+  if(it.parts && it.parts.length){
+    h+=`<div class="dblock"><h3>套装部件 · 逐件配方</h3>`;
+    for(const g of it.parts){
+      h+=`<div class="part-group"><div class="part-label">${esc(g.label)}</div>`;
+      for(const pn of g.n){
+        const pr=(DATA.items[pn]&&DATA.items[pn].r)||null;
+        h+=`<div class="part-row"><button class="part-btn" data-item="${esc(pn)}">${icon(pn,'sm')}<span>${esc(zh(pn)||pn)}</span></button>`;
+        if(pr && pr.length){
+          const [st,ing]=pr[0];
+          h+=`<div class="part-recipe"><span class="pr-st">⚒ ${esc(st||'—')}</span>`+
+             ing.map(x=>`<span class="pr-mat" data-item="${esc(x[0])}">${icon(x[0],'xs')}${esc(zh(x[0])||x[0])}<i>×${esc(x[1])}</i></span>`).join('')+
+             `</div>`;
+        }else{
+          h+=`<div class="part-recipe"><span class="pr-none">无合成配方 · 掉落 / 商店 / 特殊获取</span></div>`;
+        }
+        h+='</div>';
+      }
+      h+='</div>';
+    }
+    h+='</div>';
+  }
+
+  // 装备属性（数值）
+  const stats=(DATA.stats&&DATA.stats[name])||[];
+  if(stats.length){
+    h+=`<div class="dblock"><h3>装备属性</h3><div class="stat-grid">`;
+    for(const [k,v] of stats){
+      const wide=(k==='效果说明'||v.length>16)?' style="grid-column:1/-1"':'';
+      h+=`<div class="stat-item"${wide}><span class="sk">${esc(k)}</span><span class="sv">${esc(v)}</span></div>`;
+    }
+    h+='</div></div>';
+  } else if(it.ph && !matR.length){
+    h+=`<div class="dblock"><h3>说明</h3><div class="info-line"><div class="stat-line">${esc(it.ph)}</div></div></div>`;
+  }
+
+  if(usage.length){
+    h+=`<div class="dblock"><h3>职业流程出处 · ${new Set(usage.map(u=>u.stage)).size} 个阶段</h3><div class="crumb">`;
+    const byStage={};
+    for(const u of usage){
+      if(!byStage[u.stage]) byStage[u.stage]={slots:new Set(),classes:new Set()};
+      byStage[u.stage].slots.add(u.slot);
+      byStage[u.stage].classes.add(u.cls);
+    }
+    for(const [stage,info] of Object.entries(byStage)){
+      h+=`<div>· <b>${esc(stage)}</b> · ${[...info.slots].join('/')} · ${info.classes.size===5?'全职业':[...info.classes].join('、')}</div>`;
+    }
+    h+='</div></div>';
+  }
+  // 锭类且只有一种原料：上面的「熔炼：X ×4 → 锭」已经把话说完了，配方卡不再重复
+  const omSingle=(om && ((realR.length?realR:matR)[0]||[,'',''])[1].length===1);
+  if((realR.length || matR.length) && !omSingle){
+    const useR=realR.length?realR:matR;
+    const ttl=realR.length?'制作配方 · 直接材料':(mm&&mm.h==='smelt'?'制作方式 · 熔炼':'制作方式');
+    h+=`<div class="dblock"><h3>${ttl}</h3>`;
+    for(const [station,ing,amt] of useR){
+      h+=`<div class="recipe"><div class="station">⚒ ${esc(station||'—')} <span style="float:right;color:var(--mut);font-weight:500">产出 ×${esc(amt)}</span></div><table class="ing">`;
+      for(const [nm,qty] of ing){
+        const sub=subLine(nm,qty,1);
+        h+=`<tr><td><div class="ing-name">${icon(nm,'sm')} <span class="link-item" data-item="${esc(nm)}">${esc(zh(nm)||nm)}</span>${itemExists(nm)?'<span class="alt-mark">◆</span>':''}</div>${sub}</td><td>×${esc(qty)}</td></tr>`;
+      }
+      h+='</table></div>';
+    }
+    h+='</div>';
+  }
+  if(convR.length){
+    h+=`<div class="dblock"><h3>转换途径 · 微光转化 / 叶绿提取</h3>`;
+    for(const [station,ing,amt] of convR){
+      h+=`<div class="recipe"><div class="station">✦ ${esc(station)} <span style="float:right;color:var(--mut);font-weight:500">产出 ×${esc(amt)}</span></div><table class="ing">`;
+      for(const [nm,qty] of ing){
+        h+=`<tr><td><div class="ing-name">${icon(nm,'sm')} <span class="link-item" data-item="${esc(nm)}">${esc(zh(nm)||nm)}</span></div></td><td>×${esc(qty)}</td></tr>`;
+      }
+      h+='</table></div>';
+    }
+    h+='</div>';
+  }
+
+  // 完整原料清单：递归拆到最底层
+  // 套装按「1 头 + 1 胸 + 1 腿」一套计算（头部件多风格时取第一件）
+  const bases=(it.parts && it.parts.length)
+    ? it.parts.map(g=>g.n[0])
+    : ((realR.length||matR.length) ? [name] : []);
+  if(bases.length && bases.some(canCraft)){
+    const leaves={};
+    for(const b of bases) collectLeaves(b, 1, leaves, 0, []);
+    delete leaves[name];
+    const arr=Object.entries(leaves).filter(([k])=>k!==name)
+      .sort((a,b)=>b[1]-a[1] || a[0].localeCompare(b[0]));
+    const usedR=(realR.length?realR:matR);
+    const directIng=(usedR[0]&&usedR[0][1])||[];
+    // 只有一层、且原料就是直接材料时不再重复列一遍（锭类最常见）
+    const redundant = !it.parts && arr.length===1 && directIng.length===1
+      && arr[0][0]===directIng[0][0] && String(arr[0][1])===String(directIng[0][1]);
+    if(arr.length && !redundant){
+      const total=arr.reduce((a,x)=>a+x[1],0);
+      const multiHead=it.parts && it.parts.some(g=>g.k==='head' && g.n.length>1);
+      h+=`<div class="dblock"><h3>完整原料清单 · ${arr.length} 种 / 合计 ${total} 个</h3><div class="leaf-list">`;
+      for(const [nm,qty] of arr){
+        const hint=howToGet(nm);
+        h+=`<div class="leaf-row" data-item="${esc(nm)}">${icon(nm,'sm')}<span class="lf-name">${esc(zh(nm)||nm)}</span><span class="lf-qty">×${qty}</span>${hint?`<span class="lf-hint">${esc(hint)}</span>`:''}</div>`;
+      }
+      h+='</div><div class="lf-note">按<b>一整套</b>换算，把中间材料一路拆到最底层（矿石 / 锭 / 怪物掉落等）。'
+        + (multiHead?'头盔有多种风格、材料相同，这里只算 1 件；全做 5 种请自行 ×5。':'')
+        + '点任意一行可看它自己的来源。</div></div>';
+    }
+  }
+  if(it.d.length){
+    h+=`<div class="dblock"><h3>掉落来源 · ${it.d.length}</h3>`;
+    for(const [boss,rate] of it.d) h+=`<div class="drop-row"><span>${esc(zh(boss)||boss)}</span><span class="rate">${esc(rate||'—')}</span></div>`;
+    h+='</div>';
+  }
+  if(it.u.length){
+    h+=`<div class="dblock"><h3>可用于制作 · ${it.u.length}</h3><div class="chips">`;
+    for(const n of it.u) h+=`<button class="chip" data-item="${esc(n)}">${icon(n,'sm')}${label(n)}</button>`;
+    h+='</div></div>';
+  }else if(mm){
+    // 原版物品没有 u 字段，现算下游用途（过滤掉装饰 / 家具）
+    const ui=usedInName(name);
+    if(ui.length>=4){
+      h+=`<div class="dblock"><h3>可用于制作 · ${ui.length}</h3><div class="chips">`;
+      for(const n of ui.slice(0,18)) h+=`<button class="chip" data-item="${esc(n)}">${icon(n,'sm')}${label(n)}</button>`;
+      h+='</div>'+(ui.length>18?`<div class="lf-note">只列前 18 项，共 ${ui.length} 项。</div>`:'')+'</div>';
+    }
+  }
+  const tip=(mm&&mm.p&&!(om&&/熔炼|熔炉/.test(mm.p)))?mm.p:'';
+  // 英文摘要不占正文，折叠起来；中文摘要正常显示
+  const tipEn=!!tip && ((tip.match(/[A-Za-z]/g)||[]).length > (tip.match(/[\u4e00-\u9fa5]/g)||[]).length*2);
+  const tipBlock=!tip?'' : (tipEn
+    ? `<details class="tip-en" style="margin-top:9px"><summary>英文原文（点击展开）</summary><div class="tip-txt">${esc(tip)}</div></details>`
+    : `<div class="stat-line" style="margin-top:9px;color:var(--mut);font-size:11.5px;line-height:1.6"><b style="color:var(--tx2)">要点：</b>${esc(tip)}</div>`);
+  h+=`<div class="dblock"><h3>${tip?'资料补充':'延伸阅读'}</h3><div class="info-line"><div class="stat-line">`
+    + `<a class="wiki-out" target="_blank" rel="noopener" href="https://calamitymod.wiki.gg/wiki/${encodeURIComponent(name.replace(/ /g,'_'))}">在灾厄 Wiki 查看「${esc(name)}」原文 ↗</a>`
+    + `</div>` + tipBlock
+    + `</div></div>`;
+  // 标题右侧的阶段 / 分类小标签
+  const hdTags=[];
+  if(mm&&mm.s) hdTags.push(`<span class="hd-chip s${({肉前:1,肉后:2,月后:3})[mm.s]||''}">${esc(mm.s)}</span>`);
+  if(mm&&MCAT_NAME[mm.c]) hdTags.push(`<span class="hd-chip">${MCAT_NAME[mm.c]}</span>`);
+  openDrawer(zh(name)||name,name,h,name,hdTags.join(''));
+}
+function showBoss(order){
+  const b=DATA.bosses.find(x=>x.o===Number(order)); if(!b) return;
+  let h=`<div class="dblock"><h3>基础信息</h3><div class="info-line">
+    <div class="stat-line">进度阶段：<b>${esc(b.g)}</b></div>
+    ${b.hp?`<div class="stat-line">生命值：<b>${esc(b.hp)}</b>（普通 / 专家 / 大师 / 复仇 / 死亡）</div>`:''}
+    <div class="stat-line">流程序号：<b>第 ${b.o} 位</b></div></div></div>`;
+  if(b.spawn) h+=`<div class="dblock"><h3>召唤 / 生成条件</h3><div class="info-line">${esc(b.spawn)}</div></div>`;
+  if(b.d.length){
+    h+=`<div class="dblock"><h3>专属掉落 · ${b.d.length}</h3>`;
+    for(const [nm,rate] of b.d){
+      h+=`<div class="drop-row"><span>${icon(nm,'sm')} <span class="link-item" data-item="${esc(nm)}">${esc(zh(nm)||nm)}</span></span><span class="rate">${esc(rate||'—')}</span></div>`;
+    }
+    h+='</div>';
+  }
+  openDrawer(b.z,b.n,h,b.n);
+}
+
+/* ---------- global search ---------- */
+function closeSearch(){ $('#overlay').classList.remove('on'); document.body.style.overflow=''; }
+$('#searchBtn').onclick=()=>{
+  $('#overlay').classList.add('on'); document.body.style.overflow='hidden';
+  $('#gSearch').value=''; drawGlobal(''); $('#gSearch').focus();
+};
+$('#gClose').onclick=closeSearch;
+function drawGlobal(v){
+  v=v.trim().toLowerCase(); const box=$('#gBody');
+  if(!v){ box.innerHTML='<div class="hint">输入关键词开始搜索，支持中英文与模糊匹配。</div>'; return; }
+  let h='';
+  const its=Object.keys(DATA.items).filter(n=>n.toLowerCase().includes(v)||(zh(n)||'').includes(v)).slice(0,40);
+  if(its.length){ h+='<div class="group-h">装备 / 材料 · '+its.length+'</div><div class="res-list">';
+    for(const n of its) h+=`<button class="res-row" data-item="${esc(n)}">${icon(n)}<div class="res-main"><b>${esc(zh(n)||n)}</b><span class="en">${esc(n)}</span></div>${DATA.items[n].r.length?'<span class="res-tag hot">配方</span>':''}</button>`;
+    h+='</div>'; }
+  const bs=DATA.bosses.filter(b=>b.n.toLowerCase().includes(v)||b.z.includes(v)).slice(0,20);
+  if(bs.length){ h+='<div class="group-h">Boss · '+bs.length+'</div><div class="res-list">';
+    for(const b of bs) h+=`<button class="res-row" data-boss="${b.o}">${icon(b.n)}<div class="res-main"><b>${esc(b.z)}</b><span class="en">${esc(b.n)}</span></div><span class="res-tag">#${b.o}</span></button>`;
+    h+='</div>'; }
+  const ns=DATA.npcs.filter(n=>n.n.toLowerCase().includes(v)||n.z.includes(v)).slice(0,20);
+  if(ns.length){ h+='<div class="group-h">NPC · '+ns.length+'</div><div class="res-list">';
+    for(const n of ns) h+=`<button class="res-row" data-npc="${esc(n.n)}">${icon(n.n)}<div class="res-main"><b>${esc(n.z)}</b><span class="en">${esc(n.n)}</span></div><span class="res-tag">${esc(n.src)}</span></button>`;
+    h+='</div>'; }
+  box.innerHTML=h||'<div class="hint">没有匹配结果。</div>';
+}
+$('#gSearch').addEventListener('input',e=>drawGlobal(e.target.value));
+
+function showNpc(n){
+  const x=DATA.npcs.find(v=>v.n===n); if(!x) return;
+  let h=`<div class="dblock"><h3>入住条件</h3><ul class="npc-cond">${x.c.map(c=>`<li>${esc(c)}</li>`).join('')}</ul></div>
+  <div class="dblock"><h3>作用</h3><div class="info-line">${esc(x.desc||'')}</div></div>`;
+  openDrawer(x.z,x.n,h,x.n);
+}
+
+/* ---------- delegated clicks ---------- */
+document.addEventListener('click',e=>{
+  const cls=e.target.closest('[data-cls]');
+  if(cls){ state.cls=cls.dataset.cls; render(); return; }
+  const bf=e.target.closest('[data-bf]');
+  if(bf){ state.bossFilter=bf.dataset.bf; renderBosses(); return; }
+  const nf=e.target.closest('[data-nf]');
+  if(nf){ state.npcFilter=nf.dataset.nf; renderNpcs(); return; }
+  const mv=e.target.closest('[data-mv]');
+  if(mv){
+    state.mview=mv.dataset.mv;
+    // 切到"按地区"时如果还停在装饰分类，回到常用材料，免得和地区计数对不上
+    if(state.mview==='loc'&&MCAT_NOISE.includes(state.mcat)) state.mcat='core';
+    renderMats(); return;
+  }
+  const mc=e.target.closest('[data-mc]');
+  if(mc){ state.mcat=mc.dataset.mc; state.mq=''; renderMats(); return; }
+  const ml=e.target.closest('[data-ml]');
+  if(ml){ state.mloc=ml.dataset.ml; renderMats(); return; }
+  const it=e.target.closest('[data-item]');
+  if(it){ showItem(it.dataset.item); return; }
+  const bo=e.target.closest('[data-boss]');
+  if(bo){ closeSearch(); showBoss(bo.dataset.boss); return; }
+  const np=e.target.closest('[data-npc]');
+  if(np){ closeSearch(); showNpc(np.dataset.npc); return; }
+});
+
+/* ---------- theme ---------- */
+const savedTheme=localStorage.getItem('cal_theme');
+if(savedTheme) document.documentElement.dataset.theme=savedTheme;
+$('#themeBtn').onclick=()=>{
+  const cur=document.documentElement.dataset.theme==='light'?'dark':'light';
+  document.documentElement.dataset.theme=cur; localStorage.setItem('cal_theme',cur);
+  toast(cur==='light'?'已切换浅色主题':'已切换深色主题');
+};
+$('#fver').textContent=DATA.meta.v+' · 更新于 '+DATA.meta.date;
+render();
+</script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+[
+ {
+  "name": "Polterghast",
+  "phase": "Hardmode",
+  "summons": [
+   "Phantom Spirit"
+  ],
+  "hp": "280,000 / 448,000 / 672,000 / 571,200 / 856,800",
+  "drops": []
+ },
+ {
+  "name": "Phantom",
+  "phase": "Hardmode",
+  "summons": [],
+  "hp": "280,000 / 448,000 / 672,000 / 571,200 / 856,800",
+  "drops": []
+ },
+ {
+  "name": "The Old Duke",
+  "phase": "Hardmode",
+  "summons": [
+   "Sulphurous Sharkron"
+  ],
+  "hp": "400,000 / 640,000 / 960,000 / 816,000 / 1,224,000",
+  "drops": []
+ },
+ {
+  "name": "XM-05 Thanatos",
+  "phase": "Hardmode",
+  "summons": [],
+  "hp": "2,800,000 / 4,480,000 / 6,624,000 / 5,712,000 / 8,445,600 (total)",
+  "spawn": "The Exo Mechs do not spawn on their own, and require the player to construct The Codebreaker with a Decryption Computer and an Auric Quantum Cooling Cell . Once constructed, the player can interact (right-click) and press the Contact button. The Exo Mechs can be fought in any biome at any time.",
+  "drops": []
+ },
+ {
+  "name": "Supreme Witch, Calamitas",
+  "phase": "Hardmode",
+  "summons": [
+   "Sepulcher"
+  ],
+  "hp": "750,000 / 1,200,000 / 1,840,000 / 1,530,000 / 2,346,000",
+  "spawn": "Supreme Witch, Calamitas does not spawn on her own and requires the player to summon her by using Ashes of Calamity on an Altar of the Accursed . She can be summoned anywhere at any time. After this, the screen will darken and shake before Supreme Witch, Calamitas herself appears above the Altar. When Supreme Witch, Calamitas is fully summoned, she will laugh devilishly instead of using the regular boss roar.",
+  "drops": []
+ }
+]

@@ -1,0 +1,171 @@
+{
+  "hero": {
+    "t": "射手专线 · 肉后一路打造到毕业",
+    "d": "肉后射手能续接的线只有一条（巨鲨四档），中间靠支线枪过渡，终局在戴达罗斯熔炉合体。下面按「什么时候做什么」排，材料都能点开看来源。"
+  },
+  "main": {
+    "t": "主线 · 巨鲨四档",
+    "d": "每一档都把上一把枪当材料，投资不浪费。注意第 2 档到第 3 档之间有长空档（巨舰鲨 → 海龙要等月后风暴编织者），那段用支线枪过渡，别死等。",
+    "tiers": [
+      {
+        "no": "1",
+        "when": "肉后立刻",
+        "w": "Megashark",
+        "dmg": "25",
+        "st": "秘银砧",
+        "mats": [["Minishark", 1, "迷你鲨"], ["Illegal Gun Parts", 1], ["Shark Fin", 5], ["Soul of Might", 20]],
+        "why": "50% 概率省弹药，射速快。肉后第一把能直接造出来的枪，不靠掉落。",
+        "how": "迷你鲨：军火商 35 金；非法枪械部件：地牢金箱 / 旅商；鲨鱼鳍：海洋刷鲨鱼；力量之魂：世界吞噬者。"
+      },
+      {
+        "no": "2",
+        "when": "击败一个机械王后",
+        "w": "Megalodon",
+        "dmg": "37",
+        "st": "秘银砧",
+        "mats": [["Megashark", 1], ["Archerfish", 1], ["Depth Cells", 15], ["Planty Mush", 10]],
+        "why": "子弹和加压水流交替发射，水流不耗弹药，续航直接翻倍。这是整条线里性价比最高的一次升级。",
+        "how": "射水鱼：深渊的远古宝箱 / 渊泉匣；深渊细胞：深渊小怪；植物混融块：发光蘑菇生物群系挖。"
+      },
+      {
+        "no": "3",
+        "when": "月后 · 神明吞噬者后",
+        "w": "Seadragon",
+        "dmg": "—",
+        "st": "秘银砧",
+        "mats": [["Megalodon", 1], ["Necroplasm", 9], ["Sea Prism", 10], ["Armored Shell", 3]],
+        "why": "纯过渡档。伤害提升不明显，但它是太虚星龙炮唯一的原料，跳过就等于断了终局。",
+        "how": "灵质：月后地牢怪掉；海棱晶：深渊挖；装甲外壳：风暴编织者（神明吞噬者后）掉落 —— 这一步是整条线的最大卡点。"
+      },
+      {
+        "no": "4",
+        "when": "终局 · 星流巨械 / 至尊灾厄后",
+        "w": "Voidragon",
+        "dmg": "1400",
+        "st": "戴达罗斯熔炉",
+        "mats": [["Seadragon", 1], ["Dragon's Breath", 1], ["Shadowspec Bar", 5]],
+        "why": "每隔一发打虚空爆破弹，每发带魔火之触，75% 省弹药。射手毕业枪之一。",
+        "how": "巨龙之息：丛林龙雅戎 25% 掉落（专家宝藏袋 33%）；魔影锭：月后灾厄锭。"
+      }
+    ]
+  },
+  "side": {
+    "t": "支线 · 两档短线",
+    "d": "这些只升一档，升完就换系。但它们是空档期（巨舰鲨 → 海龙）的主力，也是终局合体的原料，别跳过。",
+    "rows": [
+      {
+        "from": "Needler",
+        "to": "Spyker",
+        "st": "秘银砧",
+        "dmg": "→ 210",
+        "need": [["Stynger", 1], ["Uelibloom Bar", 10]],
+        "note": "叶针枪由苔藓黄蜂 4% 掉落。升级后把火枪子弹变成钉在身上爆炸的叶针，对群极强。"
+      },
+      {
+        "from": "Uzi",
+        "to": "Plague Tainted SMG",
+        "st": "秘银砧",
+        "dmg": "30 → 78",
+        "need": [["Black Hawk Remote", 1], ["Helstorm", 1], ["Infected Armor Plating", 5]],
+        "note": "暴击生成瘟疫无人机，敌人越近伤害越高；右键放飞无人机群。清杂与贴脸两用。"
+      },
+      {
+        "from": "Daedalus Stormbow",
+        "to": "Planetary Annihilation",
+        "st": "秘银砧",
+        "dmg": "38 → 66",
+        "need": [["Vernal Bolter", 1], ["Luminite Bar", 5], ["Life Alloy", 5], ["Vortex Fragment", 5]],
+        "note": "七发箭矢风暴，木箭自动转追踪能源箭。弓系在月后的主力。"
+      },
+      {
+        "from": "Buzzkill",
+        "to": "Superradiant Slaughterer",
+        "st": "秘银砧",
+        "dmg": "56 → 100",
+        "need": [["Speed Blaster", 1], ["Luminite Bar", 5], ["Life Alloy", 5], ["Vortex Fragment", 5]],
+        "note": "嗡鸣绞轮本身可造（非法枪械部件 + 齿轮×15 + 恐惧之魂×10），按住蓄力、松手当弹射锯。"
+      },
+      {
+        "from": "Nullification Pistol",
+        "to": "Ontological Despoiler",
+        "st": "秘银砧",
+        "dmg": "170 → 445",
+        "need": [["Arc Nova Diffuser", 1], ["Illegal Gun Parts", 1], ["Dark Plasma", 3]],
+        "note": "月后主枪之一。无效手枪由火星怪 1~12.5% 掉落，脸黑就多刷火星暴乱。"
+      },
+      {
+        "from": "Xenopopper",
+        "to": "Vortexpopper",
+        "st": "远古操纵机",
+        "dmg": "45 → 30",
+        "need": [["Vortex Fragment", 12]],
+        "note": "伤害反而降，但泡泡四面爆炸、清场效率更高。它是 mag 数换覆盖面的典型，别拿伤害数字判断强弱。"
+      },
+      {
+        "from": "Claret Cannon",
+        "to": "Ace's High",
+        "st": "宇宙砧",
+        "dmg": "500 → 325",
+        "need": [["Revolver", 1], ["Fantasy Talisman", 1], ["Auric Bar", 5]],
+        "note": "深红手炮是无职业武器（Classless），换成极魂符枪才开始吃远程加成，所以数字掉是正常的。四种花色四种弹道，黑桃无视无敌帧。"
+      }
+    ]
+  },
+  "fusion": {
+    "t": "终局 · 熔炉合体",
+    "d": "月后射手不再是「升级」而是「合并」：把攒下的几把枪熔成一把。这也是为什么支线武器不能跳——它们都是零件。",
+    "rows": [
+      {
+        "out": "Heavenly Gale",
+        "st": "戴达罗斯熔炉",
+        "dmg": "—",
+        "need": [["Planetary Annihilation", 1], ["Telluric Glare", 1], ["Clockwork Bow", 1], ["The Ballista", 1], ["Miracle Matter", 1]],
+        "note": "弓系终点，需要三把弓 + 奇迹物质。"
+      },
+      {
+        "out": "Magnomaly Cannon",
+        "st": "戴达罗斯熔炉",
+        "dmg": "—",
+        "need": [["The Pack", 1], ["Scorched Earth", 1], ["Electrosphere Launcher", 1], ["Miracle Matter", 1]],
+        "note": "火箭系终点，需要集束火箭 + 焦土 + 电球发射器。"
+      },
+      {
+        "out": "Photoviscerator",
+        "st": "戴达罗斯熔炉",
+        "dmg": "—",
+        "need": [["Chromatic Eruption", 1], ["Dead Sun's Wind", 1], ["Halley's Inferno", 1], ["Miracle Matter", 1]],
+        "note": "枪械系终点。Chromatic Eruption 由野火绽华升级而来，别忘了先做那把。"
+      }
+    ]
+  },
+  "kit": {
+    "t": "配套 · 弹药 / 饰品 / 药剂",
+    "groups": [
+      {
+        "t": "弹药（按 Boss 护甲切）",
+        "d": "有护甲用灵液降防，无护甲用诅咒打持续伤害。弓用箭、枪用弹、发射器用镖，别混。",
+        "items": ["Ichor Bullets", "Cursed Bullets", "Ichor Arrows", "Cursed Arrows", "Ichor Darts", "Cursed Darts"]
+      },
+      {
+        "t": "饰品",
+        "d": "游侠徽章全程带；弓系必带魔法箭袋（省箭 + 加速）；打得远再上狙击镜。",
+        "items": ["Ranger Emblem", "Magic Quiver", "Avenger Emblem", "Sniper Scope", "Recon Scope"]
+      },
+      {
+        "t": "药剂",
+        "d": "箭术药水只对弓有效；弹药储备药水对一切消耗弹药的武器有效，全程常驻。",
+        "items": ["Archery Potions", "Ammo Reservation Potions"]
+      }
+    ]
+  },
+  "traps": {
+    "t": "五个坑",
+    "rows": [
+      { "t": "星光之眼 / 马格努斯之眼不是射手武器", "d": "几乎每个阶段的射手栏里都有它，看着像升级线。但它伤害类型是 Classless（无职业），不吃远程加成，只适合当副手打「标记致死」降防。别当主武器。" },
+      { "t": "深红手炮也是 Classless", "d": "500 伤害看着比极魂符枪 325 高，但一个吃全职业加成、一个吃远程加成，同装备下反超。换成极魂符枪不是变弱。" },
+      { "t": "数据里混进工具", "d": "无尽火枪袋（Endless Musket Pouch）是弹药袋不是武器；混沌传送杖是位移饰品。这两个在 wiki 的武器栏里出现过，别当真武器造。" },
+      { "t": "涡流泡泡枪比外星霰弹枪伤害低", "d": "45 → 30 是真实数据。它的价值在泡泡四面爆炸的覆盖面积，不是单体 DPS。打 Boss 别换，清杂换。" },
+      { "t": "海龙（Seadragon）不能跳", "d": "它自己伤害平庸，但太虚星龙炮必须拿它当材料。很多人打到月后直接换别的枪，最后发现毕业枪造不出来。" }
+    ]
+  }
+}

@@ -1,0 +1,1798 @@
+{
+ "Aerial Bane": [
+  {
+   "k": "drop",
+   "n": [
+    "双足翼龙"
+   ],
+   "w": [
+    "远古军团"
+   ],
+   "c": [
+    "1/4"
+   ],
+   "p": "The Aerial Bane is a Hardmode, post-Golem bow that has a 1/4 of being dropped from Betsy during Tier 3 of the Old One's Army event."
+  }
+ ],
+ "Ammo Box": [
+  {
+   "k": "buy",
+   "n": [
+    "军火商"
+   ],
+   "w": [],
+   "c": [],
+   "p": "It can be purchased from the Arms Dealer for in Hardmode."
+  }
+ ],
+ "Apprentice armor": [
+  {
+   "k": "buy",
+   "n": [
+    "酒馆老板"
+   ],
+   "w": [
+    "机械三王"
+   ],
+   "c": [],
+   "p": "The set can be purchased from the Tavernkeep for a total of after defeating any Mechanical bosses|mechanical boss."
+  }
+ ],
+ "Aqua Scepter": [
+  {
+   "k": "chest",
+   "n": [
+    "地牢锁金箱",
+    "金锁盒"
+   ],
+   "w": [
+    "地牢"
+   ],
+   "c": [
+    "1/7",
+    "1/7"
+   ],
+   "p": "The Aqua Scepter has a 1/7 chance of being obtained from the Gold Chest#Dungeon|Locked Gold Chests found in the Dungeon, as well as a 1/7 chance of being obtained from Golden Lock Boxes."
+  }
+ ],
+ "Bananarang": [
+  {
+   "k": "drop",
+   "n": [
+    "小丑"
+   ],
+   "w": [
+    "血月"
+   ],
+   "c": [
+    "1/10"
+   ],
+   "p": ".]] The Bananarang is a Hardmode boomerang that is dropped by the Clown during Blood Moon with a 1/10 chance."
+  }
+ ],
+ "Band of Starpower": [
+  {
+   "k": "chest",
+   "n": [
+    "暗影珠",
+    "腐化匣",
+    "污损匣"
+   ],
+   "w": [
+    "腐化之地"
+   ],
+   "c": [
+    "1/5",
+    "1/5"
+   ],
+   "p": "The Band of Starpower has a 1/5 chance of being obtained from destroying Shadow Orbs found in The Corruption or a 1/5 chance from Corrupt Crates and Defiled Crates, which are Fishing|fished in the Corruption."
+  }
+ ],
+ "Bat Scepter": [
+  {
+   "k": "drop",
+   "n": [
+    "南瓜王"
+   ],
+   "w": [
+    "南瓜月"
+   ],
+   "c": [],
+   "p": "Note the homing abilities of the bat projectiles.]] The Bat Scepter is a Hardmode, post-Plantera wand that is dropped by the Pumpking during the Pumpkin Moon event with a 2.5–12.5% () chance depending on the current wave.<ref>Detailed drop rates in each wave: See Pumpkin Moon#Loot|Pumpkin Moon § Loot for more information.</ref> When used, it fires a burst of 2–3 homing bats, which do not pierce enemies or pass through blocks."
+  }
+ ],
+ "Betsy's Wrath": [
+  {
+   "k": "drop",
+   "n": [
+    "双足翼龙"
+   ],
+   "w": [
+    "远古军团"
+   ],
+   "c": [
+    "1/4"
+   ],
+   "p": "Betsy's Wrath is a Hardmode, post-Golem wand that has a 1/4 chance of being dropped by Betsy during Tier 3 of the Old One's Army event."
+  }
+ ],
+ "Bewitched": [
+  {
+   "k": "drop",
+   "n": [],
+   "w": [
+    "地牢"
+   ],
+   "c": [],
+   "p": "The Bewitching Table is a furniture item found naturally placed in the Dungeon and can be obtained by fishing in the Dungeon."
+  },
+  {
+   "k": "buy",
+   "n": [
+    "巫医",
+    "巫师"
+   ],
+   "w": [],
+   "c": [],
+   "p": "In Hardmode, it is also sold by the Witch Doctor for if the Wizard is present."
+  }
+ ],
+ "Blood Rain Bow": [
+  {
+   "k": "drop",
+   "n": [
+    "木箭",
+    "游荡眼球怪鱼",
+    "僵尸人鱼"
+   ],
+   "w": [],
+   "c": [
+    "1/8"
+   ],
+   "p": "with Wooden Arrows.]] The Blood Rain Bow is a pre-Hardmode bow that has a 1/8 chance of being dropped by Wandering Eye Fish and Zombie Merman|Zombie Mermen."
+  }
+ ],
+ "Blood Thorn": [
+  {
+   "k": "drop",
+   "n": [
+    "血浆哥布林鲨鱼"
+   ],
+   "w": [],
+   "c": [
+    "1/8"
+   ],
+   "p": "It has a 1/8 chance of being dropped by Hemogoblin Sharks."
+  }
+ ],
+ "Bone Glove": [
+  {
+   "k": "drop",
+   "n": [
+    "骷髅王"
+   ],
+   "w": [],
+   "c": [],
+   "p": "The Bone Glove is always dropped from Skeletron's Treasure Bag#Skeletron|Treasure Bag in Expert Mode."
+  }
+ ],
+ "Boomstick": [
+  {
+   "k": "chest",
+   "n": [
+    "常春藤箱",
+    "丛林匣"
+   ],
+   "w": [
+    "地下丛林"
+   ],
+   "c": [
+    "19/100"
+   ],
+   "p": "It can be found in Ivy Chests ( chance) in the Underground Jungle, and also in Jungle Crates (19/100 chance)."
+  }
+ ],
+ "Bubble Gun": [
+  {
+   "k": "drop",
+   "n": [
+    "猪龙鱼公爵"
+   ],
+   "w": [],
+   "c": [
+    "1/7"
+   ],
+   "p": "Notice how the bubbles pop after a short time or when hitting blocks.]] The Bubble Gun is a Hardmode magic gun that has a 1/7 chance of being dropped by Duke Fishron."
+  }
+ ],
+ "Celestial Starboard": [
+  {
+   "k": "drop",
+   "n": [
+    "月亮领主"
+   ],
+   "w": [],
+   "c": [],
+   "p": "The Celestial Starboard is always dropped from the Moon Lord's Treasure Bag#Moon Lord|Treasure Bag in Expert Mode."
+  }
+ ],
+ "Charged Blaster Cannon": [
+  {
+   "k": "drop",
+   "n": [],
+   "w": [
+    "火星暴乱"
+   ],
+   "c": [
+    "1/800"
+   ],
+   "p": ".]] The Charged Blaster Cannon is a Hardmode, post-Golem magic gun that has a 1/800 chance to drop from all basic enemies during the Martian Madness Events|event."
+  }
+ ],
+ "Christmas Tree Sword": [
+  {
+   "k": "drop",
+   "n": [
+    "常绿尖叫怪"
+   ],
+   "w": [
+    "霜月"
+   ],
+   "c": [],
+   "p": "The Christmas Tree Sword is a Hardmode, post-Plantera broadsword that is dropped by the Everscream during the Frost Moon event with a 3.46%–10.37% () chance depending on the current wave.<ref>Detailed drop rates in each wave: See Frost Moon#Loot|Frost Moon § Loot for more information.</ref> When swung, it fires a star ornament that releases a ball ornament every while traveling."
+  }
+ ],
+ "Clairvoyance": [
+  {
+   "k": "buy",
+   "n": [
+    "巫师"
+   ],
+   "w": [],
+   "c": [],
+   "p": "It is purchased from the Wizard for ."
+  }
+ ],
+ "Cluster Rocket I": [
+  {
+   "k": "buy",
+   "n": [
+    "机器侠"
+   ],
+   "w": [
+    "火星暴乱"
+   ],
+   "c": [],
+   "p": "It can be purchased from the Cyborg for each after completing the Martian Madness event."
+  }
+ ],
+ "Counterweight": [
+  {
+   "k": "buy",
+   "n": [
+    "训练假人",
+    "旅商",
+    "骷髅商人"
+   ],
+   "w": [],
+   "c": [],
+   "p": "on two Target Dummy|Target Dummies, one being behind the player.]] Counterweights are accessories sold by the Traveling Merchant and the Skeleton Merchant."
+  }
+ ],
+ "Daedalus Stormbow": [
+  {
+   "k": "drop",
+   "n": [
+    "神圣宝箱怪"
+   ],
+   "w": [],
+   "c": [
+    "1/5"
+   ],
+   "p": "The Daedalus Stormbow is a Hardmode Bows|bow that has a 1/5 chance of being dropped by Hallowed Mimics."
+  }
+ ],
+ "Dark Harvest": [
+  {
+   "k": "drop",
+   "n": [
+    "哥布林侦察兵",
+    "南瓜王",
+    "鞭"
+   ],
+   "w": [
+    "南瓜月"
+   ],
+   "c": [],
+   "p": "Note the chaining ability for the Dark Harvest's reaping effect, allowing it to pass through blocks and strike the three Goblin Scouts.]] The Dark Harvest is a Hardmode, post-Plantera whip that is dropped by Pumpking during the Pumpkin Moon event with a 2.5–12.5% () chance depending on the current wave.<ref>Detailed drop rates in each wave: See Pumpkin Moon#Loot|Pumpkin Moon § Loot for more information.</ref> It has a 10% multihit penalty and performs the following effects on hit:"
+  }
+ ],
+ "Dark Lance": [
+  {
+   "k": "chest",
+   "n": [
+    "暗影箱",
+    "黑曜石锁盒",
+    "黑曜石匣",
+    "狱石匣"
+   ],
+   "w": [
+    "地狱"
+   ],
+   "c": [
+    "1/5",
+    "1/5"
+   ],
+   "p": "Note its piercing abilities.]] The Dark Lance is a pre-Hardmode, post-Skeletron Spears|spear that has a 1/5 chance of being found in Shadow Chests in the Underworld, as well as a 1/5 chance of being found in Obsidian Lock Boxes obtained from Obsidian Crates and Hellstone Crates."
+  }
+ ],
+ "Demon Scythe": [
+  {
+   "k": "drop",
+   "n": [
+    "恶魔",
+    "巫毒恶魔"
+   ],
+   "w": [],
+   "c": [
+    "1/35"
+   ],
+   "p": "The Demon Scythe is a pre-Hardmode spell book that has a 1/35 chance of being dropped by Demons and Voodoo Demons."
+  }
+ ],
+ "Desert Tiger Staff": [
+  {
+   "k": "chest",
+   "n": [
+    "沙岩箱",
+    "沙漠钥匙"
+   ],
+   "w": [
+    "地牢"
+   ],
+   "c": [],
+   "p": "The Desert Tiger Staff is always found in the Dungeon's Desert Chest, which can only be unlocked with a Desert Key after Plantera has been defeated."
+  }
+ ],
+ "Eggnog": [
+  {
+   "k": "drop",
+   "n": [
+    "礼物"
+   ],
+   "w": [
+    "圣诞节"
+   ],
+   "c": [],
+   "p": "Eggnog is a pre-Hardmode recovery potion that can be dropped from Presents obtained during the Christmas seasonal event, with a chance of 8.101% in pre-Hardmode and 7.561% in Hardmode."
+  }
+ ],
+ "Electrosphere Launcher": [
+  {
+   "k": "drop",
+   "n": [
+    "火星飞碟"
+   ],
+   "w": [
+    "火星暴乱"
+   ],
+   "c": [
+    "1/6"
+   ],
+   "p": "Note the combining ability of the projectile, and how it can stop midair at the cursor position.]] The Electrosphere Launcher is a Hardmode, post-Golem launcher that has a 1/6 chance of being dropped by the Martian Saucer during the Martian Madness event."
+  }
+ ],
+ "Eye of the Golem": [
+  {
+   "k": "drop",
+   "n": [
+    "石巨人"
+   ],
+   "w": [],
+   "c": [
+    "1/7"
+   ],
+   "p": "It has a 1/7 chance of being dropped by Golem."
+  }
+ ],
+ "Feral Claws": [
+  {
+   "k": "chest",
+   "n": [
+    "丛林匣",
+    "荆棘匣",
+    "常春藤箱"
+   ],
+   "w": [
+    "丛林神龛",
+    "生命红木树",
+    "地下丛林"
+   ],
+   "c": [],
+   "p": "Feral Claws are a pre-Hardmode accessory that can be found in Jungle Crates, Bramble Crates, and Ivy Chests located in Jungle Shrines and at the base of a Living Mahogany Tree in the Underground Jungle."
+  }
+ ],
+ "Firecracker": [
+  {
+   "k": "drop",
+   "n": [
+    "血肉墙"
+   ],
+   "w": [],
+   "c": [
+    "1/4"
+   ],
+   "p": "Note how the blazing energy explodes upon minion hits, multiplying their damage.]] The Firecracker is a Hardmode whip that has a 1/4 chance of being dropped by the Wall of Flesh."
+  }
+ ],
+ "Flintlock Pistol": [
+  {
+   "k": "buy",
+   "n": [
+    "军火商"
+   ],
+   "w": [],
+   "c": [],
+   "p": ".]] The Flintlock Pistol is a pre-Hardmode gun that can be bought from the Arms Dealer for ."
+  }
+ ],
+ "Flying Dragon": [
+  {
+   "k": "drop",
+   "n": [
+    "双足翼龙"
+   ],
+   "w": [
+    "远古军团"
+   ],
+   "c": [
+    "1/4"
+   ],
+   "p": "Notice how the projectile pierces walls and four dummies, dissipating upon hitting the fifth.]] The Flying Dragon is a Hardmode, post-Golem broadsword that has a 1/4 chance of being dropped by Betsy during Tier 3 of the Old One's Army event."
+  }
+ ],
+ "Gi": [
+  {
+   "k": "buy",
+   "n": [
+    "旅商"
+   ],
+   "w": [],
+   "c": [],
+   "p": "It is purchased from the Traveling Merchant for ."
+  }
+ ],
+ "Gladiator armor": [
+  {
+   "k": "drop",
+   "n": [
+    "装甲步兵"
+   ],
+   "w": [],
+   "c": [
+    "1/21"
+   ],
+   "p": "Each piece has a 1/21 chance of being dropped by Hoplites."
+  }
+ ],
+ "Gold armor": [
+  {
+   "k": "drop",
+   "n": [
+    "骷髅",
+    "孢子骷髅"
+   ],
+   "w": [
+    "微光"
+   ],
+   "c": [
+    "1/100"
+   ],
+   "p": "The Ancient Gold Helmet has a 1/100 chance of being dropped by Skeletons and Spore Skeletons, and can also be obtained by dropping a Gold Helmet into Shimmer."
+  }
+ ],
+ "Hive Pack": [
+  {
+   "k": "drop",
+   "n": [
+    "蜂王"
+   ],
+   "w": [],
+   "c": [],
+   "p": "The Hive Pack is a pre-Hardmode accessory that is always dropped from the Queen Bee's Treasure Bag#Queen Bee|Treasure Bag in Expert Mode."
+  }
+ ],
+ "Houndius Shootius": [
+  {
+   "k": "drop",
+   "n": [
+    "独眼巨鹿"
+   ],
+   "w": [],
+   "c": [
+    "1/4"
+   ],
+   "p": "The Houndius Shootius has a 1/4 chance of being dropped by Deerclops."
+  }
+ ],
+ "Kaleidoscope": [
+  {
+   "k": "drop",
+   "n": [
+    "鲨鱼",
+    "小雪怪法杖",
+    "光之女皇"
+   ],
+   "w": [],
+   "c": [
+    "1/4"
+   ],
+   "p": "and a Shark, alongside a Flinx Staff minion.]] The Kaleidoscope is a Hardmode, post-Plantera whip that has a 1/4 chance of being dropped by the Empress of Light."
+  }
+ ],
+ "Leather Whip": [
+  {
+   "k": "buy",
+   "n": [
+    "鸟妖",
+    "史莱姆法杖",
+    "动物学家"
+   ],
+   "w": [],
+   "c": [],
+   "p": "and a Harpy, alongside a Slime Staff minion.]] The Leather Whip is a pre-Hardmode whip that is virtually always available to be purchased from the Zoologist for (save for #Notes|certain scenarios)."
+  }
+ ],
+ "Lunar Portal Staff": [
+  {
+   "k": "drop",
+   "n": [
+    "月亮领主"
+   ],
+   "w": [],
+   "c": [
+    "1/5"
+   ],
+   "p": "The Lunar Portal Staff has a 1/5 chance of being dropped by the Moon Lord."
+  }
+ ],
+ "Magic Hat": [
+  {
+   "k": "buy",
+   "n": [
+    "旅商"
+   ],
+   "w": [],
+   "c": [],
+   "p": "It is purchased from the Traveling Merchant for ."
+  }
+ ],
+ "Magic Quiver": [
+  {
+   "k": "drop",
+   "n": [
+    "骷髅弓箭手"
+   ],
+   "w": [],
+   "c": [
+    "1/40"
+   ],
+   "p": "It has a 1/40 chance of being dropped from Skeleton Archers."
+  }
+ ],
+ "Magma Stone": [
+  {
+   "k": "drop",
+   "n": [
+    "熔岩蝙蝠",
+    "地狱蝙蝠"
+   ],
+   "w": [
+    "地狱"
+   ],
+   "c": [
+    "1/50",
+    "1/150"
+   ],
+   "p": "It has a 1/50 chance to be dropped by Lava Bats and a 1/150 chance to be dropped by Hellbats in The Underworld."
+  }
+ ],
+ "Meowmere": [
+  {
+   "k": "drop",
+   "n": [
+    "月亮领主"
+   ],
+   "w": [],
+   "c": [
+    "1/5"
+   ],
+   "p": "The Meowmere is a Hardmode broadsword that has a 1/5 chance of being dropped by the Moon Lord."
+  }
+ ],
+ "Monk armor": [
+  {
+   "k": "buy",
+   "n": [
+    "酒馆老板"
+   ],
+   "w": [
+    "机械三王"
+   ],
+   "c": [],
+   "p": "The set can be purchased from the Tavernkeep for a total of after defeating any Mechanical bosses|mechanical boss."
+  }
+ ],
+ "Moon Stone": [
+  {
+   "k": "drop",
+   "n": [
+    "吸血鬼"
+   ],
+   "w": [
+    "日食"
+   ],
+   "c": [
+    "1/35",
+    "69/1225"
+   ],
+   "p": "The Moon Stone is a Hardmode accessory which has a 1/35 / chance to drop from Vampires during the Solar Eclipse event."
+  }
+ ],
+ "Morning Star": [
+  {
+   "k": "drop",
+   "n": [
+    "独角兽",
+    "可靠的捣蛋猫",
+    "蓝装甲骷髅",
+    "生锈装甲骷髅",
+    "地狱装甲骷髅"
+   ],
+   "w": [
+    "困难模式地牢"
+   ],
+   "c": [
+    "1/200"
+   ],
+   "p": "and a Unicorn, alongside a Trusty Cattiva minion.]] The Morning Star is a Hardmode, post-Plantera whip that has a 1/200 / {{expert|}} chance of being dropped by Blue Armored Bones, Rusty Armored Bones, and Hell Armored Bones in the Hardmode Dungeon."
+  }
+ ],
+ "Musket Ball": [
+  {
+   "k": "buy",
+   "n": [
+    "军火商"
+   ],
+   "w": [],
+   "c": [],
+   "p": "Musket Balls can be bought from the Arms Dealer for each, or for 1000 rounds."
+  },
+  {
+   "k": "drop",
+   "n": [
+    "暗影珠",
+    "猩红之心",
+    "火枪",
+    "夺命枪",
+    "礼物",
+    "红莱德枪"
+   ],
+   "w": [
+    "圣诞节"
+   ],
+   "c": [],
+   "p": "They can also be obtained from Shadow Orbs and Crimson Hearts (along with a Musket or The Undertaker), or from a Present (along with a Red Ryder) during Christmas."
+  }
+ ],
+ "Mystic Robe": [
+  {
+   "k": "buy",
+   "n": [
+    "旅商"
+   ],
+   "w": [],
+   "c": [],
+   "p": "It is purchased from the Traveling Merchant for ."
+  }
+ ],
+ "Necro armor": [
+  {
+   "k": "drop",
+   "n": [
+    "愤怒骷髅怪",
+    "暗黑法师",
+    "图书管理员骷髅"
+   ],
+   "w": [
+    "地牢"
+   ],
+   "c": [
+    "1/450"
+   ],
+   "p": "The Ancient Necro Helmet is dropped from Angry Bones, Dark Casters, and Librarian Skeletons in the Dungeon, at a 1/450 chance."
+  }
+ ],
+ "Nimbus Rod": [
+  {
+   "k": "drop",
+   "n": [
+    "愤怒雨云怪"
+   ],
+   "w": [],
+   "c": [
+    "1/15"
+   ],
+   "p": "The Nimbus Rod has a 1/15 chance of being dropped by Angry Nimbuses."
+  }
+ ],
+ "Paintball Gun": [
+  {
+   "k": "drop",
+   "n": [
+    "油漆工"
+   ],
+   "w": [],
+   "c": [
+    "1/10"
+   ],
+   "p": "It has a 1/10 chance of being dropped by the Painter."
+  }
+ ],
+ "Phantom Phoenix": [
+  {
+   "k": "drop",
+   "n": [
+    "烈焰箭",
+    "食人魔"
+   ],
+   "w": [
+    "远古军团"
+   ],
+   "c": [
+    "1/10",
+    "1/5",
+    "1/20"
+   ],
+   "p": "The Phantom Phoenix also Ammo conversion|converts Wooden Arrows into Flaming Arrows, without increasing their damage.<ref name=\"aistyle75\"/> The Phantom Phoenix is dropped by Ogres during the Old One's Army event, with a 1/10 / chance during Tier 2, and a 1/20 chance during Tier 3."
+  }
+ ],
+ "Pygmy Necklace": [
+  {
+   "k": "buy",
+   "n": [
+    "巫医"
+   ],
+   "w": [
+    "日夜更替"
+   ],
+   "c": [],
+   "p": "It is purchased from the Witch Doctor for at night."
+  }
+ ],
+ "Rainbow Crystal Staff": [
+  {
+   "k": "drop",
+   "n": [
+    "月亮领主"
+   ],
+   "w": [],
+   "c": [
+    "1/5"
+   ],
+   "p": "The Rainbow Crystal Staff has a 1/5 chance of being dropped by the Moon Lord."
+  }
+ ],
+ "Rainbow Gun": [
+  {
+   "k": "chest",
+   "n": [
+    "神圣箱",
+    "神圣钥匙"
+   ],
+   "w": [
+    "地牢"
+   ],
+   "c": [],
+   "p": "The Rainbow Gun is always found in the Dungeon's Hallowed Chest, which can only be unlocked with a Hallowed Key after Plantera has been defeated."
+  }
+ ],
+ "Ranger Emblem": [
+  {
+   "k": "drop",
+   "n": [
+    "血肉墙"
+   ],
+   "w": [],
+   "c": [
+    "1/4"
+   ],
+   "p": "It has a 1/4 chance to drop from the Wall of Flesh."
+  }
+ ],
+ "Raven Staff": [
+  {
+   "k": "drop",
+   "n": [
+    "南瓜王"
+   ],
+   "w": [
+    "南瓜月"
+   ],
+   "c": [],
+   "p": "The Raven Staff is dropped by the Pumpking during the Pumpkin Moon event with a 2.5–12.5% () chance depending on the current wave.<ref>Detailed drop rates in each wave: See Pumpkin Moon#Loot|Pumpkin Moon § Loot for more information.</ref>"
+  }
+ ],
+ "Razorpine": [
+  {
+   "k": "drop",
+   "n": [
+    "常绿尖叫怪"
+   ],
+   "w": [
+    "霜月"
+   ],
+   "c": [],
+   "p": "Note how the projectiles dissipate upon contact with a surface.]] The Razorpine is a Hardmode, post-Plantera wand that is dropped by the Everscream during the Frost Moon Events|event with a 3.46%–10.37% () chance depending on the current wave.<ref>Detailed drop rates in each wave: See Frost Moon#Loot|Frost Moon § Loot for more information.</ref> When used, it rapidly fires 2–4 high-velocity pine needles in a spread, which do not pierce enemies or pass through blocks."
+  }
+ ],
+ "Rocket III": [
+  {
+   "k": "buy",
+   "n": [
+    "机器侠"
+   ],
+   "w": [],
+   "c": [],
+   "p": "Rockets are a Hardmode, post-Plantera type of ammunition which are mainly sold by the Cyborg."
+  },
+  {
+   "k": "drop",
+   "n": [
+    "世纪之花",
+    "榴弹发射器"
+   ],
+   "w": [],
+   "c": [],
+   "p": "The Rocket I variant is also dropped by Plantera when it drops the Grenade Launcher."
+  }
+ ],
+ "Rod of Discord": [
+  {
+   "k": "drop",
+   "n": [
+    "混沌精"
+   ],
+   "w": [],
+   "c": [
+    "1/500",
+    "1/400"
+   ],
+   "p": "The Rod of Discord is a Hardmode tool that has a 1/500 / chance of being dropped by Chaos Elementals."
+  },
+  {
+   "k": "event",
+   "n": [
+    "和谐传送杖",
+    "月亮领主"
+   ],
+   "w": [
+    "微光"
+   ],
+   "c": [],
+   "p": "It can be upgraded into the Rod of Harmony by throwing it into Shimmer after the Moon Lord has been defeated."
+  }
+ ],
+ "Rod of Harmony": [
+  {
+   "k": "drop",
+   "n": [
+    "混沌传送杖、混沌杖",
+    "月亮领主"
+   ],
+   "w": [
+    "微光"
+   ],
+   "c": [],
+   "p": "It is obtained by throwing the Rod of Discord into Shimmer after the Moon Lord has been defeated."
+  }
+ ],
+ "Shadowflame Hex Doll": [
+  {
+   "k": "drop",
+   "n": [
+    "哥布林术士"
+   ],
+   "w": [
+    "哥布林军队"
+   ],
+   "c": [
+    "1/6",
+    "1/3"
+   ],
+   "p": "The Shadowflame Hex Doll has a 1/6 / chance to drop from Goblin Warlocks during a Hardmode Goblin Army."
+  }
+ ],
+ "Shadowflame Knife": [
+  {
+   "k": "drop",
+   "n": [
+    "哥布林术士"
+   ],
+   "w": [
+    "哥布林军队"
+   ],
+   "c": [
+    "1/6",
+    "1/3"
+   ],
+   "p": "The Shadowflame Knife is a Hardmode melee weapon that has a 1/6 / chance to drop from Goblin Warlocks during the Goblin Army event."
+  }
+ ],
+ "Shark Tooth Necklace": [
+  {
+   "k": "drop",
+   "n": [
+    "血腥僵尸",
+    "滴滴怪"
+   ],
+   "w": [
+    "血月"
+   ],
+   "c": [
+    "1/150",
+    "1/75"
+   ],
+   "p": "The Shark Tooth Necklace is an accessory which has a 1/150 / chance to drop from Blood Zombies and Dripplers found during a Blood Moon."
+  }
+ ],
+ "Sharpened": [
+  {
+   "k": "buy",
+   "n": [
+    "商人"
+   ],
+   "w": [],
+   "c": [],
+   "p": "In Hardmode, it is also sold by the Merchant for ."
+  }
+ ],
+ "Shield of Cthulhu": [
+  {
+   "k": "drop",
+   "n": [
+    "克苏鲁之眼"
+   ],
+   "w": [],
+   "c": [],
+   "p": ".]] The Shield of Cthulhu is a pre-Hardmode shield accessory that is always dropped from the Eye of Cthulhu's Treasure Bag#Eye of Cthulhu|Treasure Bag in Expert Mode."
+  }
+ ],
+ "Shinobi Infiltrator armor": [
+  {
+   "k": "buy",
+   "n": [
+    "酒馆老板"
+   ],
+   "w": [],
+   "c": [],
+   "p": "The set can be purchased from the Tavernkeep for a total of ."
+  }
+ ],
+ "Snowman Cannon": [
+  {
+   "k": "drop",
+   "n": [
+    "冰雪女王"
+   ],
+   "w": [
+    "霜月"
+   ],
+   "c": [],
+   "p": "s.]] The Snowman Cannon is a Hardmode, post-Plantera launcher that is dropped from the Ice Queen during the Frost Moon event with a 5.19%–10.37% () chance depending on the current wave.<ref>Detailed drop rates in each wave: See Frost Moon#Loot|Frost Moon § Loot for more information.</ref>."
+  }
+ ],
+ "Soaring Insignia": [
+  {
+   "k": "drop",
+   "n": [
+    "光之女皇"
+   ],
+   "w": [],
+   "c": [],
+   "p": "The Soaring Insignia is always dropped from the Empress of Light's Treasure Bag#Empress of Light|Treasure Bag in Expert Mode."
+  }
+ ],
+ "Sorcerer Emblem": [
+  {
+   "k": "drop",
+   "n": [
+    "血肉墙"
+   ],
+   "w": [],
+   "c": [
+    "1/4"
+   ],
+   "p": "It has a 1/4 chance to drop from the Wall of Flesh."
+  }
+ ],
+ "Squire armor": [
+  {
+   "k": "buy",
+   "n": [
+    "酒馆老板"
+   ],
+   "w": [
+    "机械三王"
+   ],
+   "c": [],
+   "p": "The set can be purchased from the Tavernkeep for a total of after defeating any Mechanical bosses|mechanical boss."
+  }
+ ],
+ "Staff of the Frost Hydra": [
+  {
+   "k": "chest",
+   "n": [
+    "冰雪箱",
+    "冰冻钥匙"
+   ],
+   "w": [
+    "地牢"
+   ],
+   "c": [],
+   "p": "The Staff of the Frost Hydra is always found in the Dungeon's Ice Chest, which can only be unlocked with a Frozen Key after Plantera has been defeated."
+  }
+ ],
+ "Stellar Tune": [
+  {
+   "k": "drop",
+   "n": [
+    "光之女皇"
+   ],
+   "w": [],
+   "c": [
+    "1/50",
+    "1/20"
+   ],
+   "p": "The Stellar Tune has a 1/50 / chance of being dropped by the Empress of Light."
+  }
+ ],
+ "Strange Brew": [
+  {
+   "k": "buy",
+   "n": [
+    "骷髅商人"
+   ],
+   "w": [],
+   "c": [],
+   "p": "The Strange Brew is a pre-Hardmode recovery potion that can be purchased from the Skeleton Merchant during certain moon phases for ."
+  }
+ ],
+ "Stynger": [
+  {
+   "k": "drop",
+   "n": [
+    "石巨人"
+   ],
+   "w": [],
+   "c": [
+    "1/7"
+   ],
+   "p": "The Stynger has a 1/7 chance of being dropped by Golem."
+  },
+  {
+   "k": "buy",
+   "n": [
+    "巫医",
+    "军火商"
+   ],
+   "w": [],
+   "c": [],
+   "p": "Additional Stynger Bolts can be purchased from the Witch Doctor and Arms Dealer ( per bolt), if the Stynger is in the player's inventory."
+  }
+ ],
+ "Thunder Zapper": [
+  {
+   "k": "chest",
+   "n": [
+    "沙岩箱",
+    "绿洲匣",
+    "幻象匣"
+   ],
+   "w": [
+    "地下沙漠",
+    "绿洲"
+   ],
+   "c": [],
+   "p": "The Thunder Zapper is a pre-Hardmode wand that can be found in Sandstone Chests in the lower 3/7ths of the Underground Desert and in Oasis Crates and Mirage Crates obtained from fishing in the Oasis."
+  }
+ ],
+ "Tiki armor": [
+  {
+   "k": "buy",
+   "n": [
+    "巫医"
+   ],
+   "w": [],
+   "c": [],
+   "p": "The set can be purchased from the Witch Doctor for a total of ."
+  }
+ ],
+ "Tungsten Bullet": [
+  {
+   "k": "buy",
+   "n": [
+    "军火商",
+    "钨矿"
+   ],
+   "w": [],
+   "c": [],
+   "p": "Tungsten Bullets can be bought from the Arms Dealer for each, or for 1000 rounds in worlds with Tungsten Ore|Tungsten."
+  },
+  {
+   "k": "event",
+   "n": [],
+   "w": [
+    "血月"
+   ],
+   "c": [],
+   "p": "During pre-Hardmode, they are only sold during Blood Moons."
+  }
+ ],
+ "Unholy Trident": [
+  {
+   "k": "drop",
+   "n": [
+    "红魔鬼"
+   ],
+   "w": [],
+   "c": [
+    "1/30"
+   ],
+   "p": "The Unholy Trident has a 1/30 chance of being dropped by Red Devils."
+  }
+ ],
+ "Uzi": [
+  {
+   "k": "drop",
+   "n": [
+    "愤怒捕手"
+   ],
+   "w": [],
+   "c": [
+    "1/100"
+   ],
+   "p": ".]] The Uzi is a Hardmode gun that has a 1/100 chance of being dropped by Angry Trappers."
+  }
+ ],
+ "Valhalla Knight armor": [
+  {
+   "k": "buy",
+   "n": [
+    "酒馆老板"
+   ],
+   "w": [],
+   "c": [],
+   "p": "The set can be purchased from the Tavernkeep for a total of ."
+  }
+ ],
+ "Vampire Knives": [
+  {
+   "k": "chest",
+   "n": [
+    "猩红箱",
+    "猩红钥匙"
+   ],
+   "w": [
+    "地牢"
+   ],
+   "c": [],
+   "p": "The Vampire Knives are always found in the Dungeon's Crimson Chest, which can only be unlocked with a Crimson Key after Plantera has been defeated."
+  }
+ ],
+ "Wasp Gun": [
+  {
+   "k": "drop",
+   "n": [
+    "世纪之花"
+   ],
+   "w": [],
+   "c": [
+    "1/8"
+   ],
+   "p": "Note how the projectiles home in on the Mimic and ricochet off of blocks.]] The Wasp Gun is a Hardmode magic gun that has a 1/8 chance of being dropped by Plantera."
+  }
+ ],
+ "Wizard Hat": [
+  {
+   "k": "drop",
+   "n": [
+    "蒂姆"
+   ],
+   "w": [],
+   "c": [],
+   "p": "It is always dropped by Tim."
+  }
+ ],
+ "Xeno Staff": [
+  {
+   "k": "drop",
+   "n": [
+    "火星飞碟"
+   ],
+   "w": [
+    "火星暴乱"
+   ],
+   "c": [
+    "1/6"
+   ],
+   "p": "The Xeno Staff has a 1/6 chance of being dropped by the Martian Saucer during the Martian Madness event."
+  }
+ ],
+ "Xenopopper": [
+  {
+   "k": "drop",
+   "n": [
+    "火星飞碟"
+   ],
+   "w": [
+    "火星暴乱"
+   ],
+   "c": [
+    "1/6"
+   ],
+   "p": "The Xenopopper is a Hardmode, post-Golem gun that has a 1/6 chance of being dropped by the Martian Saucer during the Martian Madness event."
+  }
+ ],
+ "Meteorite": [
+  {
+   "k": "drop",
+   "n": [
+    "流星头"
+   ],
+   "w": [],
+   "c": [],
+   "p": "It also spawns in high numbers during a Meteor Shower and rarely drops from Meteor Heads."
+  }
+ ],
+ "Snow Block": [
+  {
+   "k": "drop",
+   "n": [
+    "巴拉雪人",
+    "雪球"
+   ],
+   "w": [
+    "霜之军团"
+   ],
+   "c": [],
+   "p": "Snow blocks are also dropped by the Hardmode Frost Legion enemies, and its Snow Balla throws Snowballs that create further Snow blocks when impacting."
+  }
+ ],
+ "Hallowed Bar": [
+  {
+   "k": "drop",
+   "n": [
+    "双子魔眼",
+    "毁灭者",
+    "机械骷髅王"
+   ],
+   "w": [
+    "机械三王"
+   ],
+   "c": [],
+   "p": "It is dropped by all three mechanical bosses: The Twins, The Destroyer, and Skeletron Prime."
+  }
+ ],
+ "Life Crystal": [
+  {
+   "k": "drop",
+   "n": [
+    "金匣",
+    "钛金匣"
+   ],
+   "w": [],
+   "c": [
+    "1/8",
+    "19/160"
+   ],
+   "p": "Life Crystals also have a 1/8 chance to drop from a Golden Crate, or 19/160 chance from a Titanium Crate."
+  }
+ ],
+ "Ectoplasm": [
+  {
+   "k": "drop",
+   "n": [
+    "地牢幽魂"
+   ],
+   "w": [
+    "地牢"
+   ],
+   "c": [],
+   "p": "Ectoplasm is a Hardmode, post-Plantera crafting material dropped from Dungeon Spirits in the Dungeon."
+  }
+ ],
+ "Luminite": [
+  {
+   "k": "drop",
+   "n": [
+    "月亮领主"
+   ],
+   "w": [],
+   "c": [],
+   "p": "Luminite is a Hardmode ore dropped by the Moon Lord in stacks of 70–90 ()."
+  }
+ ],
+ "Titanium Ore": [
+  {
+   "k": "chest",
+   "n": [
+    "炸药",
+    "力量炸弹",
+    "粘性力量炸弹"
+   ],
+   "w": [],
+   "c": [],
+   "p": "As with all early Hardmode ores, decreasing quantities of the ore spawn with every third altar broken afterwards, it is immune to Explosives (class)|explosives (apart from the Power Bomb and Sticky Power Bomb), and it can be obtained from Hardmode crates."
+  }
+ ],
+ "Antlion Mandible": [
+  {
+   "k": "drop",
+   "n": [
+    "蚁狮",
+    "蚁狮幼虫",
+    "蚁狮马",
+    "蚁狮蜂"
+   ],
+   "w": [
+    "沙漠",
+    "地下沙漠"
+   ],
+   "c": [],
+   "p": "The Antlion Mandible is a crafting material dropped by Antlions, Antlion Larvae, Antlion Chargers, and Antlion Swarmers found in the Desert and Underground Desert biomes."
+  }
+ ],
+ "Bee Wax": [
+  {
+   "k": "drop",
+   "n": [
+    "蜂王"
+   ],
+   "w": [],
+   "c": [],
+   "p": "Bee Wax is a crafting material dropped by the Queen Bee."
+  }
+ ],
+ "Black Lens": [
+  {
+   "k": "drop",
+   "n": [
+    "恶魔眼",
+    "游荡眼球怪"
+   ],
+   "w": [],
+   "c": [
+    "1/100"
+   ],
+   "p": "The Black Lens is a crafting material dropped by Demon Eyes and Wandering Eyes at a 1/100 chance."
+  }
+ ],
+ "Bone": [
+  {
+   "k": "drop",
+   "n": [
+    "愤怒骷髅怪",
+    "暗黑法师",
+    "诅咒骷髅头",
+    "图书管理员骷髅"
+   ],
+   "w": [
+    "地牢"
+   ],
+   "c": [],
+   "p": "They are dropped by Angry Bones, Dark Casters, Cursed Skulls, and Librarian Skeletons which spawn in the Dungeon."
+  }
+ ],
+ "Cloud": [
+  {
+   "k": "chest",
+   "n": [
+    "雨云",
+    "天域箱",
+    "天空匣",
+    "天蓝匣"
+   ],
+   "w": [
+    "浮空岛"
+   ],
+   "c": [],
+   "p": "Cloud is a type of block found beneath Floating Islands, along with Rain Cloud blocks; on the , they can be found in stacks in Skyware Chests, Sky Crates and Azure Crates as well."
+  }
+ ],
+ "Crystal Shard": [
+  {
+   "k": "chest",
+   "n": [
+    "天赐匣"
+   ],
+   "w": [],
+   "c": [
+    "1/2"
+   ],
+   "p": "Crystal Shards furthermore have a 1/2 chance to be obtained from Divine Crates, in stacks of 4–10."
+  }
+ ],
+ "Cursed Flame": [
+  {
+   "k": "drop",
+   "n": [
+    "吞世怪",
+    "腐恶食尸鬼",
+    "爬藤怪"
+   ],
+   "w": [
+    "腐化之地"
+   ],
+   "c": [],
+   "p": "It is dropped by World Feeders, Vile Ghouls and Clingers, all of which can be found in The Corruption."
+  },
+  {
+   "k": "chest",
+   "n": [
+    "污损匣"
+   ],
+   "w": [],
+   "c": [],
+   "p": "It can also be found in Defiled Crates."
+  }
+ ],
+ "Feather": [
+  {
+   "k": "drop",
+   "n": [
+    "鸟妖"
+   ],
+   "w": [],
+   "c": [],
+   "p": "The Feather is a common crafting material dropped frequently by Harpy|Harpies."
+  }
+ ],
+ "Gel": [
+  {
+   "k": "drop",
+   "n": [
+    "史莱姆",
+    "僵尸"
+   ],
+   "w": [],
+   "c": [],
+   "p": "Gel is a common crafting material dropped by most slimes and Zombie|Slimed Zombies."
+  }
+ ],
+ "Ichor": [
+  {
+   "k": "drop",
+   "n": [
+    "灵液黏黏怪",
+    "红染食尸鬼"
+   ],
+   "w": [
+    "猩红之地",
+    "地下沙漠"
+   ],
+   "c": [],
+   "p": "Ichor is a Hardmode crafting material dropped by Ichor Stickers in the Underground Crimson and the Tainted Ghoul in the The Crimson|Crimson Underground Desert."
+  },
+  {
+   "k": "chest",
+   "n": [
+    "血匣"
+   ],
+   "w": [],
+   "c": [],
+   "p": "It is also obtained from Hematic Crates."
+  }
+ ],
+ "Lens": [
+  {
+   "k": "drop",
+   "n": [
+    "恶魔眼",
+    "游荡眼球怪"
+   ],
+   "w": [],
+   "c": [
+    "33/100"
+   ],
+   "p": "A Lens is a common crafting material that has a 33/100 chance to drop from Demon Eyes and Wandering Eyes."
+  }
+ ],
+ "Nebula Fragment": [
+  {
+   "k": "drop",
+   "n": [
+    "星云柱"
+   ],
+   "w": [],
+   "c": [],
+   "p": "It is one of the four Lunar Fragments, dropped from the Nebula Pillar during the Lunar Events in stacks of 12–60 / ."
+  }
+ ],
+ "Pixie Dust": [
+  {
+   "k": "drop",
+   "n": [
+    "妖精"
+   ],
+   "w": [],
+   "c": [],
+   "p": "Pixie Dust is a common Hardmode crafting material that always drops from Pixies."
+  }
+ ],
+ "Rotten Chunk": [
+  {
+   "k": "drop",
+   "n": [
+    "噬魂怪",
+    "吞噬怪",
+    "腐化者",
+    "世界吞噬怪"
+   ],
+   "w": [],
+   "c": [
+    "1/3"
+   ],
+   "p": "The Rotten Chunk is a crafting material that has a 1/3 chance of being dropped from Eater of Souls|Eaters of Souls, Devourers, Corruptors, and on the , the Eater of Worlds."
+  }
+ ],
+ "Shadow Scale": [
+  {
+   "k": "drop",
+   "n": [
+    "世界吞噬怪"
+   ],
+   "w": [],
+   "c": [],
+   "p": "The Shadow Scale is a pre-Hardmode crafting material dropped from the Eater of Worlds (and its Treasure Bag in Expert Mode)."
+  }
+ ],
+ "Shark Fin": [
+  {
+   "k": "drop",
+   "n": [
+    "鲨鱼",
+    "虎鲸",
+    "沙鲨"
+   ],
+   "w": [
+    "海洋",
+    "沙尘暴"
+   ],
+   "c": [
+    "19/20",
+    "1/8"
+   ],
+   "p": "The Shark Fin is a crafting material that has a 19/20 chance of being dropped by Sharks and Orcas found in the Ocean biome, and a 1/8 chance of being dropped by Sand Sharks during a Sandstorm."
+  }
+ ],
+ "Solar Fragment": [
+  {
+   "k": "drop",
+   "n": [
+    "日耀柱"
+   ],
+   "w": [],
+   "c": [],
+   "p": "It is one of the four Lunar Fragments, dropped from the Solar Pillar during the Lunar Events in stacks of 12–60 / ."
+  }
+ ],
+ "Soul of Flight": [
+  {
+   "k": "drop",
+   "n": [
+    "飞龙",
+    "光明之魂"
+   ],
+   "w": [
+    "夜晚"
+   ],
+   "c": [],
+   "p": "Souls of Flight are dropped by Wyverns and are the most common soul aside from the Soul of Light|Souls of Light and Soul of Night|Night."
+  }
+ ],
+ "Soul of Fright": [
+  {
+   "k": "drop",
+   "n": [
+    "机械骷髅王"
+   ],
+   "w": [],
+   "c": [],
+   "p": "It is a crafting material dropped by Skeletron Prime."
+  }
+ ],
+ "Soul of Light": [
+  {
+   "k": "drop",
+   "n": [],
+   "w": [
+    "洞穴层",
+    "地狱"
+   ],
+   "c": [
+    "1/5"
+   ],
+   "p": "Soul of Light is a Hardmode Crafting materials|crafting material dropped by most enemies killed in the Underground Hallow in the Cavern layer or The Underworld at a 1/5 chance."
+  }
+ ],
+ "Soul of Might": [
+  {
+   "k": "drop",
+   "n": [
+    "毁灭者"
+   ],
+   "w": [],
+   "c": [],
+   "p": "It is a crafting material dropped by The Destroyer."
+  }
+ ],
+ "Soul of Night": [
+  {
+   "k": "drop",
+   "n": [],
+   "w": [
+    "洞穴层",
+    "地狱"
+   ],
+   "c": [
+    "1/5"
+   ],
+   "p": "Soul of Night is a Hardmode Crafting materials|crafting material dropped by most enemies killed in the Underground Corruption or Underground Crimson biome in the Cavern layer or The Underworld at a 1/5 chance."
+  }
+ ],
+ "Soul of Sight": [
+  {
+   "k": "drop",
+   "n": [
+    "双子魔眼"
+   ],
+   "w": [],
+   "c": [],
+   "p": "It is a crafting material dropped by The Twins."
+  }
+ ],
+ "Spider Fang": [
+  {
+   "k": "drop",
+   "n": [
+    "黑隐士"
+   ],
+   "w": [
+    "蜘蛛巢"
+   ],
+   "c": [
+    "1/2",
+    "9/10"
+   ],
+   "p": "The Spider Fang is a Hardmode crafting material dropped by Black Recluses in Spider Nests with a 1/2 / chance."
+  }
+ ],
+ "Stardust Fragment": [
+  {
+   "k": "drop",
+   "n": [
+    "星尘柱"
+   ],
+   "w": [],
+   "c": [],
+   "p": "It is one of the four Lunar Fragments, dropped from the Stardust Pillar during the Lunar Events in stacks of 12–60 / ."
+  }
+ ],
+ "Stinger": [
+  {
+   "k": "drop",
+   "n": [
+    "尖刺丛林史莱姆",
+    "黄蜂",
+    "苔藓黄蜂"
+   ],
+   "w": [
+    "地下丛林"
+   ],
+   "c": [],
+   "p": "It is obtained from Spiked Jungle Slimes, Hornets, and Moss Hornets found in the Underground Jungle biome."
+  }
+ ],
+ "Tissue Sample": [
+  {
+   "k": "drop",
+   "n": [
+    "飞眼怪",
+    "克苏鲁之脑"
+   ],
+   "w": [],
+   "c": [],
+   "p": "The Tissue Sample is a pre-Hardmode crafting material dropped from Creepers (and the Brain of Cthulhu's Treasure Bag in Expert Mode)."
+  }
+ ],
+ "Unicorn Horn": [
+  {
+   "k": "drop",
+   "n": [
+    "独角兽"
+   ],
+   "w": [
+    "神圣之地"
+   ],
+   "c": [],
+   "p": "The Unicorn Horn is a Hardmode crafting material that is always dropped by Unicorns in The Hallow."
+  }
+ ],
+ "Vertebra": [
+  {
+   "k": "drop",
+   "n": [
+    "猩红喀迈拉",
+    "血爬虫",
+    "脸怪",
+    "恶心浮游怪"
+   ],
+   "w": [],
+   "c": [
+    "1/3"
+   ],
+   "p": "The Vertebra (Vertebrae ) is a crafting material that has a 1/3 chance of being dropped by Crimeras, Blood Crawlers, Face Monsters, Floaty Grosses."
+  }
+ ],
+ "Vine": [
+  {
+   "k": "drop",
+   "n": [
+    "食人怪"
+   ],
+   "w": [
+    "地下丛林"
+   ],
+   "c": [
+    "1/2"
+   ],
+   "p": "Vines are crafting materials dropped by Man Eaters in the Underground Jungle biome with a 1/2 / drop chance."
+  }
+ ],
+ "Vortex Fragment": [
+  {
+   "k": "drop",
+   "n": [
+    "星旋柱"
+   ],
+   "w": [],
+   "c": [],
+   "p": "It is one of the four Lunar Fragments, dropped from the Vortex Pillar during the Lunar Events in stacks of 12–60 / ."
+  }
+ ],
+ "Demonite Ore": [
+  {
+   "k": "drop",
+   "n": [
+    "世界吞噬怪",
+    "克苏鲁之眼"
+   ],
+   "w": [],
+   "c": [],
+   "p": "It is primarily dropped from the Eater of Worlds, as well as the Eye of Cthulhu in Corruption worlds."
+  }
+ ],
+ "Crimtane Ore": [
+  {
+   "k": "drop",
+   "n": [
+    "克苏鲁之脑",
+    "克苏鲁之眼"
+   ],
+   "w": [],
+   "c": [],
+   "p": "It is primarily dropped from the Brain of Cthulhu, as well as the Eye of Cthulhu in Crimson worlds."
+  }
+ ]
+}

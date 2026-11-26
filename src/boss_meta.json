@@ -1,0 +1,373 @@
+[
+ {
+  "name": "King Slime",
+  "nameZh": "史莱姆王",
+  "phase": "pre",
+  "group": "原版Boss",
+  "order": 1
+ },
+ {
+  "name": "Desert Scourge",
+  "nameZh": "荒漠灾虫",
+  "phase": "pre",
+  "group": "灾厄·肉前",
+  "order": 2
+ },
+ {
+  "name": "Eye of Cthulhu",
+  "nameZh": "克苏鲁之眼",
+  "phase": "pre",
+  "group": "原版Boss",
+  "order": 3
+ },
+ {
+  "name": "Crabulon",
+  "nameZh": "克苏鲁蟹",
+  "phase": "pre",
+  "group": "灾厄·肉前",
+  "order": 4
+ },
+ {
+  "name": "Eater of Worlds",
+  "nameZh": "世界吞噬者",
+  "phase": "pre",
+  "group": "原版Boss",
+  "order": 5
+ },
+ {
+  "name": "Brain of Cthulhu",
+  "nameZh": "克苏鲁之脑",
+  "phase": "pre",
+  "group": "原版Boss",
+  "order": 6
+ },
+ {
+  "name": "The Hive Mind",
+  "nameZh": "腐巢意志",
+  "phase": "pre",
+  "group": "灾厄·肉前",
+  "order": 7
+ },
+ {
+  "name": "The Perforators",
+  "nameZh": "血肉宿主",
+  "phase": "pre",
+  "group": "灾厄·肉前",
+  "order": 8
+ },
+ {
+  "name": "Queen Bee",
+  "nameZh": "蜂后",
+  "phase": "pre",
+  "group": "原版Boss",
+  "order": 9
+ },
+ {
+  "name": "Deerclops",
+  "nameZh": "独眼巨鹿",
+  "phase": "pre",
+  "group": "原版Boss",
+  "order": 10
+ },
+ {
+  "name": "Skeletron",
+  "nameZh": "骷髅王",
+  "phase": "pre",
+  "group": "原版Boss",
+  "order": 11
+ },
+ {
+  "name": "The Slime God",
+  "nameZh": "史莱姆之神",
+  "phase": "pre",
+  "group": "灾厄·肉前",
+  "order": 12
+ },
+ {
+  "name": "Wall of Flesh",
+  "nameZh": "血肉墙",
+  "phase": "pre",
+  "group": "原版Boss",
+  "order": 13
+ },
+ {
+  "name": "Queen Slime",
+  "nameZh": "史莱姆女王",
+  "phase": "hard",
+  "group": "原版Boss",
+  "order": 14
+ },
+ {
+  "name": "Cryogen",
+  "nameZh": "极地之灵",
+  "phase": "hard",
+  "group": "灾厄·肉后",
+  "order": 15
+ },
+ {
+  "name": "The Twins",
+  "nameZh": "双子魔眼",
+  "phase": "hard",
+  "group": "原版Boss",
+  "order": 16
+ },
+ {
+  "name": "Aquatic Scourge",
+  "nameZh": "渊海灾虫",
+  "phase": "hard",
+  "group": "灾厄·肉后",
+  "order": 17
+ },
+ {
+  "name": "The Destroyer",
+  "nameZh": "毁灭者",
+  "phase": "hard",
+  "group": "原版Boss",
+  "order": 18
+ },
+ {
+  "name": "Brimstone Elemental",
+  "nameZh": "硫磺火元素",
+  "phase": "hard",
+  "group": "灾厄·肉后",
+  "order": 19
+ },
+ {
+  "name": "Skeletron Prime",
+  "nameZh": "机械骷髅王",
+  "phase": "hard",
+  "group": "原版Boss",
+  "order": 20
+ },
+ {
+  "name": "Calamitas Clone",
+  "nameZh": "灾厄克隆体",
+  "phase": "hard",
+  "group": "灾厄·肉后",
+  "order": 21
+ },
+ {
+  "name": "Plantera",
+  "nameZh": "世纪之花",
+  "phase": "hard",
+  "group": "原版Boss",
+  "order": 22
+ },
+ {
+  "name": "Leviathan and Anahita",
+  "nameZh": "利维坦与海妖",
+  "phase": "hard",
+  "group": "灾厄·肉后",
+  "order": 23
+ },
+ {
+  "name": "Astrum Aureus",
+  "nameZh": "星旋怪",
+  "phase": "hard",
+  "group": "灾厄·肉后",
+  "order": 24
+ },
+ {
+  "name": "Golem",
+  "nameZh": "石巨人",
+  "phase": "hard",
+  "group": "原版Boss",
+  "order": 25
+ },
+ {
+  "name": "The Plaguebringer Goliath",
+  "nameZh": "瘟疫使者歌莉娅",
+  "phase": "hard",
+  "group": "灾厄·肉后",
+  "order": 26
+ },
+ {
+  "name": "Empress of Light",
+  "nameZh": "光之女皇",
+  "phase": "hard",
+  "group": "原版Boss",
+  "order": 27
+ },
+ {
+  "name": "Duke Fishron",
+  "nameZh": "猪龙鱼公爵",
+  "phase": "hard",
+  "group": "原版Boss",
+  "order": 28
+ },
+ {
+  "name": "Ravager",
+  "nameZh": "劫掠者",
+  "phase": "hard",
+  "group": "灾厄·肉后",
+  "order": 29
+ },
+ {
+  "name": "Lunatic Cultist",
+  "nameZh": "拜月教邪教徒",
+  "phase": "hard",
+  "group": "原版Boss",
+  "order": 30
+ },
+ {
+  "name": "Astrum Deus",
+  "nameZh": "星界巨兽",
+  "phase": "hard",
+  "group": "灾厄·肉后",
+  "order": 31
+ },
+ {
+  "name": "Moon Lord",
+  "nameZh": "月亮领主",
+  "phase": "hard",
+  "group": "原版Boss",
+  "order": 32
+ },
+ {
+  "name": "Profaned Guardians",
+  "nameZh": "亵渎守卫",
+  "phase": "post",
+  "group": "灾厄·月后",
+  "order": 33
+ },
+ {
+  "name": "Dragonfolly",
+  "nameZh": "龙妄",
+  "phase": "post",
+  "group": "灾厄·月后",
+  "order": 34
+ },
+ {
+  "name": "Providence, the Profaned Goddess",
+  "nameZh": "亵渎女神",
+  "phase": "post",
+  "group": "灾厄·月后",
+  "order": 35
+ },
+ {
+  "name": "Storm Weaver",
+  "nameZh": "风暴编织者",
+  "phase": "post",
+  "group": "灾厄·月后",
+  "order": 36
+ },
+ {
+  "name": "Ceaseless Void",
+  "nameZh": "无尽虚空",
+  "phase": "post",
+  "group": "灾厄·月后",
+  "order": 37
+ },
+ {
+  "name": "Signus",
+  "nameZh": "西格纳斯",
+  "phase": "post",
+  "group": "灾厄·月后",
+  "order": 38
+ },
+ {
+  "name": "Polterghast",
+  "nameZh": "噬魂幽花",
+  "phase": "post",
+  "group": "灾厄·月后",
+  "order": 39
+ },
+ {
+  "name": "The Old Duke",
+  "nameZh": "古老公爵",
+  "phase": "post",
+  "group": "灾厄·月后",
+  "order": 40
+ },
+ {
+  "name": "The Devourer of Gods",
+  "nameZh": "神明吞噬者",
+  "phase": "post",
+  "group": "灾厄·月后",
+  "order": 41
+ },
+ {
+  "name": "Yharon, Dragon of Rebirth",
+  "nameZh": "丛林龙雅戎",
+  "phase": "post",
+  "group": "灾厄·月后",
+  "order": 42
+ },
+ {
+  "name": "Exo Mechs",
+  "nameZh": "星流巨械",
+  "phase": "post",
+  "group": "灾厄·月后",
+  "order": 43
+ },
+ {
+  "name": "Supreme Witch, Calamitas",
+  "nameZh": "至尊灾厄女巫",
+  "phase": "post",
+  "group": "灾厄·月后",
+  "order": 44
+ },
+ {
+  "name": "Primordial Wyrm",
+  "nameZh": "原初之虫",
+  "phase": "hidden",
+  "group": "隐藏Boss",
+  "order": 45
+ },
+ {
+  "name": "THE LORDE",
+  "nameZh": "洛德",
+  "phase": "hidden",
+  "group": "隐藏Boss",
+  "order": 46
+ },
+ {
+  "name": "XB-∞ Hekate",
+  "nameZh": "赫卡忒",
+  "phase": "hidden",
+  "group": "隐藏Boss",
+  "order": 47
+ },
+ {
+  "name": "Supreme Ultramage, Permafrost",
+  "nameZh": "至尊超法师·霜寒",
+  "phase": "hidden",
+  "group": "隐藏Boss",
+  "order": 48
+ },
+ {
+  "name": "Cragmaw Mire",
+  "nameZh": "裂颚沼泽",
+  "phase": "mini",
+  "group": "迷你Boss",
+  "order": 49
+ },
+ {
+  "name": "Giant Clam",
+  "nameZh": "巨蚌",
+  "phase": "mini",
+  "group": "迷你Boss",
+  "order": 50
+ },
+ {
+  "name": "Great Sand Shark",
+  "nameZh": "大沙鲨",
+  "phase": "mini",
+  "group": "迷你Boss",
+  "order": 51
+ },
+ {
+  "name": "Mauler",
+  "nameZh": "碎颌者",
+  "phase": "mini",
+  "group": "迷你Boss",
+  "order": 52
+ },
+ {
+  "name": "Nuclear Terror",
+  "nameZh": "核恐怖",
+  "phase": "mini",
+  "group": "迷你Boss",
+  "order": 53
+ }
+]

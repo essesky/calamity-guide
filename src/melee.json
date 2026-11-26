@@ -1,0 +1,539 @@
+{
+ "hero": {
+  "t": "近战专线 · 肉后一路锤到毕业",
+  "d": "近战能首尾相接打到底的有两条：锤系 5 档（最长的打造链）和方舟系 3 档。两条线吃的东西不一样，锤系砸单体，方舟砍一片，可以同时推进——终局分别在熔炉合体。"
+ },
+ "main": {
+  "t": "主线 · 锤系五档（全职业最长的打造链）",
+  "d": "五档首尾相接：后一档都把前一档的锤子当材料。这条线的好处是不用赌掉落，坏处是中间要经过两次 Boss 门槛（月总、神明吞噬者）。",
+  "tiers": [
+   {
+    "no": "1",
+    "when": "肉后 · 打过一个机械王后",
+    "w": "Pwnagehammer",
+    "dmg": "60",
+    "st": "秘银砧",
+    "mats": [
+     [
+      "Pwnhammer",
+      "1"
+     ],
+     [
+      "Hallowed Bar",
+      "7"
+     ],
+     [
+      "Soul of Fright",
+      "3"
+     ],
+     [
+      "Soul of Might",
+      "3"
+     ],
+     [
+      "Soul of Sight",
+      "3"
+     ]
+    ],
+    "why": "锤系唯一能自己搓的起点。神锤是肉山掉落，加上神圣锭和三魂就升级成第一把真正能用的锤——穿刺 + 高击退。",
+    "how": "神锤：血肉墙（肉山）；神圣锭：机械三王掉落（所以这档实际在三王战之后，标注的「三王前」是 wiki 的排版）；三魂：毁灭者 / 双子魔眼 / 机械骷髅王。"
+   },
+   {
+    "no": "2",
+    "when": "世纪之花后",
+    "w": "Fallen Paladin's Hammer",
+    "dmg": "90",
+    "st": "秘银砧",
+    "mats": [
+     [
+      "Paladin's Hammer",
+      "1"
+     ],
+     [
+      "Pwnagehammer",
+      "1"
+     ],
+     [
+      "Scoria Bar",
+      "8"
+     ],
+     [
+      "Ashes of Calamity",
+      "8"
+     ]
+    ],
+    "why": "圣骑士锤 + 圣时之锤合成。从单体砸变成带弹道的范围砸，是锤系第一次质变。",
+    "how": "圣骑士锤：地牢圣骑士 6.67% 掉落（不刷到就别急着做）；熔渣锭：深渊/硫磺火崖的熔渣矿冶炼；灾厄尘：灾厄克隆体 100%。"
+   },
+   {
+    "no": "3",
+    "when": "月后 · 月亮领主后",
+    "w": "Stellar Contempt",
+    "dmg": "180",
+    "st": "远古操纵机",
+    "mats": [
+     [
+      "Fallen Paladin's Hammer",
+      "1"
+     ],
+     [
+      "Luminite Bar",
+      "5"
+     ],
+     [
+      "Solar Fragment",
+      "5"
+     ],
+     [
+      "Core of Calamity",
+      "2"
+     ]
+    ],
+    "why": "站换到远古操纵机，吃夜明锭 + 日耀碎片。伤害直接翻档，是锤系第一个能打月后 Boss 的档。",
+    "how": "夜明锭：月亮领主掉落；日耀碎片：日耀柱；灾劫核心：硫磺火山口 / 地牢合成。注意：wiki 把它标成「石巨人前」，但它要夜明锭，真实门槛是月后。"
+   },
+   {
+    "no": "4",
+    "when": "月后 · 神明吞噬者后",
+    "w": "Galaxy Smasher",
+    "dmg": "300",
+    "st": "宇宙砧",
+    "mats": [
+     [
+      "Stellar Contempt",
+      "1"
+     ],
+     [
+      "Cosmilite Bar",
+      "10"
+     ]
+    ],
+    "why": "宇宙砧 + 宇宙锭。锤系在这里进入「一锤一屏」的档位，砸击会打出星尘冲击波。",
+    "how": "宇宙锭：神明吞噬者掉落（这是整条线第二个大卡点）；星体击碎者：上一档。"
+   },
+   {
+    "no": "5",
+    "when": "终局 · 星流巨械 / 至尊灾厄后",
+    "w": "Triactis' True Paladinian Mage-Hammer of Might",
+    "dmg": "900",
+    "st": "戴达罗斯熔炉",
+    "mats": [
+     [
+      "Galaxy Smasher",
+      "1"
+     ],
+     [
+      "Shadowspec Bar",
+      "5"
+     ],
+     [
+      "Life Alloy",
+      "5"
+     ]
+    ],
+    "why": "毕业锤。名字长到没法念，但它是锤系唯一的终点——需要魔影锭和生命合金，都是月后灾厄材料。",
+    "how": "魔影锭：月后灾厄锭（洞穴层）；生命合金：生命碎片 + 夜明锭 + 叶绿锭合成。"
+   }
+  ]
+ },
+ "alt": {
+  "t": "旁支 · 方舟系三档（砍一片的那条）",
+  "d": "锤系打单体，方舟系打范围。方舟的剑气是弧形范围伤害，清小怪和打多体 Boss 明显更快，两条线不冲突。",
+  "tiers": [
+   {
+    "no": "1",
+    "when": "肉后 · 三王前后",
+    "w": "Ark of the Ancients",
+    "dmg": "70",
+    "st": "秘银砧",
+    "mats": [
+     [
+      "Fractured Ark",
+      "1"
+     ],
+     [
+      "Starfury",
+      "1"
+     ],
+     [
+      "Broken Hero Sword",
+      "1"
+     ]
+    ],
+    "why": "灾厄的招牌剑，挥砍发出弧形剑气。三件材料全是宝箱/掉落，不用挖矿。",
+    "how": "破碎方舟：血肉墙掉落；星怒：空岛宝箱；断裂英雄剑：地下/洞穴宝箱（也能用微光转化拿）。"
+   },
+   {
+    "no": "2",
+    "when": "月后 · 月亮领主后",
+    "w": "Ark of the Elements",
+    "dmg": "190",
+    "st": "秘银砧",
+    "mats": [
+     [
+      "Ark of the Ancients",
+      "1"
+     ],
+     [
+      "Luminite Bar",
+      "5"
+     ],
+     [
+      "Life Alloy",
+      "5"
+     ],
+     [
+      "Solar Fragment",
+      "5"
+     ]
+    ],
+    "why": "加夜明锭 + 生命合金 + 日耀碎片。剑气范围进一步扩大，是月后最稳的近战清场武器之一。",
+    "how": "夜明锭：月亮领主；生命合金：生命碎片合成（雪原 / 洞穴层 / 深渊）；日耀碎片：日耀柱。"
+   },
+   {
+    "no": "3",
+    "when": "月后 · 神明吞噬者后",
+    "w": "Ark of the Cosmos",
+    "dmg": "420",
+    "st": "宇宙砧",
+    "mats": [
+     [
+      "Galaxia",
+      "1"
+     ],
+     [
+      "Ark of the Elements",
+      "1"
+     ],
+     [
+      "Auric Bar",
+      "5"
+     ]
+    ],
+    "why": "鸿蒙方舟要银河之刃（Galaxia）+ 元素方舟 + 圣金源锭，是方舟系终点。",
+    "how": "银河之刃：神明吞噬者掉落；圣金源锭：月后灾厄锭（洞穴层）。"
+   }
+  ]
+ },
+ "side": {
+  "t": "短线 · 拿到就升一档",
+  "d": "这些不是主线，但都是「顺手就能升」的性价比件。标了 3 档的说明还能再往上走一步。",
+  "rows": [
+   {
+    "from": "Vampire Knives",
+    "to": "Empyrean Knives",
+    "st": "秘银砧",
+    "dmg": "",
+    "need": [
+     [
+      "Monstrous Knives",
+      "1"
+     ],
+     [
+      "Twisting Nether",
+      "3"
+     ]
+    ],
+    "note": "吸血鬼刀不能造（地牢血腥宝箱），但它能一路吃到圣光飞刀：吸血鬼刀 → 苍穹飞刀 → 圣光飞刀，三档全通。"
+   },
+   {
+    "from": "Majestic Guard",
+    "to": "Grand Guardian",
+    "st": "远古操纵机",
+    "dmg": "",
+    "need": [
+     [
+      "Nebula Fragment",
+      "12"
+     ]
+    ],
+    "note": "雄伟之护肉后就能造（金/铂金宽剑 + 秘银锭×15 + 三精华），升到大守卫者后还能进「无限大地」。"
+   },
+   {
+    "from": "Lucrecia",
+    "to": "Lightspeed",
+    "st": "秘银砧",
+    "dmg": "",
+    "need": [
+     [
+      "Starlight",
+      "1"
+     ],
+     [
+      "Luminite Bar",
+      "5"
+     ],
+     [
+      "Life Alloy",
+      "5"
+     ],
+     [
+      "Solar Fragment",
+      "5"
+     ]
+    ],
+    "note": "卢克雷西亚纯合成，材料全是月后常见物；光速再往上能进星流之刃（终局合体件）。"
+   },
+   {
+    "from": "Meowmere",
+    "to": "Zenith",
+    "st": "宇宙砧",
+    "dmg": "",
+    "need": [
+     [
+      "Terra Blade",
+      "1"
+     ],
+     [
+      "Star Wrath",
+      "1"
+     ],
+     [
+      "Influx Waver",
+      "1"
+     ],
+     [
+      "The Horseman's Blade",
+      "1"
+     ],
+     [
+      "Seedler",
+      "1"
+     ],
+     [
+      "Starfury",
+      "1"
+     ],
+     [
+      "Bee Keeper",
+      "1"
+     ],
+     [
+      "Enchanted Sword",
+      "1"
+     ],
+     [
+      "Copper Shortsword",
+      "1"
+     ],
+     [
+      "Auric Bar",
+      "5"
+     ]
+    ],
+    "note": "彩虹猫之刃是月亮领主掉落；天顶剑要 10 把剑当零件，铜短剑也算一件——别把它扔了。"
+   },
+   {
+    "from": "Storm Saber",
+    "to": "Storm Ruler",
+    "st": "远古操纵机",
+    "dmg": "",
+    "need": [
+     [
+      "Wind Blade",
+      "1"
+     ],
+     [
+      "Vortex Fragment",
+      "6"
+     ]
+    ],
+    "note": "风暴军刀由云元素 20% 掉落；升到风暴管束者吃漩涡碎片，是月后穿透剑。"
+   },
+   {
+    "from": "Greatsword of Judgement",
+    "to": "Orderbringer",
+    "st": "宇宙砧",
+    "dmg": "",
+    "need": [
+     [
+      "Auric Bar",
+      "5"
+     ],
+     [
+      "Life Alloy",
+      "5"
+     ]
+    ],
+    "note": "制裁大剑远古操纵机可造，携序之剑要圣金源锭 + 生命合金，是月后稳定的高伤大剑。"
+   },
+   {
+    "from": "Chlorophyte Partisan",
+    "to": "Botanic Piercer",
+    "st": "秘银砧",
+    "dmg": "",
+    "need": [
+     [
+      "Dark Lance",
+      "1"
+     ],
+     [
+      "Gungnir",
+      "1"
+     ],
+     [
+      "Living Shard",
+      "12"
+     ]
+    ],
+    "note": "叶绿镋肉后就能造；翠芒尖枪要暗黑长枪 + 永恒之枪 + 生命碎片×12，长枪系唯一能续接的一档。"
+   },
+   {
+    "from": "Inferna Cutter",
+    "to": "Grax",
+    "st": "秘银砧",
+    "dmg": "",
+    "need": [
+     [
+      "Any Lunar Hamaxe",
+      "1"
+     ],
+     [
+      "Uelibloom Bar",
+      "10"
+     ]
+    ],
+    "note": "炼狱由纯净之斧升级；格拉克斯还要任意月明战锤斧 + 龙蒿锭×10，是挥砍型的范围斧。"
+   }
+  ]
+ },
+ "fusion": {
+  "t": "终局 · 熔炉合体",
+  "rows": [
+   {
+    "out": "Exoblade",
+    "st": "戴达罗斯熔炉",
+    "dmg": "",
+    "need": [
+     [
+      "Terratomere",
+      "1"
+     ],
+     [
+      "Lightspeed",
+      "1"
+     ],
+     [
+      "Entropic Claymore",
+      "1"
+     ],
+     [
+      "Flarefrost Blade",
+      "1"
+     ],
+     [
+      "Miracle Matter",
+      "1"
+     ]
+    ],
+    "note": "近战毕业剑之一。要泰拉阔剑 + 光速 + 熵阔剑 + 炎霜之刃四把剑 + 奇迹物质——前面省下的剑在这里全用上。"
+   },
+   {
+    "out": "Earth",
+    "st": "戴达罗斯熔炉",
+    "dmg": "",
+    "need": [
+     [
+      "Grand Guardian",
+      "1"
+     ],
+     [
+      "Stellar Striker",
+      "1"
+     ],
+     [
+      "Shadowspec Bar",
+      "5"
+     ],
+     [
+      "Life Alloy",
+      "5"
+     ]
+    ],
+    "note": "无限大地：大守卫者 + 月炎之锋 + 魔影锭 + 生命合金。砸地范围极大，打群体 Boss 很舒服。"
+   },
+   {
+    "out": "Illustrious Knives",
+    "st": "戴达罗斯熔炉",
+    "dmg": "",
+    "need": [
+     [
+      "Empyrean Knives",
+      "1"
+     ],
+     [
+      "Shadowspec Bar",
+      "5"
+     ],
+     [
+      "Core of Calamity",
+      "2"
+     ]
+    ],
+    "note": "圣光飞刀：苍穹飞刀 + 魔影锭 + 灾劫核心。飞刀系的终点，远程穿透。"
+   }
+  ]
+ },
+ "kit": {
+  "t": "配套 · 饰品 / 药剂",
+  "groups": [
+   {
+    "t": "饰品（按顺序堆）",
+    "d": "战士徽章是底子，复仇者徽章全职业通用，火焰护手/机械手套加攻速和击退；天界贝壳是月后综合件。",
+    "items": [
+     "Warrior Emblem",
+     "Avenger Emblem",
+     "Fire Gauntlet",
+     "Mechanical Glove",
+     "Celestial Shell",
+     "Flesh Knuckles"
+    ]
+   },
+   {
+    "t": "药剂",
+    "d": "铁皮 + 耐力 + 生命力是保命三件套；怒气/暴怒双药水是近战唯一能吃的增伤。",
+    "items": [
+     "Ironskin Potions",
+     "Endurance Potions",
+     "Lifeforce Potions",
+     "Regeneration Potions",
+     "Rage Potions",
+     "Wrath Potions"
+    ]
+   },
+   {
+    "t": "近战专属",
+    "d": "灵液药剂（Flask of Ichor）给武器附降防，打高防 Boss 时比任何增伤都实在；悠悠球袋只在用悠悠球时带。",
+    "items": [
+     "Flask of Ichor",
+     "Yoyo Bag"
+    ]
+   }
+  ]
+ },
+ "traps": {
+  "t": "五个坑",
+  "rows": [
+   {
+    "t": "阶段标签会骗人",
+    "d": "「星体击碎者」被标成石巨人前，但它要夜明锭（月亮领主掉落）。判断真实门槛只看配方里最高级的那个材料，别看阶段名。"
+   },
+   {
+    "t": "铁链血滴子 ↔ 臭虎爪 不是升级",
+    "d": "这两件是微光互转（铁砧 + 灵雾），转过去转回来都行，别当成打造链的一环。"
+   },
+   {
+    "t": "天顶剑要 10 把剑",
+    "d": "泰拉刃、彩虹猫之刃、狂星之怒、波涌之刃、无头骑士剑、种子弯刀、星怒、养蜂人、附魔剑、铜短剑——少一把都造不出来，铜短剑是最容易扔掉的。"
+   },
+   {
+    "t": "锤系和方舟系不通",
+    "d": "两条线各自合体到不同终点（真·圣骑士锤 / 鸿蒙方舟），材料也不共享。想省时间就只走一条，另一条当备选。"
+   },
+   {
+    "t": "星光之眼是 Classless",
+    "d": "它在每个阶段的近战栏里都出现，但伤害类型是无职业，不吃近战加成。当副手降防可以，当主武器会打不动。"
+   }
+  ]
+ }
+}

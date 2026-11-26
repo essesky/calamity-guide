@@ -1,0 +1,34 @@
+# 构建副产品
+src/check.js
+src/tmp_check.js
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 数据备份（开发过程产物，不入库）
+*.bak
+*.bak.*
+*.json.bak*
+*.backup
+*.log
+
+# 本地打包与部署目录
+dist/
+*.zip
+calamity-site/
+.wb_tmp/
+
+# WorkBuddy 项目元数据
+.workbuddy/
+*.genie
+
+# 编辑器 / 系统
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp

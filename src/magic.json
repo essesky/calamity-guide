@@ -1,0 +1,536 @@
+{
+ "hero": {
+  "t": "法师专线 · 书架三档 + 虚空支线",
+  "d": "法师的特点是主站固定（书架），一条线三档不用换工作台。代价是蓝耗和脆皮——所以配套里的魔力花和护甲选择比武器更重要。"
+ },
+ "main": {
+  "t": "主线 · 始源三档（全程书架）",
+  "d": "三档全在书架做，材料从肉前一路续到月后，中间不断档。这是法师最省心的一条线。",
+  "tiers": [
+   {
+    "no": "1",
+    "when": "肉后 · 三王前",
+    "w": "Death Valley Duster",
+    "dmg": "40",
+    "st": "书架",
+    "mats": [
+     [
+      "Spell Tome",
+      "1"
+     ],
+     [
+      "Sturdy Fossil",
+      "25"
+     ],
+     [
+      "Ancient Cloth",
+      "2"
+     ]
+    ],
+    "why": "法术魔典 + 坚固化石 + 远古布匹，全是肉前就能凑的材料，肉后第一把直接造。",
+    "how": "法术魔典：地牢 / 巫师购买；坚固化石：沙漠化石；远古布匹：沙漠幽魂掉落。"
+   },
+   {
+    "no": "2",
+    "when": "世纪之花后",
+    "w": "Primordial Earth",
+    "dmg": "80",
+    "st": "书架",
+    "mats": [
+     [
+      "Death Valley Duster",
+      "1"
+     ],
+     [
+      "Amber",
+      "5"
+     ],
+     [
+      "Ectoplasm",
+      "5"
+     ]
+    ],
+    "why": "只加琥珀和灵气，升级成本极低（不用锭），但伤害档位跳得明显。",
+    "how": "灵气（Ectoplasm）：地牢怪（世纪之花后）；琥珀：沙漠挖。"
+   },
+   {
+    "no": "3",
+    "when": "月后 · 神明吞噬者后",
+    "w": "Primordial Ancient",
+    "dmg": "200",
+    "st": "书架",
+    "mats": [
+     [
+      "Primordial Earth",
+      "1"
+     ],
+     [
+      "Cosmilite Bar",
+      "8"
+     ],
+     [
+      "Endothermic Energy",
+      "20"
+     ]
+    ],
+    "why": "吃宇宙锭 + 恒温能量×20。这是法师在月后到终局之前最稳的输出，弹道会自动追踪。",
+    "how": "宇宙锭：神明吞噬者掉落；恒温能量：霜月事件（冰霜女王 / 圣诞树）掉落。"
+   }
+  ]
+ },
+ "alt": {
+  "t": "旁支 · 水/虚空三档（原核之怒线）",
+  "d": "这条线伤害更高但门槛在掉落上：波塞冬要刷巨型蛤蜊，利刃台风要打猪鲨。想稳就走这条。",
+  "tiers": [
+   {
+    "no": "1",
+    "when": "肉后",
+    "w": "Poseidon",
+    "dmg": "60",
+    "st": "—",
+    "mats": [],
+    "why": "巨型蛤蜊 25% 掉落，本身伤害就不错，也是「原核之怒」的必需材料（另一个是猪鲨的利刃台风）。",
+    "how": "巨型蛤蜊（肉后海洋）25%；宝藏袋 33%。"
+   },
+   {
+    "no": "2",
+    "when": "月后 · 月亮领主后",
+    "w": "Nuclear Fury",
+    "dmg": "150",
+    "st": "书架",
+    "mats": [
+     [
+      "Razorblade Typhoon",
+      "1"
+     ],
+     [
+      "Poseidon",
+      "1"
+     ],
+     [
+      "Luminite Bar",
+      "5"
+     ]
+    ],
+    "why": "利刃台风 + 波塞冬 + 夜明锭。发射追踪水弹，是月后法师的主力之一。",
+    "how": "利刃台风：猪鲨公爵掉落；夜明锭：月亮领主。"
+   },
+   {
+    "no": "3",
+    "when": "月后 · 亵渎女神前",
+    "w": "Event Horizon",
+    "dmg": "260",
+    "st": "书架",
+    "mats": [
+     [
+      "Star Shower",
+      "1"
+     ],
+     [
+      "Nuclear Fury",
+      "1"
+     ],
+     [
+      "Relic of Ruin",
+      "1"
+     ],
+     [
+      "Dark Plasma",
+      "3"
+     ]
+    ],
+    "why": "黑洞边缘：流星雨 + 原核之怒 + 遗迹圣物 + 暗离子体。开一个持续吸附的黑洞，多体 Boss 极强。",
+    "how": "流星雨：星界巨兽 25%；遗迹圣物：遗迹（Ravager / 神庙相关）；暗离子体：无尽虚空掉落。"
+   }
+  ]
+ },
+ "side": {
+  "t": "短线 · 拿到就升一档",
+  "d": "法师的支线特别多，因为大部分魔法武器的升级只要「本体 + 一种月后锭」。看到有升级就升，别留在旧档。",
+  "rows": [
+   {
+    "from": "Ion Blaster",
+    "to": "Apoctosis Array",
+    "st": "远古操纵机",
+    "dmg": "",
+    "need": [
+     [
+      "Solar Fragment",
+      "12"
+     ]
+    ],
+    "note": "离子冲击波精金锭就能造；凋亡射线只要加日耀碎片×12，是月后最便宜的升级。"
+   },
+   {
+    "from": "Gleaming Magnolia",
+    "to": "Arch Amaryllis",
+    "st": "远古操纵机",
+    "dmg": "",
+    "need": [
+     [
+      "Nebula Fragment",
+      "12"
+     ]
+    ],
+    "note": "烁兰（魔法玫瑰 + 神圣锭）→ 玄法百枝莲（星云碎片×12），花系召唤物伤害高。"
+   },
+   {
+    "from": "Shadecrystal Barrage",
+    "to": "Light God's Brilliance",
+    "st": "书架",
+    "dmg": "",
+    "need": [
+     [
+      "Abyssal Tome",
+      "1"
+     ],
+     [
+      "Holy Water",
+      "10"
+     ],
+     [
+      "Cosmilite Bar",
+      "8"
+     ],
+     [
+      "Nightmare Fuel",
+      "20"
+     ],
+     [
+      "Effulgent Feather",
+      "5"
+     ],
+     [
+      "Soul of Light",
+      "30"
+     ]
+    ],
+    "note": "暗晶风暴要寒元锭×12；圣神光辉材料很杂（魔典 + 宇宙锭 + 梦魇魔能 + 金羽），但伤害是真的。"
+   },
+   {
+    "from": "Rainbow Gun",
+    "to": "Cosmic Rainbow",
+    "st": "远古操纵机",
+    "dmg": "",
+    "need": [
+     [
+      "Luminite Bar",
+      "5"
+     ],
+     [
+      "Crystal Shard",
+      "10"
+     ],
+     [
+      "Soul of Light",
+      "10"
+     ]
+    ],
+    "note": "彩虹枪是地牢神圣宝箱；宙虹只要夜明锭 + 水晶碎片，还能再进彩虹派对加农炮。"
+   },
+   {
+    "from": "Wasp Gun",
+    "to": "The Swarmer",
+    "st": "远古操纵机",
+    "dmg": "",
+    "need": [
+     [
+      "Bee Gun",
+      "1"
+     ],
+     [
+      "Stardust Fragment",
+      "6"
+     ]
+    ],
+    "note": "黄蜂枪（世纪之花掉落）→ 蜂群（加蜜蜂枪 + 星尘碎片×6），召唤蜜蜂自动追。"
+   },
+   {
+    "from": "Razorpine",
+    "to": "Mistlestorm",
+    "st": "秘银砧",
+    "dmg": "",
+    "need": [
+     [
+      "Leaf Blower",
+      "1"
+     ],
+     [
+      "Uelibloom Bar",
+      "10"
+     ],
+     [
+      "Dark Plasma",
+      "3"
+     ]
+    ],
+    "note": "剃刀松（霜月掉落）→ 槲叶暴风（加吹叶机 + 龙蒿锭×10 + 暗离子体×3）。"
+   },
+   {
+    "from": "Bubble Gun",
+    "to": "Effervescence",
+    "st": "秘银砧",
+    "dmg": "",
+    "need": [
+     [
+      "Luminite Bar",
+      "5"
+     ],
+     [
+      "Aetherium Block",
+      "10"
+     ]
+    ],
+    "note": "泡泡枪（猪鲨掉落）→ 泡沫冲锋枪（夜明锭 + 以太块×10），穿透型清场。"
+   },
+   {
+    "from": "Nano Purge",
+    "to": "Aetherflux Cannon",
+    "st": "宇宙砧",
+    "dmg": "",
+    "need": [
+     [
+      "Auric Bar",
+      "5"
+     ],
+     [
+      "Uelibloom Bar",
+      "12"
+     ],
+     [
+      "Divine Geode",
+      "8"
+     ]
+    ],
+    "note": "纳米净化（激光机枪 + 龙蒿锭 + 纳米机器人×100）→ 以太流光炮（圣金源锭 + 圣石×8）。"
+   },
+   {
+    "from": "Voltaic Climax",
+    "to": "Void Vortex",
+    "st": "宇宙砧",
+    "dmg": "",
+    "need": [
+     [
+      "Auric Bar",
+      "5"
+     ]
+    ],
+    "note": "极点光伏（磁场之融 + 宇宙锭 + 日蚀之阴碎片×8）→ 虚空漩涡（只要圣金源锭×5，很便宜）。"
+   },
+   {
+    "from": "Venusian Trident",
+    "to": "Helium Flash",
+    "st": "宇宙砧",
+    "dmg": "",
+    "need": [
+     [
+      "Forbidden Sun",
+      "1"
+     ],
+     [
+      "Auric Bar",
+      "5"
+     ],
+     [
+      "Solar Fragment",
+      "10"
+     ],
+     [
+      "Nebula Fragment",
+      "5"
+     ]
+    ],
+    "note": "金星三叉戟（狱火叉 + 毁灭之灵 + 扭曲虚空）→ 氦闪（禁忌之阳 + 圣金源锭 + 碎片）。"
+   },
+   {
+    "from": "Wingman",
+    "to": "Omicron",
+    "st": "宇宙砧",
+    "dmg": "",
+    "need": [
+     [
+      "Genesis",
+      "1"
+     ],
+     [
+      "Cosmilite Bar",
+      "8"
+     ],
+     [
+      "Endothermic Energy",
+      "20"
+     ]
+    ],
+    "note": "侧翼火星怪 1~10% 掉落；奥密克戎要「源」+ 侧翼 + 宇宙锭 + 恒温能量，是月后高伤枪。"
+   },
+   {
+    "from": "Stellar Tune",
+    "to": "Face Melter",
+    "st": "宇宙砧",
+    "dmg": "",
+    "need": [
+     [
+      "The Axe",
+      "1"
+     ],
+     [
+      "Cosmilite Bar",
+      "8"
+     ],
+     [
+      "Nightmare Fuel",
+      "20"
+     ]
+    ],
+    "note": "星星吉他（光之女皇掉落）→ 变脸熔炉（吉他斧 + 宇宙锭 + 梦魇魔能×20）。"
+   }
+  ]
+ },
+ "fusion": {
+  "t": "终局 · 熔炉合体",
+  "rows": [
+   {
+    "out": "Vivid Clarity",
+    "st": "戴达罗斯熔炉",
+    "dmg": "",
+    "need": [
+     [
+      "Nucleosynthesis",
+      "1"
+     ],
+     [
+      "Phantasmal Fury",
+      "1"
+     ],
+     [
+      "Shadowbolt Staff",
+      "1"
+     ],
+     [
+      "Ultra Liquidator",
+      "1"
+     ],
+     [
+      "Miracle Matter",
+      "1"
+     ]
+    ],
+    "note": "耀界之光：核聚变 + 幻象之怒 + 影流法杖 + 终结裂空戟 + 奇迹物质。四把法杖合一把，法师的毕业件。"
+   },
+   {
+    "out": "Rainbow Party Cannon",
+    "st": "戴达罗斯熔炉",
+    "dmg": "",
+    "need": [
+     [
+      "Cosmic Rainbow",
+      "1"
+     ],
+     [
+      "Celebration Mk2",
+      "1"
+     ],
+     [
+      "Confetti Cannon",
+      "1"
+     ],
+     [
+      "Shadowspec Bar",
+      "5"
+     ],
+     [
+      "Soul of Light",
+      "25"
+     ],
+     [
+      "Confetti",
+      "50"
+     ]
+    ],
+    "note": "彩虹派对加农炮：宙虹 + 喜庆弹射器Mk2 + 彩纸炮 + 魔影锭。弹幕最花的一把，伤害也不低。"
+   },
+   {
+    "out": "Nebulous Cataclysm",
+    "st": "宇宙砧",
+    "dmg": "",
+    "need": [
+     [
+      "Nebula Arcanum",
+      "1"
+     ],
+     [
+      "Nebula Blaze",
+      "1"
+     ],
+     [
+      "Cosmilite Bar",
+      "8"
+     ],
+     [
+      "Nightmare Fuel",
+      "20"
+     ]
+    ],
+    "note": "星云灾变：星云奥秘 + 星云烈焰 + 宇宙锭 + 梦魇魔能。两条星云线在这里并成一条。"
+   }
+  ]
+ },
+ "kit": {
+  "t": "配套 · 饰品 / 药剂",
+  "groups": [
+   {
+    "t": "饰品",
+    "d": "巫士徽章是底子；魔力花必须带（自动喝蓝药）；天界徽章是月后综合件。",
+    "items": [
+     "Sorcerer Emblem",
+     "Avenger Emblem",
+     "Celestial Emblem",
+     "Mana Flower"
+    ]
+   },
+   {
+    "t": "药剂",
+    "d": "魔力再生药水全程常驻；魔能药水（Magic Power）是法师唯一的大增伤；蓝药水记得放快捷栏。",
+    "items": [
+     "Mana Regeneration Potions",
+     "Mana Potions",
+     "Magic Power Potions",
+     "Rage Potions"
+    ]
+   },
+   {
+    "t": "法师专属",
+    "d": "魔力花 + 蓝药水自动喝是法师和近战最大的操作差异；不带这两样，Boss 战一半时间在找蓝。",
+    "items": [
+     "Mana Flower",
+     "Mana Potions"
+    ]
+   }
+  ]
+ },
+ "traps": {
+  "t": "五个坑",
+  "rows": [
+   {
+    "t": "主站是书架，不是砧",
+    "d": "三档主线全在书架做。很多人习惯性跑到秘银砧找配方，找不到就以为数据错了。"
+   },
+   {
+    "t": "不带魔力花就是自杀",
+    "d": "法师的伤害全压在蓝条上。魔力花 + 蓝药水自动喝，这一条比换任何武器都提伤害。"
+   },
+   {
+    "t": "星光之眼 / 马格努斯之眼是 Classless",
+    "d": "每阶段法师栏都有它，但不吃魔法加成。当副手降防可以，别当主武器。"
+   },
+   {
+    "t": "星云两条路都能到灾变",
+    "d": "星云奥秘和星云烈焰都能升星云灾变，但灾变要两把都喂进去——别只做一把就以为齐了。"
+   },
+   {
+    "t": "恒温能量是霜月掉落",
+    "d": "始源之遗要 20 个恒温能量，只能靠霜月事件刷。月后第一件事先把霜月刷够，不然会卡在材料上。"
+   }
+  ]
+ }
+}

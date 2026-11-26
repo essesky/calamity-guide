@@ -1,0 +1,5360 @@
+[
+ {
+  "Item": "Abaddon",
+  "Npc": "[[Red Devil]]",
+  "Amount": "1",
+  "Chance": "8.33%&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">14.29%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Abandoned Slime Staff",
+  "Npc": "[[Astral Slime]]<br/>(Post-[[File:Astrum Aureus map.png|20px|link=Astrum Aureus]])",
+  "Amount": "1",
+  "Chance": "10%"
+ },
+ {
+  "Item": "Abandoned Wulfrum Helmet",
+  "Npc": "[[Wulfrum Amplifier]]",
+  "Amount": "1",
+  "Chance": "5%"
+ },
+ {
+  "Item": "Abyss Shell Fossil",
+  "Npc": "[[Eidolon Wyrm]]",
+  "Amount": "1",
+  "Chance": "2%"
+ },
+ {
+  "Item": "Abyss Shell Fossil",
+  "Npc": "[[Primordial Wyrm]]",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Abyss Shocker",
+  "Npc": "[[Box Jellyfish]]<br/>(Post-[[File:Map Icon Skeletron.png|25px|link=Skeletron]])",
+  "Amount": "1",
+  "Chance": "2%&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">2.5%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Abyss Shocker",
+  "Npc": "[[Mirage Jelly]]<br/>(Post-[[File:Map Icon Skeletron.png|25px|link=Skeletron]])",
+  "Amount": "1",
+  "Chance": "10%"
+ },
+ {
+  "Item": "Abyssal Tome",
+  "Npc": "[[The Slime God]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Abyssal Tome",
+  "Npc": "[[Treasure Bag (The Slime God)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Acidwood",
+  "Npc": "[[Acidwood Tree]] (Shaking)",
+  "Amount": "1-3",
+  "Chance": "8.33%"
+ },
+ {
+  "Item": "Aegis Blade",
+  "Npc": "[[Golem]]",
+  "Amount": "1",
+  "Chance": "10%"
+ },
+ {
+  "Item": "Aegis Blade",
+  "Npc": "[[Treasure Bag (Golem)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">10%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Aerialite Ore",
+  "Npc": "[[Aero Slime]]",
+  "Amount": "10-26",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Aero Stone",
+  "Npc": "[[Wyvern]]",
+  "Amount": "1",
+  "Chance": "25%&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Affliction",
+  "Npc": "[[Treasure Bag (Polterghast)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>"
+ },
+ {
+  "Item": "Alula Australis",
+  "Npc": "[[Astrum Aureus]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Alula Australis",
+  "Npc": "[[Treasure Bag (Astrum Aureus)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Amidias' Pendant",
+  "Npc": "[[Giant Clam]]",
+  "Amount": "1",
+  "Chance": "33.33%"
+ },
+ {
+  "Item": "Anahita's Arpeggio",
+  "Npc": "[[Leviathan and Anahita]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Anahita's Arpeggio",
+  "Npc": "[[Treasure Bag (Leviathan and Anahita)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Ancient Bone Dust",
+  "Npc": "[[Armored Skeleton]]<br/>[[Hoplite]]<br/>[[Skeleton]]<br/>[[Skeleton Archer]]<br/>[[Spore Skeleton]]",
+  "Amount": "1",
+  "Chance": "20%&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>"
+ },
+ {
+  "Item": "Ancient Bone Dust",
+  "Npc": "[[Celestial Remains]] (When used at an [[Extractinator]])",
+  "Amount": "1-10",
+  "Chance": "20%"
+ },
+ {
+  "Item": "Ancient Bone Dust",
+  "Npc": "[[Overloaded Soldier]]",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Ancient Bone Dust",
+  "Npc": "[[Ravager]]<br/>(in [[get fixed boi]] worlds)",
+  "Amount": "1-9999",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Ancient God Slayer set",
+  "Npc": "[[Storm Weaver]]<br/>[[Ceaseless Void]]<br/>[[Signus]]",
+  "Amount": "1",
+  "Chance": "5%"
+ },
+ {
+  "Item": "Ancient God Slayer set",
+  "Npc": "[[Treasure Bag (Storm Weaver)]]<br/>[[Treasure Bag (Ceaseless Void)]]<br/>[[Treasure Bag (Signus)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">5%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Ancient Ice Chunk",
+  "Npc": "[[Ice Clasper]]",
+  "Amount": "1",
+  "Chance": "20%"
+ },
+ {
+  "Item": "Anechoic Coating",
+  "Npc": "[[Abyssal Treasure]]",
+  "Amount": "1",
+  "Chance": "10%"
+ },
+ {
+  "Item": "Anechoic Coating",
+  "Npc": "[[Cuttlefish]]<br/>[[Frogfish]]<br/>[[Sulflounder]]",
+  "Amount": "1",
+  "Chance": "50%"
+ },
+ {
+  "Item": "Anechoic Coating",
+  "Npc": "[[Reaper Shark]]",
+  "Amount": "2-3",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Anechoic Plating",
+  "Npc": "[[Ancient Treasure Chest]]",
+  "Amount": "1",
+  "Chance": "1/10 (10%)"
+ },
+ {
+  "Item": "Anechoic Plating",
+  "Npc": "[[Hydrothermal Crate]]",
+  "Amount": "1",
+  "Chance": "1/10 (10%)"
+ },
+ {
+  "Item": "Animosity",
+  "Npc": "[[Calamitas Clone]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Animosity",
+  "Npc": "[[Treasure Bag (Calamitas Clone)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Antlion Skewer",
+  "Npc": "[[Antlion]]",
+  "Amount": "1",
+  "Chance": "5%"
+ },
+ {
+  "Item": "Aorta",
+  "Npc": "[[The Perforators]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Aorta",
+  "Npc": "[[Treasure Bag (The Perforators)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Aquatic Emblem",
+  "Npc": "[[Treasure Bag (Aquatic Scourge)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Aquatic Heart",
+  "Npc": "[[???]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Arc Flash Ring",
+  "Npc": "[[Treasure Bag (Storm Weaver)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Archerfish",
+  "Npc": "[[Ancient Treasure Chest]]",
+  "Amount": "1",
+  "Chance": "1/10 (10%)"
+ },
+ {
+  "Item": "Archerfish",
+  "Npc": "[[Hydrothermal Crate]]",
+  "Amount": "1",
+  "Chance": "1/10 (10%)"
+ },
+ {
+  "Item": "Ares' Exoskeleton",
+  "Npc": "[[Exo Mechs]] (Ares)<br/>[[XB-∞ Hekate]]",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Ares' Exoskeleton",
+  "Npc": "[[Treasure Box (Exo Mechs)]] (Ares)",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Armored Shell",
+  "Npc": "[[Storm Weaver]]",
+  "Amount": "10-12",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Armored Shell",
+  "Npc": "[[Treasure Bag (Storm Weaver)]]",
+  "Amount": "12-16",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>"
+ },
+ {
+  "Item": "Ascendant Spirit Essence",
+  "Npc": "[[Providence, the Profaned Goddess]]<br/>(in [[get fixed boi]] worlds)",
+  "Amount": "1-99",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Ashen Horns",
+  "Npc": "[[Supreme Witch, Calamitas]]<br/>[[Supreme Ultramage, Permafrost]]",
+  "Amount": "1",
+  "Chance": "14.29%"
+ },
+ {
+  "Item": "Ashen Horns",
+  "Npc": "[[Treasure Coffer (Calamitas)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">14.29%</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>"
+ },
+ {
+  "Item": "Ashen Stalactite",
+  "Npc": "[[Ashen Chest]]",
+  "Amount": "1",
+  "Chance": "50%"
+ },
+ {
+  "Item": "Ashen Stalactite",
+  "Npc": "[[Fire Imp]]",
+  "Amount": "1",
+  "Chance": "4% (Pre-[[File:Map Icon Eye of Cthulhu (first form).png|20px|link=Eye of Cthulhu]]) <br/> 8.33% (Post-[[File:Map Icon Eye of Cthulhu (first form).png|20px|link=Eye of Cthulhu]])"
+ },
+ {
+  "Item": "Ashes of Annihilation",
+  "Npc": "[[Calamitas Clone]]<br/>(in [[get fixed boi]] worlds)",
+  "Amount": "6-9",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Ashes of Annihilation",
+  "Npc": "[[Supreme Witch, Calamitas]]<br/>[[Supreme Ultramage, Permafrost]]",
+  "Amount": "25-30",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Ashes of Annihilation",
+  "Npc": "[[Treasure Coffer (Calamitas)]]",
+  "Amount": "30-40",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Ashes of Calamity",
+  "Npc": "[[Calamitas Clone]]",
+  "Amount": "25-30",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Ashes of Calamity",
+  "Npc": "[[Treasure Bag (Calamitas Clone)]]",
+  "Amount": "30-35",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Astral Grass Seeds",
+  "Npc": "[[Stuffed Fish]]<br/>(in [[Hardmode]])",
+  "Amount": "2-5",
+  "Chance": "5%"
+ },
+ {
+  "Item": "Astral Monolith",
+  "Npc": "[[Plants#Trees|Monolith (normal)]]<br/>[[Plants#Trees|Monolith (snow)]] (shaking)",
+  "Amount": "1-3",
+  "Chance": "7.14%"
+ },
+ {
+  "Item": "Astral Monolith",
+  "Npc": "[[Plants#Trees|Monolith (palm)]] (shaking)",
+  "Amount": "1-3",
+  "Chance": "8.33%"
+ },
+ {
+  "Item": "Astral Ore",
+  "Npc": "[[Astral Slime]]<br/>(Post-[[File:Astrum Deus map.png|20px|link=Astrum Deus]])",
+  "Amount": "8-12&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">11-16</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Astral Ore",
+  "Npc": "[[Celestial Remains]]<br/>(Post-[[File:Astrum Deus map.png|20px|link=Astrum Deus]])",
+  "Amount": "1",
+  "Chance": "10.74%"
+ },
+ {
+  "Item": "Astral Ore",
+  "Npc": "[[Novae Slag]]<br/>(Post-[[File:Astrum Deus map.png|20px|link=Astrum Deus]])",
+  "Amount": "1",
+  "Chance": "11.47%"
+ },
+ {
+  "Item": "Astral Scythe",
+  "Npc": "[[Mantis]]<br/>(Post-[[File:Astrum Aureus map.png|20px|link=Astrum Aureus]])",
+  "Amount": "1",
+  "Chance": "10%"
+ },
+ {
+  "Item": "Astralachnea Staff",
+  "Npc": "[[Astralachnea]]<br/>(Post-[[File:Astrum Aureus map.png|20px|link=Astrum Aureus]])",
+  "Amount": "1",
+  "Chance": "10%"
+ },
+ {
+  "Item": "Astrophage",
+  "Npc": "[[Astral Crate]]<br/>[[Monolith Crate]]",
+  "Amount": "1",
+  "Chance": "5%"
+ },
+ {
+  "Item": "Atlantis",
+  "Npc": "[[Leviathan and Anahita]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Atlantis",
+  "Npc": "[[Treasure Bag (Leviathan and Anahita)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Atlas Munitions Beacon",
+  "Npc": "[[Exo Mechs]] (Thanatos)<br/>[[XB-∞ Hekate]] (Spine)",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Atlas Munitions Beacon",
+  "Npc": "[[Treasure Box (Exo Mechs)]] (Thanatos)",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Aureus Cell",
+  "Npc": "[[Astral Chest]]",
+  "Amount": "10-15",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Aureus Cell",
+  "Npc": "[[Astrum Aureus]]",
+  "Amount": "9-12",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Aureus Cell",
+  "Npc": "[[King Slime]]<br/>(in [[get fixed boi]] worlds)",
+  "Amount": "45-55",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Aureus Cell",
+  "Npc": "[[Treasure Bag (Astrum Aureus)]]",
+  "Amount": "12-16",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Aurora Blazer",
+  "Npc": "[[Astrum Aureus]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Aurora Blazer",
+  "Npc": "[[Treasure Bag (Astrum Aureus)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Auroradical Throw",
+  "Npc": "[[Astrum Aureus]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Auroradical Throw",
+  "Npc": "[[Treasure Bag (Astrum Aureus)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Avalanche",
+  "Npc": "[[Cryogen]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Avalanche",
+  "Npc": "[[Treasure Bag (Cryogen)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Ball O' Fugu",
+  "Npc": "[[Ancient Treasure Chest]]",
+  "Amount": "1",
+  "Chance": "1/10 (10%)"
+ },
+ {
+  "Item": "Ball O' Fugu",
+  "Npc": "[[Hydrothermal Crate]]",
+  "Amount": "1",
+  "Chance": "1/10 (10%)"
+ },
+ {
+  "Item": "Banshee Hook",
+  "Npc": "[[Polterghast]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Banshee Hook",
+  "Npc": "[[Treasure Bag (Polterghast)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>"
+ },
+ {
+  "Item": "Barberry",
+  "Npc": "[[Plants#Trees|Monolith (normal)]]",
+  "Amount": "1",
+  "Chance": "2.76%"
+ },
+ {
+  "Item": "Barinade",
+  "Npc": "[[Desert Scourge]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Barinade",
+  "Npc": "[[Treasure Bag (Desert Scourge)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Barinautical",
+  "Npc": "[[Aquatic Scourge]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Barinautical",
+  "Npc": "[[Treasure Bag (Aquatic Scourge)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Belching Saxophone",
+  "Npc": "[[Belching Coral]]",
+  "Amount": "1",
+  "Chance": "10%"
+ },
+ {
+  "Item": "Belladonna Spirit Staff",
+  "Npc": "[[Ivy Chest]] ([[Vernal Pass]])",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Black Anurian",
+  "Npc": "[[Ancient Treasure Chest]]",
+  "Amount": "1",
+  "Chance": "1/10 (10%)"
+ },
+ {
+  "Item": "Black Anurian",
+  "Npc": "[[Hydrothermal Crate]]",
+  "Amount": "1",
+  "Chance": "1/10 (10%)"
+ },
+ {
+  "Item": "Black Hawk Remote",
+  "Npc": "[[Treasure Bag (Wall of Flesh)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Black Hawk Remote",
+  "Npc": "[[Wall of Flesh]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Bladecrest Oathsword",
+  "Npc": "[[Demon]]<br/>[[Voodoo Demon]]",
+  "Amount": "1",
+  "Chance": "2% (Pre-[[File:Map Icon Eater of Worlds.png|20px|link=Eater of Worlds]][[File:Map Icon Brain of Cthulhu.png|20px|link=Brain of Cthulhu]])<br/>6.67% (Post-[[File:Map Icon Eater of Worlds.png|20px|link=Eater of Worlds]][[File:Map Icon Brain of Cthulhu.png|20px|link=Brain of Cthulhu]]"
+ },
+ {
+  "Item": "Blasphemous Donut",
+  "Npc": "[[Impious Immolator]]",
+  "Amount": "1",
+  "Chance": "5%"
+ },
+ {
+  "Item": "Blast Barrel",
+  "Npc": "[[Treasure Bag (Wall of Flesh)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>"
+ },
+ {
+  "Item": "Blast Barrel",
+  "Npc": "[[Wall of Flesh]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Blessed Phoenix Egg",
+  "Npc": "[[Yharon, Dragon of Rebirth]]<br/>(in [[get fixed boi]] worlds)",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Blighted Gel",
+  "Npc": "[[Crimulan Blight Slime]]<br/>[[Ebonian Blight Slime]]",
+  "Amount": "15-21",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Blighted Slime Staff",
+  "Npc": "[[The Slime God]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Blighted Slime Staff",
+  "Npc": "[[Treasure Bag (The Slime God)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Blissful Bombardier",
+  "Npc": "[[Providence, the Profaned Goddess]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Blissful Bombardier",
+  "Npc": "[[Treasure Bag (Providence, the Profaned Goddess)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Blood Bath",
+  "Npc": "[[The Perforators]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Blood Bath",
+  "Npc": "[[Treasure Bag (The Perforators)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Blood Orb",
+  "Npc": "[[Blood Eel]]<br/>[[Hemogoblin Shark]]<br/>(Post-[[File:Map Icon Eye of Cthulhu (first form).png|20px|link=Eye of Cthulhu]])",
+  "Amount": "40-48",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Blood Orb",
+  "Npc": "[[Blood Zombie]]<br/>[[Drippler]]<br/>(Post-[[File:Map Icon Eye of Cthulhu (first form).png|20px|link=Eye of Cthulhu]])",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Blood Orb",
+  "Npc": "[[Clown]]<br/>(Post-[[File:Map Icon Eye of Cthulhu (first form).png|20px|link=Eye of Cthulhu]])",
+  "Amount": "6-12",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Blood Orb",
+  "Npc": "[[Dreadnautilus]]<br/>(Post-[[File:Map Icon Eye of Cthulhu (first form).png|20px|link=Eye of Cthulhu]])",
+  "Amount": "100-120",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Blood Orb",
+  "Npc": "[[Gorecodile]]",
+  "Amount": "5-15",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Blood Orb",
+  "Npc": "[[Maggot Zombie]]<br/>(Post-[[File:Map Icon Eye of Cthulhu (first form).png|20px|link=Eye of Cthulhu]])",
+  "Amount": "1",
+  "Chance": "10%"
+ },
+ {
+  "Item": "Blood Orb",
+  "Npc": "[[The Bride]]<br/>[[The Groom]]<br/>(Post-[[File:Map Icon Eye of Cthulhu (first form).png|20px|link=Eye of Cthulhu]])",
+  "Amount": "3-6",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Blood Orb",
+  "Npc": "[[Wandering Eye Fish]]<br/>[[Zombie Merman]]<br/>[[Horrible Hog]]<br/>(Post-[[File:Map Icon Eye of Cthulhu (first form).png|20px|link=Eye of Cthulhu]])",
+  "Amount": "10-12",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Blood Pact",
+  "Npc": "[[Treasure Bag (Ravager)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Bloodfin",
+  "Npc": "[[The Perforators]]<br/>(in [[get fixed boi]] worlds)",
+  "Amount": "1-9999",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Bloodflare Core",
+  "Npc": "[[Pyrogen]]<br/>(in [[get fixed boi]] worlds)",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Bloodflare Core",
+  "Npc": "[[Ravager]]<br/>(post-[[File:Providence map.png|link=Providence, the Profaned Goddess|30px]])",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Bloodflare Core",
+  "Npc": "[[Treasure Bag (Ravager)]]<br/>(post-[[File:Providence map.png|link=Providence, the Profaned Goddess|30px]])",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Bloodstained Glove",
+  "Npc": "[[The Perforators]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Bloodstained Glove",
+  "Npc": "[[Treasure Bag (The Perforators)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>"
+ },
+ {
+  "Item": "Bloodstone",
+  "Npc": "[[Calamity Eye]]<br/>[[Despair Stone]]<br/>[[Infernal Congealment]]<br/>[[Renegade Warlock]]<br/>[[Scryllar]]<br/>[[Soul Slurper]]<br/>(Post-[[File:Providence map.png|25px|link=Providence, the Profaned Goddess]])",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Bloodstone",
+  "Npc": "[[Necromantic Geode]]",
+  "Amount": "100-120&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">120-140</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Bloodworm",
+  "Npc": "[[The Destroyer]]<br/>(in [[get fixed boi]] worlds)",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Bloody Vein",
+  "Npc": "[[The Perforators]]",
+  "Amount": "1",
+  "Chance": "10%"
+ },
+ {
+  "Item": "Bloody Vein",
+  "Npc": "[[Treasure Bag (The Perforators)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">10%</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>"
+ },
+ {
+  "Item": "Bloody Worm Tooth",
+  "Npc": "[[Treasure Bag (The Perforators)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Bloom Stone",
+  "Npc": "[[Plantera]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Bloom Stone",
+  "Npc": "[[Treasure Bag (Plantera)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Blossom Flux",
+  "Npc": "[[Plantera]]",
+  "Amount": "1",
+  "Chance": "10%"
+ },
+ {
+  "Item": "Blossom Flux",
+  "Npc": "[[Treasure Bag (Plantera)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">10%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Bobbit Hook",
+  "Npc": "[[Bobbit Worm]]<br/>(Post-[[File:Polterghast map.png|25px|link=Polterghast]])",
+  "Amount": "1",
+  "Chance": "33.33%"
+ },
+ {
+  "Item": "Borealis Bomber",
+  "Npc": "[[Astrum Aureus]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Borealis Bomber",
+  "Npc": "[[Treasure Bag (Astrum Aureus)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Bouncing Eyeball",
+  "Npc": "[[Wandering Eye Fish]]<br/>[[Zombie Merman]]",
+  "Amount": "1",
+  "Chance": "12.5%"
+ },
+ {
+  "Item": "Brimlance",
+  "Npc": "[[Brimstone Elemental]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Brimlance",
+  "Npc": "[[Treasure Bag (Brimstone Elemental)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Brimstone Jewel",
+  "Npc": "[[Treasure Coffer (Calamitas)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Brimstone Slag",
+  "Npc": "[[Despair Stone]]",
+  "Amount": "10-30",
+  "Chance": "20%"
+ },
+ {
+  "Item": "Briny Baron",
+  "Npc": "[[Duke Fishron]]",
+  "Amount": "1",
+  "Chance": "10%"
+ },
+ {
+  "Item": "Briny Baron",
+  "Npc": "[[Treasure Bag (Duke Fishron)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">10%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Brittle Star Staff",
+  "Npc": "[[Desert Scourge]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Brittle Star Staff",
+  "Npc": "[[Treasure Bag (Desert Scourge)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Broken Water Filter",
+  "Npc": "[[Hydrothermal Crate]]<br/>[[Sulphurous Crate]]",
+  "Amount": "1",
+  "Chance": "1/4 (25%)"
+ },
+ {
+  "Item": "Broken Water Filter",
+  "Npc": "[[Rusty Chest]]",
+  "Amount": "1",
+  "Chance": "1/4 (25%)"
+ },
+ {
+  "Item": "Broken Water Filter",
+  "Npc": "[[XB-∞ Hekate]]",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Burning Revelation",
+  "Npc": "[[Providence, the Profaned Goddess]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Burning Revelation",
+  "Npc": "[[Treasure Bag (Providence, the Profaned Goddess)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Burning Strife",
+  "Npc": "[[Goblin Warlock]]",
+  "Amount": "1",
+  "Chance": "20%&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Burnt Sienna",
+  "Npc": "[[Tomb Crawler]]",
+  "Amount": "1",
+  "Chance": "4%&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">6.67%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Burrower Beacon",
+  "Npc": "[[Burrower]]",
+  "Amount": "1",
+  "Chance": "10%"
+ },
+ {
+  "Item": "Cadaverous Carrion",
+  "Npc": "[[The Old Duke]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Cadaverous Carrion",
+  "Npc": "[[Treasure Bag (The Old Duke)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>"
+ },
+ {
+  "Item": "Calamari's Lament",
+  "Npc": "[[Colossal Squid]]<br/>(Post-[[File:Polterghast map.png|25px|link=Polterghast]])",
+  "Amount": "1",
+  "Chance": "33.33%"
+ },
+ {
+  "Item": "Calamari's Lament",
+  "Npc": "[[Moon Lord]]<br/>(in [[get fixed boi]] worlds)",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Calamitous set",
+  "Npc": "[[Supreme Witch, Calamitas]]<br/>[[Supreme Ultramage, Permafrost]]",
+  "Amount": "1",
+  "Chance": "14.29%"
+ },
+ {
+  "Item": "Calamitous set",
+  "Npc": "[[Treasure Coffer (Calamitas)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">14.29%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Calamity",
+  "Npc": "[[Treasure Coffer (Calamitas)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Carnage",
+  "Npc": "[[Treasure Bag (Wall of Flesh)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Carnage",
+  "Npc": "[[Wall of Flesh]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Caustic Croaker Staff",
+  "Npc": "[[Nuclear Toad]]",
+  "Amount": "1",
+  "Chance": "5% (Tier 1)<br/>1% (Tiers 2 & 3)"
+ },
+ {
+  "Item": "Celestial Claymore",
+  "Npc": "[[Corrupt Mimic]]<br/>[[Crimson Mimic]]<br/>[[Hallowed Mimic]]<br/>[[Jungle Mimic]]",
+  "Amount": "1",
+  "Chance": "14.29%&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">25%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Celestial Onion",
+  "Npc": "[[Moon Lord]]",
+  "Amount": "1",
+  "Chance": "100%&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>&#32;/&#32;'''<abbr class=\"master_value\" style=\"cursor:pointer;\" title=\"Master Mode\">100% (if the player has not used the [[Demon Heart]])</abbr>''' <span class=\"i\">[[File:Master Indicator.png|link=Master Mode|Master Mode|25xpx]]</span>"
+ },
+ {
+  "Item": "Chaos Stone",
+  "Npc": "[[Calamitas Clone]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Chaos Stone",
+  "Npc": "[[Treasure Bag (Calamitas Clone)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Charred Relic",
+  "Npc": "[[Treasure Bag (Brimstone Elemental)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"revengeance_value\" style=\"cursor:pointer;\" title=\"Revengeance Mode\">100%</abbr>''' <span class=\"i\">[[File:Revengeance Indicator.png|link=Revengeance Mode|Revengeance Mode|25xpx]]</span>"
+ },
+ {
+  "Item": "Chicken Cannon",
+  "Npc": "[[Treasure Bag (Yharon)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Chicken Cannon",
+  "Npc": "[[Yharon, Dragon of Rebirth]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Chromatic Orb",
+  "Npc": "[[Astrum Deus]]",
+  "Amount": "1",
+  "Chance": "20%"
+ },
+ {
+  "Item": "Chromatic Orb",
+  "Npc": "[[Treasure Bag (Astrum Deus)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">20%</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>"
+ },
+ {
+  "Item": "Cinder Blossom Seeds",
+  "Npc": "[[Stuffed Fish]]",
+  "Amount": "2-5",
+  "Chance": "5%"
+ },
+ {
+  "Item": "Clam Crusher",
+  "Npc": "[[Giant Clam]] (In [[Hardmode]])",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Clamor Rifle",
+  "Npc": "[[Giant Clam]] (In [[Hardmode]])",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Cleansing Jelly",
+  "Npc": "[[Blue Jellyfish]]",
+  "Amount": "1",
+  "Chance": "10%&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">14.29%</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>"
+ },
+ {
+  "Item": "Cleansing Jelly",
+  "Npc": "[[Mirage Jelly]]",
+  "Amount": "1",
+  "Chance": "14.29%&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">20%</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>"
+ },
+ {
+  "Item": "Clothier's Wrath",
+  "Npc": "[[Clothier]]",
+  "Amount": "1",
+  "Chance": "100% (In [[Hardmode]])"
+ },
+ {
+  "Item": "Coastal Demonfish",
+  "Npc": "[[Ashen Chest]]",
+  "Amount": "2-4",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Coldheart Icicle",
+  "Npc": "[[Supreme Ultramage, Permafrost]]",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Cometfruit",
+  "Npc": "[[Plants#Trees|Monolith (snow)]]",
+  "Amount": "1",
+  "Chance": "2.76%"
+ },
+ {
+  "Item": "Condemnation",
+  "Npc": "[[Supreme Witch, Calamitas]]<br/>[[Supreme Ultramage, Permafrost]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Condemnation",
+  "Npc": "[[Treasure Coffer (Calamitas)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Contaminated Bile",
+  "Npc": "[[Gnasher]]",
+  "Amount": "1",
+  "Chance": "20%"
+ },
+ {
+  "Item": "Core of Calamity",
+  "Npc": "[[Fleshy Geode]]",
+  "Amount": "1",
+  "Chance": "25%&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>"
+ },
+ {
+  "Item": "Core of Calamity",
+  "Npc": "[[Necromantic Geode]]",
+  "Amount": "1",
+  "Chance": "33.33%&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">50%</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>"
+ },
+ {
+  "Item": "Corpus Avertor",
+  "Npc": "[[Ravager]]",
+  "Amount": "1",
+  "Chance": "5%"
+ },
+ {
+  "Item": "Corpus Avertor",
+  "Npc": "[[Treasure Bag (Ravager)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">5%</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>"
+ },
+ {
+  "Item": "Corroded Fossil",
+  "Npc": "[[Acidwood Tree]]",
+  "Amount": "1-2",
+  "Chance": "2.76% (Post-T2 [[File:Acid Rain Icon.png|link=Acid Rain|20px]])"
+ },
+ {
+  "Item": "Corroded Fossil",
+  "Npc": "[[Anthozoan Crab]]<br/>[[Belching Coral]]",
+  "Amount": "1",
+  "Chance": "6.67%"
+ },
+ {
+  "Item": "Corroded Fossil",
+  "Npc": "[[Flak Crab]]<br/>[[Orthocera]]<br/>[[Sulphurous Skater]]<br/>[[Trilobite]]",
+  "Amount": "1-3",
+  "Chance": "33.33% (Tier 2)<br/>6.67% (Tier 3)"
+ },
+ {
+  "Item": "Corrosive Spine",
+  "Npc": "[[Aquatic Scourge]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Corrosive Spine",
+  "Npc": "[[Treasure Bag (Aquatic Scourge)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Cosmic Discharge",
+  "Npc": "[[The Devourer of Gods]]",
+  "Amount": "1",
+  "Chance": "10%"
+ },
+ {
+  "Item": "Cosmic Discharge",
+  "Npc": "[[Treasure Bag (The Devourer of Gods)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">10%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Cosmic Kunai",
+  "Npc": "[[Signus]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Cosmic Kunai",
+  "Npc": "[[Treasure Bag (Signus)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Cosmic Plushie",
+  "Npc": "[[Treasure Bag (The Devourer of Gods)]] (with a Hardcore character)",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"death_value\" style=\"cursor:pointer;\" title=\"Death Mode\"> 100%</abbr>''' <span class=\"i\">[[File:Death Indicator (borderless).png|link=Death Mode|Death Mode|15xpx]]</span>"
+ },
+ {
+  "Item": "Cosmilamp",
+  "Npc": "[[Signus]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Cosmilamp",
+  "Npc": "[[Treasure Bag (Signus)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Cosmilite Bar",
+  "Npc": "[[The Devourer of Gods]]",
+  "Amount": "65-80",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Cosmilite Bar",
+  "Npc": "[[Treasure Bag (The Devourer of Gods)]]",
+  "Amount": "75-90",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>"
+ },
+ {
+  "Item": "Cosmilite Brick",
+  "Npc": "[[The Devourer of Gods]]",
+  "Amount": "155-265&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">205-335</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Cosmilite Brick",
+  "Npc": "[[Treasure Bag (The Devourer of Gods)]]",
+  "Amount": "200-320",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>"
+ },
+ {
+  "Item": "Cranium Smasher",
+  "Npc": "[[Ravager]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Cranium Smasher",
+  "Npc": "[[Treasure Bag (Ravager)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Craw Carapace",
+  "Npc": "[[Crawdad]]",
+  "Amount": "1",
+  "Chance": "15%&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">25%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span><br/>100% (in [[Hardmode]])"
+ },
+ {
+  "Item": "Crown Jewel",
+  "Npc": "[[King Slime]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Crown Jewel",
+  "Npc": "[[Treasure Bag (King Slime)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Crushsaw Crasher",
+  "Npc": "[[Catastrophic Construct]]",
+  "Amount": "1",
+  "Chance": "100% (if killed after [[Cataclysmic Construct]])"
+ },
+ {
+  "Item": "Cryo Stone",
+  "Npc": "[[Cryogen]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Cryo Stone",
+  "Npc": "[[Treasure Bag (Cryogen)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Cryonic Bar",
+  "Npc": "[[Fleshy Geode]]",
+  "Amount": "1-3&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">2-3</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Cryonic Bar",
+  "Npc": "[[Necromantic Geode]]",
+  "Amount": "5-10&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">7-12</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Cryonic Ore",
+  "Npc": "[[Cryo Slime]]",
+  "Amount": "10-26",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Cursed Dagger",
+  "Npc": "[[Clinger]]",
+  "Amount": "1",
+  "Chance": "4%&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">6.67%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Cyan Coral",
+  "Npc": "[[Eutrophic Crate]]<br/>[[Prism Crate]]",
+  "Amount": "10-20",
+  "Chance": "1/5 (20%)"
+ },
+ {
+  "Item": "Daemon's Flame",
+  "Npc": "[[Polterghast]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Daemon's Flame",
+  "Npc": "[[Treasure Bag (Polterghast)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Dank Staff",
+  "Npc": "[[The Hive Mind]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Dank Staff",
+  "Npc": "[[Treasure Bag (The Hive Mind)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Dark Plasma",
+  "Npc": "[[Ceaseless Void]]",
+  "Amount": "10-12",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Dark Plasma",
+  "Npc": "[[Treasure Bag (Ceaseless Void)]]",
+  "Amount": "12-16",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>"
+ },
+ {
+  "Item": "Darksun Fragment",
+  "Npc": "[[Butcher]]<br/>[[Deadly Sphere]]<br/>[[Dr. Man Fly]]<br/>[[The Possessed]]<br/>[[Psycho]]<br/>[[Reaper]]<br/>[[Vampire]]<br/>(Post-[[File:Devourer of Gods map.png|25px|link=Devourer of Gods]])",
+  "Amount": "1",
+  "Chance": "50%"
+ },
+ {
+  "Item": "Darksun Fragment",
+  "Npc": "[[Creature from the Deep]]<br/>[[Frankenstein]]<br/>[[Fritz]]<br/>[[Swamp Thing]]<br/>(Post-[[File:Devourer of Gods map.png|25px|link=Devourer of Gods]])",
+  "Amount": "1",
+  "Chance": "10%"
+ },
+ {
+  "Item": "Darksun Fragment",
+  "Npc": "[[Eyezor]]<br/>(Post-[[File:Devourer of Gods map.png|25px|link=Devourer of Gods]])",
+  "Amount": "1-2",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Darksun Fragment",
+  "Npc": "[[Mothron]]<br/>(Post-[[File:Devourer of Gods map.png|25px|link=Devourer of Gods]])",
+  "Amount": "20-30",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Darksun Fragment",
+  "Npc": "[[Nailhead]]<br/>(Post-[[File:Devourer of Gods map.png|25px|link=Devourer of Gods]])",
+  "Amount": "3-5",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Dazzling Stabber Staff",
+  "Npc": "[[Providence, the Profaned Goddess]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Dazzling Stabber Staff",
+  "Npc": "[[Treasure Bag (Providence, the Profaned Goddess)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Deathstare Rod",
+  "Npc": "[[Eye of Cthulhu]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Deathstare Rod",
+  "Npc": "[[Treasure Bag (Eye of Cthulhu)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Deep Sea Dumbbell",
+  "Npc": "[[Reaper Shark]]<br/>(Post-[[File:Polterghast map.png|25px|link=Polterghast]])",
+  "Amount": "1",
+  "Chance": "33.33%"
+ },
+ {
+  "Item": "Deepsea Staff",
+  "Npc": "[[Aquatic Scourge]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Deepsea Staff",
+  "Npc": "[[Treasure Bag (Aquatic Scourge)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Defective Sphere",
+  "Npc": "[[Deadly Sphere]]",
+  "Amount": "1",
+  "Chance": "4%&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">6.67%</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>"
+ },
+ {
+  "Item": "Delicious Meat",
+  "Npc": "[[Divine Swine]]",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Depth Cells",
+  "Npc": "[[Bloatfish]]<br/>[[Bobbit Worm]]<br/>(Post-[[File:Anahita map.png|20px|link=Anahita]])",
+  "Amount": "5-7&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">7-10</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>",
+  "Chance": "50%"
+ },
+ {
+  "Item": "Depth Cells",
+  "Npc": "[[Colossal Squid]]<br/>(Post-[[File:Anahita map.png|20px|link=Anahita]])",
+  "Amount": "26-38&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">31-45</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>",
+  "Chance": "50%"
+ },
+ {
+  "Item": "Depth Cells",
+  "Npc": "[[Devil Fish]]<br/>[[Laserfish]]<br/>[[Luminous Corvina]]<br/>[[Viperfish]]<br/>(Post-[[File:Anahita map.png|20px|link=Anahita]])",
+  "Amount": "1-2&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">2-3</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>",
+  "Chance": "50%"
+ },
+ {
+  "Item": "Depth Cells",
+  "Npc": "[[Giant Squid]]<br/>(Post-[[File:Anahita map.png|20px|link=Anahita]])",
+  "Amount": "2-4&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">3-6</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>",
+  "Chance": "50%"
+ },
+ {
+  "Item": "Depth Cells",
+  "Npc": "[[Gulper Eel]]<br/>(Post-[[File:Anahita map.png|20px|link=Anahita]])",
+  "Amount": "6-8&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">8-11</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>",
+  "Chance": "50%"
+ },
+ {
+  "Item": "Depth Cells",
+  "Npc": "[[Mirage Jelly]]<br/>(Post-[[File:Anahita map.png|20px|link=Anahita]])",
+  "Amount": "5-7&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">10-14</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>",
+  "Chance": "50%"
+ },
+ {
+  "Item": "Depth Cells",
+  "Npc": "[[Oarfish]]<br/>(Post-[[File:Anahita map.png|20px|link=Anahita]])",
+  "Amount": "3-5&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">4-7</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>",
+  "Chance": "50%"
+ },
+ {
+  "Item": "Depth Cells",
+  "Npc": "[[Reaper Shark]]<br/>(Post-[[File:Anahita map.png|20px|link=Anahita]])",
+  "Amount": "10-17&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">14-22</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>",
+  "Chance": "50%"
+ },
+ {
+  "Item": "Depth Cells",
+  "Npc": "[[Toxic Minnow]]<br/>(Post-[[File:Anahita map.png|20px|link=Anahita]])",
+  "Amount": "2-3&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">4-6</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>",
+  "Chance": "50%"
+ },
+ {
+  "Item": "Depth Crusher",
+  "Npc": "[[Viperfish]]",
+  "Amount": "1",
+  "Chance": "10%&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">16.67%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Depths Charm",
+  "Npc": "[[Ancient Treasure Chest]]",
+  "Amount": "1",
+  "Chance": "1/10 (10%)"
+ },
+ {
+  "Item": "Depths Charm",
+  "Npc": "[[Hydrothermal Crate]]",
+  "Amount": "1",
+  "Chance": "1/10 (10%)"
+ },
+ {
+  "Item": "Desert Medallion",
+  "Npc": "[[Sandstone Chest]]",
+  "Amount": "1",
+  "Chance": "1/5 (20%)"
+ },
+ {
+  "Item": "Dimension-Tearing Disk",
+  "Npc": "[[The Devourer of Gods]]",
+  "Amount": "1",
+  "Chance": "25%&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Dimension-Tearing Disk",
+  "Npc": "[[Treasure Bag (The Devourer of Gods)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Divine Geode",
+  "Npc": "[[Profaned Guardians]]<br/>(in [[get fixed boi]] worlds)",
+  "Amount": "25-30",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Divine Geode",
+  "Npc": "[[Providence, the Profaned Goddess]]",
+  "Amount": "50-60 (+75-90 when defeated during the night)",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Divine Geode",
+  "Npc": "[[Treasure Bag (Providence, the Profaned Goddess)]]",
+  "Amount": "60-70",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>"
+ },
+ {
+  "Item": "Divine Providence",
+  "Npc": "[[Treasure Bag (Providence, the Profaned Goddess)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Doomsday Device",
+  "Npc": "[[Brain Scrambler]]<br/>[[Gray Grunt]]<br/>[[Gigazapper]]<br/>[[Ray Gunner]]<br/>[[Scutlix Gunner]]",
+  "Amount": "1",
+  "Chance": "1%"
+ },
+ {
+  "Item": "Doomsday Device",
+  "Npc": "[[Martian Officer]]",
+  "Amount": "1",
+  "Chance": "25%&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Dormant Brimseeker",
+  "Npc": "[[Brimstone Elemental]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Dormant Brimseeker",
+  "Npc": "[[Treasure Bag (Brimstone Elemental)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Downpour",
+  "Npc": "[[Aquatic Scourge]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Downpour",
+  "Npc": "[[Treasure Bag (Aquatic Scourge)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>"
+ },
+ {
+  "Item": "Draedon Power Cell",
+  "Npc": "[[Repair Unit]]",
+  "Amount": "2-4",
+  "Chance": "50%"
+ },
+ {
+  "Item": "Draedon's Heart",
+  "Npc": "[[Treasure Box (Exo Mechs)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Draedon's Heart",
+  "Npc": "[[XB-∞ Hekate]]",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Dragon Rage",
+  "Npc": "[[Treasure Bag (Yharon)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Dragon Rage",
+  "Npc": "[[Yharon, Dragon of Rebirth]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Dragon's Breath",
+  "Npc": "[[Treasure Bag (Yharon)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Dragon's Breath",
+  "Npc": "[[Yharon, Dragon of Rebirth]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Driftwood",
+  "Npc": "[[Eutrophic Crate]]<br/>[[Prism Crate]]",
+  "Amount": "20-50",
+  "Chance": "1/3 (33.33%)"
+ },
+ {
+  "Item": "Dubious Plating",
+  "Npc": "[[Burrower]]",
+  "Amount": "4-8",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Dubious Plating",
+  "Npc": "[[Draedon Power Cell]] (When used at a [[Extractinator]])",
+  "Amount": "1",
+  "Chance": "2.5%"
+ },
+ {
+  "Item": "Dubious Plating",
+  "Npc": "[[Lab Turret]]s",
+  "Amount": "8",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Dubious Plating",
+  "Npc": "[[Security Chest]]<br/>(Abandoned Research Facility, Abandoned Workshop)",
+  "Amount": "8-14",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Dubious Plating",
+  "Npc": "[[Security Chest]]<br/>(Bio-center Labs)",
+  "Amount": "10-17",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Duke's Decapitator",
+  "Npc": "[[Duke Fishron]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Duke's Decapitator",
+  "Npc": "[[Treasure Bag (Duke Fishron)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>"
+ },
+ {
+  "Item": "Dynamo Stem Cells",
+  "Npc": "[[Treasure Bag (The Dragonfolly)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Earthen Pike",
+  "Npc": "[[Earth Elemental]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Eclipse Mirror",
+  "Npc": "[[Ceaseless Void]]<br/>(in [[get fixed boi]] worlds)",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Ectoheart",
+  "Npc": "[[Treasure Bag (Polterghast)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"revengeance_value\" style=\"cursor:pointer;\" title=\"Revengeance Mode\">100%</abbr>''' <span class=\"i\">[[File:Revengeance Indicator (borderless).png|link=Revengeance Mode|Revengeance Mode|12xpx]]</span>"
+ },
+ {
+  "Item": "Effigy of Decay",
+  "Npc": "[[Hydrothermal Crate]]<br/>[[Sulphurous Crate]]",
+  "Amount": "1",
+  "Chance": "1/4 (25%)"
+ },
+ {
+  "Item": "Effigy of Decay",
+  "Npc": "[[Rusty Chest]]",
+  "Amount": "1",
+  "Chance": "1/4 (25%)"
+ },
+ {
+  "Item": "Effulgent Feather",
+  "Npc": "[[Draconic Swarmer]]",
+  "Amount": "5-7",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Effulgent Feather",
+  "Npc": "[[Dragonfolly]]",
+  "Amount": "25-30",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Effulgent Feather",
+  "Npc": "[[Treasure Bag (The Dragonfolly)]]",
+  "Amount": "30-35",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>"
+ },
+ {
+  "Item": "Eidolic Wail",
+  "Npc": "[[Eidolon Wyrm]]<br/>(Post-[[File:Polterghast map.png|25px|link=Polterghast]])",
+  "Amount": "1",
+  "Chance": "33.33%"
+ },
+ {
+  "Item": "Eidolic Wail",
+  "Npc": "[[Primordial Wyrm]]",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Eidolon Staff",
+  "Npc": "[[Eidolon Wyrm]]<br/>(Post-[[File:Polterghast map.png|25px|link=Polterghast]])",
+  "Amount": "1",
+  "Chance": "33.33%"
+ },
+ {
+  "Item": "Eidolon Tablet",
+  "Npc": "[[Eidolist]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Eldritch Tome",
+  "Npc": "[[The Slime God]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Eldritch Tome",
+  "Npc": "[[Treasure Bag (The Slime God)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Electrolyte Gel Pack",
+  "Npc": "[[Treasure Bag (The Slime God)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"revengeance_value\" style=\"cursor:pointer;\" title=\"Revengeance Mode\">100%</abbr>''' <span class=\"i\">[[File:Revengeance Indicator (borderless).png|link=Revengeance Mode|Revengeance Mode|12xpx]]</span>"
+ },
+ {
+  "Item": "Elemental Gauntlet",
+  "Npc": "[[Storm Weaver]]<br/>(in [[get fixed boi]] worlds)",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Elemental in a Bottle",
+  "Npc": "[[Sand Elemental]]",
+  "Amount": "1",
+  "Chance": "20%&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Elephant Killer",
+  "Npc": "[[Shady Salesman]]",
+  "Amount": "1",
+  "Chance": "1/4 (25%)(In [[Hardmode]])"
+ },
+ {
+  "Item": "Elysian Aegis",
+  "Npc": "[[Providence, the Profaned Goddess]]",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Elysian Wings",
+  "Npc": "[[Providence, the Profaned Goddess]]",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Enchanted Knife Staff",
+  "Npc": "[[Gold Chest]]",
+  "Amount": "1",
+  "Chance": "20%"
+ },
+ {
+  "Item": "Enchanted Knife Staff",
+  "Npc": "[[Golden Crate]]<br/>[[Titanium Crate]]",
+  "Amount": "1",
+  "Chance": "5%"
+ },
+ {
+  "Item": "Endothermic Energy",
+  "Npc": "[[Elf Copter]]<br/>[[Flocko]]<br/>[[Nutcracker]]",
+  "Amount": "1",
+  "Chance": "50%"
+ },
+ {
+  "Item": "Endothermic Energy",
+  "Npc": "[[Everscream]]",
+  "Amount": "3-5",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Endothermic Energy",
+  "Npc": "[[Ice Queen]]",
+  "Amount": "10-20",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Endothermic Energy",
+  "Npc": "[[Krampus]]<br/>[[Present Mimic]]<br/>[[Yeti]]",
+  "Amount": "1-2",
+  "Chance": "50%"
+ },
+ {
+  "Item": "Endothermic Energy",
+  "Npc": "[[Santa-NK1]]",
+  "Amount": "5-10",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Energy Core",
+  "Npc": "[[Rover Drive]]<br/>[[Wulfrum Battery]] (When used at a [[Extractinator]])",
+  "Amount": "1",
+  "Chance": "20%"
+ },
+ {
+  "Item": "Energy Core",
+  "Npc": "[[Wulfrum Amplifier]]<br/>[[Wulfrum Drone]]<br/>[[Wulfrum Gyrator]]<br/>[[Wulfrum Hovercraft]]<br/>[[Wulfrum Rover]]<br/>(When supercharged)",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Entropy's Vigil",
+  "Npc": "[[Calamitas Clone]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Entropy's Vigil",
+  "Npc": "[[Treasure Bag (Calamitas Clone)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Essence of Eleum",
+  "Npc": "[[Aurora Spirit]]<br/>[[Cryon]]<br/>[[Ice Clasper]]<br/>[[Ice Elemental]]<br/>[[Ice Tortoise]]<br/>[[Icy Merman]]<br/>[[Wolf]]",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Essence of Eleum",
+  "Npc": "[[Boreal Crate]]",
+  "Amount": "2-5",
+  "Chance": "50%"
+ },
+ {
+  "Item": "Essence of Eleum",
+  "Npc": "[[Cryogen]]",
+  "Amount": "8-10",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Essence of Eleum",
+  "Npc": "[[Fleshy Geode]]",
+  "Amount": "1-2&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">1-3</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Essence of Eleum",
+  "Npc": "[[Ice Golem]]",
+  "Amount": "8-10&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">10-12</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Essence of Eleum",
+  "Npc": "[[Mister Stabby]]<br/>[[Snow Balla]]<br/>[[Snowman Gangsta]]",
+  "Amount": "1",
+  "Chance": "20%"
+ },
+ {
+  "Item": "Essence of Eleum",
+  "Npc": "[[Necromantic Geode]]",
+  "Amount": "1-3&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">2-4</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Essence of Eleum",
+  "Npc": "[[Rimehound]]<br/>(Post-[[File:Cryogen map.png|20px|link=Cryogen]])",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Essence of Eleum",
+  "Npc": "[[Treasure Bag (Cryogen)]]",
+  "Amount": "10-12",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>"
+ },
+ {
+  "Item": "Essence of Havoc",
+  "Npc": "[[Brimstone Crate]]",
+  "Amount": "2-5",
+  "Chance": "50%"
+ },
+ {
+  "Item": "Essence of Havoc",
+  "Npc": "[[Brimstone Elemental]]<br/>[[Calamitas Clone]]",
+  "Amount": "8-10",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Essence of Havoc",
+  "Npc": "[[Calamity Eye]]<br/>[[Despair Stone]]<br/>[[Heat Spirit]]<br/>[[Scryllar]]<br/>[[Soul Slurper]]",
+  "Amount": "1",
+  "Chance": "50% in [[Hardmode]]"
+ },
+ {
+  "Item": "Essence of Havoc",
+  "Npc": "[[Fleshy Geode]]",
+  "Amount": "1-2&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">1-3</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Essence of Havoc",
+  "Npc": "[[Infernal Congealment]]<br/>[[Red Devil]]<br/>[[Renegade Warlock]]",
+  "Amount": "1",
+  "Chance": "50%"
+ },
+ {
+  "Item": "Essence of Havoc",
+  "Npc": "[[Necromantic Geode]]",
+  "Amount": "1-3&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">2-4</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Essence of Havoc",
+  "Npc": "[[Treasure Bag (Brimstone Elemental)]]<br/>[[Treasure Bag (Calamitas Clone)]]",
+  "Amount": "10-12",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>"
+ },
+ {
+  "Item": "Essence of Sunlight",
+  "Npc": "[[Angry Nimbus]]<br/>[[Shockstorm Shuttle]]",
+  "Amount": "1",
+  "Chance": "50%"
+ },
+ {
+  "Item": "Essence of Sunlight",
+  "Npc": "[[Azure Crate]]",
+  "Amount": "2-5",
+  "Chance": "50%"
+ },
+ {
+  "Item": "Essence of Sunlight",
+  "Npc": "[[Cloud Elemental]]<br/>[[Wyvern]]",
+  "Amount": "8-10&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">10-12</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Essence of Sunlight",
+  "Npc": "[[Fleshy Geode]]",
+  "Amount": "1-2&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">1-3</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Essence of Sunlight",
+  "Npc": "[[Golem]]",
+  "Amount": "8-10",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Essence of Sunlight",
+  "Npc": "[[Harpy]]<br/>[[Sunskater]]",
+  "Amount": "1",
+  "Chance": "50% in [[Hardmode]]"
+ },
+ {
+  "Item": "Essence of Sunlight",
+  "Npc": "[[Necromantic Geode]]",
+  "Amount": "1-3&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">2-4</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Essence of Sunlight",
+  "Npc": "[[Treasure Bag (Golem)]]",
+  "Amount": "10-12",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>"
+ },
+ {
+  "Item": "Ethereal Subjugator",
+  "Npc": "[[Polterghast]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Ethereal Subjugator",
+  "Npc": "[[Treasure Bag (Polterghast)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Ethereal Talisman",
+  "Npc": "[[Signus]]<br/>(in [[get fixed boi]] worlds)",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Eutrophic Sand",
+  "Npc": "[[Eutrophic Crate]]<br/>[[Prism Crate]]",
+  "Amount": "20-50",
+  "Chance": "1/3 (33.33%)"
+ },
+ {
+  "Item": "Eviscerator",
+  "Npc": "[[The Perforators]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Eviscerator",
+  "Npc": "[[Treasure Bag (The Perforators)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Exo Armaments Kit",
+  "Npc": "[[Exo Mechs]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"revengeance_value\" style=\"cursor:pointer;\" title=\"Revengeance Mode\">25%</abbr>''' <span class=\"i\">[[File:Revengeance Indicator (borderless).png|link=Revengeance Mode|Revengeance Mode|12xpx]]</span>&#32;/&#32;'''<abbr class=\"master_value\" style=\"cursor:pointer;\" title=\"Master Mode\">25%</abbr>''' <span class=\"i\">[[File:Master Indicator (borderless).png|link=Master Mode|Master Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Exo Box",
+  "Npc": "[[Exo Mechs]]<br/>[[XB-∞ Hekate]]",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Exo Box",
+  "Npc": "[[Treasure Box (Exo Mechs)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Exo Prism",
+  "Npc": "[[Exo Mechs]]<br/>[[XB-∞ Hekate]]",
+  "Amount": "25-30",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Exo Prism",
+  "Npc": "[[Treasure Box (Exo Mechs)]]",
+  "Amount": "30-40",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Exodium Cluster",
+  "Npc": "[[Shockstorm Shuttle]]<br/>(Post-[[File:Map Icon Moon Lord.png|25px|link=Moon Lord]])",
+  "Amount": "8-12&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">11-16</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Eye of Magnus",
+  "Npc": "[[Wall of Flesh]]<br/>(in [[get fixed boi]] worlds)",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Eye of the Storm",
+  "Npc": "[[Cloud Elemental]]",
+  "Amount": "1",
+  "Chance": "33.33%"
+ },
+ {
+  "Item": "Fate's Reveal",
+  "Npc": "[[Polterghast]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Fate's Reveal",
+  "Npc": "[[Treasure Bag (Polterghast)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Feller of Evergreens",
+  "Npc": "[[Ivy Chest]] ([[Vernal Pass]])",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Fetid Emesis",
+  "Npc": "[[The Old Duke]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Fetid Emesis",
+  "Npc": "[[Treasure Bag (The Old Duke)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Filthy Glove",
+  "Npc": "[[The Hive Mind]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Filthy Glove",
+  "Npc": "[[Treasure Bag (The Hive Mind)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>"
+ },
+ {
+  "Item": "Fishbone Boomerang",
+  "Npc": "[[Duke Fishron]]<br/>(in [[get fixed boi]] worlds)",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Flak Toxicannon",
+  "Npc": "[[Flak Crab]]",
+  "Amount": "1",
+  "Chance": "10%"
+ },
+ {
+  "Item": "Flame Waker Boots",
+  "Npc": "[[Obsidian Crate]]<br/>[[Hellstone Crate]]",
+  "Amount": "1",
+  "Chance": "19/100 (19%)"
+ },
+ {
+  "Item": "Flame-Licked Shell",
+  "Npc": "[[Treasure Bag (Brimstone Elemental)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Flesh of Infidelity",
+  "Npc": "[[The Perforators]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Flesh of Infidelity",
+  "Npc": "[[Treasure Bag (The Perforators)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Flesh Totem",
+  "Npc": "[[Ravager]]",
+  "Amount": "1",
+  "Chance": "33.33%"
+ },
+ {
+  "Item": "Flesh Totem",
+  "Npc": "[[Treasure Bag (Ravager)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">50%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Fleshy Geode",
+  "Npc": "[[Ravager]] (pre-[[File:Providence map.png|link=Providence, the Profaned Goddess|30px]])",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Fleshy Geode",
+  "Npc": "[[Treasure Bag (Ravager)]] (pre-[[File:Providence map.png|link=Providence, the Profaned Goddess|30px]])",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Folly Feed",
+  "Npc": "[[Dragonfolly]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Folly Feed",
+  "Npc": "[[Treasure Bag (The Dragonfolly)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Forgotten Dragon Egg",
+  "Npc": "[[Treasure Bag (Yharon)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">10%</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>"
+ },
+ {
+  "Item": "Forgotten Dragon Egg",
+  "Npc": "[[Yharon, Dragon of Rebirth]]",
+  "Amount": "1",
+  "Chance": "10%"
+ },
+ {
+  "Item": "Fox Drive",
+  "Npc": "[[Treasure Bag (Yharon)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"revengeance_value\" style=\"cursor:pointer;\" title=\"Revengeance Mode\">100%</abbr>''' <span class=\"i\">[[File:Revengeance Indicator.png|link=Revengeance Mode|Revengeance Mode|25xpx]]</span>"
+ },
+ {
+  "Item": "Frost Barrier",
+  "Npc": "[[Ice Clasper]]",
+  "Amount": "1",
+  "Chance": "20%"
+ },
+ {
+  "Item": "Frost Flare",
+  "Npc": "[[Cryogen]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Frost Flare",
+  "Npc": "[[Treasure Bag (Cryogen)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Frosty Bat Bottle",
+  "Npc": "[[Ice Bat]]",
+  "Amount": "1",
+  "Chance": "1/7 (14.29%)"
+ },
+ {
+  "Item": "Fuel Cell Bundle",
+  "Npc": "[[The Plaguebringer Goliath]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Fuel Cell Bundle",
+  "Npc": "[[Treasure Bag (The Plaguebringer Goliath)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Fungal Clump",
+  "Npc": "[[Treasure Bag (Crabulon)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Fungicide",
+  "Npc": "[[Crabulon]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Fungicide",
+  "Npc": "[[Treasure Bag (Crabulon)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Gael's Greatsword",
+  "Npc": "[[Supreme Witch, Calamitas]]<br/>[[Supreme Ultramage, Permafrost]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"death_value\" style=\"cursor:pointer;\" title=\"Death Mode\">100%</abbr>''' <span class=\"i\">[[File:Death Indicator (borderless).png|link=Death Mode|Death Mode|15xpx]]</span>"
+ },
+ {
+  "Item": "Gamma Heart",
+  "Npc": "[[Nuclear Terror]]",
+  "Amount": "1",
+  "Chance": "33.33%"
+ },
+ {
+  "Item": "Gastric Belcher Staff",
+  "Npc": "[[Leviathan and Anahita]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Gastric Belcher Staff",
+  "Npc": "[[Treasure Bag (Leviathan and Anahita)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Geyser Shell",
+  "Npc": "[[Baby Flak Crab]] when caught with any type of [[Bug Net]]",
+  "Amount": "1",
+  "Chance": "5%"
+ },
+ {
+  "Item": "Ghastly Visage",
+  "Npc": "[[Polterghast]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Ghastly Visage",
+  "Npc": "[[Treasure Bag (Polterghast)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Ghost Bracelet",
+  "Npc": "[[Ghost]]",
+  "Amount": "1",
+  "Chance": "5%"
+ },
+ {
+  "Item": "Ghost Bracelet",
+  "Npc": "[[Starter Bag]] (If the player's name is Dandy)",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Ghoulish Gouger",
+  "Npc": "[[Polterghast]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Ghoulish Gouger",
+  "Npc": "[[Treasure Bag (Polterghast)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Giant Pearl",
+  "Npc": "[[Giant Clam]]",
+  "Amount": "1",
+  "Chance": "33.33%"
+ },
+ {
+  "Item": "Giant Shell",
+  "Npc": "[[Giant Shelly]]",
+  "Amount": "1",
+  "Chance": "15%&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">25%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span><br/>100% (in [[Hardmode]])"
+ },
+ {
+  "Item": "Gilded Proboscis",
+  "Npc": "[[Dragonfolly]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Gilded Proboscis",
+  "Npc": "[[Treasure Bag (The Dragonfolly)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Glacial Embrace",
+  "Npc": "[[Cryogen]]",
+  "Amount": "1",
+  "Chance": "10%"
+ },
+ {
+  "Item": "Glacial Embrace",
+  "Npc": "[[Treasure Bag (Cryogen)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">10%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Glimmering Ribbon",
+  "Npc": "[[Starter Bag]] (If the player's name is \"Sagi\" or \"Sagittariod\")",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Glorious End",
+  "Npc": "[[Nova]] (When exploded)",
+  "Amount": "1",
+  "Chance": "10%"
+ },
+ {
+  "Item": "Golden Eagle",
+  "Npc": "[[Dragonfolly]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Golden Eagle",
+  "Npc": "[[Treasure Bag (The Dragonfolly)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Grand Dad",
+  "Npc": "[[Eidolon Wyrm]]<br/>(Post-[[File:Polterghast map.png|25px|link=Polterghast]])",
+  "Amount": "1",
+  "Chance": "33.33%"
+ },
+ {
+  "Item": "Grand Dad",
+  "Npc": "[[Primordial Wyrm]]",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Grand Marquis Bait",
+  "Npc": "[[Golden Crate]]<br/>[[Titanium Crate]]",
+  "Amount": "3-7",
+  "Chance": "1/6 (16.67%)"
+ },
+ {
+  "Item": "Grand Scale",
+  "Npc": "[[Great Sand Shark]]",
+  "Amount": "1<br/>'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">+1 extra</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>",
+  "Chance": "100%<br/>'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>"
+ },
+ {
+  "Item": "Greentide",
+  "Npc": "[[Leviathan and Anahita]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Greentide",
+  "Npc": "[[Treasure Bag (Leviathan and Anahita)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Guidelight of Oblivion",
+  "Npc": "[[Scryllar]]<br/>(Post-[[File:Providence map.png|25px|link=Providence, the Profaned Goddess]])",
+  "Amount": "1",
+  "Chance": "5%"
+ },
+ {
+  "Item": "Ha-pu Fruit",
+  "Npc": "[[Starter Bag]] (If the player's name is \"Heart Plus Up\")",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Ha-pu Fruit",
+  "Npc": "[[Trees]] (Shaking)",
+  "Amount": "1",
+  "Chance": "1%"
+ },
+ {
+  "Item": "Hadal Stew",
+  "Npc": "[[Abyss Shrine]]",
+  "Amount": "10-12",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Hadal Stew",
+  "Npc": "[[Rusty Chest]]",
+  "Amount": "1-2",
+  "Chance": "50%"
+ },
+ {
+  "Item": "Hadarian Wings",
+  "Npc": "[[Hadarian]]<br/>(Post-[[File:Astrum Aureus map.png|20px|link=Astrum Aureus]])",
+  "Amount": "1",
+  "Chance": "10%"
+ },
+ {
+  "Item": "Halibut Cannon",
+  "Npc": "[[Primordial Wyrm]]",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Hallowed Ore",
+  "Npc": "[[Burrower]]<br/>(Post-[[File:Map Icon Plantera (first form).png|20px|link=Plantera]])",
+  "Amount": "6-32",
+  "Chance": "20%"
+ },
+ {
+  "Item": "Hardened Honeycomb",
+  "Npc": "[[Queen Bee]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Hardened Honeycomb",
+  "Npc": "[[Treasure Bag (Queen Bee)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Hardened Sulphurous Sandstone",
+  "Npc": "[[Hydrothermal Crate]]<br/>[[Sulphurous Crate]]",
+  "Amount": "20-50",
+  "Chance": "1/3 (33.33%)"
+ },
+ {
+  "Item": "Havoc's Breath",
+  "Npc": "[[Cataclysmic Construct]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Heart of Darkness",
+  "Npc": "Any [[Treasure Bag]] in [[Revengeance Mode]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"revengeance_value\" style=\"cursor:pointer;\" title=\"Revengeance Mode\">2.5%</abbr>''' <span class=\"i\">[[File:Revengeance Indicator (borderless).png|link=Revengeance Mode|Revengeance Mode|12xpx]]</span>"
+ },
+ {
+  "Item": "Heart of the Elements",
+  "Npc": "[[Brimstone Elemental]]<br/>(in [[get fixed boi]] worlds)",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Heavenfallen Stardisk",
+  "Npc": "[[Astral Chest]]",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Hellborn",
+  "Npc": "[[Brimstone Elemental]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Hellborn",
+  "Npc": "[[Treasure Bag (Brimstone Elemental)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Hellkite",
+  "Npc": "[[Renegade Warlock]]<br/>(Post-[[File:Map Icon Plantera (first form).png|20px|link=Plantera]])",
+  "Amount": "1",
+  "Chance": "12.5%"
+ },
+ {
+  "Item": "Hematemesis",
+  "Npc": "[[Ravager]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Hematemesis",
+  "Npc": "[[Treasure Bag (Ravager)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>"
+ },
+ {
+  "Item": "Heresy",
+  "Npc": "[[Supreme Witch, Calamitas]]<br/>[[Supreme Ultramage, Permafrost]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Heresy",
+  "Npc": "[[Treasure Coffer (Calamitas)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Hermit's Box of One Hundred Medicines",
+  "Npc": "[[Wall of Flesh]]",
+  "Amount": "1",
+  "Chance": "100% (first time)<br/>10% (subsequent kills)"
+ },
+ {
+  "Item": "Herring Staff",
+  "Npc": "[[Ancient Treasure Chest]]",
+  "Amount": "1",
+  "Chance": "1/10 (10%)"
+ },
+ {
+  "Item": "Herring Staff",
+  "Npc": "[[Hydrothermal Crate]]",
+  "Amount": "1",
+  "Chance": "1/10 (10%)"
+ },
+ {
+  "Item": "Hide of Astrum Deus",
+  "Npc": "[[Treasure Bag (Astrum Deus)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Hive Pod",
+  "Npc": "[[Astraglomerate]]<br/>(Post-[[File:Astrum Aureus map.png|20px|link=Astrum Aureus]])",
+  "Amount": "1",
+  "Chance": "10%"
+ },
+ {
+  "Item": "Hoarfrost Bow",
+  "Npc": "[[Cryogen]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Hoarfrost Bow",
+  "Npc": "[[Treasure Bag (Cryogen)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Holy Collider",
+  "Npc": "[[Providence, the Profaned Goddess]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Holy Collider",
+  "Npc": "[[Treasure Bag (Providence, the Profaned Goddess)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Hyperdeath Rift Scepter",
+  "Npc": "[[The Devourer of Gods]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Hyperdeath Rift Scepter",
+  "Npc": "[[Treasure Bag (The Devourer of Gods)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Hyphae Rod",
+  "Npc": "[[Crabulon]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Hyphae Rod",
+  "Npc": "[[Treasure Bag (Crabulon)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Icebreaker",
+  "Npc": "[[Cryogen]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Icebreaker",
+  "Npc": "[[Treasure Bag (Cryogen)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Ichor Spear",
+  "Npc": "[[Ichor Sticker]]",
+  "Amount": "1",
+  "Chance": "4%&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">6.67%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Ilmeris' Spark",
+  "Npc": "[[Cnidrion]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Infected Armor Plating",
+  "Npc": "[[The Plaguebringer Goliath]]",
+  "Amount": "30-40",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Infected Armor Plating",
+  "Npc": "[[Treasure Bag (The Plaguebringer Goliath)]]",
+  "Amount": "40-50",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Infected Remote",
+  "Npc": "[[The Plaguebringer Goliath]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Infected Remote",
+  "Npc": "[[Treasure Bag (The Plaguebringer Goliath)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Infernal Blood",
+  "Npc": "[[Treasure Bag (Ravager)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"revengeance_value\" style=\"cursor:pointer;\" title=\"Revengeance Mode\">100%</abbr>''' <span class=\"i\">[[File:Revengeance Indicator (borderless).png|link=Revengeance Mode|Revengeance Mode|12xpx]]</span>"
+ },
+ {
+  "Item": "Infernal Suevite",
+  "Npc": "[[Infernal Congealment]]",
+  "Amount": "10-26",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Infested Clawmerang",
+  "Npc": "[[Crabulon]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Infested Clawmerang",
+  "Npc": "[[Treasure Bag (Crabulon)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Ink Bomb",
+  "Npc": "[[Colossal Squid]]",
+  "Amount": "1",
+  "Chance": "33.33%"
+ },
+ {
+  "Item": "Ink Bomb",
+  "Npc": "[[Cuttlefish]]<br/>[[Giant Squid]]",
+  "Amount": "1",
+  "Chance": "10%&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">20%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Insidious Impaler",
+  "Npc": "[[The Old Duke]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Insidious Impaler",
+  "Npc": "[[Treasure Bag (The Old Duke)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Interstellar Stompers",
+  "Npc": "[[Treasure Bag (Astrum Aureus)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Iron Boots",
+  "Npc": "[[Ancient Treasure Chest]]",
+  "Amount": "1",
+  "Chance": "1/10 (10%)"
+ },
+ {
+  "Item": "Iron Boots",
+  "Npc": "[[Hydrothermal Crate]]",
+  "Amount": "1",
+  "Chance": "1/10 (10%)"
+ },
+ {
+  "Item": "Jackfruit",
+  "Npc": "[[Acidwood Tree]] (shaking)",
+  "Amount": "1",
+  "Chance": "3.22%"
+ },
+ {
+  "Item": "Joyful Heart",
+  "Npc": "[[Shark]]",
+  "Amount": "1",
+  "Chance": "5%"
+ },
+ {
+  "Item": "Joyful Heart",
+  "Npc": "[[Starter Bag]] (If the player's name is \"Aleksh\" or \"Shark Lad\")",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Keelhaul",
+  "Npc": "[[Giant Cursed Skull]]<br/>(Post-[[File:Anahita map.png|20px|link=Anahita]])",
+  "Amount": "1",
+  "Chance": "4%&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">6.67%</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>"
+ },
+ {
+  "Item": "Kylie",
+  "Npc": "[[Surface]] [[Chest]]",
+  "Amount": "1",
+  "Chance": "10%"
+ },
+ {
+  "Item": "Kylie",
+  "Npc": "[[Wooden Crate]]<br/>[[Pearlwood Crate]]",
+  "Amount": "1",
+  "Chance": "1%"
+ },
+ {
+  "Item": "Lab Seeking Mechanism",
+  "Npc": "[[Security Chest]]",
+  "Amount": "1",
+  "Chance": "50%"
+ },
+ {
+  "Item": "Lashes of Chaos",
+  "Npc": "[[Calamitas Clone]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Lashes of Chaos",
+  "Npc": "[[Treasure Bag (Calamitas Clone)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Laudanum",
+  "Npc": "[[Horrible Hog]]",
+  "Amount": "1",
+  "Chance": "25%&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Lava Chicken Broth",
+  "Npc": "[[XB-∞ Hekate]]",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Leonid Progenitor",
+  "Npc": "[[Astrum Aureus]]",
+  "Amount": "1",
+  "Chance": "10%"
+ },
+ {
+  "Item": "Leonid Progenitor",
+  "Npc": "[[Treasure Bag (Astrum Aureus)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">10%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Levi",
+  "Npc": "[[Supreme Witch, Calamitas]]<br/>[[Supreme Ultramage, Permafrost]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"death_value\" style=\"cursor:pointer;\" title=\"Death Mode\">100%</abbr>''' <span class=\"i\">[[File:Death Indicator.png|link=Death Mode|Death Mode|25xpx]]</span>"
+ },
+ {
+  "Item": "Leviathan Ambergris",
+  "Npc": "[[Treasure Bag (Leviathan and Anahita)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Leviathan Teeth",
+  "Npc": "[[Leviathan and Anahita]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Leviathan Teeth",
+  "Npc": "[[Treasure Bag (Leviathan and Anahita)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Leviatitan",
+  "Npc": "[[Leviathan and Anahita]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Leviatitan",
+  "Npc": "[[Treasure Bag (Leviathan and Anahita)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Life Alloy",
+  "Npc": "[[Fleshy Geode]]",
+  "Amount": "1",
+  "Chance": "33.33%&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">50%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Life Alloy",
+  "Npc": "[[Necromantic Geode]]",
+  "Amount": "1",
+  "Chance": "50%&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Life Jelly",
+  "Npc": "[[Mirage Jelly]]",
+  "Amount": "1",
+  "Chance": "14.29%&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">20%</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>"
+ },
+ {
+  "Item": "Life Jelly",
+  "Npc": "[[Pink Jellyfish]]",
+  "Amount": "1",
+  "Chance": "10%&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">14.29%</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>"
+ },
+ {
+  "Item": "Lime Coral",
+  "Npc": "[[Eutrophic Crate]]<br/>[[Prism Crate]]",
+  "Amount": "10-20",
+  "Chance": "1/5 (20%)"
+ },
+ {
+  "Item": "Lionfish",
+  "Npc": "[[Ancient Treasure Chest]]",
+  "Amount": "1",
+  "Chance": "1/10 (10%)"
+ },
+ {
+  "Item": "Lionfish",
+  "Npc": "[[Hydrothermal Crate]]",
+  "Amount": "1",
+  "Chance": "1/10 (10%)"
+ },
+ {
+  "Item": "Little E",
+  "Npc": "[[Starter Bag]] (If the player's name is \"Big E\" or \"BigE\")",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Little Light",
+  "Npc": "[[Storm Weaver]]",
+  "Amount": "1",
+  "Chance": "10%"
+ },
+ {
+  "Item": "Little Light",
+  "Npc": "[[Treasure Bag (Storm Weaver)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">12.5%</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>"
+ },
+ {
+  "Item": "Living Shard",
+  "Npc": "[[Plantera]]",
+  "Amount": "30-40",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Living Shard",
+  "Npc": "[[Treasure Bag (Plantera)]]",
+  "Amount": "40-50",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Lotus",
+  "Npc": "[[Plants#Trees|Monolith (normal)]]",
+  "Amount": "1",
+  "Chance": "2.76%"
+ },
+ {
+  "Item": "Lumenyl",
+  "Npc": "[[Eidolist]]<br/>(Post-[[File:Anahita map.png|20px|link=Anahita]])",
+  "Amount": "8-10&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">10-14</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Lumenyl",
+  "Npc": "[[Eidolon Wyrm]]<br/>(Post-[[File:Anahita map.png|20px|link=Anahita]])",
+  "Amount": "6-8&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">8-11</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Lumenyl",
+  "Npc": "[[Luminous Corvina]]<br/>(Post-[[File:Anahita map.png|20px|link=Anahita]])",
+  "Amount": "1",
+  "Chance": "50%"
+ },
+ {
+  "Item": "Lumenyl",
+  "Npc": "[[Primordial Wyrm]]<br/>(Post-[[File:Anahita map.png|20px|link=Anahita]])",
+  "Amount": "50-108&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">65-135</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Magenta Coral",
+  "Npc": "[[Eutrophic Crate]]<br/>[[Prism Crate]]",
+  "Amount": "10-20",
+  "Chance": "1/5 (20%)"
+ },
+ {
+  "Item": "Malachite",
+  "Npc": "[[The Plaguebringer Goliath]]",
+  "Amount": "1",
+  "Chance": "10%"
+ },
+ {
+  "Item": "Malachite",
+  "Npc": "[[Treasure Bag (The Plaguebringer Goliath)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">10%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Malevolence",
+  "Npc": "[[The Plaguebringer Goliath]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Malevolence",
+  "Npc": "[[Treasure Bag (The Plaguebringer Goliath)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Mana Polarizer",
+  "Npc": "[[Treasure Bag (The Slime God)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Mangosteen",
+  "Npc": "[[Plants#Trees|Monolith (snow)]]",
+  "Amount": "1",
+  "Chance": "2.76%"
+ },
+ {
+  "Item": "Mantis Claws",
+  "Npc": "[[Mantis Shrimp]]<br/>(Post-[[File:Map Icon Plantera (first form).png|25px|link=Plantera]])",
+  "Amount": "1",
+  "Chance": "20%"
+ },
+ {
+  "Item": "Mark of Providence",
+  "Npc": "[[Providence, the Profaned Goddess]]",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Maw of Infinity",
+  "Npc": "[[The Devourer of Gods]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Maw of Infinity",
+  "Npc": "[[Treasure Bag (The Devourer of Gods)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "McNuggets",
+  "Npc": "[[Treasure Bag (Yharon)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">10%</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>"
+ },
+ {
+  "Item": "McNuggets",
+  "Npc": "[[Yharon, Dragon of Rebirth]]",
+  "Amount": "1",
+  "Chance": "10%"
+ },
+ {
+  "Item": "Meld Blob",
+  "Npc": "[[Astrum Deus]]",
+  "Amount": "16-24&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">20-32</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Meld Blob",
+  "Npc": "All [[Solar Pillar]] enemies<br/>All [[Vortex Pillar]] enemies<br/>All [[Nebula Pillar]] enemies<br/>All [[Stardust Pillar]] enemies",
+  "Amount": "1",
+  "Chance": "20%&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">25%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Meowthrower",
+  "Npc": "[[Treasure Bag (Wall of Flesh)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Meowthrower",
+  "Npc": "[[Wall of Flesh]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Midas Prime",
+  "Npc": "[[Pirate Deadeye]]",
+  "Amount": "1",
+  "Chance": "4%&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">6.67%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Mirror Blade",
+  "Npc": "[[Ceaseless Void]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Mirror Blade",
+  "Npc": "[[Treasure Bag (Ceaseless Void)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Mollusk Husk",
+  "Npc": "[[Clam]] (in [[Hardmode]])",
+  "Amount": "1",
+  "Chance": "50%"
+ },
+ {
+  "Item": "Mollusk Husk",
+  "Npc": "[[Giant Clam]] (in [[Hardmode]])",
+  "Amount": "25-30",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Molten Amputator",
+  "Npc": "[[Providence, the Profaned Goddess]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Molten Amputator",
+  "Npc": "[[Treasure Bag (Providence, the Profaned Goddess)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Murasama",
+  "Npc": "[[Security Chest]] (Underworld Bio-center Lab)",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Mushroom Plasma Root",
+  "Npc": "[[Treasure Bag (Crabulon)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"revengeance_value\" style=\"cursor:pointer;\" title=\"Revengeance Mode\">100%</abbr>''' <span class=\"i\">[[File:Revengeance Indicator (borderless).png|link=Revengeance Mode|Revengeance Mode|12xpx]]</span>"
+ },
+ {
+  "Item": "Mutated Truffle",
+  "Npc": "[[The Old Duke]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Mutated Truffle",
+  "Npc": "[[Treasure Bag (The Old Duke)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Mycelial Claws",
+  "Npc": "[[Crabulon]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Mycelial Claws",
+  "Npc": "[[Treasure Bag (Crabulon)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Mycoroot",
+  "Npc": "[[Crabulon]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Mycoroot",
+  "Npc": "[[Treasure Bag (Crabulon)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Mysterious Circuitry",
+  "Npc": "[[Burrower]]",
+  "Amount": "4-8",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Mysterious Circuitry",
+  "Npc": "[[Draedon Power Cell]] (When used at a [[Extractinator]])",
+  "Amount": "1",
+  "Chance": "2.5%"
+ },
+ {
+  "Item": "Mysterious Circuitry",
+  "Npc": "[[Lab Turret]]s",
+  "Amount": "8",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Mysterious Circuitry",
+  "Npc": "[[Laserfish]]",
+  "Amount": "1-2&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">2-3</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>",
+  "Chance": "50%"
+ },
+ {
+  "Item": "Mysterious Circuitry",
+  "Npc": "[[Security Chest]]<br/>(Abandoned Research Facility, Abandoned Workshop)",
+  "Amount": "7-12",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Mysterious Circuitry",
+  "Npc": "[[Security Chest]]<br/>(Bio-center Labs)",
+  "Amount": "10-15",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Nanotech",
+  "Npc": "[[Signus]]<br/>(in [[get fixed boi]] worlds)",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Navystone",
+  "Npc": "[[Clam]]",
+  "Amount": "8-12",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Navystone",
+  "Npc": "[[Eutrophic Crate]]<br/>[[Prism Crate]]",
+  "Amount": "20-50",
+  "Chance": "1/3 (33.33%)"
+ },
+ {
+  "Item": "Navystone",
+  "Npc": "[[Giant Clam]]",
+  "Amount": "30-40",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Nebulash",
+  "Npc": "[[Astrum Aureus]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Nebulash",
+  "Npc": "[[Treasure Bag (Astrum Aureus)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Nebulous Core",
+  "Npc": "[[Treasure Bag (The Devourer of Gods)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Necromantic Geode",
+  "Npc": "[[Ravager]]<br/>(post-[[File:Providence map.png|link=Providence, the Profaned Goddess|30px]])",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Necromantic Geode",
+  "Npc": "[[Treasure Bag (Ravager)]]<br/>(post-[[File:Providence map.png|link=Providence, the Profaned Goddess|30px]])",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Necroplasm",
+  "Npc": "[[Angry Phantom Spirit]]",
+  "Amount": "1-3",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Necroplasm",
+  "Npc": "[[Happy Phantom Spirit]]",
+  "Amount": "2-4",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Necroplasm",
+  "Npc": "[[Overloaded Soldier]]<br/>[[Phantom Spirit]]",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Necroplasm",
+  "Npc": "[[Polterghast]]",
+  "Amount": "30-40",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Necroplasm",
+  "Npc": "[[Sad Phantom Spirit]]",
+  "Amount": "1-2",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Necroplasm",
+  "Npc": "[[Treasure Bag (Polterghast)]]",
+  "Amount": "40-50",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>"
+ },
+ {
+  "Item": "Needler",
+  "Npc": "[[Moss Hornet]]",
+  "Amount": "1",
+  "Chance": "4%&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">6.67%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Nightmare Fuel",
+  "Npc": "[[Headless Horseman]]<br/>(Post-[[File:Devourer of Gods map.png|25px|link=Devourer of Gods]])",
+  "Amount": "3-5",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Nightmare Fuel",
+  "Npc": "[[Hellhound]]<br/>[[Poltergeist]]<br/>(Post-[[File:Devourer of Gods map.png|25px|link=Devourer of Gods]])",
+  "Amount": "1-2",
+  "Chance": "50%"
+ },
+ {
+  "Item": "Nightmare Fuel",
+  "Npc": "[[Mourning Wood]]<br/>(Post-[[File:Devourer of Gods map.png|25px|link=Devourer of Gods]])",
+  "Amount": "5-10",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Nightmare Fuel",
+  "Npc": "[[Pumpking]]<br/>(Post-[[File:Devourer of Gods map.png|25px|link=Devourer of Gods]])",
+  "Amount": "10-20",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Nightmare Fuel",
+  "Npc": "[[Splinterling]]<br/>(Post-[[File:Devourer of Gods map.png|25px|link=Devourer of Gods]])",
+  "Amount": "1",
+  "Chance": "50%"
+ },
+ {
+  "Item": "NO",
+  "Npc": "[[Bohldohr]] (After defeating [[Supreme Witch, Calamitas]] and [[Exo Mechs]] in the [[Get fixed boi]] seed)",
+  "Amount": "1",
+  "Chance": "50%"
+ },
+ {
+  "Item": "Nuclear Fuel Rod",
+  "Npc": "[[Cragmaw Mire]]",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Nucleogenesis",
+  "Npc": "[[Ceaseless Void]]<br/>(in [[get fixed boi]] worlds)",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Nullification Pistol",
+  "Npc": "[[Brain Scrambler]]<br/>[[Gray Grunt]]<br/>[[Gigazapper]]<br/>[[Ray Gunner]]<br/>[[Scutlix Gunner]]",
+  "Amount": "1",
+  "Chance": "1%"
+ },
+ {
+  "Item": "Nullification Pistol",
+  "Npc": "[[Martian Walker]]",
+  "Amount": "1",
+  "Chance": "12.5%"
+ },
+ {
+  "Item": "Oasis Elemental in a Bottle",
+  "Npc": "[[Sand Elemental]]",
+  "Amount": "1",
+  "Chance": "10%&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">16.67%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Oblivion",
+  "Npc": "[[Calamitas Clone]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Oblivion",
+  "Npc": "[[Treasure Bag (Calamitas Clone)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Occult Skull Crown",
+  "Npc": "[[Brain of Cthulhu]]<br/>(in [[get fixed boi]] worlds)",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Ocean Crest",
+  "Npc": "[[Treasure Bag (Desert Scourge)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>"
+ },
+ {
+  "Item": "Odd Mushroom",
+  "Npc": "[[Crabulon]]<br/>(in [[get fixed boi]] worlds)",
+  "Amount": "1-9999",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Old Die",
+  "Npc": "[[Duke Fishron]]<br/>(in [[get fixed boi]] worlds)",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Old Duke's Scales",
+  "Npc": "[[Treasure Bag (The Old Duke)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Old Lord Claymore",
+  "Npc": "[[Bone Serpent]]",
+  "Amount": "1",
+  "Chance": "4% (Pre-[[File:Map Icon Eater of Worlds.png|20px|link=Eater of Worlds]][[File:Map Icon Brain of Cthulhu.png|20px|link=Brain of Cthulhu]]) <br/> 12.5% (Post-[[File:Map Icon Eater of Worlds.png|20px|link=Eater of Worlds]][[File:Map Icon Brain of Cthulhu.png|20px|link=Brain of Cthulhu]])"
+ },
+ {
+  "Item": "Omega Healing Potion",
+  "Npc": "[[Dragonfolly]]<br/>(in [[get fixed boi]] worlds)",
+  "Amount": "50-100",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Omega Healing Potion",
+  "Npc": "[[Primordial Wyrm]]<br/>[[The Devourer of Gods]]<br/>[[Yharon, Dragon of Rebirth]]<br/>[[XF-09 Ares]]<br/>[[XM-05 Thanatos]]<br/>[[XS-03 Apollo]]<br/>[[Supreme Witch, Calamitas]]<br/>[[Supreme Ultramage, Permafrost]]",
+  "Amount": "5-15",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Oracle Headphones",
+  "Npc": "[[Shockstorm Shuttle]]",
+  "Amount": "1",
+  "Chance": "5%"
+ },
+ {
+  "Item": "Oracle Headphones",
+  "Npc": "[[Starter Bag]] (If the player's name is \"Amber\" or \"Mishiro\")",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Orange Coral",
+  "Npc": "[[Eutrophic Crate]]<br/>[[Prism Crate]]",
+  "Amount": "10-20",
+  "Chance": "1/5 (20%)"
+ },
+ {
+  "Item": "Orthocera Shell",
+  "Npc": "[[Orthocera]]",
+  "Amount": "1",
+  "Chance": "5%"
+ },
+ {
+  "Item": "Overloaded Blaster",
+  "Npc": "[[The Slime God]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Overloaded Blaster",
+  "Npc": "[[Treasure Bag (The Slime God)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Pearl of Enthrallment",
+  "Npc": "[[Leviathan and Anahita]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Pearl of Enthrallment",
+  "Npc": "[[Treasure Bag (Leviathan and Anahita)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Pearl Shard",
+  "Npc": "[[Desert Scourge]]",
+  "Amount": "25-30",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Pearl Shard",
+  "Npc": "[[Treasure Bag (Desert Scourge)]]",
+  "Amount": "30-40",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>"
+ },
+ {
+  "Item": "Perdition",
+  "Npc": "[[Supreme Witch, Calamitas]]<br/>[[Supreme Ultramage, Permafrost]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Perdition",
+  "Npc": "[[Treasure Coffer (Calamitas)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Perennial Bar",
+  "Npc": "[[Fleshy Geode]]",
+  "Amount": "1-3&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">2-3</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Perennial Bar",
+  "Npc": "[[Necromantic Geode]]",
+  "Amount": "5-10&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">7-12</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Perennial Ore",
+  "Npc": "[[Burrower]]<br/>(Post-[[File:Map Icon Plantera (first form).png|20px|link=Plantera]])",
+  "Amount": "6-32",
+  "Chance": "20%"
+ },
+ {
+  "Item": "Perennial Ore",
+  "Npc": "[[Perennial Slime]]",
+  "Amount": "10-26",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Perfect Dark",
+  "Npc": "[[The Hive Mind]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Perfect Dark",
+  "Npc": "[[Treasure Bag (The Hive Mind)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Phoenix Flame Barrage",
+  "Npc": "[[Treasure Bag (Yharon)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Phoenix Flame Barrage",
+  "Npc": "[[Yharon, Dragon of Rebirth]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Phosphorescent Gauntlet",
+  "Npc": "[[Nuclear Terror]]",
+  "Amount": "1",
+  "Chance": "33.33%"
+ },
+ {
+  "Item": "Photon Ripper",
+  "Npc": "[[Exo Mechs]] (Ares)<br/>[[XB-∞ Hekate]]",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Photon Ripper",
+  "Npc": "[[Treasure Box (Exo Mechs)]] (Ares)",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Pineapple (calamity)",
+  "Npc": "[[Goldfish]]",
+  "Amount": "1",
+  "Chance": "0.2%"
+ },
+ {
+  "Item": "Plague Caller",
+  "Npc": "[[Plaguebringer]]",
+  "Amount": "1",
+  "Chance": "2%"
+ },
+ {
+  "Item": "Plague Caller",
+  "Npc": "[[The Plaguebringer Goliath]]",
+  "Amount": "1",
+  "Chance": "10%"
+ },
+ {
+  "Item": "Plague Caller",
+  "Npc": "[[Treasure Bag (The Plaguebringer Goliath)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">10%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Plague Cell Canister",
+  "Npc": "[[Melter]]<br/>[[Pestilent Slime]]<br/>[[Plague Charger]] (Normal)<br/>[[Viruling]]",
+  "Amount": "1-2",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Plague Cell Canister",
+  "Npc": "[[Plague Charger]] (Large)",
+  "Amount": "2-3",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Plague Cell Canister",
+  "Npc": "[[Plaguebringer]]",
+  "Amount": "8-12",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Plague Cell Canister",
+  "Npc": "[[Plagueshell]]",
+  "Amount": "3-4",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Plague Cell Canister",
+  "Npc": "[[The Plaguebringer Goliath]]",
+  "Amount": "15-20",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Plague Cell Canister",
+  "Npc": "[[Treasure Bag (The Plaguebringer Goliath)]]",
+  "Amount": "25-30",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>"
+ },
+ {
+  "Item": "Plague Staff",
+  "Npc": "[[The Plaguebringer Goliath]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Plague Staff",
+  "Npc": "[[Treasure Bag (The Plaguebringer Goliath)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Plagued Fuel Pack",
+  "Npc": "[[Plaguebringer]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Planebreaker's Pouch",
+  "Npc": "[[Storm Weaver]]<br/>(in [[get fixed boi]] worlds)",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Plasma Rod",
+  "Npc": "[[Goblin Sorcerer]]",
+  "Amount": "1",
+  "Chance": "4%&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">6.67%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Plasma Rod",
+  "Npc": "[[Tim]]",
+  "Amount": "1",
+  "Chance": "33.33%&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">50%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Poseidon",
+  "Npc": "[[Giant Clam]] (in [[Hardmode]])",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Potion of Omniscience",
+  "Npc": "[[Golem]]<br/>(in [[get fixed boi]] worlds)",
+  "Amount": "1-9999",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Prism Shard",
+  "Npc": "[[Blinded Angler]]",
+  "Amount": "5-9",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Prism Shard",
+  "Npc": "[[Eutrophic Crate]]<br/>[[Prism Crate]]",
+  "Amount": "4-10",
+  "Chance": "50%"
+ },
+ {
+  "Item": "Prism Shard",
+  "Npc": "[[Prism-Back]]<br/>(Post-[[File:Desert Scourge map.png|20px|link=Desert Scourge]])",
+  "Amount": "1-3",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Pristine Fury",
+  "Npc": "[[Providence, the Profaned Goddess]]",
+  "Amount": "1",
+  "Chance": "10%"
+ },
+ {
+  "Item": "Pristine Fury",
+  "Npc": "[[Treasure Bag (Providence, the Profaned Goddess)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">10%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Profaned Core",
+  "Npc": "[[Profaned Guardians]]",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Profaned Soul Crystal",
+  "Npc": "[[Providence, the Profaned Goddess]] (if defeated with only the [[Profaned Soul Artifact]] in singleplayer)",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Prototype Plasma Drive",
+  "Npc": "[[Security Chest]] (Space Bio-Center Lab)",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Puff Shroom",
+  "Npc": "[[Crabulon]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Puff Shroom",
+  "Npc": "[[Treasure Bag (Crabulon)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Purge Guzzler",
+  "Npc": "[[Providence, the Profaned Goddess]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Purge Guzzler",
+  "Npc": "[[Treasure Bag (Providence, the Profaned Goddess)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Purified Gel",
+  "Npc": "[[The Slime God]]",
+  "Amount": "30-45",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Purified Gel",
+  "Npc": "[[Treasure Bag (The Slime God)]]",
+  "Amount": "40-52",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>"
+ },
+ {
+  "Item": "Purple Haze",
+  "Npc": "[[Empress of Light]]<br/>(in [[get fixed boi]] worlds)",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Pyre Mantle",
+  "Npc": "[[Devil Fish]]",
+  "Amount": "10-20",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Radiating Crystal",
+  "Npc": "[[Radiator]] when caught with any type of [[Bug Net]] as a white-colored variant",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Rage Bait",
+  "Npc": "[[Disgusting Slop]] (in an [[Extractinator]])",
+  "Amount": "1",
+  "Chance": "2.5%"
+ },
+ {
+  "Item": "Realm Ravager",
+  "Npc": "[[Ravager]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Realm Ravager",
+  "Npc": "[[Treasure Bag (Ravager)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Reaper Tooth",
+  "Npc": "[[Reaper Shark]]<br/>(Post-[[File:Polterghast map.png|25px|link=Polterghast]])",
+  "Amount": "6-8",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Red Lightning Container",
+  "Npc": "[[Treasure Bag (The Dragonfolly)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"revengeance_value\" style=\"cursor:pointer;\" title=\"Revengeance Mode\">100%</abbr>''' <span class=\"i\">[[File:Revengeance Indicator (borderless).png|link=Revengeance Mode|Revengeance Mode|12xpx]]</span>"
+ },
+ {
+  "Item": "Refraction Rotor",
+  "Npc": "[[Exo Mechs]] (Thanatos)<br/>[[XB-∞ Hekate]] (Spine)",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Refraction Rotor",
+  "Npc": "[[Treasure Box (Exo Mechs)]] (Thanatos)",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Regenerator",
+  "Npc": "[[Calamitas Clone]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Regenerator",
+  "Npc": "[[Treasure Bag (Calamitas Clone)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Regulus Riot",
+  "Npc": "[[Astrum Deus]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Regulus Riot",
+  "Npc": "[[Treasure Bag (Astrum Deus)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>"
+ },
+ {
+  "Item": "Relic of Convergence",
+  "Npc": "[[Guardian Healer]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Relic of Deliverance",
+  "Npc": "[[Guardian Commander]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Relic of Resilience",
+  "Npc": "[[Guardian Defender]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Rogue Emblem",
+  "Npc": "[[Treasure Bag (Wall of Flesh)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">25%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Rogue Emblem",
+  "Npc": "[[Wall of Flesh]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Rose Stone",
+  "Npc": "[[Brimstone Elemental]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Rose Stone",
+  "Npc": "[[Treasure Bag (Brimstone Elemental)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Rot Ball",
+  "Npc": "[[The Hive Mind]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Rot Ball",
+  "Npc": "[[Treasure Bag (The Hive Mind)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Rotten Brain",
+  "Npc": "[[Treasure Bag (The Hive Mind)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>"
+ },
+ {
+  "Item": "Rotten Dogtooth",
+  "Npc": "[[Rotdog]]",
+  "Amount": "1",
+  "Chance": "12.5%"
+ },
+ {
+  "Item": "Rotting Eyeball",
+  "Npc": "[[The Hive Mind]]",
+  "Amount": "1",
+  "Chance": "10%"
+ },
+ {
+  "Item": "Rotting Eyeball",
+  "Npc": "[[Treasure Bag (The Hive Mind)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">10%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Rouge Slash",
+  "Npc": "[[Dragonfolly]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Rouge Slash",
+  "Npc": "[[Treasure Bag (The Dragonfolly)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>"
+ },
+ {
+  "Item": "Rover Drive",
+  "Npc": "[[Wulfrum Rover]]",
+  "Amount": "1",
+  "Chance": "10%"
+ },
+ {
+  "Item": "Ruinous Soul",
+  "Npc": "[[Polterghast]]",
+  "Amount": "20-25",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Ruinous Soul",
+  "Npc": "[[Treasure Bag (Polterghast)]]",
+  "Amount": "25-30",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>"
+ },
+ {
+  "Item": "Rusted Jingle Bell",
+  "Npc": "[[Baby Ghost Bell]] when hit with any type of [[Bug Net]]",
+  "Amount": "1",
+  "Chance": "5%"
+ },
+ {
+  "Item": "Rusty Beacon Prototype",
+  "Npc": "[[Hydrothermal Crate]]<br/>[[Sulphurous Crate]]",
+  "Amount": "1",
+  "Chance": "1/4 (25%)"
+ },
+ {
+  "Item": "Rusty Beacon Prototype",
+  "Npc": "[[Rusty Chest]]",
+  "Amount": "1",
+  "Chance": "1/4 (25%)"
+ },
+ {
+  "Item": "Sacrifice",
+  "Npc": "[[Supreme Witch, Calamitas]]<br/>[[Supreme Ultramage, Permafrost]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Sacrifice",
+  "Npc": "[[Treasure Coffer (Calamitas)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Sahara Slicers",
+  "Npc": "[[Desert Scourge]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Sahara Slicers",
+  "Npc": "[[Treasure Bag (Desert Scourge)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Salak",
+  "Npc": "[[Acidwood Tree]] (shaking)",
+  "Amount": "1",
+  "Chance": "3.22%"
+ },
+ {
+  "Item": "Sanctified Spark",
+  "Npc": "[[Impious Immolator]]",
+  "Amount": "1",
+  "Chance": "6.67%"
+ },
+ {
+  "Item": "Sand Cloak",
+  "Npc": "[[Desert Scourge]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Sand Cloak",
+  "Npc": "[[Treasure Bag (Desert Scourge)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Sand Shark Tooth Necklace",
+  "Npc": "[[Desert Scourge]]<br/>(in [[get fixed boi]] worlds)",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Sandstream Scepter",
+  "Npc": "[[Desert Scourge]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Sandstream Scepter",
+  "Npc": "[[Treasure Bag (Desert Scourge)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Sausage Maker",
+  "Npc": "[[The Perforators]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Sausage Maker",
+  "Npc": "[[Treasure Bag (The Perforators)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Scions Curio",
+  "Npc": "[[Hydrothermal Crate]]<br/>[[Sulphurous Crate]]",
+  "Amount": "1",
+  "Chance": "1/4 (25%)"
+ },
+ {
+  "Item": "Scions Curio",
+  "Npc": "[[Rusty Chest]]",
+  "Amount": "1",
+  "Chance": "1/4 (25%)"
+ },
+ {
+  "Item": "Scorched Bone",
+  "Npc": "[[Slag Crate]]<br/>[[Brimstone Crate]]",
+  "Amount": "20-50",
+  "Chance": "1/3 (33.33%)"
+ },
+ {
+  "Item": "Scoria Bar",
+  "Npc": "[[Fleshy Geode]]",
+  "Amount": "1-3&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">2-3</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Scoria Bar",
+  "Npc": "[[Necromantic Geode]]",
+  "Amount": "5-10&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">7-12</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Scoria Ore",
+  "Npc": "[[Chaotic Puffer]]<br/>(Post-[[File:Map Icon Golem.png|25px|link=Golem]])",
+  "Amount": "10-26",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Scoria Ore",
+  "Npc": "[[Devil Fish]]<br/>(Post-[[File:Map Icon Golem.png|25px|link=Golem]])",
+  "Amount": "3-9",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Scourge of the Desert",
+  "Npc": "[[Desert Scourge]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Scourge of the Desert",
+  "Npc": "[[Treasure Bag (Desert Scourge)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>"
+ },
+ {
+  "Item": "Scourge of the Seas",
+  "Npc": "[[Aquatic Scourge]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Scourge of the Seas",
+  "Npc": "[[Treasure Bag (Aquatic Scourge)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Scuttler's Jewel",
+  "Npc": "[[Crawlers]]",
+  "Amount": "1",
+  "Chance": "16.67%"
+ },
+ {
+  "Item": "Sea's Searing",
+  "Npc": "[[Aquatic Scourge]]",
+  "Amount": "1",
+  "Chance": "10%"
+ },
+ {
+  "Item": "Sea's Searing",
+  "Npc": "[[Treasure Bag (Aquatic Scourge)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">10%</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>"
+ },
+ {
+  "Item": "Seething Discharge",
+  "Npc": "[[Brimstone Elemental]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Seething Discharge",
+  "Npc": "[[Treasure Bag (Brimstone Elemental)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Septic Skewer",
+  "Npc": "[[The Old Duke]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Septic Skewer",
+  "Npc": "[[Treasure Bag (The Old Duke)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Serpentine",
+  "Npc": "[[Sea Serpent]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Set of Calamity",
+  "Npc": "[[Calamitas Clone]]",
+  "Amount": "1",
+  "Chance": "10%"
+ },
+ {
+  "Item": "Set of Calamity",
+  "Npc": "[[Treasure Bag (Calamitas Clone)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">10%</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>"
+ },
+ {
+  "Item": "Shaderain Staff",
+  "Npc": "[[The Hive Mind]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Shaderain Staff",
+  "Npc": "[[Treasure Bag (The Hive Mind)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Shadethrower",
+  "Npc": "[[The Hive Mind]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Shadethrower",
+  "Npc": "[[Treasure Bag (The Hive Mind)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Sharky Plush",
+  "Npc": "[[Shark]]",
+  "Amount": "1",
+  "Chance": "1%"
+ },
+ {
+  "Item": "Sharky Plush",
+  "Npc": "[[Starter Bag]] (If the player's name is CongratsIsTrash or CIT)",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Shattered Community",
+  "Npc": "[[The Old Duke]]<br/>(in [[get fixed boi]] worlds)",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Shellfish Staff",
+  "Npc": "[[Giant Clam]] (in [[Hardmode]])",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Shinobi Blade",
+  "Npc": "[[Dark Caster]]",
+  "Amount": "1",
+  "Chance": "6.67%&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">10%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Sky Glaze",
+  "Npc": "[[Harpy]]",
+  "Amount": "1",
+  "Chance": "2%&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">3.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Skytide Dragoon",
+  "Npc": "[[Storm Weaver]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Skytide Dragoon",
+  "Npc": "[[Treasure Bag (Storm Weaver)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Slag Magnum",
+  "Npc": "[[Earth Elemental]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Slagfire Douser",
+  "Npc": "[[Brimstone Crate]]<br/>[[Slag Crate]]",
+  "Amount": "1",
+  "Chance": "1/10 (10%)"
+ },
+ {
+  "Item": "Slithering Eels",
+  "Npc": "[[Acid Eel]] (Tiers 2 and 3)",
+  "Amount": "1",
+  "Chance": "5%"
+ },
+ {
+  "Item": "Slurper Pole",
+  "Npc": "[[Soul Slurper]]",
+  "Amount": "1",
+  "Chance": "10% (Pre-Hardmode) / 3.33% ([[Hardmode]])"
+ },
+ {
+  "Item": "Slurper Pole",
+  "Npc": "[[Supreme Ultramage, Permafrost]]",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Slurper Pole",
+  "Npc": "[[Supreme Witch, Calamitas]]<br/>(in [[get fixed boi]] worlds)",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Snowstorm Staff",
+  "Npc": "[[Cryogen]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Snowstorm Staff",
+  "Npc": "[[Treasure Bag (Cryogen)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Solar Veil",
+  "Npc": "[[Psycho]], [[Reaper]] and [[Vampire]]<br/>(Post-[[File:Calamitas Clone map.png|20px|link=Calamitas Clone]])",
+  "Amount": "2-4",
+  "Chance": "50%"
+ },
+ {
+  "Item": "Soul of Cryogen",
+  "Npc": "[[Treasure Bag (Cryogen)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Spectral Veil",
+  "Npc": "[[Treasure Bag (Signus)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Spent Fuel Container",
+  "Npc": "[[Cragmaw Mire]]",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Spikecrag Staff",
+  "Npc": "[[Ravager]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Spikecrag Staff",
+  "Npc": "[[Treasure Bag (Ravager)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Spine of Thanatos",
+  "Npc": "[[Exo Mechs]] (Thanatos)<br/>[[XB-∞ Hekate]] (Spine)",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Spine of Thanatos",
+  "Npc": "[[Treasure Box (Exo Mechs)]] (Thanatos)",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Squirrel Squire Staff",
+  "Npc": "[[Starter Bag]]",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Staff of Necrosteocytes",
+  "Npc": "[[Dark Caster]]",
+  "Amount": "1",
+  "Chance": "6.67%&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">10%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Star Shower",
+  "Npc": "[[Astrum Deus]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Star Shower",
+  "Npc": "[[Treasure Bag (Astrum Deus)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Star Sputter",
+  "Npc": "[[Astrum Deus]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Star Sputter",
+  "Npc": "[[Treasure Bag (Astrum Deus)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Starblight Soot",
+  "Npc": "[[Aries]]<br/>[[Astral Probe]]<br/>[[Astral Slime]]",
+  "Amount": "1-2&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">1-3</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>",
+  "Chance": "50%"
+ },
+ {
+  "Item": "Starblight Soot",
+  "Npc": "[[Astral Chest]]",
+  "Amount": "30-80",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Starblight Soot",
+  "Npc": "[[Astral Crate]]",
+  "Amount": "4-10",
+  "Chance": "50%"
+ },
+ {
+  "Item": "Starblight Soot",
+  "Npc": "[[Astralachnea]]",
+  "Amount": "2-3&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">1-4</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>",
+  "Chance": "50%&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Starblight Soot",
+  "Npc": "[[Astrum Aureus]]",
+  "Amount": "20-30",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Starblight Soot",
+  "Npc": "[[Astrum Deus]]",
+  "Amount": "55-95&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">65-105</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Starblight Soot",
+  "Npc": "[[Atlas]]",
+  "Amount": "6-8&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">7-9</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Starblight Soot",
+  "Npc": "[[Celestial Remains]]<br/>[[Novae Slag]] (When used at a [[Extractinator]])",
+  "Amount": "1-20",
+  "Chance": "10%"
+ },
+ {
+  "Item": "Starblight Soot",
+  "Npc": "[[Fusion Feeder]]<br/>[[Nova]]<br/>[[Sightseer Spitter]]",
+  "Amount": "2-3&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">3-4</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Starblight Soot",
+  "Npc": "[[Hadarian]]<br/>[[Astraglomerate]]",
+  "Amount": "1-3&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">1-4</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Starblight Soot",
+  "Npc": "[[Mantis]]<br/>[[Sightseer Collider]]<br/>[[Stellar Culex]]",
+  "Amount": "1-2&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">1-3</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Starblight Soot",
+  "Npc": "[[Plants#Trees|Monolith (normal)]]<br/>[[Plants#Trees|Monolith (snow)]] (shaking)",
+  "Amount": "1-2",
+  "Chance": "4.73% [[File:Bestiary Daytime.png|During the day|link=Day]]<br/>2.36% [[File:Bestiary Nighttime.png|During the night|link=Night]]"
+ },
+ {
+  "Item": "Starblight Soot",
+  "Npc": "[[Plants#Trees|Monolith (palm)]] (shaking)",
+  "Amount": "1-2",
+  "Chance": "5.81% [[File:Bestiary Daytime.png|During the day|link=Day]]<br/>2.9% [[File:Bestiary Nighttime.png|During the night|link=Night]]"
+ },
+ {
+  "Item": "Starblight Soot",
+  "Npc": "[[Treasure Bag (Astrum Aureus)]]",
+  "Amount": "30-40",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Starblight Soot",
+  "Npc": "[[Treasure Bag (Astrum Deus)]]",
+  "Amount": "60-90",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Starbuster Core",
+  "Npc": "[[Stellar Culex]]<br/>(Post-[[File:Astrum Aureus map.png|20px|link=Astrum Aureus]])",
+  "Amount": "1",
+  "Chance": "10%"
+ },
+ {
+  "Item": "Starlight Fuel Cell",
+  "Npc": "[[Treasure Bag (Astrum Aureus)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"revengeance_value\" style=\"cursor:pointer;\" title=\"Revengeance Mode\">100%</abbr>''' <span class=\"i\">[[File:Revengeance Indicator (borderless).png|link=Revengeance Mode|Revengeance Mode|12xpx]]</span>"
+ },
+ {
+  "Item": "Starspawn Helix Staff",
+  "Npc": "[[Astrum Deus]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Starspawn Helix Staff",
+  "Npc": "[[Treasure Bag (Astrum Deus)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Stellar Cannon",
+  "Npc": "[[Nova]]<br/>(Post-[[File:Astrum Aureus map.png|20px|link=Astrum Aureus]])",
+  "Amount": "1",
+  "Chance": "10%"
+ },
+ {
+  "Item": "Stellar Knife",
+  "Npc": "[[Aries]]<br/>(Post-[[File:Astrum Aureus map.png|20px|link=Astrum Aureus]])",
+  "Amount": "1",
+  "Chance": "10%"
+ },
+ {
+  "Item": "Stohne",
+  "Npc": "[[Bohldohr]]",
+  "Amount": "10-26",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Storm Saber",
+  "Npc": "[[Cloud Elemental]]",
+  "Amount": "1",
+  "Chance": "20%"
+ },
+ {
+  "Item": "Stormjaw Staff",
+  "Npc": "[[Stormlion]]",
+  "Amount": "1",
+  "Chance": "20%"
+ },
+ {
+  "Item": "Stormlion Mandible",
+  "Npc": "[[Stormlion]]",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Strange Orb",
+  "Npc": "[[Ancient Treasure Chest]]",
+  "Amount": "1",
+  "Chance": "1/10 (10%)"
+ },
+ {
+  "Item": "Strange Orb",
+  "Npc": "[[Hydrothermal Crate]]",
+  "Amount": "1",
+  "Chance": "1/10 (10%)"
+ },
+ {
+  "Item": "Stress Pills",
+  "Npc": "Any [[Treasure Bag]] in [[Revengeance Mode]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"revengeance_value\" style=\"cursor:pointer;\" title=\"Revengeance Mode\">2.5%</abbr>''' <span class=\"i\">[[File:Revengeance Indicator (borderless).png|link=Revengeance Mode|Revengeance Mode|12xpx]]</span>"
+ },
+ {
+  "Item": "Submarine Shocker",
+  "Npc": "[[Aquatic Scourge]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Submarine Shocker",
+  "Npc": "[[Treasure Bag (Aquatic Scourge)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Sulphuric Acid Cannon",
+  "Npc": "[[Mauler]]",
+  "Amount": "1",
+  "Chance": "33.33%"
+ },
+ {
+  "Item": "Sulphuric Scale",
+  "Npc": "[[Acid Eel]]<br/>[[Nuclear Toad]]<br/>[[Radiator]]<br/>[[Skyfin]]",
+  "Amount": "1-3",
+  "Chance": "50%"
+ },
+ {
+  "Item": "Sulphuric Scale",
+  "Npc": "[[Acidwood Tree]] (Shaking)",
+  "Amount": "1-2",
+  "Chance": "5.52% (Post-T1 [[File:Acid Rain Icon.png|link=Acid Rain|20px]])<br/>2.76% (Post-T2 [[File:Acid Rain Icon.png|link=Acid Rain|20px]])"
+ },
+ {
+  "Item": "Sulphurous Grabber",
+  "Npc": "[[Sulphurous Skater]]",
+  "Amount": "1",
+  "Chance": "5%"
+ },
+ {
+  "Item": "Sulphurous Sand",
+  "Npc": "[[Aquatic Scourge]]",
+  "Amount": "5-15",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Sulphurous Sand",
+  "Npc": "[[Hydrothermal Crate]]<br/>[[Sulphurous Crate]]",
+  "Amount": "20-50",
+  "Chance": "1/3 (33.33%)"
+ },
+ {
+  "Item": "Sulphurous Sandstone",
+  "Npc": "[[Hydrothermal Crate]]<br/>[[Sulphurous Crate]]",
+  "Amount": "20-50",
+  "Chance": "1/3 (33.33%)"
+ },
+ {
+  "Item": "Sulphurous Shale",
+  "Npc": "[[Slab Crab]]",
+  "Amount": "10-30",
+  "Chance": "20%"
+ },
+ {
+  "Item": "Sulphurskin Potion",
+  "Npc": "[[Rusty Chest]]",
+  "Amount": "4-7",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Sulphurskin Potion",
+  "Npc": "[[Sulphuric Treasure]]",
+  "Amount": "1",
+  "Chance": "10%"
+ },
+ {
+  "Item": "Supreme Bait Tackle Box Fishing Station",
+  "Npc": "[[Aquatic Scourge]]<br/>(in [[get fixed boi]] worlds)",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Supreme Healing Potion",
+  "Npc": "[[Providence, the Profaned Goddess]]<br/>[[Ceaseless Void]]<br/>[[Storm Weaver]]<br/>[[Signus]]<br/>[[Polterghast]]<br/>[[The Old Duke]]",
+  "Amount": "5-15",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Surge Driver",
+  "Npc": "[[Exo Mechs]] (Artemis and Apollo)<br/>[[XB-∞ Hekate]] (Eyes)",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Surge Driver",
+  "Npc": "[[Treasure Box (Exo Mechs)]] (Artemis and Apollo)",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Suspicious Looking Jelly Bean",
+  "Npc": "[[Astrum Aureus]]",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Suspicious Looking Jelly Bean",
+  "Npc": "[[Treasure Bag (Astrum Aureus)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>"
+ },
+ {
+  "Item": "Suspicious Looking NO U",
+  "Npc": "[[THE LORDE]]",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Suspicious Scrap",
+  "Npc": "[[Security Chest]]",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Teardrop Cleaver",
+  "Npc": "[[Eye of Cthulhu]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Teardrop Cleaver",
+  "Npc": "[[Treasure Bag (Eye of Cthulhu)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Telluric Glare",
+  "Npc": "[[Providence, the Profaned Goddess]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Telluric Glare",
+  "Npc": "[[Treasure Bag (Providence, the Profaned Goddess)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Terror Blade",
+  "Npc": "[[Polterghast]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Terror Blade",
+  "Npc": "[[Treasure Bag (Polterghast)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Thank You",
+  "Npc": "Any [[Boss]]",
+  "Amount": "1",
+  "Chance": "1%"
+ },
+ {
+  "Item": "The Atom Splitter",
+  "Npc": "[[Exo Mechs]] (Artemis and Apollo)<br/>[[XB-∞ Hekate]] (Eyes)",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "The Atom Splitter",
+  "Npc": "[[Treasure Box (Exo Mechs)]] (Artemis and Apollo)",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "The Bee",
+  "Npc": "[[Queen Bee]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "The Bee",
+  "Npc": "[[Treasure Bag (Queen Bee)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "The Burning Sky",
+  "Npc": "[[Treasure Bag (Yharon)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "The Burning Sky",
+  "Npc": "[[Yharon, Dragon of Rebirth]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "The Comb",
+  "Npc": "[[Oasis Crate]]<br/>[[Mirage Crate]]",
+  "Amount": "1",
+  "Chance": "1/8 (12.5%)"
+ },
+ {
+  "Item": "The Comb",
+  "Npc": "[[Sandstone Chest]]",
+  "Amount": "1",
+  "Chance": "1/5 (20%)"
+ },
+ {
+  "Item": "The Community",
+  "Npc": "[[Leviathan and Anahita]]",
+  "Amount": "1",
+  "Chance": "10%"
+ },
+ {
+  "Item": "The Community",
+  "Npc": "[[Treasure Bag (Leviathan and Anahita)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">10%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "The Evolution",
+  "Npc": "[[Treasure Bag (Ceaseless Void)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>"
+ },
+ {
+  "Item": "The Final Dawn",
+  "Npc": "[[Treasure Bag (Yharon)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "The Final Dawn",
+  "Npc": "[[Yharon, Dragon of Rebirth]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "The First Shadowflame",
+  "Npc": "[[Goblin Warlock]]",
+  "Amount": "1",
+  "Chance": "20%&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "The Jailor",
+  "Npc": "[[Exo Mechs]] (Ares)<br/>[[XB-∞ Hekate]]",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "The Jailor",
+  "Npc": "[[Treasure Box (Exo Mechs)]] (Ares)",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "The Microwave",
+  "Npc": "[[Astrum Deus]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "The Microwave",
+  "Npc": "[[Treasure Bag (Astrum Deus)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "The Obliterator",
+  "Npc": "[[The Devourer of Gods]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "The Obliterator",
+  "Npc": "[[Treasure Bag (The Devourer of Gods)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "The Old Reaper",
+  "Npc": "[[The Old Duke]]",
+  "Amount": "1",
+  "Chance": "10%"
+ },
+ {
+  "Item": "The Old Reaper",
+  "Npc": "[[Treasure Bag (The Old Duke)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">10%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "The Storm",
+  "Npc": "[[Storm Weaver]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "The Storm",
+  "Npc": "[[Treasure Bag (Storm Weaver)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "The Syringe",
+  "Npc": "[[The Plaguebringer Goliath]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "The Syringe",
+  "Npc": "[[Treasure Bag (The Plaguebringer Goliath)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "The Wand",
+  "Npc": "[[The Devourer of Gods]]<br/>(in [[get fixed boi]] worlds)",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Thread of Eradication",
+  "Npc": "[[The Devourer of Gods]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Thread of Eradication",
+  "Npc": "[[Treasure Bag (The Devourer of Gods)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Throwing Brick",
+  "Npc": "[[Starter Bag]]",
+  "Amount": "150",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Titan Arm",
+  "Npc": "[[Atlas]]<br/>(Post-[[File:Astrum Aureus map.png|20px|link=Astrum Aureus]])",
+  "Amount": "1",
+  "Chance": "10%"
+ },
+ {
+  "Item": "Titan Heart",
+  "Npc": "[[Atlas]]",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Toasty Bat Bottle",
+  "Npc": "[[Hellbat]]",
+  "Amount": "1",
+  "Chance": "1/30 (3.33%)"
+ },
+ {
+  "Item": "Tooth Ball",
+  "Npc": "[[The Perforators]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Tooth Ball",
+  "Npc": "[[Treasure Bag (The Perforators)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>"
+ },
+ {
+  "Item": "Torrential Tear",
+  "Npc": "[[Ancient Treasure Chest]]",
+  "Amount": "1",
+  "Chance": "1/10 (10%)"
+ },
+ {
+  "Item": "Torrential Tear",
+  "Npc": "[[Hydrothermal Crate]]",
+  "Amount": "1",
+  "Chance": "1/10 (10%)"
+ },
+ {
+  "Item": "Toxic Heart",
+  "Npc": "[[Treasure Bag (The Plaguebringer Goliath)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Toxicant Twister",
+  "Npc": "[[The Old Duke]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Toxicant Twister",
+  "Npc": "[[Treasure Bag (The Old Duke)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Trash Can (pet)",
+  "Npc": "[[Trasher]]",
+  "Amount": "1",
+  "Chance": "5%"
+ },
+ {
+  "Item": "Tundra Leash",
+  "Npc": "[[Rimehound]]",
+  "Amount": "1",
+  "Chance": "1/12 (8.33%)"
+ },
+ {
+  "Item": "Twisting Nether",
+  "Npc": "[[Signus]]",
+  "Amount": "10-12",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Twisting Nether",
+  "Npc": "[[Treasure Bag (Signus)]]",
+  "Amount": "12-16",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Uelibloom Ore",
+  "Npc": "[[Bloom Slime]]",
+  "Amount": "10-26",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Ultimus Cleaver",
+  "Npc": "[[Ravager]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Ultimus Cleaver",
+  "Npc": "[[Treasure Bag (Ravager)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Unholy Essence",
+  "Npc": "[[Impious Immolator]]<br/>[[Profaned Energy]]<br/>[[Scorn Eater]]",
+  "Amount": "2-4",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Unholy Essence",
+  "Npc": "[[Profaned Guardians]]",
+  "Amount": "15-20&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">20-25</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Unholy Essence",
+  "Npc": "[[Providence, the Profaned Goddess]]",
+  "Amount": "30-40",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Unholy Essence",
+  "Npc": "[[Treasure Bag (Providence, the Profaned Goddess)]]",
+  "Amount": "40-50",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>"
+ },
+ {
+  "Item": "Urchin Stinger",
+  "Npc": "[[Aquatic Urchin]]",
+  "Amount": "1",
+  "Chance": "6.67%"
+ },
+ {
+  "Item": "Utensil Poker",
+  "Npc": "[[Moon Lord]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Utensil Poker",
+  "Npc": "[[Treasure Bag (Moon Lord)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>"
+ },
+ {
+  "Item": "Valediction",
+  "Npc": "[[Reaper Shark]]<br/>(Post-[[File:Polterghast map.png|25px|link=Polterghast]])",
+  "Amount": "1",
+  "Chance": "33.33%"
+ },
+ {
+  "Item": "Vehemence",
+  "Npc": "[[Supreme Witch, Calamitas]]<br/>[[Supreme Ultramage, Permafrost]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Vehemence",
+  "Npc": "[[Treasure Coffer (Calamitas)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Vein Burster",
+  "Npc": "[[The Perforators]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Vein Burster",
+  "Npc": "[[Treasure Bag (The Perforators)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Vesuvius",
+  "Npc": "[[Ravager]]",
+  "Amount": "1",
+  "Chance": "10%"
+ },
+ {
+  "Item": "Vesuvius",
+  "Npc": "[[Treasure Bag (Ravager)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">10%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Vigilance",
+  "Npc": "[[Supreme Witch, Calamitas]]<br/>[[Supreme Ultramage, Permafrost]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Vigilance",
+  "Npc": "[[Treasure Coffer (Calamitas)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Violence",
+  "Npc": "[[Supreme Witch, Calamitas]]<br/>[[Supreme Ultramage, Permafrost]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Violence",
+  "Npc": "[[Treasure Coffer (Calamitas)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Virulence",
+  "Npc": "[[The Plaguebringer Goliath]]",
+  "Amount": "1",
+  "Chance": "25%&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Virulence",
+  "Npc": "[[Treasure Bag (The Plaguebringer Goliath)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Vital Jelly",
+  "Npc": "[[Green Jellyfish]]",
+  "Amount": "1",
+  "Chance": "12.5%&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">20%</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>"
+ },
+ {
+  "Item": "Vital Jelly",
+  "Npc": "[[Mirage Jelly]]",
+  "Amount": "1",
+  "Chance": "14.29%&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">25%</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>"
+ },
+ {
+  "Item": "Vitriolic Viper",
+  "Npc": "[[The Old Duke]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Vitriolic Viper",
+  "Npc": "[[Treasure Bag (The Old Duke)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Void Concentration Staff",
+  "Npc": "[[Ceaseless Void]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Void Concentration Staff",
+  "Npc": "[[Treasure Bag (Ceaseless Void)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Void Eater Marionette",
+  "Npc": "[[The Devourer of Gods]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Void Eater Marionette",
+  "Npc": "[[Treasure Bag (The Devourer of Gods)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Void of Calamity",
+  "Npc": "[[Treasure Bag (Calamitas Clone)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Voidstone",
+  "Npc": "[[Bloatfish]]",
+  "Amount": "10-20",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Voidstone",
+  "Npc": "[[Eidolon Wyrm]]",
+  "Amount": "30-40",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Voidstone",
+  "Npc": "[[Luminous Corvina]]",
+  "Amount": "8-15",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Voidstone",
+  "Npc": "[[Primordial Wyrm]]",
+  "Amount": "80-100",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Voidstone",
+  "Npc": "[[Reaper Shark]]",
+  "Amount": "40-50",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Voltaic Jelly",
+  "Npc": "[[Ghost Bell]]<br/>(Post-[[File:Desert Scourge map.png|20px|link=Desert Scourge]])",
+  "Amount": "1",
+  "Chance": "20%"
+ },
+ {
+  "Item": "Volterion",
+  "Npc": "[[Storm Weaver]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Volterion",
+  "Npc": "[[Treasure Bag (Storm Weaver)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Walking Cane",
+  "Npc": "[[Deerclops]]",
+  "Amount": "1",
+  "Chance": "25%&#32;/&#32;'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Warbanner of the Righteous",
+  "Npc": "[[Profaned Guardians]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Whitewater",
+  "Npc": "[[Leviathan and Anahita]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Whitewater",
+  "Npc": "[[Treasure Bag (Leviathan and Anahita)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Wingman",
+  "Npc": "[[Brain Scrambler]]<br/>[[Gray Grunt]]<br/>[[Gigazapper]]<br/>[[Ray Gunner]]<br/>[[Scutlix Gunner]]",
+  "Amount": "1",
+  "Chance": "1%"
+ },
+ {
+  "Item": "Wingman",
+  "Npc": "[[Martian Engineer]]",
+  "Amount": "1",
+  "Chance": "10%"
+ },
+ {
+  "Item": "Wings of Rebirth",
+  "Npc": "[[Yharon, Dragon of Rebirth]]",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Wrathwing",
+  "Npc": "[[Treasure Bag (Yharon)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Wrathwing",
+  "Npc": "[[Yharon, Dragon of Rebirth]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Wulfrum Battery",
+  "Npc": "[[Wulfrum Amplifier]]<br/>[[Wulfrum Drone]]<br/>[[Wulfrum Gyrator]]<br/>[[Wulfrum Hovercraft]]<br/>[[Wulfrum Rover]]",
+  "Amount": "1",
+  "Chance": "7%"
+ },
+ {
+  "Item": "Wulfrum Metal Scrap",
+  "Npc": "[[Rover Drive]]<br/>[[Wulfrum Battery]] (When used at a [[Extractinator]])",
+  "Amount": "3-5",
+  "Chance": "80%"
+ },
+ {
+  "Item": "Wulfrum Metal Scrap",
+  "Npc": "[[Wulfrum Amplifier]]<br/>[[Wulfrum Hovercraft]]",
+  "Amount": "2-3",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Wulfrum Metal Scrap",
+  "Npc": "[[Wulfrum Digging Turtle]] (Breaking)",
+  "Amount": "1",
+  "Chance": "50%"
+ },
+ {
+  "Item": "Wulfrum Metal Scrap",
+  "Npc": "[[Wulfrum Drone]]",
+  "Amount": "1-3",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Wulfrum Metal Scrap",
+  "Npc": "[[Wulfrum Gyrator]]<br/>[[Wulfrum Rover]]",
+  "Amount": "1-2",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Wulfrum Metal Scrap",
+  "Npc": "[[Wulfrum Treasure Pinger]] (Shattering)",
+  "Amount": "1-3",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Xyk's Blessing",
+  "Npc": "[[Amber Crawler]]<br/>[[Amethyst Crawler]]<br/>[[Crystal Crawler]]<br/>[[Diamond Crawler]]<br/>[[Emerald Crawler]]<br/>[[Ruby Crawler]]<br/>[[Sapphire Crawler]]<br/>[[Topaz Crawler]]",
+  "Amount": "1",
+  "Chance": "4%"
+ },
+ {
+  "Item": "Xyk's Blessing",
+  "Npc": "[[Starter Bag]] (If the player's name is Xyk)",
+  "Amount": "1",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Yellow Coral",
+  "Npc": "[[Eutrophic Crate]]<br/>[[Prism Crate]]",
+  "Amount": "10-20",
+  "Chance": "1/5 (20%)"
+ },
+ {
+  "Item": "Yharim's Crystal",
+  "Npc": "[[Treasure Bag (Yharon)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">10%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Yharim's Crystal",
+  "Npc": "[[Yharon, Dragon of Rebirth]]",
+  "Amount": "1",
+  "Chance": "10%"
+ },
+ {
+  "Item": "Yharim's Gift",
+  "Npc": "[[Treasure Cache (Yharon)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Yharon Soul Fragment",
+  "Npc": "[[Treasure Bag (Yharon)]]",
+  "Amount": "40-50",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">100%</abbr>''' <span class=\"i\">[[File:Expert Indicator.png|link=Expert Mode|Expert Mode|25xpx]]</span>"
+ },
+ {
+  "Item": "Yharon Soul Fragment",
+  "Npc": "[[Yharon, Dragon of Rebirth]]",
+  "Amount": "35-40",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Yharon's Kindle Staff",
+  "Npc": "[[Treasure Bag (Yharon)]]",
+  "Amount": "1",
+  "Chance": "'''<abbr class=\"expert_value\" style=\"cursor:pointer;\" title=\"Expert Mode\">33.33%</abbr>''' <span class=\"i\">[[File:Expert Indicator (borderless).png|link=Expert Mode|Expert Mode|10xpx]]</span>"
+ },
+ {
+  "Item": "Yharon's Kindle Staff",
+  "Npc": "[[Yharon, Dragon of Rebirth]]",
+  "Amount": "1",
+  "Chance": "25%"
+ },
+ {
+  "Item": "Zen Potion",
+  "Npc": "[[Astral Chest]]",
+  "Amount": "3-5",
+  "Chance": "100%"
+ },
+ {
+  "Item": "Zerg Potion",
+  "Npc": "[[Astral Chest]]",
+  "Amount": "8",
+  "Chance": "100%"
+ }
+]

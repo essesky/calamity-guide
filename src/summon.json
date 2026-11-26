@@ -1,0 +1,397 @@
+{
+ "hero": {
+  "t": "召唤专线 · 两栏仆从 + 鞭子加成",
+  "d": "召唤的伤害不是「拿在手上的武器」，而是「放出去的仆从 × 鞭子加成」。所以专线要同时看召唤杖和鞭子，两样都不能落后。"
+ },
+ "main": {
+  "t": "主线 · 葱茏线（肉后起步）",
+  "d": "剧毒芽孢只要永恒锭×10，是召唤师肉后唯一能立刻自己造的东西。往上走到葱茏之锋，再和另一条线合流成终局伞。",
+  "tiers": [
+   {
+    "no": "1",
+    "when": "肉后",
+    "w": "Viral Sprout",
+    "dmg": "24",
+    "st": "秘银砧",
+    "mats": [
+     [
+      "Perennial Bar",
+      "10"
+     ]
+    ],
+    "why": "只要永恒锭×10，没有掉落门槛。肉后第一件召唤装备，先把它做出来仆从就有输出了。",
+    "how": "永恒锭：洞穴层的永恒矿冶炼（肉后才有）。"
+   },
+   {
+    "no": "2",
+    "when": "月后 · 噬魂幽花后",
+    "w": "Virid Vanguard",
+    "dmg": "80",
+    "st": "秘银砧",
+    "mats": [
+     [
+      "Igneous Exaltation",
+      "1"
+     ],
+     [
+      "Viral Sprout",
+      "1"
+     ],
+     [
+      "Uelibloom Bar",
+      "12"
+     ]
+    ],
+    "why": "葱茏之锋：淬焰之升华 + 剧毒芽孢 + 龙蒿锭×12。仆从会放毒刺，是月后丛林线的核心。",
+    "how": "淬焰之升华：熔岩系敌人掉落；龙蒿锭：月后丛林龙蒿矿冶炼。"
+   }
+  ]
+ },
+ "alt": {
+  "t": "旁支 · 天狼线（另一条必须走的）",
+  "d": "这条线的终点是星律之握揽，而星律之握揽是终局伞的必需材料——所以两条线都得走，只走一条永远造不出伞。",
+  "tiers": [
+   {
+    "no": "1",
+    "when": "肉后 · 三王前",
+    "w": "Vengeful Sun Staff",
+    "dmg": "30",
+    "st": "秘银砧",
+    "mats": [
+     [
+      "Sun Spirit Staff",
+      "1"
+     ],
+     [
+      "Moon Stone",
+      "1"
+     ],
+     [
+      "Soul of Fright",
+      "3"
+     ],
+     [
+      "Soul of Might",
+      "3"
+     ],
+     [
+      "Soul of Sight",
+      "3"
+     ]
+    ],
+    "why": "太阳之灵法杖 + 月亮石 + 三魂，秘银砧直接造。仆从会发射日光弹，肉后很稳。",
+    "how": "太阳之灵法杖：日耀相关合成；月亮石：日食事件掉落；三魂：机械三王。"
+   },
+   {
+    "no": "2",
+    "when": "月后 · 神明吞噬者前",
+    "w": "Sirius",
+    "dmg": "110",
+    "st": "秘银砧",
+    "mats": [
+     [
+      "Vengeful Sun Staff",
+      "1"
+     ],
+     [
+      "Lumenyl",
+      "8"
+     ],
+     [
+      "Ruinous Soul",
+      "4"
+     ],
+     [
+      "Exodium Cluster",
+      "20"
+     ]
+    ],
+    "why": "天狼星要流明晶×8 + 起源之簇×20 + 毁灭之灵×4，是月后召唤的主力输出。",
+    "how": "流明晶：深渊挖；起源之簇：月后地牢 / 星辉区域；毁灭之灵：月后 Boss 相关掉落。"
+   },
+   {
+    "no": "3",
+    "when": "月后 · 神明吞噬者后",
+    "w": "Saros Possession",
+    "dmg": "180",
+    "st": "宇宙砧",
+    "mats": [
+     [
+      "Sirius",
+      "1"
+     ],
+     [
+      "Auric Bar",
+      "5"
+     ],
+     [
+      "Darksun Fragment",
+      "15"
+     ]
+    ],
+    "why": "星律之握揽：天狼星 + 圣金源锭×5 + 日蚀之阴碎片×15。也是终局伞的一半。",
+    "how": "圣金源锭：月后灾厄锭；日蚀之阴碎片：日蚀事件 / 月后敌人掉落。"
+   }
+  ]
+ },
+ "side": {
+  "t": "短线 · 拿到就升一档",
+  "d": "召唤的短线特别值：大部分只要「本体 + 宇宙锭/圣金源锭」，升级幅度却很大，因为仆从 AI 会整个换掉。",
+  "rows": [
+   {
+    "from": "Plantation Staff",
+    "to": "Legion of Celestia",
+    "st": "秘银砧",
+    "dmg": "",
+    "need": [
+     [
+      "Blade Staff",
+      "1"
+     ],
+     [
+      "Luminite Bar",
+      "5"
+     ],
+     [
+      "Life Alloy",
+      "5"
+     ],
+     [
+      "Stardust Fragment",
+      "5"
+     ]
+    ],
+    "note": "苍华之庭（永夜之眼 + 生命碎片×12）→ 天界军团（加刃杖 + 夜明锭 + 生命合金 + 星尘碎片）。"
+   },
+   {
+    "from": "Staff of the Frost Hydra",
+    "to": "Endo Hydra Staff",
+    "st": "宇宙砧",
+    "dmg": "",
+    "need": [
+     [
+      "Cosmilite Bar",
+      "8"
+     ],
+     [
+      "Endothermic Energy",
+      "20"
+     ]
+    ],
+    "note": "霜之九头蛇法杖（地牢冰霜宝箱）→ 冰洋九头龙（宇宙锭 + 恒温能量×20），固定炮台型。"
+   },
+   {
+    "from": "Raven Staff",
+    "to": "Corvid Harbinger Staff",
+    "st": "宇宙砧",
+    "dmg": "",
+    "need": [
+     [
+      "Cosmilite Bar",
+      "8"
+     ],
+     [
+      "Nightmare Fuel",
+      "20"
+     ]
+    ],
+    "note": "渡鸦法杖（南瓜月掉落）→ 乌鸦先驱法杖（宇宙锭 + 梦魇魔能×20）。"
+   },
+   {
+    "from": "Wither Blossoms Staff",
+    "to": "Flowers of Mortality",
+    "st": "秘银砧",
+    "dmg": "",
+    "need": [
+     [
+      "Luminite Bar",
+      "5"
+     ],
+     [
+      "Life Alloy",
+      "5"
+     ],
+     [
+      "Stardust Fragment",
+      "5"
+     ]
+    ],
+    "note": "凋零绽放法杖（永冻之焱华 + 瘟疫细胞罐×15）→ 告死之花（夜明锭 + 生命合金 + 星尘碎片）。"
+   },
+   {
+    "from": "Xeno Staff",
+    "to": "Midnight Sun Beacon",
+    "st": "宇宙砧",
+    "dmg": "",
+    "need": [
+     [
+      "Auric Bar",
+      "5"
+     ],
+     [
+      "Darksun Fragment",
+      "15"
+     ]
+    ],
+    "note": "异星法杖（火星事件掉落）有两条升级：极昼信标 / 星环召唤杖，别只看到一条。"
+   },
+   {
+    "from": "Fuel Cell Bundle",
+    "to": "Tactical Plague Engine",
+    "st": "秘银砧",
+    "dmg": "",
+    "need": [
+     [
+      "Black Hawk Remote",
+      "1"
+     ],
+     [
+      "Luminite Bar",
+      "5"
+     ]
+    ],
+    "note": "燃料电池组由瘟疫使者歌莉娅 25% 掉落；战术瘟疫引擎还要黑鹰遥控器 + 夜明锭×5。"
+   },
+   {
+    "from": "Cryogenic Staff",
+    "to": "Endogenesis",
+    "st": "戴达罗斯熔炉",
+    "dmg": "",
+    "need": [
+     [
+      "Blizzard Staff",
+      "1"
+     ],
+     [
+      "Shadowspec Bar",
+      "5"
+     ],
+     [
+      "Endothermic Energy",
+      "100"
+     ],
+     [
+      "Essence of Eleum",
+      "15"
+     ]
+    ],
+    "note": "低温法杖 → 源生寒晶（暴雪法杖 + 魔影锭 + 恒温能量×100 + 冰川精华×15），材料很贵但伤害顶。"
+   },
+   {
+    "from": "Ethereal Subjugator",
+    "to": "Cosmic Immaterializer",
+    "st": "戴达罗斯熔炉",
+    "dmg": "",
+    "need": [
+     [
+      "Legion of Celestia",
+      "1"
+     ],
+     [
+      "Cosmilamp",
+      "1"
+     ],
+     [
+      "Calamari's Lament",
+      "1"
+     ],
+     [
+      "Miracle Matter",
+      "1"
+     ]
+    ],
+    "note": "幽花之主（噬魂幽花 25%）→ 归虚之灵，还要天界军团 + 无限之灯 + 乌贼之哀歌 + 奇迹物质。"
+   }
+  ]
+ },
+ "fusion": {
+  "t": "终局 · 两条线在这里合流",
+  "d": "这是召唤唯一一个「必须两条线都走完」才能造的终局件。主线给葱茏之锋，旁支给星律之握揽，缺一半就造不出来。",
+  "rows": [
+   {
+    "out": "Temporal Umbrella",
+    "st": "戴达罗斯熔炉",
+    "dmg": "",
+    "need": [
+     [
+      "Virid Vanguard",
+      "1"
+     ],
+     [
+      "Saros Possession",
+      "1"
+     ],
+     [
+      "Umbrella",
+      "1"
+     ],
+     [
+      "Top Hat",
+      "1"
+     ],
+     [
+      "Shadowspec Bar",
+      "5"
+     ]
+    ],
+    "note": "光阴流时伞 = 葱茏之锋（主线）+ 星律之握揽（旁支）+ 伞 + 高顶礼帽 + 魔影锭×5。这是唯一一个必须两条线都走完才能造的终局件。"
+   }
+  ]
+ },
+ "kit": {
+  "t": "配套 · 鞭子 / 饰品 / 药剂",
+  "groups": [
+   {
+    "t": "鞭子（必带一把）",
+    "d": "鞭子给仆从加伤害并打 tag。迪朗达尔肉后就能做，晨星/万花筒/暗黑收割是月后升级。鞭子不是武器栏的，别漏了。",
+    "items": [
+     "Durendal",
+     "Morning Star",
+     "Kaleidoscope",
+     "Dark Harvest"
+    ]
+   },
+   {
+    "t": "饰品",
+    "d": "召唤师徽章 + 甲虫莎草纸（+1 仆从位）是核心；施法桌再 +1 仆从位。",
+    "items": [
+     "Summoner Emblem",
+     "Papyrus Scarab",
+     "Bewitching Table"
+    ]
+   },
+   {
+    "t": "药剂",
+    "d": "召唤药水直接 +1 仆从位，是召唤唯一的「增伤药」，别省。",
+    "items": [
+     "Summoning Potions"
+    ]
+   }
+  ]
+ },
+ "traps": {
+  "t": "五个坑",
+  "rows": [
+   {
+    "t": "只走一条线造不出伞",
+    "d": "光阴流时伞要葱茏之锋 + 星律之握揽。两条主/旁支都必须走完，这是唯一强制双线的职业。"
+   },
+   {
+    "t": "鞭子容易被忘掉",
+    "d": "召唤伤害 = 仆从 × 鞭子 tag。只升级召唤杖不换鞭子，伤害会卡在原地。"
+   },
+   {
+    "t": "仆从位有上限",
+    "d": "默认 1 个，靠甲虫莎草纸 +1、施法桌 +1、召唤药水 +1。位子没加满就换更高级的召唤杖是浪费。"
+   },
+   {
+    "t": "异星法杖有两个分支",
+    "d": "极昼信标（单体爆发）和星环召唤杖（范围）是两条不同的路，不是升级关系。"
+   },
+   {
+    "t": "万花筒是鞭子不是召唤杖",
+    "d": "它出现在召唤栏里，但作用是打 tag，不召唤仆从。第一次看到容易误解。"
+   }
+  ]
+ }
+}

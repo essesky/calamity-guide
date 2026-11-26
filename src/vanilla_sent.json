@@ -1,0 +1,504 @@
+{
+ "Aerial Bane": [
+  {
+   "k": "drop",
+   "s": "The '''Aerial Bane''' is a [[Hardmode]], post-[[Golem]] [[bow]] that has a {{chance|1/4}} of being dropped from [[Betsy]] during Tier 3 of the [[Old One's Army]] [[event]]."
+  }
+ ],
+ "Ammo Box": [
+  {
+   "k": "buy",
+   "s": "It can be purchased from the [[Arms Dealer]] for {{iteminfo|Ammo Box|buy}} in [[Hardmode]]."
+  }
+ ],
+ "Apprentice armor": [
+  {
+   "k": "buy",
+   "s": "The set can be purchased from the [[Tavernkeep]] for a total of {{setinfo|Squire armor|buy|note=n}} after defeating any [[Mechanical bosses|mechanical boss]]."
+  }
+ ],
+ "Aqua Scepter": [
+  {
+   "k": "chest",
+   "s": "The Aqua Scepter has a {{chance|1/7}} chance of being obtained from the [[Gold Chest#Dungeon|Locked Gold Chests]] found in the [[Dungeon]], as well as a {{chance|1/7}} chance of being obtained from [[Golden Lock Box]]es."
+  }
+ ],
+ "Bananarang": [
+  {
+   "k": "drop",
+   "s": ".]] The '''Bananarang''' is a [[Hardmode]] [[boomerang]] that is dropped by the [[Clown]] during [[Blood Moon]] with a {{chance|1/10}} chance."
+  }
+ ],
+ "Band of Starpower": [
+  {
+   "k": "chest",
+   "s": "The Band of Starpower has a {{chance|1/5}} chance of being obtained from destroying [[Shadow Orb]]s found in [[The Corruption]] or a {{chance|1/5}} chance from [[Corrupt Crate]]s and [[Defiled Crate]]s, which are [[Fishing|fished]] in the Corruption."
+  }
+ ],
+ "Bat Scepter": [
+  {
+   "k": "drop",
+   "s": "Note the homing abilities of the bat projectiles.]] The '''Bat Scepter''' is a [[Hardmode]], post-[[Plantera]] [[wand]] that is dropped by the [[Pumpking]] during the [[Pumpkin Moon]] [[event]] with a 2.5–12.5% ({{expert|6.25–12.5%}}) chance depending on the current wave.<ref>Detailed drop rates in each wave: {{pumpkin moon item drop rates|1/8|fromwave=10|towave=20}} See [[Pumpkin Moon#Loot|Pumpkin Moon § Loot]] for more information.</ref> When used, it fires a burst of 2–3 homing bats, which do not pierce [[enemies]] or pass through [[blocks]]."
+  }
+ ],
+ "Betsy's Wrath": [
+  {
+   "k": "drop",
+   "s": "'''Betsy's Wrath''' is a [[Hardmode]], post-[[Golem]] [[wand]] that has a {{chance|1/4}} chance of being dropped by [[Betsy]] during Tier 3 of the [[Old One's Army]] [[event]]."
+  }
+ ],
+ "Bewitched": [
+  {
+   "k": "buy",
+   "s": "In [[Hardmode]], it is also sold by the [[Witch Doctor]] for {{iteminfo|Bewitching Table|buy}} if the [[Wizard]] is present."
+  }
+ ],
+ "Blood Rain Bow": [
+  {
+   "k": "drop",
+   "s": "with [[Wooden Arrow]]s.]] The '''Blood Rain Bow''' is a [[pre-Hardmode]] [[bow]] that has a {{chance|1/8}} chance of being dropped by [[Wandering Eye Fish]] and [[Zombie Merman|Zombie Mermen]]."
+  }
+ ],
+ "Blood Thorn": [
+  {
+   "k": "drop",
+   "s": "It has a {{chance|1/8}} chance of being dropped by [[Hemogoblin Shark]]s."
+  }
+ ],
+ "Boomstick": [
+  {
+   "k": "chest",
+   "s": "It can be found in [[Ivy Chest]]s ({{chance|mode=p|133/600}} chance) in the [[Underground Jungle]], and also in [[Jungle Crate]]s ({{chance|19/100}} chance)."
+  }
+ ],
+ "Bubble Gun": [
+  {
+   "k": "drop",
+   "s": "Notice how the bubbles pop after a short time or when hitting blocks.]] The '''Bubble Gun''' is a [[Hardmode]] [[magic gun]] that has a {{chance|1/7}} chance of being dropped by [[Duke Fishron]]."
+  }
+ ],
+ "Charged Blaster Cannon": [
+  {
+   "k": "drop",
+   "s": ".]] The '''Charged Blaster Cannon''' is a [[Hardmode]], post-[[Golem]] [[magic gun]] that has a {{chance|1/800}} chance to drop from all basic enemies during the [[Martian Madness]] [[Events|event]]."
+  }
+ ],
+ "Christmas Tree Sword": [
+  {
+   "k": "drop",
+   "s": "The '''Christmas Tree Sword''' is a [[Hardmode]], post-[[Plantera]] [[broadsword]] that is dropped by the [[Everscream]] during the [[Frost Moon]] [[event]] with a 3.46%–10.37% ({{expert|6.22%–31.11%}}) chance depending on the current wave.<ref>Detailed drop rates in each wave: {{frost moon item drop rates|14/15 * 1/3|fromwave=4|towave=20}} See [[Frost Moon#Loot|Frost Moon § Loot]] for more information.</ref> When swung, it fires a star ornament that releases a ball ornament every {{duration|10 ticks}} while traveling."
+  }
+ ],
+ "Clairvoyance": [
+  {
+   "k": "buy",
+   "s": "It is purchased from the [[Wizard]] for {{iteminfo|Crystal Ball|buy}}."
+  }
+ ],
+ "Cluster Rocket I": [
+  {
+   "k": "buy",
+   "s": "It can be purchased from the [[Cyborg]] for {{iteminfo|Cluster Rocket I|buy}} each after completing the [[Martian Madness]] event."
+  }
+ ],
+ "Counterweight": [
+  {
+   "k": "buy",
+   "s": "on two [[Target Dummy|Target Dummies]], one being behind the player.]] '''Counterweights''' are [[accessories]] sold by the [[Traveling Merchant]] and the [[Skeleton Merchant]]."
+  }
+ ],
+ "Daedalus Stormbow": [
+  {
+   "k": "drop",
+   "s": "The '''Daedalus Stormbow''' is a [[Hardmode]] [[Bows|bow]] that has a {{chance|1/5}} chance of being dropped by [[Hallowed Mimic]]s."
+  }
+ ],
+ "Dark Harvest": [
+  {
+   "k": "drop",
+   "s": "Note the chaining ability for the Dark Harvest's reaping effect, allowing it to pass through blocks and strike the three [[Goblin Scout]]s.]] The '''Dark Harvest''' is a [[Hardmode]], post-[[Plantera]] [[whip]] that is dropped by [[Pumpking]] during the [[Pumpkin Moon]] [[event]] with a 2.5–12.5% ({{expert|6.25–12.5%}}) chance depending on the current wave.<ref>Detailed drop rates in each wave: {{pumpkin moon item drop rates|1/8|fromwave=10|towave=20}} See [[Pumpkin Moon#Loot|Pumpkin Moon § Loot]] for more information.</ref> It has a 10% [[multihit penalty]] and performs the following effects on hit:"
+  }
+ ],
+ "Dark Lance": [
+  {
+   "k": "chest",
+   "s": "Note its piercing abilities.]] The '''Dark Lance''' is a [[pre-Hardmode]], post-[[Skeletron]] [[Spears|spear]] that has a {{chance|1/5}} chance of being found in [[Shadow Chest]]s in the [[Underworld]], as well as a {{chance|1/5}} chance of being found in [[Obsidian Lock Box]]es obtained from [[Obsidian Crate]]s and [[Hellstone Crate]]s."
+  }
+ ],
+ "Demon Scythe": [
+  {
+   "k": "drop",
+   "s": "The '''Demon Scythe''' is a [[pre-Hardmode]] [[spell book]] that has a {{chance|1/35}} chance of being dropped by [[Demon]]s and [[Voodoo Demon]]s."
+  }
+ ],
+ "Desert Tiger Staff": [
+  {
+   "k": "chest",
+   "s": "The Desert Tiger Staff is always found in the [[Dungeon]]'s [[Desert Chest]], which can only be unlocked with a [[Desert Key]] after Plantera has been defeated."
+  }
+ ],
+ "Eggnog": [
+  {
+   "k": "drop",
+   "s": "'''Eggnog''' is a [[pre-Hardmode]] [[recovery potion]] that can be dropped from [[Presents]] obtained during the [[Christmas]] [[seasonal event]], with a chance of 8.101% in pre-Hardmode and 7.561% in [[Hardmode]]."
+  }
+ ],
+ "Electrosphere Launcher": [
+  {
+   "k": "drop",
+   "s": "Note the combining ability of the projectile, and how it can stop midair at the cursor position.]] The '''Electrosphere Launcher''' is a [[Hardmode]], post-[[Golem]] [[launcher]] that has a {{chance|1/6}} chance of being dropped by the [[Martian Saucer]] during the [[Martian Madness]] [[event]]."
+  }
+ ],
+ "Eye of the Golem": [
+  {
+   "k": "drop",
+   "s": "It has a {{chance|1/7}} chance of being dropped by [[Golem]]."
+  }
+ ],
+ "Feral Claws": [
+  {
+   "k": "chest",
+   "s": "'''Feral Claws''' are a [[pre-Hardmode]] [[accessory]] that can be found in [[Jungle Crate]]s, [[Bramble Crate]]s, and [[Ivy Chest]]s located in [[Jungle Shrine]]s and at the base of a [[Living Mahogany Tree]] in the [[Underground Jungle]]."
+  }
+ ],
+ "Firecracker": [
+  {
+   "k": "drop",
+   "s": "Note how the blazing energy explodes upon minion hits, multiplying their damage.]] The '''Firecracker''' is a [[Hardmode]] [[whip]] that has a {{chance|1/4}} chance of being dropped by the [[Wall of Flesh]]."
+  }
+ ],
+ "Flintlock Pistol": [
+  {
+   "k": "buy",
+   "s": ".]] The '''Flintlock Pistol''' is a [[pre-Hardmode]] [[gun]] that can be bought from the [[Arms Dealer]] for {{iteminfo|Flintlock Pistol|buy}}."
+  }
+ ],
+ "Flying Dragon": [
+  {
+   "k": "drop",
+   "s": "Notice how the projectile pierces walls and four dummies, dissipating upon hitting the fifth.]] The '''Flying Dragon''' is a [[Hardmode]], post-[[Golem]] [[broadsword]] that has a {{chance|1/4}} chance of being dropped by [[Betsy]] during Tier 3 of the [[Old One's Army]] [[event]]."
+  }
+ ],
+ "Gi": [
+  {
+   "k": "buy",
+   "s": "It is purchased from the [[Traveling Merchant]] for {{iteminfo|Gi|buy}}."
+  }
+ ],
+ "Gladiator armor": [
+  {
+   "k": "drop",
+   "s": "Each piece has a {{chance|1/21}} chance of being dropped by [[Hoplite]]s."
+  }
+ ],
+ "Gold armor": [
+  {
+   "k": "drop",
+   "s": "The Ancient Gold Helmet has a {{chance|1/100}} chance of being dropped by [[Skeleton]]s and [[Spore Skeleton]]s, and can also be obtained by dropping a Gold Helmet into [[Shimmer]]."
+  }
+ ],
+ "Houndius Shootius": [
+  {
+   "k": "drop",
+   "s": "The Houndius Shootius has a {{chance|1/4}} chance of being dropped by [[Deerclops]]."
+  }
+ ],
+ "Kaleidoscope": [
+  {
+   "k": "drop",
+   "s": "and a [[Shark]], alongside a [[Flinx Staff]] minion.]] The '''Kaleidoscope''' is a [[Hardmode]], post-[[Plantera]] [[whip]] that has a {{chance|1/4}} chance of being dropped by the [[Empress of Light]]."
+  }
+ ],
+ "Leather Whip": [
+  {
+   "k": "buy",
+   "s": "and a [[Harpy]], alongside a [[Slime Staff]] minion.]] The '''Leather Whip''' is a [[pre-Hardmode]] [[whip]] that is virtually always available to be purchased from the [[Zoologist]] for {{iteminfo|Leather Whip|buy}} (save for [[#Notes|certain scenarios]])."
+  }
+ ],
+ "Lunar Portal Staff": [
+  {
+   "k": "drop",
+   "s": "The Lunar Portal Staff has a {{chance|1/5}} chance of being dropped by the [[Moon Lord]]."
+  }
+ ],
+ "Magic Hat": [
+  {
+   "k": "buy",
+   "s": "It is purchased from the [[Traveling Merchant]] for {{iteminfo|Magic Hat|buy}}."
+  }
+ ],
+ "Magic Quiver": [
+  {
+   "k": "drop",
+   "s": "It has a {{chance|1/40}} chance of being dropped from [[Skeleton Archer]]s."
+  }
+ ],
+ "Magma Stone": [
+  {
+   "k": "drop",
+   "s": "It has a {{chance|1/50}} chance to be dropped by [[Lava Bat]]s and a {{chance|1/150}} chance to be dropped by [[Hellbat]]s in [[The Underworld]]."
+  }
+ ],
+ "Meowmere": [
+  {
+   "k": "drop",
+   "s": "The '''Meowmere''' is a [[Hardmode]] [[broadsword]] that has a {{chance|1/5}} chance of being dropped by the [[Moon Lord]]."
+  }
+ ],
+ "Monk armor": [
+  {
+   "k": "buy",
+   "s": "The set can be purchased from the [[Tavernkeep]] for a total of {{setinfo|Squire armor|buy|note=n}} after defeating any [[Mechanical bosses|mechanical boss]]."
+  }
+ ],
+ "Moon Stone": [
+  {
+   "k": "drop",
+   "s": "The '''Moon Stone''' is a [[Hardmode]] [[accessory]] which has a {{chance|1/35}} / {{expert|{{chance|69/1225}}}} chance to drop from [[Vampire]]s during the [[Solar Eclipse]] [[event]]."
+  }
+ ],
+ "Morning Star": [
+  {
+   "k": "drop",
+   "s": "and a [[Unicorn]], alongside a [[Trusty Cattiva]] minion.]] The '''Morning Star''' is a [[Hardmode]], post-[[Plantera]] [[whip]] that has a {{chance|1/200}} / {{expert|{{chance|399/40000|4|comma=y}}}} chance of being dropped by [[Blue Armored Bones]], [[Rusty Armored Bones]], and [[Hell Armored Bones]] in the [[Hardmode Dungeon]]."
+  }
+ ],
+ "Musket Ball": [
+  {
+   "k": "buy",
+   "s": "Musket Balls can be bought from the [[Arms Dealer]] for {{iteminfo|Musket Ball|buy}} each, or {{buy expr|Musket Ball|*1000}} for 1000 rounds."
+  }
+ ],
+ "Mystic Robe": [
+  {
+   "k": "buy",
+   "s": "It is purchased from the [[Traveling Merchant]] for {{iteminfo|Mystic Robe|buy}}."
+  }
+ ],
+ "Nimbus Rod": [
+  {
+   "k": "drop",
+   "s": "The Nimbus Rod has a {{chance|1/15}} chance of being dropped by [[Angry Nimbus]]es."
+  }
+ ],
+ "Paintball Gun": [
+  {
+   "k": "drop",
+   "s": "It has a {{chance|1/10}} chance of being dropped by the [[Painter]]."
+  }
+ ],
+ "Phantom Phoenix": [
+  {
+   "k": "drop",
+   "s": "The Phantom Phoenix also [[Ammo conversion|converts]] Wooden Arrows into [[Flaming Arrow]]s, without increasing their damage.<ref name=\"aistyle75\"/> The Phantom Phoenix is dropped by [[Ogre]]s during the [[Old One's Army]] [[event]], with a {{chance|1/10}} / {{expert|{{chance|1/5}}}} chance during Tier 2, and a {{chance|1/20}} chance during Tier 3."
+  }
+ ],
+ "Pygmy Necklace": [
+  {
+   "k": "buy",
+   "s": "It is purchased from the [[Witch Doctor]] for {{iteminfo|Pygmy Necklace|buy}} at [[night]]."
+  }
+ ],
+ "Rainbow Crystal Staff": [
+  {
+   "k": "drop",
+   "s": "The Rainbow Crystal Staff has a {{chance|1/5}} chance of being dropped by the [[Moon Lord]]."
+  }
+ ],
+ "Rainbow Gun": [
+  {
+   "k": "chest",
+   "s": "The Rainbow Gun is always found in the [[Dungeon]]'s [[Hallowed Chest]], which can only be unlocked with a [[Hallowed Key]] after Plantera has been defeated."
+  }
+ ],
+ "Ranger Emblem": [
+  {
+   "k": "drop",
+   "s": "It has a {{chance|1/4}} chance to drop from the [[Wall of Flesh]]."
+  }
+ ],
+ "Raven Staff": [
+  {
+   "k": "drop",
+   "s": "The Raven Staff is dropped by the [[Pumpking]] during the [[Pumpkin Moon]] [[event]] with a 2.5–12.5% ({{expert|6.25–12.5%}}) chance depending on the current wave.<ref>Detailed drop rates in each wave: {{pumpkin moon item drop rates|1/8|fromwave=10|towave=20}} See [[Pumpkin Moon#Loot|Pumpkin Moon § Loot]] for more information.</ref>"
+  }
+ ],
+ "Razorpine": [
+  {
+   "k": "drop",
+   "s": "Note how the projectiles dissipate upon contact with a surface.]] The '''Razorpine''' is a [[Hardmode]], post-[[Plantera]] [[wand]] that is dropped by the [[Everscream]] during the [[Frost Moon]] [[Events|event]] with a 3.46%–10.37% ({{expert|6.22%–31.11%}}) chance depending on the current wave.<ref>Detailed drop rates in each wave: {{frost moon item drop rates|14/15 * 1/3|fromwave=4|towave=20}} See [[Frost Moon#Loot|Frost Moon § Loot]] for more information.</ref> When used, it rapidly fires 2–4 high-velocity pine needles in a spread, which do not pierce [[enemies]] or pass through [[blocks]]."
+  }
+ ],
+ "Rocket III": [
+  {
+   "k": "buy",
+   "s": "'''Rockets''' are a [[Hardmode]], post-[[Plantera]] type of [[ammunition]] which are mainly sold by the [[Cyborg]]."
+  },
+  {
+   "k": "drop",
+   "s": "The Rocket I variant is also dropped by [[Plantera]] when it drops the [[Grenade Launcher]]."
+  }
+ ],
+ "Rod of Discord": [
+  {
+   "k": "drop",
+   "s": "The '''Rod of Discord''' is a [[Hardmode]] [[tool]] that has a {{chance|1/500}} / {{expert|{{chance|1/400}}}} chance of being dropped by [[Chaos Elemental]]s."
+  },
+  {
+   "k": "event",
+   "s": "It can be upgraded into the [[Rod of Harmony]] by throwing it into [[Shimmer]] after the [[Moon Lord]] has been defeated."
+  }
+ ],
+ "Rod of Harmony": [
+  {
+   "k": "event",
+   "s": "It is obtained by throwing the [[Rod of Discord]] into [[Shimmer]] after the [[Moon Lord]] has been defeated."
+  }
+ ],
+ "Shadowflame Hex Doll": [
+  {
+   "k": "drop",
+   "s": "The Shadowflame Hex Doll has a {{chance|1/6}} / {{expert|{{chance|1/3}}}} chance to drop from [[Goblin Warlock]]s during a [[Hardmode]] [[Goblin Army]]."
+  }
+ ],
+ "Shadowflame Knife": [
+  {
+   "k": "drop",
+   "s": "The '''Shadowflame Knife''' is a [[Hardmode]] [[melee weapon]] that has a {{chance|1/6}} / {{expert|{{chance|1/3}}}} chance to drop from [[Goblin Warlock]]s during the [[Goblin Army]] [[event]]."
+  }
+ ],
+ "Shark Tooth Necklace": [
+  {
+   "k": "drop",
+   "s": "The '''Shark Tooth Necklace''' is an [[accessory]] which has a {{chance|1/150}} / {{expert|{{chance|1/75}}}} chance to drop from [[Blood Zombie]]s and [[Drippler]]s found during a [[Blood Moon]]."
+  }
+ ],
+ "Sharpened": [
+  {
+   "k": "buy",
+   "s": "In [[Hardmode]], it is also sold by the [[Merchant]] for {{iteminfo|Sharpening Station|buy}}."
+  }
+ ],
+ "Shinobi Infiltrator armor": [
+  {
+   "k": "buy",
+   "s": "The set can be purchased from the [[Tavernkeep]] for a total of {{setinfo|Shinobi Infiltrator armor|buy|note=n}}."
+  }
+ ],
+ "Snowman Cannon": [
+  {
+   "k": "event",
+   "s": "s.]] The '''Snowman Cannon''' is a [[Hardmode]], post-[[Plantera]] [[launcher]] that is dropped from the [[Ice Queen]] during the [[Frost Moon]] [[event]] with a 5.19%–10.37% ({{expert|15.56%–31.11%}}) chance depending on the current wave.<ref>Detailed drop rates in each wave: {{frost moon item drop rates|14/15 * 1/3|fromwave=11|towave=20}} See [[Frost Moon#Loot|Frost Moon § Loot]] for more information.</ref>."
+  }
+ ],
+ "Sorcerer Emblem": [
+  {
+   "k": "drop",
+   "s": "It has a {{chance|1/4}} chance to drop from the [[Wall of Flesh]]."
+  }
+ ],
+ "Squire armor": [
+  {
+   "k": "buy",
+   "s": "The set can be purchased from the [[Tavernkeep]] for a total of {{setinfo|Squire armor|buy|note=n}} after defeating any [[Mechanical bosses|mechanical boss]]."
+  }
+ ],
+ "Staff of the Frost Hydra": [
+  {
+   "k": "chest",
+   "s": "The Staff of the Frost Hydra is always found in the [[Dungeon]]'s [[Ice Chest]], which can only be unlocked with a [[Frozen Key]] after Plantera has been defeated."
+  }
+ ],
+ "Stellar Tune": [
+  {
+   "k": "drop",
+   "s": "The Stellar Tune has a {{chance|1/50}} / {{expert|{{chance|1/20}}}} chance of being dropped by the [[Empress of Light]]."
+  }
+ ],
+ "Strange Brew": [
+  {
+   "k": "buy",
+   "s": "The '''Strange Brew''' is a [[pre-Hardmode]] [[recovery potion]] that can be purchased from the [[Skeleton Merchant]] during certain [[moon phases]] for {{iteminfo|Strange Brew|buy}}."
+  }
+ ],
+ "Stynger": [
+  {
+   "k": "drop",
+   "s": "The Stynger has a {{chance|1/7}} chance of being dropped by [[Golem]]."
+  },
+  {
+   "k": "buy",
+   "s": "Additional Stynger Bolts can be purchased from the [[Witch Doctor]] and [[Arms Dealer]] ({{iteminfo|Stynger Bolt|buy}} per bolt), if the Stynger is in the player's [[inventory]]."
+  }
+ ],
+ "Thunder Zapper": [
+  {
+   "k": "chest",
+   "s": "The '''Thunder Zapper''' is a [[pre-Hardmode]] [[wand]] that can be found in [[Sandstone Chest]]s in the lower 3/7ths of the [[Underground Desert]] and in [[Oasis Crate]]s and [[Mirage Crate]]s obtained from [[fishing]] in the [[Oasis]]."
+  }
+ ],
+ "Tiki armor": [
+  {
+   "k": "buy",
+   "s": "The set can be purchased from the [[Witch Doctor]] for a total of {{getSetInfo|Tiki armor|buy}}."
+  }
+ ],
+ "Tungsten Bullet": [
+  {
+   "k": "buy",
+   "s": "Tungsten Bullets can be bought from the [[Arms Dealer]] for {{iteminfo|Tungsten Bullet|buy}} each, or {{buy expr|Tungsten Bullet|*1000}} for 1000 rounds in worlds with [[Tungsten Ore|Tungsten]]."
+  },
+  {
+   "k": "event",
+   "s": "During [[pre-Hardmode]], they are only sold during [[Blood Moon]]s."
+  }
+ ],
+ "Unholy Trident": [
+  {
+   "k": "drop",
+   "s": "The Unholy Trident has a {{chance|1/30}} chance of being dropped by [[Red Devil]]s."
+  }
+ ],
+ "Uzi": [
+  {
+   "k": "drop",
+   "s": ".]] The '''Uzi''' is a [[Hardmode]] [[gun]] that has a {{chance|1/100}} chance of being dropped by [[Angry Trapper]]s."
+  }
+ ],
+ "Valhalla Knight armor": [
+  {
+   "k": "buy",
+   "s": "The set can be purchased from the [[Tavernkeep]] for a total of {{setinfo|Valhalla Knight armor|buy|note=n}}."
+  }
+ ],
+ "Vampire Knives": [
+  {
+   "k": "chest",
+   "s": "The Vampire Knives are always found in the [[Dungeon]]'s [[Crimson Chest]], which can only be unlocked with a [[Crimson Key]] after Plantera has been defeated."
+  }
+ ],
+ "Wasp Gun": [
+  {
+   "k": "drop",
+   "s": "Note how the projectiles home in on the Mimic and ricochet off of blocks.]] The '''Wasp Gun''' is a [[Hardmode]] [[magic gun]] that has a {{chance|1/8}} chance of being dropped by [[Plantera]]."
+  }
+ ],
+ "Wizard Hat": [
+  {
+   "k": "drop",
+   "s": "It is always dropped by [[Tim]]."
+  }
+ ],
+ "Xeno Staff": [
+  {
+   "k": "drop",
+   "s": "The Xeno Staff has a {{chance|1/6}} chance of being dropped by the [[Martian Saucer]] during the [[Martian Madness]] [[event]]."
+  }
+ ],
+ "Xenopopper": [
+  {
+   "k": "drop",
+   "s": "The '''Xenopopper''' is a [[Hardmode]], post-[[Golem]] [[gun]] that has a {{chance|1/6}} chance of being dropped by the [[Martian Saucer]] during the [[Martian Madness]] [[event]]."
+  }
+ ]
+}

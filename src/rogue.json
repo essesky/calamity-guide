@@ -1,0 +1,544 @@
+{
+ "hero": {
+  "t": "盗贼专线 · 潜行节奏",
+  "d": "盗贼的核心不是武器伤害，是潜行值：站着不动或慢走会累积，投掷一次消耗一截，潜行满时投掷伤害翻倍且带穿透。所以这条线要同时看「投掷武器」和「潜行恢复速度」。"
+ },
+ "main": {
+  "t": "主线 · 回旋镖四档",
+  "d": "四档全部可造，后一档吃前一档。回旋镖会回手，配合潜行节奏最顺——扔出去的时间正好回潜行。",
+  "tiers": [
+   {
+    "no": "1",
+    "when": "肉后 · 三王前",
+    "w": "Equanimity",
+    "dmg": "40",
+    "st": "铁砧",
+    "mats": [
+     [
+      "Fishbone Boomerang",
+      "1"
+     ],
+     [
+      "Dark Shard",
+      "1"
+     ],
+     [
+      "Light Shard",
+      "1"
+     ],
+     [
+      "Soul of Light",
+      "7"
+     ],
+     [
+      "Soul of Night",
+      "7"
+     ]
+    ],
+    "why": "鱼骨回旋镖 + 暗黑/光明碎块 + 光暗魂，铁砧直接造。肉后第一件能自己搓的盗贼武器。",
+    "how": "鱼骨回旋镖：海洋 / 沙漠钓鱼宝匣；暗黑碎块 / 光明碎块：腐化 / 神圣区域敌人掉落；光暗之魂：对应区域敌人。"
+   },
+   {
+    "no": "2",
+    "when": "世纪之花后",
+    "w": "Samsara Slicer",
+    "dmg": "70",
+    "st": "秘银砧",
+    "mats": [
+     [
+      "Equanimity",
+      "1"
+     ],
+     [
+      "Brimblade",
+      "1"
+     ],
+     [
+      "Living Shard",
+      "12"
+     ]
+    ],
+    "why": "回春环刃：宁静回旋镖 + 硫火手里剑 + 生命碎片×12。回旋轨迹变宽，打群体明显好。",
+    "how": "硫火手里剑：硫磺火元素掉落；生命碎片：地下生命水晶区域 / 生命树。"
+   },
+   {
+    "no": "3",
+    "when": "月后 · 亵渎女神前",
+    "w": "Rebounding Rainbow",
+    "dmg": "150",
+    "st": "秘银砧",
+    "mats": [
+     [
+      "Samsara Slicer",
+      "1"
+     ],
+     [
+      "Luminite Bar",
+      "5"
+     ],
+     [
+      "Life Alloy",
+      "5"
+     ],
+     [
+      "Meld Blob",
+      "5"
+     ]
+    ],
+    "why": "折射彩虹：回春环刃 + 夜明锭 + 生命合金 + 冥思溶剂×5。命中后弹射多次，是多体 Boss 的解法。",
+    "how": "夜明锭：月亮领主；生命合金：生命碎片合成；冥思溶剂：深渊事件 / 敌人掉落。"
+   },
+   {
+    "no": "4",
+    "when": "终局 · 星流巨械 / 至尊灾厄后",
+    "w": "Celestus",
+    "dmg": "800",
+    "st": "戴达罗斯熔炉",
+    "mats": [
+     [
+      "Rebounding Rainbow",
+      "1"
+     ],
+     [
+      "Molten Amputator",
+      "1"
+     ],
+     [
+      "Subduction Slicer",
+      "1"
+     ],
+     [
+      "Enchanted Axe",
+      "1"
+     ],
+     [
+      "Miracle Matter",
+      "1"
+     ]
+    ],
+    "why": "星神之杀：折射彩虹 + 熔岩切碎者 + 板块斩切者 + 附魔飞斧 + 奇迹物质。盗贼毕业件，四把武器熔一把。",
+    "how": "熔岩切碎者：亵渎女神 25%；板块斩切者：月后掉落；附魔飞斧：附魔系列合成；奇迹物质：月后灾厄合成。"
+   }
+  ]
+ },
+ "alt": {
+  "t": "旁支 · 投矛三档",
+  "d": "投矛是穿透直线型，打排成一条的敌人比回旋镖强。完全靠合成，不用赌掉落。",
+  "tiers": [
+   {
+    "no": "1",
+    "when": "月后 · 亵渎女神后",
+    "w": "Profaned Partisan",
+    "dmg": "120",
+    "st": "秘银砧",
+    "mats": [
+     [
+      "Spear of Paleolith",
+      "1"
+     ],
+     [
+      "Unholy Essence",
+      "25"
+     ]
+    ],
+    "why": "渎神投矛：古岩投矛 + 浊火精华×25。穿透直线，潜行满时一矛能串一串。",
+    "how": "古岩投矛：沙漠 / 神庙相关掉落；浊火精华：亵渎女神区域敌人掉落。"
+   },
+   {
+    "no": "2",
+    "when": "月后 · 神明吞噬者后",
+    "w": "Vega",
+    "dmg": "200",
+    "st": "秘银砧",
+    "mats": [
+     [
+      "Profaned Partisan",
+      "1"
+     ],
+     [
+      "Lumenyl",
+      "8"
+     ],
+     [
+      "Ruinous Soul",
+      "4"
+     ],
+     [
+      "Exodium Cluster",
+      "20"
+     ]
+    ],
+    "why": "织女星：渎神投矛 + 流明晶×8 + 毁灭之灵×4 + 起源之簇×20。追踪型投矛，不用瞄准。",
+    "how": "流明晶：深渊挖；毁灭之灵：月后掉落；起源之簇：月后地牢 / 星辉区域。"
+   },
+   {
+    "no": "3",
+    "when": "终局",
+    "w": "Eclipse's Fall",
+    "dmg": "400",
+    "st": "宇宙砧",
+    "mats": [
+     [
+      "Vega",
+      "1"
+     ],
+     [
+      "Auric Bar",
+      "5"
+     ],
+     [
+      "Darksun Fragment",
+      "15"
+     ]
+    ],
+    "why": "日蚀之陨：织女星 + 圣金源锭×5 + 日蚀之阴碎片×15。投矛系终点，命中后炸开日蚀区域。",
+    "how": "圣金源锭：月后灾厄锭；日蚀之阴碎片：日蚀事件掉落。"
+   }
+  ]
+ },
+ "side": {
+  "t": "短线 · 拿到就升一档",
+  "d": "盗贼的短线特别多，因为大部分是「本体 + 一种月后锭」。看到升级就升，盗贼换武器几乎没惩罚。",
+  "rows": [
+   {
+    "from": "Prismalline",
+    "to": "Radiant Star",
+    "st": "远古操纵机",
+    "dmg": "",
+    "need": [
+     [
+      "Astral Bar",
+      "12"
+     ],
+     [
+      "Fallen Star",
+      "10"
+     ],
+     [
+      "Starblight Soot",
+      "15"
+     ]
+    ],
+    "note": "棱晶飞刀（晶体飞刀 + 软体动物外壳 + 海棱晶）→ 光辉星剑（炫星锭×12 + 坠落之星 + 凋星微尘×15）。"
+   },
+   {
+    "from": "Leviathan Teeth",
+    "to": "Jaws of Oblivion",
+    "st": "秘银砧",
+    "dmg": "",
+    "need": [
+     [
+      "Reaper Tooth",
+      "6"
+     ],
+     [
+      "Lumenyl",
+      "15"
+     ],
+     [
+      "Ruinous Soul",
+      "2"
+     ]
+    ],
+    "note": "利维坦之牙由利维坦与海妖 25% 掉落；遗忘之颚还要猎魂鲨牙×6 + 流明晶×15 + 毁灭之灵×2。"
+   },
+   {
+    "from": "Reality Rupture",
+    "to": "Scarlet Devil",
+    "st": "戴达罗斯熔炉",
+    "dmg": "",
+    "need": [
+     [
+      "Wrathwing",
+      "1"
+     ],
+     [
+      "Shadowspec Bar",
+      "5"
+     ],
+     [
+      "Bloodstone",
+      "50"
+     ],
+     [
+      "Soul of Night",
+      "15"
+     ]
+    ],
+    "note": "裂世投矛 → 绯红恶魔（还要狂龙翼火 + 魔影锭 + 血石×50 + 暗影之魂×15）。"
+   },
+   {
+    "from": "Dimension-Tearing Disk",
+    "to": "Dynamic Pursuer",
+    "st": "宇宙砧",
+    "dmg": "",
+    "need": [
+     [
+      "P-LSR: Aerial Tracker",
+      "1"
+     ],
+     [
+      "Auric Bar",
+      "5"
+     ]
+    ],
+    "note": "裂界飞盘由神明吞噬者 25% 掉落；动能寻迹镖还要 P-LSR 空中追踪者 + 圣金源锭。"
+   },
+   {
+    "from": "Stellar Knife",
+    "to": "Time Bolt",
+    "st": "宇宙砧",
+    "dmg": "",
+    "need": [
+     [
+      "Lunar Kunai",
+      "1"
+     ],
+     [
+      "Gold Watch",
+      "1"
+     ],
+     [
+      "Cosmilite Bar",
+      "8"
+     ],
+     [
+      "Endothermic Energy",
+      "20"
+     ]
+    ],
+    "note": "星辰刀（埃瑞斯 / 星旋怪 10%）→ 时空交叉刃（月明苦无 + 金表 + 宇宙锭 + 恒温能量）。"
+   },
+   {
+    "from": "Sealed Singularity",
+    "to": "Supernova",
+    "st": "戴达罗斯熔炉",
+    "dmg": "",
+    "need": [
+     [
+      "Star of Destruction",
+      "1"
+     ],
+     [
+      "Totality Breakers",
+      "1"
+     ],
+     [
+      "Ballistic Poison Bomb",
+      "1"
+     ],
+     [
+      "Miracle Matter",
+      "1"
+     ]
+    ],
+    "note": "秘封奇点（瓶中尘 + 暗离子体×3）→ 超新星，要四件爆炸类武器 + 奇迹物质，是盗贼的炸弹终点。"
+   },
+   {
+    "from": "Ice Star",
+    "to": "Kelvin Catalyst",
+    "st": "铁砧",
+    "dmg": "",
+    "need": [
+     [
+      "Avalanche",
+      "1"
+     ],
+     [
+      "Hoarfrost Bow",
+      "1"
+     ],
+     [
+      "Icebreaker",
+      "1"
+     ],
+     [
+      "Snowstorm Staff",
+      "1"
+     ],
+     [
+      "Essence of Eleum",
+      "10"
+     ]
+    ],
+    "note": "冰花 → 冰灵旋刃，要雪崩 + 白霜弓 + 破冰者 + 暴风雪法杖 + 冰川精华×10，五件合一把。"
+   },
+   {
+    "from": "Molten Amputator",
+    "to": "Nanoblack Reaper",
+    "st": "戴达罗斯熔炉",
+    "dmg": "",
+    "need": [
+     [
+      "Ghoulish Gouger",
+      "1"
+     ],
+     [
+      "Shadowspec Bar",
+      "5"
+     ],
+     [
+      "Endothermic Energy",
+      "40"
+     ],
+     [
+      "Plague Cell Canister",
+      "20"
+     ],
+     [
+      "Nanites",
+      "400"
+     ]
+    ],
+    "note": "熔岩切碎者（亵渎女神 25%）也有两条出路：星神之杀 / 纳米黑死神。"
+   }
+  ]
+ },
+ "fusion": {
+  "t": "终局 · 熔炉合体",
+  "rows": [
+   {
+    "out": "Scarlet Devil",
+    "st": "戴达罗斯熔炉",
+    "dmg": "",
+    "need": [
+     [
+      "Wrathwing",
+      "1"
+     ],
+     [
+      "Reality Rupture",
+      "1"
+     ],
+     [
+      "Shadowspec Bar",
+      "5"
+     ],
+     [
+      "Bloodstone",
+      "50"
+     ],
+     [
+      "Soul of Night",
+      "15"
+     ]
+    ],
+    "note": "绯红恶魔：狂龙翼火 + 裂世投矛 + 魔影锭×5 + 血石×50 + 暗影之魂×15。范围最夸张的一把，清屏用。"
+   },
+   {
+    "out": "Supernova",
+    "st": "戴达罗斯熔炉",
+    "dmg": "",
+    "need": [
+     [
+      "Sealed Singularity",
+      "1"
+     ],
+     [
+      "Star of Destruction",
+      "1"
+     ],
+     [
+      "Totality Breakers",
+      "1"
+     ],
+     [
+      "Ballistic Poison Bomb",
+      "1"
+     ],
+     [
+      "Miracle Matter",
+      "1"
+     ]
+    ],
+    "note": "超新星：秘封奇点 + 毁灭之星 + 集束燃爆瓶 + 渊毒子母雷 + 奇迹物质。四件爆炸武器合一，打群体 Boss。"
+   },
+   {
+    "out": "Nanoblack Reaper",
+    "st": "戴达罗斯熔炉",
+    "dmg": "",
+    "need": [
+     [
+      "Molten Amputator",
+      "1"
+     ],
+     [
+      "Ghoulish Gouger",
+      "1"
+     ],
+     [
+      "Shadowspec Bar",
+      "5"
+     ],
+     [
+      "Endothermic Energy",
+      "40"
+     ],
+     [
+      "Plague Cell Canister",
+      "20"
+     ],
+     [
+      "Nanites",
+      "400"
+     ]
+    ],
+    "note": "纳米黑死神：熔岩切碎者 + 狱卒之镰 + 魔影锭 + 恒温能量×40 + 瘟疫细胞罐×20 + 纳米机器人×400。"
+   }
+  ]
+ },
+ "kit": {
+  "t": "配套 · 饰品 / 药剂",
+  "groups": [
+   {
+    "t": "饰品",
+    "d": "盗贼徽章是底子；掠夺者护符和空灵护符提潜行；复仇者/毁灭者徽章是通用增伤。",
+    "items": [
+     "Rogue Emblem",
+     "Avenger Emblem",
+     "Destroyer Emblem",
+     "Raider's Talisman",
+     "Ethereal Talisman"
+    ]
+   },
+   {
+    "t": "药剂",
+    "d": "暗影药剂（Shadow Potion）提升潜行相关属性；灵液药剂降防对投掷同样有效。",
+    "items": [
+     "Shadow Potion",
+     "Flask of Ichor"
+    ]
+   },
+   {
+    "t": "潜行要点",
+    "d": "站着不动或慢走回潜行，疾跑不回。投掷消耗潜行值，满潜行投掷伤害翻倍且穿透——节奏是「停下来攒 → 满值扔 → 再停」。",
+    "items": []
+   }
+  ]
+ },
+ "traps": {
+  "t": "五个坑",
+  "rows": [
+   {
+    "t": "盗贼不吃近战加成",
+    "d": "盗贼是独立伤害类型，战士徽章 / 近战护甲对它无效。必须带盗贼徽章和对应护甲，这是最常见的伤害打不出来原因。"
+   },
+   {
+    "t": "潜行值不是蓝条",
+    "d": "它只在「不动或慢走」时恢复，跑动和跳跃都不回。打 Boss 时要刻意停下来攒，不是一直跑。"
+   },
+   {
+    "t": "星神之杀要四把武器",
+    "d": "折射彩虹 + 熔岩切碎者 + 板块斩切者 + 附魔飞斧，缺一把都造不出来。熔岩切碎者是亵渎女神 25% 掉落，最容易卡在这。"
+   },
+   {
+    "t": "熔岩切碎者有两条出路",
+    "d": "它既能喂星神之杀，也能喂纳米黑死神。别为了造一个把另一个的唯一材料用掉了——两把都想要就先刷两次。"
+   },
+   {
+    "t": "马格努斯之眼不是盗贼武器",
+    "d": "每阶段盗贼栏都有它，但它是 Classless。当副手降防可以，当主武器会明显掉伤害。"
+   }
+  ]
+ }
+}

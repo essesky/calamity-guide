@@ -1,0 +1,375 @@
+{
+ "Sea Prism": {
+  "pickreq": 55,
+  "sents": [
+   "{{item infobox | type = Block | type2 = Ore | type3 = Crafting material | placeable = yes | consumable = yes | pickreq = 55 | auto = yes | use = 14 | stack = 9999 | research = 100 | rare = 2 | color = #0096C8 | sell = }} Sea Prisms are a Pre-Hardmode ore found naturally generated within the Sunken Sea and can be crafted using Prism Shards.",
+   "They require at least a Gold or Platinum Pickaxe to mine.",
+   "== Crafting == === Recipe === === Used in === == Notes == *These and Prism Shards are also obtainable from the hollow cores of the large Geodes that generate inside the Sunken Sea."
+  ],
+  "site": "calamity"
+ },
+ "Aerialite Ore": {
+  "pickreq": 65,
+  "sents": [
+   "{{infobox wrapper |{{item infobox | type = Block | type2 = Ore | type3 = Crafting material | placeable = yes | consumable = yes | auto = yes | pickreq = 65 | stack = 9999 | research = 100 | rare = 3 | color = #91FFFF | use = 14 | sell = | value = 450 | sound = MagicalRockMine1.ogg, MagicalRockMine2.ogg, MagicalRockMine3.ogg | soundtext = Hit }} | }} \"The sky is glittering with cyan light.\" Aerialite Ore is a Pre-Hardmode ore which generates as Disenchanted Aerialite Ore on Floating Islands upon world generation.",
+   "Upon defeating The Hive Mind or The Perforators, the ore is re-enchanted, and its pickaxe requirement drops to Pre-Hardmode standards.",
+   "It requires at least a Nightmare Pickaxe or a Deathbringer Pickaxe to mine."
+  ],
+  "site": "calamity"
+ },
+ "Auric Ore": {
+  "pickreq": 250,
+  "sents": [
+   "{{item infobox | type = Block | type2 = Ore | type3 = Crafting material | tooltip = Infused with long lost draconic energies | use = 15 | damage = 300 (If player)5% of maximum health (If NPC or Super Dummy) | placeable = yes | consumable = yes | auto = yes | pickreq = 250 | stack = 9999 | debuff = Auric Rebuke | debuffduration = 2 seconds (Contact) | debuffchance = 100% | rare = 15 | value = 1000 | color = #FFC800 | sell = | research = 100 | hardmode = yes | postml = yes | sound = AuricMine1.ogg, AuricMine2.ogg, AuricMine3.ogg | soundtext = Hit | image2 = Auric Ore (charged).gif | image2caption = Flashes on direct contact }} \"Ancient draconic power manifests in the caverns, lacing itself through the rock.\" Auric Ore is a post-Moon Lord ore that generates in the Cavern layer after Yharon, Dragon of Rebirth has been defeated.",
+   "It requires at least a Blossom Pickaxe to mine.",
+   "If the player touches the ore while not equipping either a full set of Auric Tesla armor or the Seraph Tracers, they will suffer Auric Rejection.",
+   "This causes all Auric Ore on screen to flash bright blue, dealing 300 damage to the player and knocking them backwards at 40 (150 tiles/second) velocity on contact."
+  ],
+  "site": "calamity"
+ },
+ "Hallowed Ore": {
+  "pickreq": 180,
+  "sents": [
+   "{{infobox wrapper |{{item infobox | type = Block | type2 = Ore | type3 = Crafting material | auto = yes | use = 14 | rare = 5 | pickreq = 180 | color = #FAFA96 | stack = 9999 | research = 100 | value = 690 | sell = | placeable = yes | consumable = yes | hardmode = yes }} | }} \"The hallow has been blessed with consecrated stone!\" Hallowed Ore is a Hardmode ore that generates in Pearlstone Blocks, Hardened Pearlsand Blocks, Pearlsandstone Blocks, and Pink Ice Blocks after all three Mechanical Bosses have been defeated.",
+   "As such, it predominantly generates in the Underground Hallow biome.",
+   "It requires at least an Adamantite Pickaxe, Titanium Pickaxe, or Shardlight Pickaxe to mine.",
+   "== Crafting == === Recipe === === Used in === == Notes == *Hallowed Ore has a Metal Detector Object Value of 690, meaning it will be prioritized above Gelatin Crystals but below Chlorophyte Ore."
+  ],
+  "site": "calamity"
+ },
+ "Perennial Ore": {
+  "pickreq": 200,
+  "sents": [
+   "{{infobox wrapper |{{item infobox | type = Block | type2 = Ore | type3 = Crafting material | placeable = yes | consumable = yes | auto = yes | pickreq = 200 | stack = 9999 | research = 100 | use = 14 | rare = 7 | value = 710 | color = #40CF61 | sell = | hardmode = yes }} | }} \"Energized plant matter has formed in the underground.\" Perennial Ore is a Hardmode ore which generates in Dirt and Stone Blocks in the Cavern layer after Plantera has been defeated, and is used to craft Perennial Bars at an Adamantite Forge or a Titanium Forge.",
+   "It requires at least a Pickaxe Axe or a Drax to mine.",
+   "*Although Perennial Ore cannot generate in Pearlstone Blocks, Crimstone Blocks, or Ebonstone Blocks, it can still generate in Dirt Blocks in those biomes.",
+   "**Perennial Ore cannot generate in Astral Dirt or Astral Stone."
+  ],
+  "site": "calamity"
+ },
+ "Scoria Ore": {
+  "pickreq": 210,
+  "sents": [
+   "{{infobox wrapper |{{item infobox | type = Block | type2 = Ore | type3 = Crafting material | placeable = yes | consumable = yes | auto = yes | pickreq = 210 | stack = 9999 | use = 15 | debuff = Burning | debuffduration = While in contact | debuffchance = 100% | color = #A75016 | rare = 8 | value = 850 | sell = | research = 100 | hardmode = yes | proj = Lava Chunk.gif | projcaption = Lava Chunk }} | }} Scoria Ore is a Hardmode ore that generates naturally in the Abyss.",
+   "It can generate on the underside of the floating Abyss Gravel or Pyre Mantle islands, dropping harmful lava particles into the water beneath itself.",
+   "Like Meteorite and similar blocks, making direct contact with Scoria Ore inflicts the player with the Burning debuff, which can be prevented if the player has equipped any accessory that provides immunity to Burning.",
+   "It requires at least a Picksaw to mine and is used in the crafting of Scoria Bars at a Hardmode Forge."
+  ],
+  "site": "calamity"
+ },
+ "Astral Ore": {
+  "pickreq": 210,
+  "sents": [
+   "{{infobox wrapper |{{item infobox | type = Block | type2 = Ore | type3 = Crafting material | placeable = yes | consumable = yes | auto = yes | pickreq = 210 | stack = 9999 | use = 15 | debuff = Astral Infection (debuff) | debuffchance = 100% | debuffduration = Infinite (Contact) | color = #FF99FF | rare = 9 | value = 900 | sell = | research = 100 | hardmode = yes }} |{{item drops infobox | Astral Slime(Post-) | | 100% | Novae Slag(Post-) | 1 | 11.47% | Celestial Remains(Post-) | 1 | 10.74% }} }} \"The seal of the stars has been broken!\" Astral Ore is a Hardmode ore that generates in the Astral Infection after the Wall of Flesh or Astrum Aureus have been defeated.",
+   "When the Astral Infection meteor lands and the biome is generated, all existing ore within the infected area is converted into Astral Ore.",
+   "Astral Ore requires a pickaxe with a pickaxe power of 210% or greater to mine."
+  ],
+  "site": "calamity"
+ },
+ "Cryonic Ore": {
+  "pickreq": 180,
+  "sents": [
+   "{{infobox wrapper |{{item infobox | type = Block | type2 = Ore | type3 = Crafting material | placeable = yes | consumable = yes | auto = yes | pickreq = 180 | stack = 9999 | research = 100 | rare = 5 | color = #000096 | use = 14 | value = 675 | sell = | hardmode = yes }} | }} \"The ice caves are crackling with frigid energy.\" Cryonic Ore is a Hardmode ore that generates in the Ice biome after Cryogen has been defeated.",
+   "It requires at least an Adamantite Pickaxe or Titanium Pickaxe to mine.",
+   "*Cryonic Ore can be found in the lower half of the world and its map color is similar to Cobalt Ore."
+  ],
+  "site": "calamity"
+ },
+ "Infernal Suevite": {
+  "pickreq": 150,
+  "sents": [
+   "{{infobox wrapper |{{item infobox | type = Block | type2 = Ore | type3 = Crafting material | placeable = yes | consumable = yes | auto = yes | pickreq = 150 | stack = 9999 | research = 100 | rare = 5 | color = #11101A | use = 14 | value = 675 | sell = | hardmode = yes }} | }} Infernal Suevite is a Hardmode ore that generates in the Brimstone Crag upon world creation.",
+   "It requires at least a Mythril or Orichalcum Pickaxe to mine."
+  ],
+  "site": "calamity"
+ },
+ "Uelibloom Ore": {
+  "pickreq": 225,
+  "sents": [
+   "{{infobox wrapper |{{item infobox | type = Block | type2 = Ore | type3 = Crafting material | placeable = yes | consumable = yes | auto = yes | pickreq = 225 | stack = 9999 | research = 100 | rare = 12 | value = 950 | color = #FFAA33 | use = 15 | sell = | hardmode = yes | postml = yes }} | }} \"Fossilized tree bark is bursting through the jungle's mud.\" Uelibloom Ore is a post-Moon Lord ore that generates in Mud Blocks after Providence, the Profaned Goddess has been defeated.",
+   "It requires at least a Lunar Pickaxe to mine.",
+   "== Crafting == === Recipe === === Used in === == Notes == *Although it is most commonly found in the Underground Jungle due to its high amount of mud, it can generate in mud patches anywhere in the world."
+  ],
+  "site": "calamity"
+ },
+ "Exodium Cluster": {
+  "pickreq": 225,
+  "sents": [
+   "{{infobox wrapper |{{item infobox | type = Block | type2 = Ore | type3 = Crafting material | placeable = yes | consumable = yes | auto = yes | pickreq = 225 | stack = 9999 | research = 100 | rare = 10 | color = #333044 | use = 14 | value = 760 | sell = | hardmode = yes | tooltip = A cold cluster from the great unknown }} |{{item drops infobox | Shockstorm Shuttle(Post-)| | 100% }} }} Exodium Cluster is a post-Moon Lord ore that generates alongside Luminite in Planetoids after Moon Lord has been defeated.",
+   "It requires at least one of the Luminite Pickaxes to mine.",
+   "== Tips == *Since the ore has a decent sell price, this can be a good option for players to get large amounts of money.",
+   "== Trivia == *Its name is likely a reference to the , the most distant layer of a planet's atmosphere which merges with interplanetary space."
+  ],
+  "site": "calamity"
+ },
+ "Meteorite": {
+  "pickreq": 50,
+  "sents": [
+   "It also spawns in high numbers during a Meteor Shower and rarely drops from Meteor Heads.",
+   "A Meteorite crash site is a mini-biome guaranteed to spawn after the Eater of Worlds or Brain of Cthulhu is defeated for the first time.",
+   "Contact with Meteorite blocks causes the player to be inflicted with the Burning debuff, unless the player has the Obsidian Skull accessory (or its upgrades) equipped, or is using an Obsidian Skin Potion.",
+   "* If a player places at least 75 pieces of Meteorite, they can create an artificial Meteorite biome, where all enemy spawns are replaced with Meteor Heads."
+  ],
+  "site": "vanilla"
+ },
+ "Hellstone": {
+  "pickreq": 65,
+  "sents": [
+   "{{quotation|The Guide|}} Hellstone is a pre-Hardmode ore that can be found in The Underworld.",
+   "Mining it requires at least a Nightmare/Deathbringer Pickaxe, and it cannot be mined with explosives in pre-Hardmode.",
+   "Hellstone inflicts the Burning debuff on players who touch it, which can be negated through items such as the Obsidian Skull and Obsidian Skin Potion.",
+   "* Hellstone is the only ore of which its bar requires another material (Obsidian) in addition to the ore to smelt."
+  ],
+  "site": "vanilla"
+ },
+ "Chlorophyte Ore": {
+  "pickreq": 200,
+  "sents": [
+   "After Hardmode starts, Mud Blocks located near Jungle grass blocks (naturally in the Underground Jungle) in or below the bottom half of the Underground layer will occasionally be replaced by Chlorophyte Ore.",
+   "It requires at least a Pickaxe Axe or Drax to be mined, whose materials require defeating all three mechanical bosses.",
+   "Chlorophyte Ore can only spread and convert blocks if it is in or below the bottom half of the Underground layer.",
+   "See Mechanics section for details about generation and spread of Chlorophyte Ore, and the difference of mechanics of Chlorophyte Ore in special world seeds."
+  ],
+  "site": "vanilla"
+ },
+ "Copper Ore": {
+  "pickreq": null,
+  "sents": [
+   "It spawns in the Underground and Cavern layers, and occasionally on the surface.",
+   "== Crafting == === Used in === === Shimmer transmutation === === Chlorophyte Extractinator conversion === == Notes == * A world generated with Tin Ore instead of Copper Ore will still have new players start with a Copper Shortsword, Copper Pickaxe and a Copper Axe.",
+   "== Achievements == == Tips == * As with Tin, players may want to consider skipping mining Copper Ore early on, since Copper equipment only offers a small improvement over Wood/Cactus armors, which are available at the start."
+  ],
+  "site": "vanilla"
+ },
+ "Tin Ore": {
+  "pickreq": null,
+  "sents": [
+   "It spawns in the Underground and Cavern layers, and occasionally on the surface.",
+   "== Crafting == === Used in === === Shimmer transmutation === === Chlorophyte Extractinator conversion === == Notes == * A world generated with Tin Ore instead of Copper Ore will still have new players start with a Copper Shortsword, Copper Pickaxe and a Copper Axe.",
+   "== Achievements == == Tips == * As with Copper, players may want to consider skipping mining Tin Ore early on, since Tin equipment only offers a small improvement over Wood/Cactus armors, which are available at the start."
+  ],
+  "site": "vanilla"
+ },
+ "Iron Ore": {
+  "pickreq": null,
+  "sents": [
+   "It spawns in the Underground and Cavern layers, and occasionally on the surface."
+  ],
+  "site": "vanilla"
+ },
+ "Lead Ore": {
+  "pickreq": null,
+  "sents": [
+   "It spawns in the Underground and Cavern layers, and occasionally on the surface.",
+   "== Crafting == === Used in === === Shimmer transmutation === === Chlorophyte Extractinator conversion === == Notes == * Lead Ore will not be generated at all in Constant worlds."
+  ],
+  "site": "vanilla"
+ },
+ "Silver Ore": {
+  "pickreq": null,
+  "sents": [
+   "It spawns in the Underground and Cavern layers, and occasionally on Floating Islands."
+  ],
+  "site": "vanilla"
+ },
+ "Tungsten Ore": {
+  "pickreq": null,
+  "sents": [
+   "It spawns in the Underground and Cavern layers, and occasionally on Floating Islands."
+  ],
+  "site": "vanilla"
+ },
+ "Gold Ore": {
+  "pickreq": null,
+  "sents": [
+   "It spawns in the Underground and Cavern layers, and occasionally on Floating Islands."
+  ],
+  "site": "vanilla"
+ },
+ "Platinum Ore": {
+  "pickreq": null,
+  "sents": [
+   "It spawns in the Underground and Cavern layers, and occasionally on Floating Islands.",
+   "== Crafting == === Used in === === Shimmer transmutation === === Chlorophyte Extractinator conversion === == Notes == * Platinum Ore will not be generated at all in Constant worlds."
+  ],
+  "site": "vanilla"
+ },
+ "Demonite Ore": {
+  "pickreq": 55,
+  "sents": [
+   "Demonite Ore can also be found rarely in small veins underground.",
+   "When below 0 ft in elevation, a Gold Pickaxe or better is needed to mine it, otherwise any pickaxe can be used.",
+   "* Unlike its Crimson counterpart, Demonite Ore can be found in increased amounts within Corruption cave systems.",
+   "* Very rarely, Demonite Ore can spawn extremely close to the surface."
+  ],
+  "site": "vanilla"
+ },
+ "Crimtane Ore": {
+  "pickreq": 55,
+  "sents": [
+   "Crimtane Ore can also be found rarely in small veins underground.",
+   "When below 0 ft in elevation, a Gold Pickaxe or better is needed to mine it, otherwise any pickaxe can be used.",
+   "* While Demonite Ore can be found in large groups in Corrupt chasms, Crimtane Ore does not have a boosted rate in Crimson chasms.",
+   "== Achievements == == Tips == * Crimtane Ore can be mined early on using explosives, granting players powerful Crimtane gear in the early game."
+  ],
+  "site": "vanilla"
+ },
+ "Fossil Ore": {
+  "pickreq": null,
+  "sents": [],
+  "site": "vanilla"
+ },
+ "Cobalt Ore": {
+  "pickreq": 100,
+  "sents": [
+   "Upon the first altar broken, either it or Palladium Ore can spawn in the underground and cavern layers.",
+   "Mining Cobalt Ore requires a Molten Pickaxe or better.",
+   "As with all early Hardmode ores, decreasing quantities of the ore spawn with every third altar broken afterwards, it is immune to explosives (apart from the Power Bomb and Sticky Power Bomb), and it can be obtained from Hardmode crates."
+  ],
+  "site": "vanilla"
+ },
+ "Palladium Ore": {
+  "pickreq": 100,
+  "sents": [
+   "Upon the first altar broken, either it or Cobalt Ore will spawn in the underground and cavern layers.",
+   "Mining Palladium Ore requires a Molten Pickaxe or better.",
+   "As with all early Hardmode ores, decreasing quantities of the ore spawn with every third altar broken afterwards, it is immune to explosives (apart from the Power Bomb and Sticky Power Bomb), and it can be obtained from Hardmode crates."
+  ],
+  "site": "vanilla"
+ },
+ "Mythril Ore": {
+  "pickreq": 110,
+  "sents": [
+   "Upon the second altar broken, either it or Orichalcum Ore can spawn in the cavern layer.",
+   "Mining Mythril Ore requires a Cobalt/Palladium Pickaxe or better.",
+   "As with all early Hardmode ores, decreasing quantities of the ore spawn with every third altar broken afterwards, it is immune to explosives (apart from the Power Bomb and Sticky Power Bomb), and it can be obtained from Hardmode crates."
+  ],
+  "site": "vanilla"
+ },
+ "Orichalcum Ore": {
+  "pickreq": 110,
+  "sents": [
+   "Upon the second altar broken, either it or Mythril Ore can spawn in the cavern layer.",
+   "Mining Orichalcum Ore requires a Cobalt/Palladium Pickaxe or better.",
+   "As with all early Hardmode ores, decreasing quantities of the ore spawn with every third altar broken afterwards, it is immune to explosives (apart from the Power Bomb and Sticky Power Bomb), and it can be obtained from Hardmode crates."
+  ],
+  "site": "vanilla"
+ },
+ "Adamantite Ore": {
+  "pickreq": 150,
+  "sents": [
+   "Upon the third altar broken, either it or Titanium Ore can spawn in the cavern layer, roughly at lava depth.",
+   "Mining Adamantite Ore requires a Mythril/Orichalcum Pickaxe or better.",
+   "As with all early Hardmode ores, decreasing quantities of the ore spawn with every third altar broken afterwards, it is immune to explosives (apart from the Power Bomb and Sticky Power Bomb), and it can be obtained from Hardmode crates."
+  ],
+  "site": "vanilla"
+ },
+ "Titanium Ore": {
+  "pickreq": 150,
+  "sents": [
+   "Upon the third altar broken, either it or Adamantite Ore can spawn in the cavern layer, roughly at lava depth.",
+   "Mining Titanium Ore requires a Mythril/Orichalcum Pickaxe or better.",
+   "As with all early Hardmode ores, decreasing quantities of the ore spawn with every third altar broken afterwards, it is immune to explosives (apart from the Power Bomb and Sticky Power Bomb), and it can be obtained from Hardmode crates."
+  ],
+  "site": "vanilla"
+ },
+ "Luminite": {
+  "pickreq": null,
+  "sents": [
+   "It does not naturally generate in the world, and can be mined using any pickaxe.",
+   "Crafting all items (excluding ammunition, dye, and bricks) requires a total of 362 Luminite Bars and 25 Luminite (1,473 Luminite; requires defeating the Moon Lord 17–22 / times).",
+   "Crafting all items pertaining to one type of Lunar Fragment (i.e., armor, wings, pickaxe/drill, and hamaxe) requires 68 Luminite Bars (272 Luminite) in addition to 85 of the Lunar Fragment; this requires defeating the Moon Lord only 4 / times.",
+   "== Tips == * Selling Void Monoliths nets ({{percent|}}) more than selling the required Luminite or an equivalent number of Luminite Bars."
+  ],
+  "site": "vanilla"
+ },
+ "Amethyst": {
+  "pickreq": null,
+  "sents": [
+   "Amethyst is a gem found within the Underground and Cavern layers of a world.",
+   "It can be obtained in the following ways: * Mining the naturally generated placed form, Gemstone Blocks form with noticeable purple gemstones embedded in it, or Gem stash background object form.",
+   ": Rarely, Amethyst can be found in bulk in its own Gemstone Cave micro-biome, or in one that contains other gems as well.",
+   "Like all other gems, Amethyst can be placed on blocks, and can be crafted back into its Gemstone Block form at a Heavy Assembler in a Graveyard biome."
+  ],
+  "site": "vanilla"
+ },
+ "Topaz": {
+  "pickreq": null,
+  "sents": [
+   "Topaz is a gem found within the Underground and Cavern layers of a world.",
+   "They can be obtained in the following ways: * Mining the naturally generated placed form, Gemstone Blocks form with noticeable yellow gemstones embedded in it, or Gem stash background object form.",
+   ": Rarely, Topaz can be found in bulk in its own Gemstone Cave micro-biome, or in one that contains other gems as well.",
+   "Like all other gems, Topaz can be placed on blocks, and can be crafted back into its Gemstone Block form at a Heavy Assembler in a Graveyard biome."
+  ],
+  "site": "vanilla"
+ },
+ "Sapphire": {
+  "pickreq": null,
+  "sents": [
+   "Sapphire is a gem found within the Underground and Cavern layers of a world.",
+   "It can be obtained in the following ways: * Mining the naturally generated placed form, Gemstone Blocks form with noticeable blue gemstones embedded in it, or Gem stash background object form.",
+   ": Rarely, Sapphire can be found in bulk in its own Gemstone Cave micro-biome, or in one that contains other gems as well.",
+   "Like all other gems, Sapphire can be placed on blocks, and can be crafted back into its Gemstone Block form at a Heavy Assembler in a Graveyard biome."
+  ],
+  "site": "vanilla"
+ },
+ "Emerald": {
+  "pickreq": null,
+  "sents": [
+   "Emerald is a gem found within the Underground and Cavern layers of a world.",
+   "It can be obtained in the following ways: * Mining the naturally generated placed form, Gemstone Blocks form with noticeable green gemstones embedded in it, or Gem stash background object form.",
+   ": Rarely, Emerald can be found in bulk in its own Gemstone Cave micro-biome, or in one that contains other gems as well.",
+   "Like all other gems, Emerald can be placed on blocks, and can be crafted back into its Gemstone Block form at a Heavy Assembler in a Graveyard biome."
+  ],
+  "site": "vanilla"
+ },
+ "Ruby": {
+  "pickreq": null,
+  "sents": [
+   "Ruby is a gem found within the Underground and Cavern layers of a world.",
+   "It can be obtained in the following ways: * Mining the naturally generated placed form, Gemstone Blocks form with noticeable red gemstones embedded in it, or Gem stash background object form.",
+   ": Rarely, Ruby can be found in bulk in its own Gemstone Cave micro-biome, or in one that contains other gems as well.",
+   "Like all other gems, Ruby can be placed on blocks, and can be crafted back into its Gemstone Block form at a Heavy Assembler in a Graveyard biome."
+  ],
+  "site": "vanilla"
+ },
+ "Diamond": {
+  "pickreq": null,
+  "sents": [
+   "is obtainable through crafting.]] Diamond is a gem found within the Underground and Cavern layers of a world.",
+   "It can be obtained in the following ways: * Mining the naturally generated placed form, Gemstone Blocks form with noticeable white gemstones embedded in it, or Gem stash background object form.",
+   ": Rarely, Diamond can be found in bulk in its own Gemstone Cave micro-biome, or in one that contains other gems as well.",
+   "Like all other gems, Diamond can be placed on blocks, and can be crafted back into its Gemstone Block form at a Heavy Assembler in a Graveyard biome."
+  ],
+  "site": "vanilla"
+ },
+ "Amber": {
+  "pickreq": null,
+  "sents": [
+   "Amber is a gem found within the Underground Desert of a world.",
+   "It can only be obtained in the following ways, which differ from the other gems: * Mining the naturally generated placed form found in the Underground Desert.",
+   "Like all other gems, Amber can be placed on blocks, and can be crafted back into its Gemstone Block form at a Heavy Assembler in a Graveyard biome."
+  ],
+  "site": "vanilla"
+ },
+ "Life Crystal": {
+  "pickreq": null,
+  "sents": [
+   "The Life Crystal is a permanent booster item that permanently increases the player's health capacity by 20, adding a red heart to the player's health bar, while also restoring 20health.",
+   "Life Crystals can be found naturally placed in any area in the Underground layer and below, though they are fairly uncommon.",
+   "They cannot be found in the Underworld or the Dungeon.",
+   "Up to 15 Life Crystals can be used per player, increasing health capacity by 300 health (15hearts)."
+  ],
+  "site": "vanilla"
+ },
+ "Crystal Shard": {
+  "pickreq": null,
+  "sents": [
+   "Crystal Shards are a common Hardmode crafting material found in the Underground Hallow.",
+   "Crafting all items, including only one color of Phasesaber and excluding consumables and furniture, requires a total of 90 Crystal Shards.",
+   "The amount required to craft every weapon and every color of Phasesaber is 290 Crystal Shards.",
+   "== Crafting == === Used in === == Notes == * A Crystal Shard can grow under the following circumstances: ** The source block (on the side or bottom of which the Crystal Shard will spawn) is in or below the Cavern layer."
+  ],
+  "site": "vanilla"
+ }
+}
