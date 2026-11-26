@@ -1,0 +1,51 @@
+name: Deploy to GitHub Pages
+
+# 单文件应用：把 灾厄助手.html 原样作为站点首页发布
+# 产物不重复入库，仓库里始终只有一份 HTML
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Stage single-file app as index.html
+        run: |
+          mkdir -p _site
+          # 仓库根目录唯一的 .html 就是成品，改名为 index.html 作为站点入口
+          APP=$(ls -1 *.html | head -n 1)
+          echo "staging: $APP"
+          cp "$APP" _site/index.html
+          # 保留原始中文文件名，方便直接下载
+          cp "$APP" "_site/$APP"
+          ls -lh _site
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
