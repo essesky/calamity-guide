@@ -2,6 +2,8 @@
 
 > 泰拉瑞亚 **灾厄模组（Calamity Mod）** 的离线攻略助手 —— 一整个 App 压成 **单个 HTML 文件**，双击就开，手机上也能用，全程不联网。
 
+**🌐 在线直接用** <https://essesky.github.io/calamity-guide/> ｜ **📥 下载单文件** [灾厄助手.html](灾厄助手.html)
+
 <p>
   <img alt="single file" src="https://img.shields.io/badge/build-single%20HTML%20file-3ddc84">
   <img alt="size" src="https://img.shields.io/badge/size-3.26%20MB-blue">
@@ -52,7 +54,13 @@
 
 ## 快速开始
 
-### 直接用（推荐）
+### 在线使用（零安装）
+
+打开 **<https://essesky.github.io/calamity-guide/>** 即可，手机浏览器用同一个地址。
+
+这是 GitHub Pages 托管的静态页面，内容与下面的单文件版**逐字节相同**（来自同一份构建产物，md5 一致）。首次加载 3.26 MB，之后走浏览器缓存。
+
+### 下载单文件（离线用，推荐）
 
 下载 [`灾厄助手.html`](灾厄助手.html)，双击用浏览器打开即可。
 
